@@ -512,15 +512,17 @@ div#weekly
 width:20%;
 margin-top:20px;}
 
-div#lessons
-{float:left
-;width:39%;
-margin-top:20px;}
+div#lessons {
+   float:left;
+   width:50%;
+   margin-top:20px;
+}
 
-div#labs
-{float:left;
-width:39%;
-margin-top:20px;}
+div#labs {
+   float:left;
+   width:50%;
+   margin-top:20px;
+}
 
 
 /* ========  labs =======  */

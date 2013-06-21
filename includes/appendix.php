@@ -50,4 +50,3 @@ foreach( $appendixArray as $appendix )
 }
 ?>
 </ul>
-

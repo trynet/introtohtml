@@ -1,4 +1,7 @@
 <?php
+//error_reporting(E_ALL);
+//ini_set('display_errors', '1');
+
 $chapterFile = fopen( "/home2/joyofcod/public_html/intro/includes/intro_chaptersNames.txt", "r" );
 $chaptersData = fread( $chapterFile, filesize( "/home2/joyofcod/public_html/intro/includes/intro_chaptersNames.txt" ) );
 $chaptersArray = preg_split( "/\n/", trim($chaptersData) );
@@ -9,6 +12,7 @@ $UserID = str_replace('@','_',$UserID);
 
 // first, get user info from dat file
 $studentData = file("/home2/joyofcod/public_html/intro/data/studentData.dat");
+
 foreach ( $studentData as $studentRecord )
 { 
 	$studentRecordArray = explode(',',$studentRecord);
@@ -22,7 +26,25 @@ foreach ( $studentData as $studentRecord )
 		break;
 	}
 }
-	
+
+/**
+* /home1 and /home2 both seem to point to the same place
+* not absolutely relevant, since this file will apparently need to
+* be removed or re-written. $_SERVER['REMOTE_USER'] is the value
+* of the authenticated user, via the pop-up window.
+
+echo "\nremote_user: " . $_SERVER['REMOTE_USER'];
+echo '<br>bp0'; echo "<br>user_id: $UserID";
+if (file_exists("/home2/joyofcod/public_html/_dev_intro/test"))
+   echo "<br>home2 file exists";
+else
+   echo "<br>home2 file does not exist";
+
+if (file_exists("/home1/joyofcod/public_html/_dev_intro/test"))
+   echo "<br>home1 file exists";
+else
+   echo "<br>home1 file does not exist";
+*/
 
 // create student data file if it does not exist (first login)
 if (!file_exists( "/home2/joyofcod/public_html/intro/data/schedules/".$UserID.".txt" ))
@@ -142,22 +164,38 @@ for( $i = 0; $i < sizeof( $chaptersArray ); $i++ )
 	if( $today >= $thisTime ) { $active = true; }
 	$dateOutput .= "<li>{$userInfo[$ctr]}</li>";
 
-	// Add lesson information to the lessons output variable.
+	/**** Add lesson information to the lessons output variable.****/
 	$lessonOutput .= "<li>";
-	if( $active ) { $lessonOutput .= "<a href=\"lesson{$lesson_no}/10.html\">"; }
-	$lessonOutput .= $chaptersArray[$i];
-	if( $active ) { $lessonOutput .= "</a>"; }
-	$lessonOutput .= "</li>\n";
 
-	// add lab information to the labs output variable.
+	//if( $active ) { $lessonOutput .= "<a href=\"lesson{$lesson_no}/10.html\">"; }
+   if ($lesson_no <= 2)                                  // (for demonstration) if on of first two
+      $lessonOutput .= '<a href="lesson' . $lesson_no . '/10.html">';
+
+	$lessonOutput .= $chaptersArray[$i];                  // lesson name
+
+	// if( $active ) { $lessonOutput .= "</a>"; }
+   if ($lesson_no <= 2)                                  // (for demonstration) if one of first two
+      $lessonOutput .= '</a>';                           // close anchor
+	
+   $lessonOutput .= "</li>\n";
+   /**** _____________________________________________________ ****/
+
+
+
+
+	/**** add lab information to the labs output variable. ****/
+   // see above lesson for former if conditionals ($active)
 	if ($labsArray[$i] != '')
 	{	
 		$labOutput .= "<li>";
-		if( $active ) { $labOutput .= "<a href=\"lab{$lesson_no}.html\">"; }
+		if ($lesson_no <= 2)
+         $labOutput .= "<a href=\"lab{$lesson_no}.html\">";
 		$labOutput .= $labsArray[$i];
-		if( $active ) { $labOutput .= "</a>"; }
+		if($lesson_no <= 2)
+         $labOutput .= "</a>";
 		$labOutput .= "</li>\n";
 	}
+   /**** _____________________________________________________ ****/
 	
 	$ctr++;
 }
@@ -165,48 +203,30 @@ for( $i = 0; $i < sizeof( $chaptersArray ); $i++ )
 
 <p id="welcome"><?php echo $SiteMessage; ?></p>
 
+<!--
 <div id="weekly">
-<h2>Week</h2>
+   <h2>Week</h2>
 
-<p>Your Schedule</p>
+   <p>Your Schedule</p>
 
-<ol>
-
-<?php echo $dateOutput; ?>
-
-</ol>
-
+   <ol><?php // echo $dateOutput; ?></ol>
 </div>
+-->
 
 
 <div id="lessons">
+   <h2>Lessons</h2>
 
-<h2>Lessons</h2>
+   <p>Reading Material That Goes With Each Lab</p>
 
-<p>Reading Material That Goes With Each Lab</p>
-
-
-<ol>
-
-<?php echo $lessonOutput; ?>
-
-</ol>
-
-
+   <ol><?php echo $lessonOutput; ?></ol>
 </div>
 
 
 <div id="labs">
+   <h2>Labs</h2>
 
-<h2>Labs</h2>
+   <p>Hands-on Assignments</p>
 
-<p>Hands-on Assignments</p>
-
-<ol>
-
-<?php echo $labOutput; ?>
-
-</ol>
-
-
+   <ol><?php echo $labOutput; ?></ol>
 </div>

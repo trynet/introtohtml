@@ -10071,3 +10071,53 @@
 [21-Jun-2013 05:26:18] PHP Notice:  Undefined variable: FirstName in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 114
 [21-Jun-2013 05:26:18] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 153
 [21-Jun-2013 05:26:18] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/appendix.php on line 12
+[21-Jun-2013 05:56:58] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 153
+[21-Jun-2013 05:57:29] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 153
+[21-Jun-2013 05:59:28] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 153
+[21-Jun-2013 06:01:14] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 156
+[21-Jun-2013 06:01:52] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 158
+[21-Jun-2013 06:02:06] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 159
+[21-Jun-2013 06:02:42] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 159
+[21-Jun-2013 06:05:49] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 72
+[21-Jun-2013 06:05:49] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 160
+[21-Jun-2013 06:13:18] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 159
+[21-Jun-2013 06:16:42] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 167
+[21-Jun-2013 06:17:04] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 167
+[21-Jun-2013 06:17:24] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 167
+[21-Jun-2013 06:18:27] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 167
+[21-Jun-2013 06:18:47] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 167
+[21-Jun-2013 06:18:57] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 167
+[21-Jun-2013 07:24:32] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 174
+[21-Jun-2013 07:33:05] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 174
+[21-Jun-2013 07:33:48] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 07:34:01] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 07:41:44] PHP Parse error:  syntax error, unexpected ';' in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 197
+[21-Jun-2013 07:41:52] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 07:42:20] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 07:42:34] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 07:43:53] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 07:44:49] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 08:38:31] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 08:38:52] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 08:40:11] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 08:40:22] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 08:40:32] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 08:40:54] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 08:41:18] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 08:42:05] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 08:42:27] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 08:42:37] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 175
+[21-Jun-2013 08:50:54] PHP Parse error:  syntax error, unexpected ';' in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 172
+[21-Jun-2013 08:51:03] PHP Parse error:  syntax error, unexpected ';' in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 171
+[21-Jun-2013 08:51:48] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 181
+[21-Jun-2013 08:54:50] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 185
+[21-Jun-2013 08:54:55] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 185
+[21-Jun-2013 08:55:19] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 185
+[21-Jun-2013 08:56:28] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 187
+[21-Jun-2013 08:57:53] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 189
+[21-Jun-2013 08:58:29] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 187
+[21-Jun-2013 08:59:53] PHP Parse error:  syntax error, unexpected '}' in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 201
+[21-Jun-2013 09:00:01] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
+[21-Jun-2013 09:00:51] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
+[21-Jun-2013 09:01:04] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
+[21-Jun-2013 09:04:23] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
