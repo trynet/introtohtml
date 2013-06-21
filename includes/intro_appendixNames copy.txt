@@ -1,7 +1,0 @@
-0|a|Multi-tasking a/k/a Doing the Application Shuffle
-0|b|Deprecated Elements And Attributes
-1|c|Files and Folders - What's in a Name?
-4|d|FTP Or How to Get Your Files From Here to There
-4|e|Old World, New World
-9|f|In My Garden Now All Dressed Up With CSS
-9|g|Takeaways
