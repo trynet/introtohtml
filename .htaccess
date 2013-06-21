@@ -1,0 +1,21 @@
+
+RewriteEngine on
+AuthName "intro"
+AuthUserFile "/home1/joyofcod/public_html/intro/passwd/.htpasswd"
+AuthType Basic
+require valid-user
+AddHandler server-parsed .html .htm
+
+<Limit POST GET>
+order deny,allow
+allow from all
+require valid-user
+</Limit>
+
+RewriteCond %{REQUEST_URI} !^/?workspace/
+RewriteCond %{REQUEST_URI} !^/?project/
+RewriteRule ^(.*)\.html$ $1.php [NC,L]
+
+RewriteCond %{HTTP_HOST} ^introtohtml\-net\.joyofcode\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.introtohtml\-net\.joyofcode\.com$
+RewriteRule ^/?$ "http\:\/\/introtohtml\.net" [R=301,L]

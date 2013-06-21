@@ -1,0 +1,77 @@
+#!/usr/bin/perl -wT
+#script created by Bud Kraus
+#modivied 8/27/05 by Bud Kraus
+#last modivied 12/2/12 by Bud Kraus
+
+use strict;
+use CGI ':standard';
+
+print "Content-type: text/html\n\n";
+
+print <<SEC1;
+
+        <aside id="sidebar">
+<header>
+<h1>Pages</h1>
+</header>
+<nav>
+<ol>
+
+
+SEC1
+
+
+ #Page 10
+if  ($ENV{DOCUMENT_NAME}  eq '10.html') {print "<li><strong>Lesson 8: Data Tables</strong></li>\n"; }
+else {print "<li><a href=\"10.html\">Lesson 8: Data Tables</a></li>\n"; }
+
+
+          #Page 20
+if  ($ENV{DOCUMENT_NAME}  eq '20.html') {print "<li><strong>Rows And Columns</strong></li>\n"; }
+else {print "<li><a href=\"20.html\">Rows And Columns</a></li>\n"; }
+
+          #Page 30
+if  ($ENV{DOCUMENT_NAME}  eq '30.html') {print "<li><strong>The th Tag          </strong></li>\n"; }
+else {print "<li><a href=\"30.html\">The th Tag</a></li>\n"; }
+
+
+ #Page 40
+if  ($ENV{DOCUMENT_NAME}  eq '40.html') {print "<li><strong>The caption Tag</strong></li>\n"; }
+else {print "<li><a href=\"40.html\">The caption Tag</a></li>\n"; }
+
+          #Page 50
+if  ($ENV{DOCUMENT_NAME}  eq '50.html') {print "<li><strong>Spanning Multiple Rows And Columns</strong></li>\n"; }
+else {print "<li><a href=\"50.html\">Spanning Multiple Rows And Columns</a></li>\n"; }
+
+          #Page 60
+if  ($ENV{DOCUMENT_NAME}  eq '60.html') {print "<li><strong>thead, tbody And tfoot</strong></li>\n"; }
+else {print "<li><a href=\"60.html\">thead, tbody And tfoot</a></li>\n"; }
+
+
+
+
+
+print <<SEC2;
+
+
+</ol>
+</nav>
+
+<p><a href="../lab8.html">Lab 8: First Data Tables</a></p>
+
+</aside>
+
+
+SEC2
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+Lesson 1: The Basics|What is HTML?|Starting an HTML Document|The DOCTYPE Statement|Required Tags|Syntax|Conventions
+Lesson 2: Fundamental Elements|First Tags|Heading Tags|The Quote Tag|Strong And Emphasis Tags|Display: Block-level And Inline| Character Entities|The Comment Tag
+Lesson 3: Lists|Unordered Lists|Ordered Lists|Definition Lists|Nesting Lists
+Lesson 4: Validation|Why Validate?|File Requirements|W3C Validation|Other Validation Tools
+Lesson 5: Links|Link To Another Page|Link To A Target On A Different Page|Link To A Target On The Same Page|External Page Link|Email Link|Anchor Tag Attributes
+Lesson 6: Images And Videos|Web Image Formats|How Images Are Used In Web Design|The img Tag|Clickable Images|Whatever Happened To...?|Embedding Videos
+Lesson 7: Forms|The form Tag|The input Tag|The textarea Tag|Select Menus|Data Validation|Accessibility Issues
+Lesson 8: Data Tables|Rows And Columns|The th Tag|The caption Tag|Spanning Multiple Rows And Columns|thead, tbody And tfoot
+Lesson 9: Grouping  Elements|General Grouping Tags|What About div And span?|Form Grouping Tags|Data Table Grouping Tags
+Lesson 10: A Look At CSS|How CSS Works|How CSS Attaches To HTML|Five Things I'm Dying To Tell You About CSS|In My Garden: All Dressed Up With CSS And Ready To Go

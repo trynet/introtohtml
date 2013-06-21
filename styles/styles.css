@@ -1,0 +1,639 @@
+@import url('print.css');
+
+
+/* HTML5 Browser re-set 
+http://html5doctor.com/html-5-reset-stylesheet/
+
+*/
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/*
+body
+   { line-height:1.25;}   */
+
+
+
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section
+ {  display:block;}
+
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*  my re-sets  */
+
+h1, h2, h3, h4, h5, h6
+{font-weight:normal;}
+
+* a:hover
+{outline:0 !important;}
+
+th
+{text-align:left;}
+
+
+
+/* ========  my styles  ========= */
+
+/* ======  font sizes =====  */
+
+header nav li a, header nav li strong
+{font-size:10px;}
+
+p
+{font-size:14px;
+line-height:1.4;}
+
+li, dl
+{font-size:14px;
+line-height:1.50;}
+
+caption
+{font-size:12px;}
+
+th, td,table.lesson8 caption
+{font-size:14px;}
+
+
+section#main h1
+{font-size:40px;}
+
+section#main h2
+{font-size:30px;}
+
+section#main h3
+{font-size:20px;}
+
+section#naim exs
+{font-size:10px;}
+
+aside#sidebar h1
+{font-size: 16px;}
+
+div#end
+{font-size:10px;}
+
+
+body {
+	background:#fff url(../images/page_bg.jpg) no-repeat  center  fixed;
+	color: #000000;
+	font-family: verdana,helvetica,sans-serif;
+
+        -webkit-background-size: cover;
+        -moz-background-size cover;
+        -ms-background-size cover;
+        -o-background-size: cover;
+        background-size: cover;  }
+
+div#wrapper
+{width:900px;
+background:#fff;     
+margin:10px auto;
+-moz-border-radius:2em;
+-webkit-border-radius:1em;
+-o-border-radius:1em;
+border-radius:1em;
+-webkit-box-shadow: 5px 5px 8px #999; 
+-moz-box-shadow: 5px 5px 8px #999; 
+-ms-box-shadow: 5px 5px 8px #999; 
+-o-box-shadow: 5px 5px 8px #999; 
+box-shadow: 5px 5px 8px #999;  }
+
+header img
+{display:block;
+margin:0 auto;}
+
+header nav
+{display:block;
+background:#000080;
+-moz-border-radius:1em;
+-ms-border-radius:1em;
+-webkit-border-radius:1em;
+-o-border-radius:1em;
+border-radius:1em;
+margin:15px 2px 0;}
+
+header nav li strong
+{background:#316c2d url(../images/nav_dot.png) no-repeat 5px 5px;
+color:#fff;
+margin-right:10px;
+text-indent:5px;
+padding:0 15px;
+-moz-border-radius:1em;
+-webkit-border-radius:1em;
+-ms-border-radius:1em;
+-o-border-radius:1em;
+border-radius:1em;
+text-decoration:none;;
+border:1px #000 solid;
+font-weight:normal;}
+
+
+header nav ul
+{margin-left:20px;
+padding-bottom:5px; }
+
+header nav li
+{display:inline;
+list-style-type:none;}
+
+header nav li a:link, header nav li a:visited
+{background:#fff url(../images/nav_dot.png) no-repeat 5px 5px;
+color:#000080;
+margin-right:10px;
+text-indent:5px;
+padding:0 15px;
+-moz-border-radius:1em;
+-webkit-border-radius:1em;
+-ms-border-radius:1em;
+-o-border-radius:1em;
+border-radius:1em;
+text-decoration:none;;
+border:1px #000 solid;}
+
+header nav li a:hover
+{color:#fff;
+background:#999;}
+
+
+
+section#main
+{margin:20px;
+width:574px;
+float:left;}
+
+
+ul#breadcrumbs li
+{list-style-type:none;
+margin:1em 0 1em  -20px;;}
+
+section#main h1, section#main h2, section#main h3, section#main h4
+{font-family: garamond, serif;}
+
+section#main p.introduction:first-letter {
+ font-size : 400%;
+ font-weight : bold;
+ float : left;
+padding:20px;
+margin: 0 10px  10px  0;
+ color : #fff;
+background:#000;
+border:1px solid #a9a9a9;
+font-family:'times new roman', serif;
+-moz-border-radius:1em;
+-webkit-border-radius:1em;
+-ms-border-radius:1em;
+-o-border-radius:1em;
+border-radius:1em;}
+
+
+
+
+section#main h2
+{background: url(../images/heading_dot.gif) no-repeat left center;
+padding-left:40px;}
+
+section#main p /*   , section#main li  */ 
+{margin:1em 0;}
+
+section#main label#example
+{margin-bottom:1em !important;}
+
+section#main ul, section#main ol
+{margin:1em 0 1em 20px;}
+
+section#main p#learn
+{font-style:italic;
+font-weight:bold;
+font-variant:small-caps;}
+
+secton#main a
+{color:#000080;}
+
+section#main dd
+{margin-left:1em;}
+
+section#main p#select
+{clear:both;
+padding-top:1em !important;}
+
+
+
+section#main table 
+{width:90%;
+margin:1em auto;}
+
+section#main table.lesson8 
+{width:auto;
+margin:0 0 0 -1em;;}
+
+
+
+section#main table tr
+{border:1px solid #999;}
+
+section#main table.lesson8 tr
+{border:none;}
+
+section#main table tr:hover
+{background:#eee;}
+
+section#main table.lesson8 tr:hover
+{background:transparent;}
+
+
+section#main col#left
+{width:10%;}
+
+section#main col#center
+{width:25%;}  
+
+section#main col#right
+{width:65%;}
+
+
+section#main col.left
+{width:10%;}
+
+section#main col.center
+{width:25%;}  
+
+section#main col.right
+{width:65%;}
+
+
+
+
+
+td, th
+{padding:1em;}
+
+
+section#main p#cute_line
+{text-align:center;
+font-weight:bold;
+font-variant:small-caps;}
+
+a#code_tester_icon
+{background:url(../images/code_tester_icon.gif) no-repeat left top;
+padding-left:40px;
+height:40px;
+display:block;}
+
+p.views2
+{border:1px solid #000080;
+text-indent:1em;
+-moz-border-radius:1em;
+-ms-border-radius:1em;
+-webkit-border-radius:1em;
+-o-border-radius:1em;
+border-radius:1em;
+border:1px solid #999;
+width:25%;}
+
+
+div#form_example fieldset
+{border:1px solid #a8a8a8;}
+
+div#form_example input, div#form_example label
+{float:none;}
+
+
+img#sheets
+{float:left;
+padding:40px 20px 0px 0px;}
+
+
+ol.formclear, ul.formclear, p.formclear
+{clear:both;
+padding-top:10px;}
+
+
+p#note
+{width:75%;
+margin: 15px auto !important;
+border: 2px dotted #000080; 
+padding:10px;}
+
+
+
+
+
+/* ========  sidebar =======  */
+
+aside#sidebar
+{float:right;
+width:220px;
+margin:75px 20px 0 -10px;
+-moz-border-radius:1em;
+-ms-border-radius:1em;
+-webkit-border-radius:1em;
+-o-border-radius:1em;
+border-radius:1em;
+border:1px solid #999;
+padding:10px 0 10px 50px;}
+
+aside#sidebar h1
+{margin-left: -20px;}
+
+aside#sidebar p
+{margin: 1em 0 1em -20px;}
+
+aside#sidebar ul 
+{list-style-position:inside;}
+
+aside#sidebar a:link, aside#sidebar a:visited
+{text-decoration:none;
+display:block;
+color: #000080;}
+
+aside#sidebar a:hover
+{text-decoration:underline;}
+
+ aside.appendix  /* over rides display:block for ahcnhors */
+a
+{display:inline !important;}
+
+
+
+
+/* ======  other sidebars ===== */
+
+aside#csspay
+{width:250px;
+float:right;
+margin:20px 20px 0 -10px;}
+
+aside#csspay form
+{margin-top:20px ;}
+
+
+
+
+
+footer nav ul
+{text-align:center;
+position:relative;}
+
+
+footer nav li
+{display:inline;
+list-style-type:none;}
+
+footer nav li a
+{color:#000080;
+text-decoration:none;;}
+
+a#next
+{	background:#eee url(../images/next_arrow.png) no-repeat 5px ;
+padding-right:5px;
+outline:0;
+display:block;
+text-decoration:none;
+text-align: right;
+-moz-border-radius:1em;
+-webkit-border-radius:1em;
+-ms-border-radius:1em;
+-o-border-radius:1em;
+border-radius:1em;}
+
+
+div#end
+{text-align:center;
+padding-bottom:20px;}
+
+div#welcome
+{width:220px;
+padding:10px 15px 10px 10px;
+float:left;
+font-family:'comic sans ms', monospace;}
+
+
+/* =====  home oage  ======   */
+
+h1#home
+{text-align:center;}
+
+div#weekly
+{float:left;
+width:20%;
+margin-top:20px;}
+
+div#lessons
+{float:left
+;width:39%;
+margin-top:20px;}
+
+div#labs
+{float:left;
+width:39%;
+margin-top:20px;}
+
+
+/* ========  labs =======  */
+
+
+img.peek
+{display:block;
+margin:0 auto;}
+
+div.valid
+{background:#eaebee;
+width:80%;
+margin:0 auto;
+border:2px dotted #000080;}
+
+div.valid p
+{padding: 0 20px;}
+
+
+
+/* ===== front office ====== */
+
+img#learningxss
+{display:block;
+margin:0 auto;}
+
+img#fred, img#beatles
+{float:left;}
+
+img#ipod
+{float:right;}
+
+form
+{width:90%;
+margin:0 auto;}
+
+
+label
+{float:left;}
+
+
+
+ul.schedule li
+{float:left;
+list-style-type:none;
+margin-right:10px;}
+
+div#say_hello input, div#say_hello label
+{float:none;}
+
+ul.schedule li input
+{margin-left:10px;}
+
+p.faqquestiions
+{font-weight:bold;}
+
+img#bookstore
+{display:block;
+margin:20px auto;}
+
+
+div#social img
+{float:left;
+display:block;
+margin-top:30px;}
+
+div#social ul
+{float:left;
+width:250px;
+margin:0 39px;}
+
+
+/* =====  code stylinh  ======   */
+
+code 
+{background: #FFFF9B;
+font-family: courier,monospace;
+color:#000;
+font-weight:bold;
+	font-family: verdana,helvetica,sans-serif;}
+
+span.second
+{background:#0f0;}
+
+span.nested
+{background:#00f;
+color:#fff;
+font-weight:normal;}
+
+span.second_nested
+{background:#000;
+color:#fff;
+font-weight:normal;}
+
+span.html_outline
+{background:#f00;
+display:block;
+color:#fff;}
+
+
+.exs 
+{font-variant : small-caps;
+font-weight : bold;}
+
+
+.clearfix:after
+{content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;}
+
+
+
+
+

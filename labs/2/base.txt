@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title></title>
+
+<meta charset="utf-8" />
+
+</head>
+
+<body>
+
+<h1>In My Garden</h1>
+
+<h2>Getting Addicted To Growing Good Things To Eat</h2>
+
+
+
+
+
+
+<address>
+Bud Kraus
+888 MY GARDEN
+bud@inmygarden.com
+</address> 
+
+<p>Home<br />
+Preparation<br />
+Planting<br />
+Harvest<br />
+Blog</p>
+
+</body>
+
+</html>

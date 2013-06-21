@@ -1,0 +1,68 @@
+#!/usr/bin/perl -wT
+#script created by Bud Kraus
+#modivied 8/27/05 by Bud Kraus
+#last modivied 12/2/12 by Bud Kraus
+
+use strict;
+use CGI ':standard';
+
+print "Content-type: text/html\n\n";
+
+print <<SEC1;
+
+        <aside id="sidebar">
+<header>
+<h1>Pages</h1>
+</header>
+<nav>
+<ol>
+
+
+SEC1
+
+
+ #Page 10
+if  ($ENV{DOCUMENT_NAME}  eq '10.html') {print "<li><strong>Lesson 4: Validation</strong></li>\n"; }
+else {print "<li><a href=\"10.html\">Lesson 4: Validation</a></li>\n"; }
+
+
+          #Page 20
+if  ($ENV{DOCUMENT_NAME}  eq '20.html') {print "<li><strong>Why Validate?</strong></li>\n"; }
+else {print "<li><a href=\"20.html\">Why Validate?</a></li>\n"; }
+
+          #Page 30
+if  ($ENV{DOCUMENT_NAME}  eq '30.html') {print "<li><strong>File Requirements</strong></li>\n"; }
+else {print "<li><a href=\"30.html\">File Requirements</a></li>\n"; }
+
+
+ #Page 40
+if  ($ENV{DOCUMENT_NAME}  eq '40.html') {print "<li><strong>W3C Validation</strong></li>\n"; }
+else {print "<li><a href=\"40.html\">W3C Validation</a></li>\n"; }
+
+          #Page 50
+if  ($ENV{DOCUMENT_NAME}  eq '50.html') {print "<li><strong>Other Validation Tools</strong></li>\n"; }
+else {print "<li><a href=\"50.html\">Other Validation Tools</a></li>\n"; }
+
+print <<SEC2;
+
+
+</ol>
+</nav>
+
+<p><a href="../lab4.html">Lab 4: First Checking</a></p>
+</aside>
+
+
+SEC2
+
+
+
+
+
+
+
+
+
+
+
+
