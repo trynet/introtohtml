@@ -20,12 +20,28 @@ require_once 'Zend/Auth/Adapter/Interface.php';
 require_once 'Zend/Auth.php';
 require_once 'classes/AuthAdapter.php';
 
+// database
 $db = Zend_db::factory('Pdo_Mysql', array(
    'host'     => 'localhost',
    'username' => 'joyofcod',
    'password' => 'Bk050553@',
    'dbname'   => 'joyofcod_introtohtml'
 ));
+
+// logger
+$logger = Zend_Log::factory(array(
+   'timestampFormat' =>'Y-m-d H:i:s',
+   array(
+      'writerName'      => 'Stream',
+      'writerParams' => array('stream' => '../logs/zend.log')
+   ),
+   array(
+      'writerName'  => 'Firebug',
+      'filterName'  => 'Priority',
+      'filterParms' => array('priority' => Zend_Log::INFO)
+   )
+));
+Zend_Registry::set('logger', $logger);
 
 
 if (basename(__FILE__) != 'config.php') {
