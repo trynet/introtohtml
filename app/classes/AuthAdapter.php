@@ -7,6 +7,7 @@ Modified: July 3, 2013
 
 Authentication
 ------------------------------------------------------------*/
+require_once 'config/config.php';
 
 class AuthAdapter implements Zend_Auth_Adapter_Interface
 {

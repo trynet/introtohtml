@@ -1,3 +1,7 @@
+<?php
+require_once 'app/config/config.php';
+// echo '<pre>auth<br>'; print_r($_SESSION); die; ?>
+
 <!DOCTYPE html>
 <html>
 <head>

@@ -84,3 +84,93 @@ Array
 (
 )
 
+2013-07-03 09:56:15 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdvasdv@nonae.com' for key 'email'
+
+2013-07-03 09:57:03 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdvasdv@nonae.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => asvdasdv
+            [1] => asdvasdv@nonae.com
+            [2] => a8048cc6692ffac56b39e7d01ceabf8a
+        )
+
+)
+
+2013-07-03 09:58:37 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdvasdv@nonae.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => asvdasdv
+            [1] => asdvasdv@nonae.com
+            [2] => a8048cc6692ffac56b39e7d01ceabf8a
+        )
+
+)
+
+2013-07-03 10:07:49 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bub@bub.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => asvdasdv
+            [1] => bub@bub.com
+            [2] => a35fb2fe6f536d54d4af7d699814e951
+        )
+
+)
+
+2013-07-03 10:17:16 ERR (3): Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/config/config.php/62
+Array
+(
+)
+
+2013-07-03 10:17:55 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bub@bub3.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => asvdasdv
+            [1] => bub@bub3.com
+            [2] => e0469b16c41c8a328a287466098f18cd
+        )
+
+)
+
+2013-07-03 10:20:22 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bub@bub5.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => asvdasdv
+            [1] => bub@bub5.com
+            [2] => dadd121d86e793c56c40ee5f89e1046a
+        )
+
+)
+
+2013-07-03 10:26:48 ERR (3): session has already been started by session.auto-start or session_start()
+Array
+(
+)
+
+2013-07-03 10:27:09 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ebusddbs@bub5.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => asvdasdv
+            [1] => ebusddbs@bub5.com
+            [2] => 3d066fb55e77850e70da435deb9196d9
+        )
+
+)
+

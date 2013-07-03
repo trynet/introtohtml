@@ -34,6 +34,8 @@ class User {
     */
    public function addUser($data) {
       try {
+         $progressObj = new Progress();
+
          $n = $this->db->insert(TBL_USER, $data);
          $id = $this->db->lastInsertId();
 
@@ -41,12 +43,13 @@ class User {
          $this->authenticateUser($data['email'], $data['password']);
 
          // setup current progress
+         $progressObj->setProgress($id);
 
          return $id;
       } catch (Exception $e) {
          // log
-         include 'includes/db_logger.php';
-         $this->logger->log($message, Zend_Log::ERR);
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
          return false;
       }
    }
@@ -66,8 +69,8 @@ class User {
       if ($result->isValid()) {
          // get current progress
          // presist to session
-         // redirect
-         header('Location: /');
+         $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+         $authNamespace->logged_in = true;
       }
    }
 }

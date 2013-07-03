@@ -5,7 +5,6 @@ Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
 Modifed: July 3, 2013
 ------------------------------------------------------------*/
-
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -31,8 +30,9 @@ require_once 'Zend/Session/Namespace.php';
 require_once 'Zend/Log.php';
 require_once 'Zend/Registry.php';
 require_once 'classes/AuthAdapter.php';
+require_once 'classes/DbLogger.php';
 require_once 'classes/User.php';
-include 'includes/db_logger.php';
+require_once 'classes/Progress.php';
 
 // database
 $db = Zend_db::factory('Pdo_Mysql', array(
@@ -58,6 +58,9 @@ $logger = Zend_Log::factory(array(
 ));
 Zend_Registry::set('logger', $logger);
 
-if (basename(__FILE__) != 'config.php') {
-   // require authentication / authorization
-}
+// authentication / authorization
+$authNamespace = new Zend_Session_Namespace('Zend_Auth');
+
+if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php')
+   header('Location: login.php');
+   

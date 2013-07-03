@@ -60,8 +60,27 @@ class Progress {
             $n = $this->db->update(TBL_PROGRESS, $current_progress, "user_id = $user_id");
             return $n;
          } catch (Exception $e) {
+            $this->logger->log($message, Zend_Log::ERR);
+            return false;
+         }
       } else {
-         // insert
+         // insert (user just created)
+         if (is_null($data)) {
+            $data = array('user_id' => $user_id,
+                          'current_lesson'   => 1,
+                          'current_lab'      => 1,
+                          'current_appendix' => 1);
+         }
+
+         try {
+            $this->db->insert(TBL_PROGRESS, $data);
+            $id = $this->db->lastInsertId();
+
+            return $id;
+         } catch (Exception $e) {
+            $this->logger->log($message, Zend_Log::ERR);
+            return false;
+         }
       } 
    }
 }

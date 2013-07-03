@@ -3,7 +3,7 @@ RewriteEngine on
 AuthName "intro"
 AuthUserFile "/home1/joyofcod/public_html/intro/passwd/.htpasswd"
 AuthType Basic
-require valid-user
+#require valid-user
 AddHandler server-parsed .html .htm
 
 <Limit POST GET>
@@ -12,6 +12,7 @@ allow from all
 require valid-user
 </Limit>
 
+#what on earth is this here for?
 RewriteCond %{REQUEST_URI} !^/?workspace/
 RewriteCond %{REQUEST_URI} !^/?project/
 RewriteRule ^(.*)\.html$ $1.php [NC,L]
