@@ -1,12 +1,15 @@
 <?php
 /*-----------------------------------------------------------
-register_sampled.php
+sample.php
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
 Modifed: July 3, 2013
+
+Process, register, and login a user after the choose to
+try the first two lessons
 ------------------------------------------------------------*/
 
-require_once 'app/config/config.php';
+require_once '../config/config.php';
 
 $firstname = htmlspecialchars($_GET['firstname']);
 $username  = htmlspecialchars($_GET['username']);

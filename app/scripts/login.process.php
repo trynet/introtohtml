@@ -6,7 +6,7 @@ Origin Date: July 3, 2013
 Modifed: July 3, 2013
 ------------------------------------------------------------*/
 
-require_once 'app/config/config.php';
+require_once '../config/config.php';
 
 $username  = htmlspecialchars($_GET['username']);
 $password  = md5(htmlspecialchars($_GET['password']));

@@ -33,6 +33,9 @@ require_once 'classes/AuthAdapter.php';
 require_once 'classes/DbLogger.php';
 require_once 'classes/User.php';
 require_once 'classes/Progress.php';
+require_once 'classes/Lesson.php';
+require_once 'classes/Lab.php';
+require_once 'classes/Appendix.php';
 
 // database
 $db = Zend_db::factory('Pdo_Mysql', array(
@@ -60,6 +63,7 @@ Zend_Registry::set('logger', $logger);
 
 // authentication / authorization
 $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+$user_id = $authNamespace->storage['user_id'];
 
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php')
    header('Location: login.php');

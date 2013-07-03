@@ -1,5 +1,6 @@
 <?php
 require_once 'app/config/config.php';
+require_once 'scripts/schedule.php';
 // echo '<pre>auth<br>'; print_r($_SESSION); die; ?>
 
 <!DOCTYPE html>
@@ -36,11 +37,32 @@ require_once 'app/config/config.php';
          <section id="main">
             <h1 id="home">Home Room</h1>
 
-            <?php include( "includes/schedule.php" ); ?>
+            <div id="lessons">
+               <h2>Lessons</h2>
+               <p>Reading Material For Each Lab</p>
+               <ol>
+                  <?php foreach ($lessons as $lesson) : ?>
+                  <li><?php echo $lesson['lesson'] ?></li>
+                  <?php endforeach ?>
+               </ol>
+            </div>
+
+            <div id="labs">
+               <h2>Labs</h2>
+               <p>Hands-On Assignements</p>
+               <ol>
+                  <?php foreach ($labs as $lab) : ?>
+                  <li><?php echo $lab['lab'] ?></li>
+                  <?php endforeach ?>
+               </ol>
+            </div>
 
             <hr style="clear:both;" />
 
-            <?php include("includes/appendix.php"); ?>
+            <div id="appendices">
+               <h2>Appendices</h2>
+               <p>All the stuff that I could not fit into the Lessons</p>
+            </div>
 
             <h2>And In The End</h2>
 

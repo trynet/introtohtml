@@ -10290,3 +10290,29 @@ Stack trace:
 [03-Jul-2013 11:14:52] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
 [03-Jul-2013 11:15:04] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
 [03-Jul-2013 11:15:12] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
+[03-Jul-2013 11:33:46] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
+[03-Jul-2013 11:38:31] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/appendix.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/index.php on line 43
+[03-Jul-2013 11:38:40] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/appendix.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/index.php on line 43
+[03-Jul-2013 11:49:39] PHP Fatal error:  Class 'Lesson' not found in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 10
+[03-Jul-2013 11:49:57] PHP Fatal error:  Class 'Lesson' not found in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 10
+[03-Jul-2013 11:50:44] PHP Warning:  require_once(appconfig/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 8
+[03-Jul-2013 11:50:44] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'appconfig/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 8
+[03-Jul-2013 11:50:51] PHP Fatal error:  Class 'Lesson' not found in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 10
+[03-Jul-2013 11:51:56] PHP Warning:  require_once(../app/config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 8
+[03-Jul-2013 11:51:56] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../app/config/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 8
+[03-Jul-2013 11:52:14] PHP Fatal error:  Class 'Lesson' not found in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 10
+[03-Jul-2013 11:52:31] PHP Fatal error:  Class 'Lesson' not found in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 11
+[03-Jul-2013 11:52:44] PHP Fatal error:  Class 'Lesson' not found in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 10
+[03-Jul-2013 11:52:51] PHP Fatal error:  Class 'Lesson' not found in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 11
+[03-Jul-2013 11:52:58] PHP Fatal error:  Class 'Lesson' not found in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 10
+[03-Jul-2013 11:55:25] PHP Fatal error:  Call to undefined method Lesson::getLessons() in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 14
+[03-Jul-2013 12:03:29] PHP Notice:  Undefined index:  storage in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 19
+[03-Jul-2013 12:23:06] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/schedule.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/index.php on line 39
+[03-Jul-2013 12:23:06] PHP Notice:  Undefined variable: lessons in /home1/joyofcod/public_html/_dev_intro/index.php on line 44
+[03-Jul-2013 12:23:06] PHP Warning:  Invalid argument supplied for foreach() in /home1/joyofcod/public_html/_dev_intro/index.php on line 44
+[03-Jul-2013 12:23:06] PHP Notice:  Undefined variable: labs in /home1/joyofcod/public_html/_dev_intro/index.php on line 54
+[03-Jul-2013 12:23:06] PHP Warning:  Invalid argument supplied for foreach() in /home1/joyofcod/public_html/_dev_intro/index.php on line 54
+[03-Jul-2013 12:24:46] PHP Warning:  require_once(schedule.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/index.php on line 3
+[03-Jul-2013 12:24:46] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'schedule.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/index.php on line 3
+[03-Jul-2013 12:25:03] PHP Warning:  require_once(app/includes/schedule.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/index.php on line 3
+[03-Jul-2013 12:25:03] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'app/includes/schedule.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/index.php on line 3

@@ -55,6 +55,7 @@ class Progress {
          $current_progress['current_lesson']   += 1;
          $current_progress['current_lab']      += 1;
          $current_progress['current_appendix'] += 1;
+         $current_progress['progress'] = 0;
 
          try {
             $n = $this->db->update(TBL_PROGRESS, $current_progress, "user_id = $user_id");
@@ -69,7 +70,8 @@ class Progress {
             $data = array('user_id' => $user_id,
                           'current_lesson'   => 1,
                           'current_lab'      => 1,
-                          'current_appendix' => 1);
+                          'current_appendix' => 1,
+                          'progress'         => 1);
          }
 
          try {

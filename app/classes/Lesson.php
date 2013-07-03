@@ -21,7 +21,7 @@ class Lesson {
    /**
     * get all labs
     */
-   public function getLabs() {
+   public function getLessons() {
       $query = "SELECT * FROM " . TBL_LESSON;
       $result = $this->db->fetchAll($query);
 
