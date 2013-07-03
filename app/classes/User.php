@@ -71,7 +71,10 @@ class User {
          $authNamespace = new Zend_Session_Namespace('Zend_Auth');
          $authNamespace->logged_in = true;
 
-         // get current progress
+         // get current progress and persist
+         $progressObj = new Progress();
+         $progress = $progressObj->getProgress($identity['user_id']);
+         $authNamespace->progress = $progress;
       }
    }
 }

@@ -5,8 +5,8 @@ Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
 Modifed: July 3, 2013
 ------------------------------------------------------------*/
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
 
 // tables
 define('TBL_USER', 'user');

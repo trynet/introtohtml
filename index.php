@@ -1,7 +1,8 @@
 <?php
 require_once 'app/config/config.php';
 require_once 'scripts/schedule.php';
-// echo '<pre>auth<br>'; print_r($_SESSION); die; ?>
+// echo '<pre>'; print_r($_SESSION);
+?>
 
 <!DOCTYPE html>
 <html>
@@ -41,9 +42,13 @@ require_once 'scripts/schedule.php';
                <h2>Lessons</h2>
                <p>Reading Material For Each Lab</p>
                <ol>
-                  <?php foreach ($lessons as $lesson) : ?>
-                  <li><?php echo $lesson['lesson'] ?></li>
-                  <?php endforeach ?>
+                  <?php for ($i = 1; $i <= count($lessons); $i++) : ?>
+                     <?php if ($progress['current_lab'] > ($i - 1)) : ?>
+                     <a href="<?php echo $lessons[$i - 1]['url'] ?>"><li><?php echo $lessons[$i - 1]['lesson'] ?></li></a>
+                     <?php else : ?>
+                     <li><?php echo $lessons[$i - 1]['lesson'] ?></li>
+                     <?php endif ?>
+                  <?php endfor ?>
                </ol>
             </div>
 
@@ -51,9 +56,13 @@ require_once 'scripts/schedule.php';
                <h2>Labs</h2>
                <p>Hands-On Assignements</p>
                <ol>
-                  <?php foreach ($labs as $lab) : ?>
-                  <li><?php echo $lab['lab'] ?></li>
-                  <?php endforeach ?>
+                  <?php for ($i = 1; $i <= count($labs); $i++) : ?>
+                     <?php if ($progress['current_lab'] > ($i - 1)) : ?>
+                     <a href="<?php echo $labs[$i - 1]['url'] ?>"><li><?php echo $labs[$i - 1]['lab'] ?></li></a>
+                     <?php else : ?>
+                     <li><?php echo $labs[$i - 1]['lab'] ?></li>
+                     <?php endif ?>
+                  <?php endfor ?>
                </ol>
             </div>
 
@@ -62,6 +71,15 @@ require_once 'scripts/schedule.php';
             <div id="appendices">
                <h2>Appendices</h2>
                <p>All the stuff that I could not fit into the Lessons</p>
+               <ol>
+                  <?php for ($i = 1; $i <= count($appendices); $i++) : ?>
+                     <?php if ($progress['current_lab'] > ($i - 1)) : ?>
+                     <a href="<?php echo $appendices[$i - 1]['url'] ?>"><li><?php echo $appendices[$i - 1]['appendix'] ?></li></a>
+                     <?php else : ?>
+                     <li><?php echo $appendices[$i - 1]['appendix'] ?></li>
+                     <?php endif ?>
+                  <?php endfor ?>
+               </ol>
             </div>
 
             <h2>And In The End</h2>

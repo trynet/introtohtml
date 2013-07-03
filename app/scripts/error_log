@@ -1,2 +1,19 @@
 [03-Jul-2013 12:28:13] PHP Warning:  require_once(app/config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php on line 9
 [03-Jul-2013 12:28:13] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'app/config/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php on line 9
+[03-Jul-2013 13:46:40] PHP Notice:  Undefined index:  current_lesson in /home1/joyofcod/public_html/_dev_intro/app/scripts/progress.php on line 13
+[03-Jul-2013 13:49:54] PHP Notice:  Undefined index:  username in /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php on line 11
+[03-Jul-2013 13:49:54] PHP Notice:  Undefined index:  password in /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php on line 12
+[03-Jul-2013 13:49:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php:11) in /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php on line 20
+[03-Jul-2013 13:52:03] PHP Notice:  Undefined index:  username in /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php on line 11
+[03-Jul-2013 13:52:03] PHP Notice:  Undefined index:  password in /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php on line 12
+[03-Jul-2013 13:52:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php:11) in /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php on line 20
+[03-Jul-2013 13:52:20] PHP Notice:  Undefined index:  username in /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php on line 11
+[03-Jul-2013 13:52:20] PHP Notice:  Undefined index:  password in /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php on line 12
+[03-Jul-2013 13:52:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php:11) in /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php on line 20
+[03-Jul-2013 13:57:29] PHP Notice:  Undefined index:  current_lesson in /home1/joyofcod/public_html/_dev_intro/app/scripts/progress.php on line 13
+[03-Jul-2013 13:58:29] PHP Notice:  Undefined index:  current_lesson in /home1/joyofcod/public_html/_dev_intro/app/scripts/progress.php on line 13
+[03-Jul-2013 13:58:34] PHP Notice:  Undefined index:  current_lesson in /home1/joyofcod/public_html/_dev_intro/app/scripts/progress.php on line 13
+[03-Jul-2013 14:53:53] PHP Parse error:  syntax error, unexpected ')' in /home1/joyofcod/public_html/_dev_intro/app/scripts/progress.php on line 18
+[03-Jul-2013 14:56:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/Progress.php:65) in /home1/joyofcod/public_html/_dev_intro/app/scripts/progress.php on line 38
+[03-Jul-2013 14:57:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/Progress.php:55) in /home1/joyofcod/public_html/_dev_intro/app/scripts/progress.php on line 38
+[03-Jul-2013 14:57:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/Progress.php:55) in /home1/joyofcod/public_html/_dev_intro/app/scripts/progress.php on line 38

@@ -11,11 +11,11 @@ require_once 'config/config.php';
 class Progress {
    private $db;
 
-   protected $progress_id;
    protected $user_id;
    protected $current_lesson;
    protected $current_lab;
    protected $current_appendix;
+   protected $proceed;
 
    /**
     * construct
@@ -34,11 +34,12 @@ class Progress {
    public function getProgress($user_id) {
       try {
          $query = "SELECT * FROM " . TBL_PROGRESS . " WHERE user_id = ?";
-         $result = $this->db->fetchAll($query, $user_id);
+         $result = $this->db->fetchRow($query, $user_id);
 
          return $result;
       } catch (Exception $e) {
-         // log
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
          return false;
       }
    }
@@ -55,12 +56,22 @@ class Progress {
          $current_progress['current_lesson']   += 1;
          $current_progress['current_lab']      += 1;
          $current_progress['current_appendix'] += 1;
-         $current_progress['progress'] = 0;
+         $current_progress['proceed'] = 0;
 
+         // todo: improve this....
          try {
-            $n = $this->db->update(TBL_PROGRESS, $current_progress, "user_id = $user_id");
+            if (is_null($data)) {
+               $n = $this->db->update(TBL_PROGRESS, $current_progress, "user_id = $user_id");
+            } else {
+               $n = $this->db->update(TBL_PROGRESS, $data, "user_id = $user_id");
+            }
+
+            $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+            $authNamespace->progress = $this->getProgress($user_id);
+
             return $n;
          } catch (Exception $e) {
+            $dbLoggerObj = new DbLogger($e);
             $this->logger->log($message, Zend_Log::ERR);
             return false;
          }
@@ -71,7 +82,7 @@ class Progress {
                           'current_lesson'   => 1,
                           'current_lab'      => 1,
                           'current_appendix' => 1,
-                          'progress'         => 1);
+                          'proceed'          => 1);
          }
 
          try {
@@ -80,6 +91,7 @@ class Progress {
 
             return $id;
          } catch (Exception $e) {
+            $dbLoggerObj = new DbLogger($e);
             $this->logger->log($message, Zend_Log::ERR);
             return false;
          }
