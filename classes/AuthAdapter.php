@@ -2,8 +2,8 @@
 /*-----------------------------------------------------------
 Class: AuthAdapter - Authentication
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
-Origin Date: June 18, 2013
-Modified: June 18, 2013
+Origin Date: July 3, 2013
+Modified: July 3, 2013
 
 Authentication
 ------------------------------------------------------------*/

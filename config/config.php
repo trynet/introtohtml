@@ -19,3 +19,15 @@ require_once 'Zend/Db/Adapter/Pdo/Mysql.php';
 require_once 'Zend/Auth/Adapter/Interface.php';
 require_once 'Zend/Auth.php';
 require_once 'classes/AuthAdapter.php';
+
+$db = Zend_db::factory('Pdo_Mysql', array(
+   'host'     => 'localhost',
+   'username' => 'joyofcod',
+   'password' => 'Bk050553@',
+   'dbname'   => 'joyofcod_introtohtml'
+));
+
+
+if (basename(__FILE__) != 'config.php') {
+   // require authentication / authorization
+}
