@@ -6,15 +6,21 @@ Origin Date: July 3, 2013
 Modifed: July 3, 2013
 ------------------------------------------------------------*/
 
-require_once 'config/config.php';
+require_once 'app/config/config.php';
 
-$firstname = htmlspecialchars($_GET['FirstName']);
-$username  = htmlspecialchars($_GET['User']);
-$password  = md5(htmlspecialchars($_GET['Password']));
+$firstname = htmlspecialchars($_GET['firstname']);
+$username  = htmlspecialchars($_GET['username']);
+$password  = md5(htmlspecialchars($_GET['password']));
 
 $data = array('firstname' => $firstname,
-              'username'  => $username,
+              'email'  => $username,
               'password'  => $password);
 
 $userObj = new User();
-$userObj->addUser($data);
+$user_id = $userObj->addUser($data);
+
+// login user 
+if ($user_id) {
+   $userObj->authenticateUser($username, $password);
+   header('Location: /');
+}

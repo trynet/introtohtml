@@ -10127,3 +10127,55 @@
 [03-Jul-2013 03:22:40] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
 [03-Jul-2013 04:34:47] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
 [03-Jul-2013 04:58:14] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
+[03-Jul-2013 05:56:40] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
+[03-Jul-2013 05:57:31] PHP Warning:  require_once(config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 9
+[03-Jul-2013 05:57:31] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'config/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 9
+[03-Jul-2013 05:58:21] PHP Warning:  require_once(config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 9
+[03-Jul-2013 05:58:21] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'config/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 9
+[03-Jul-2013 05:58:32] PHP Warning:  require_once(config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 9
+[03-Jul-2013 05:58:32] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'config/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 9
+[03-Jul-2013 05:58:46] PHP Fatal error:  Uncaught exception 'Zend_Log_Exception' with message '"../logs/zend.log" cannot be opened with mode "a"' in /home1/joyofcod/Zend/Log/Writer/Stream.php:81
+Stack trace:
+#0 /home1/joyofcod/Zend/Log/Writer/Stream.php(107): Zend_Log_Writer_Stream->__construct('../logs/zend.lo...', NULL)
+#1 /home1/joyofcod/Zend/Log.php(276): Zend_Log_Writer_Stream::factory(Array)
+#2 /home1/joyofcod/Zend/Log.php(169): Zend_Log->_constructFromConfig(Array, Array)
+#3 /home1/joyofcod/Zend/Log.php(504): Zend_Log->_constructWriterFromConfig('writer', Array, 'Zend_Log_Writer')
+#4 /home1/joyofcod/Zend/Log.php(152): Zend_Log->addWriter(Array)
+#5 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(48): Zend_Log::factory(Array)
+#6 /home1/joyofcod/public_html/_dev_intro/register_sampled.php(9): require_once('/home1/joyofcod...')
+#7 {main}
+  thrown in /home1/joyofcod/Zend/Log/Writer/Stream.php on line 81
+[03-Jul-2013 05:59:25] PHP Fatal error:  Uncaught exception 'Zend_Log_Exception' with message '"logs/zend.log" cannot be opened with mode "a"' in /home1/joyofcod/Zend/Log/Writer/Stream.php:81
+Stack trace:
+#0 /home1/joyofcod/Zend/Log/Writer/Stream.php(107): Zend_Log_Writer_Stream->__construct('logs/zend.log', NULL)
+#1 /home1/joyofcod/Zend/Log.php(276): Zend_Log_Writer_Stream::factory(Array)
+#2 /home1/joyofcod/Zend/Log.php(169): Zend_Log->_constructFromConfig(Array, Array)
+#3 /home1/joyofcod/Zend/Log.php(504): Zend_Log->_constructWriterFromConfig('writer', Array, 'Zend_Log_Writer')
+#4 /home1/joyofcod/Zend/Log.php(152): Zend_Log->addWriter(Array)
+#5 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(48): Zend_Log::factory(Array)
+#6 /home1/joyofcod/public_html/_dev_intro/register_sampled.php(9): require_once('/home1/joyofcod...')
+#7 {main}
+  thrown in /home1/joyofcod/Zend/Log/Writer/Stream.php on line 81
+[03-Jul-2013 06:00:12] PHP Notice:  Undefined index:  Password in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 13
+[03-Jul-2013 06:00:12] PHP Fatal error:  Class 'User' not found in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 19
+[03-Jul-2013 06:02:06] PHP Notice:  Undefined index:  Password in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 13
+[03-Jul-2013 06:02:06] PHP Fatal error:  Class 'User' not found in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 19
+[03-Jul-2013 06:02:36] PHP Warning:  require_once(../config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/User.php on line 9
+[03-Jul-2013 06:02:36] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../config/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/User.php on line 9
+[03-Jul-2013 06:03:18] PHP Notice:  Undefined index:  Password in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 13
+[03-Jul-2013 06:03:18] PHP Fatal error:  Call to a member function insert() on a non-object in /home1/joyofcod/public_html/_dev_intro/app/classes/User.php on line 37
+[03-Jul-2013 06:05:47] PHP Notice:  Undefined index:  Password in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 13
+[03-Jul-2013 06:05:47] PHP Notice:  Use of undefined constant TBL_USER - assumed 'TBL_USER' in /home1/joyofcod/public_html/_dev_intro/app/classes/User.php on line 37
+[03-Jul-2013 06:07:47] PHP Notice:  Undefined index:  Password in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 13
+[03-Jul-2013 06:07:47] PHP Notice:  Use of undefined constant TBL_USER - assumed 'TBL_USER' in /home1/joyofcod/public_html/_dev_intro/app/classes/User.php on line 37
+[03-Jul-2013 06:09:21] PHP Notice:  Undefined index:  Password in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 13
+[03-Jul-2013 06:12:22] PHP Notice:  Undefined index:  firstname in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 11
+[03-Jul-2013 06:12:22] PHP Notice:  Undefined index:  username in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 12
+[03-Jul-2013 06:12:22] PHP Notice:  Undefined index:  password in /home1/joyofcod/public_html/_dev_intro/register_sampled.php on line 13
+[03-Jul-2013 06:19:42] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
+[03-Jul-2013 07:12:06] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home1/joyofcod/public_html/_dev_intro/app/classes/User.php on line 58
+[03-Jul-2013 07:12:19] PHP Notice:  Undefined variable: username in /home1/joyofcod/public_html/_dev_intro/app/classes/User.php on line 41
+[03-Jul-2013 07:12:19] PHP Notice:  Undefined variable: password in /home1/joyofcod/public_html/_dev_intro/app/classes/User.php on line 41
+[03-Jul-2013 07:12:48] PHP Notice:  Undefined index:  username in /home1/joyofcod/public_html/_dev_intro/app/classes/User.php on line 41
+[03-Jul-2013 07:13:32] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188
+[03-Jul-2013 07:27:58] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/_dev_intro/includes/schedule.php on line 188

@@ -1,1 +1,86 @@
 
+2013-07-03 06:05:47 ERR (3): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'joyofcod_introtohtml.TBL_USER' doesn't exist
+Array
+(
+    [0] => INSERT INTO `TBL_USER` (`firstname`, `username`, `password`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => Test
+            [1] => test@email.com
+            [2] => d41d8cd98f00b204e9800998ecf8427e
+        )
+
+)
+
+2013-07-03 06:07:47 ERR (3): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'joyofcod_introtohtml.TBL_USER' doesn't exist
+Array
+(
+    [0] => INSERT INTO `TBL_USER` (`firstname`, `username`, `password`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => Test
+            [1] => test@email.com
+            [2] => d41d8cd98f00b204e9800998ecf8427e
+        )
+
+)
+
+2013-07-03 06:09:21 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `username`, `password`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => Test
+            [1] => test@email.com
+            [2] => d41d8cd98f00b204e9800998ecf8427e
+        )
+
+)
+
+2013-07-03 06:12:22 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `username`, `password`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => d41d8cd98f00b204e9800998ecf8427e
+        )
+
+)
+
+2013-07-03 06:12:49 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `username`, `password`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => Testing
+            [1] => no@email.com
+            [2] => 5f4dcc3b5aa765d61d8327deb882cf99
+        )
+
+)
+
+2013-07-03 07:12:19 ERR (3): Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/config/config.php/25
+Array
+(
+)
+
+2013-07-03 07:12:48 ERR (3): Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/config/config.php/25
+Array
+(
+)
+
+2013-07-03 07:12:56 ERR (3): Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/config/config.php/25
+Array
+(
+)
+
+2013-07-03 07:13:12 ERR (3): Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/config/config.php/25
+Array
+(
+)
+
