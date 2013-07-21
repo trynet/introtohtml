@@ -17,3 +17,19 @@
 [03-Jul-2013 14:56:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/Progress.php:65) in /home1/joyofcod/public_html/_dev_intro/app/scripts/progress.php on line 38
 [03-Jul-2013 14:57:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/Progress.php:55) in /home1/joyofcod/public_html/_dev_intro/app/scripts/progress.php on line 38
 [03-Jul-2013 14:57:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/Progress.php:55) in /home1/joyofcod/public_html/_dev_intro/app/scripts/progress.php on line 38
+[19-Jul-2013 14:22:36] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(66): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php(18): User->authenticateUser('bud@joyofcoce.c...', '5f4dcc3b5aa765d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[19-Jul-2013 14:22:59] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(66): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/scripts/login.process.php(18): User->authenticateUser('bud@joyofcode.c...', '62c7b193af68c8a...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147

@@ -24,7 +24,7 @@ $progress = $authNamespace->progress;
 if ($progress['current_lab'] == 3)
    header('Location: /register.php');
 
-echo '<pre>script/schedule.php:' . "\n"; print_r($progress); echo '</pre>';
+// echo '<pre>script/schedule.php:' . "\n"; print_r($progress); echo '</pre>';
 
 /*
 echo '<pre>'; print_r($_SESSION);
