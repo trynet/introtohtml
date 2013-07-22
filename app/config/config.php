@@ -8,6 +8,9 @@ Modifed: July 3, 2013
 //error_reporting(E_ALL);
 //ini_set('display_errors', 1);
 
+// admin email
+define('ADMIN_EMAIL', 'service@lucidmediaconcepts.com');
+
 // tables
 define('TBL_USER', 'user');
 define('TBL_APPENDIX', 'appendix');

@@ -3,10 +3,11 @@
 User class
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: July 3, 2013
+Modifed: July 21, 2013
 
 int addUser(array)
 void authenticateUser(string, string)
+bool email(string, int)
 ------------------------------------------------------------*/
 
 require_once 'config/config.php';
@@ -16,10 +17,13 @@ class User {
 
    protected $user_id;
    protected $firstname;
-   protected $lastnme;
+   protected $lastname;
    protected $email;
    protected $password;
    protected $zipcode;
+   protected $subscribe;
+   protected $tos;
+   protected $promo;
 
    /**
     * construct
@@ -100,5 +104,31 @@ class User {
 
          return false;
       }
+   }
+
+   /**
+    * send an email to user
+    *
+    * @param: (string) message
+    * @param: (int) user_id
+    * @return: (bool)
+    */
+   public function email($message, $subject, $user_id) {
+      if (is_string($user_id))
+         $to = $user_id;
+      else
+         $to = $this->getField($user_id, 'email');
+
+      $header = 'From: no-reply@introtohtml.net' . "\r\n" .
+                'X-Mailer: PHP/' . phpversion();
+
+      $result = mail($to, $subject, $message, $headers);
+
+      if (!$result) {
+         $this->logger->log($e->message(), Zend_Log::ERR);
+         return false;
+      }
+
+      return true;
    }
 }
