@@ -10,7 +10,7 @@ construct
 
 require_once 'config/config.php';
 
-class Promo {
+class PromoCode {
    private $db;
 
    protected $promos;
@@ -19,7 +19,7 @@ class Promo {
     * construct
     */
    public function __construct() {
-      $this->db = Zend_Db_Table::getDefaultAdatpet();
+      $this->db = Zend_Db_Table::getDefaultAdapter();
       $this->logger = Zend_Registry::get('logger');
 
       $query = "SELECT * FROM promocode";
@@ -30,14 +30,34 @@ class Promo {
     * check promo code and return fee
     *
     * @param: (string) promotional code
-    * @return: (float) fee
+    * @return: (array) promocode record
     */
    public function isValid($promotional_code) {
       foreach ($this->promos as $promo) {
          if ($promotional_code == $promo['promocode'])
-            return $promo['fee'];
-         else
-            return PROGRAM_FEE;
+            return true;
+      }
+
+      return false;
+   }
+
+   /**
+    * get promocode record(s)
+    *
+    * @param: (string) promotional code
+    * @return: (array)
+    */
+   public function getPromoCode($promotional_code) {
+      $query = "SELECT * FROM promocode WHERE promocode = ?";
+      $result = $this->db->fetchRow($query, $promotional_code);
+
+      if ($result)
+         return $result;
+      else {
+         // todo: get info from db?
+         return array('usertype_id' => USER_STANDARD,
+                      'promocode'   => '',
+                      'fee'         => 250.00);
       }
    }
 }

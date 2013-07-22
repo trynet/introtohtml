@@ -14,6 +14,13 @@ define('ADMIN_EMAIL', 'service@lucidmediaconcepts.com');
 // program fee
 define('PROGRAM_FEE', 225.00);
 
+// usertypes
+define('USER_STANDARD', 2);
+define('USER_DISCOUNT', 3);
+define('USER_FREE', 4);
+define('USER_FIT', 5);
+
+
 // tables
 define('TBL_USER', 'user');
 define('TBL_APPENDIX', 'appendix');
@@ -44,6 +51,7 @@ require_once 'classes/Lesson.php';
 require_once 'classes/Lab.php';
 require_once 'classes/Appendix.php';
 require_once 'classes/Registration.php';
+require_once 'classes/PromoCode.php';
 
 // database
 $db = Zend_db::factory('Pdo_Mysql', array(

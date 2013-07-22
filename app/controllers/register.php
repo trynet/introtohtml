@@ -18,6 +18,7 @@ if (is_null($_POST['submit'])) {
    require_once '../config/config.php';
 
    $registrationObj = new Registration();
+   $promocodeObj = new PromoCode();
 
    $firstname = htmlspecialchars($_POST['firstname']);
    $lastname  = htmlspecialchars($_POST['lastname']);
@@ -35,8 +36,12 @@ if (is_null($_POST['submit'])) {
                  'tos'       => $tos);
 
    $result = $registrationObj->registerUser($data, USER_ID);
-   // todo: get promo and usertype and fee
 
-   // header('Location: http://www.paypal.com');
-   header('Location: /paypal.php');
+   if ($result) {
+      $promocode = $promocodeObj->getPromoCode($promo);
+      $registrationObj->updateUserType($promocode['usertype_id'], USER_ID);
+   }
+
+   header('Location: /app/controllers/success.php');
+   //header('Location: /paypal.php');
 }

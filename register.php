@@ -8,7 +8,8 @@
 </head>
 
 <body>
-
+   <center>
+   <p>You've reached the end of lab two. Please register below to continue.</p>
    <form method="post" name="register" id="register" action="app/controllers/register.php">
       <table>
          <tr>
@@ -42,7 +43,7 @@
          </tr>
       </table>
    </form>
-
+   </center>
 </body>
 
 </html>
