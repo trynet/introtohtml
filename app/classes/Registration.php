@@ -29,5 +29,13 @@ class Registration extends User {
     * @return: (bool) true on success
     */
    public function registerUser($data, $user_id) {
+      try {
+         $n = $this->db->update(TBL_USER, $data, "user_id = $user_id");
+         return $n;
+      } catch (Exception $e) {
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
+         return false;
+      }
    }
 }

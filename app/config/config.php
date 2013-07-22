@@ -11,6 +11,9 @@ Modifed: July 3, 2013
 // admin email
 define('ADMIN_EMAIL', 'service@lucidmediaconcepts.com');
 
+// program fee
+define('PROGRAM_FEE', 225.00);
+
 // tables
 define('TBL_USER', 'user');
 define('TBL_APPENDIX', 'appendix');
