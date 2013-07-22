@@ -2,3 +2,20 @@
 [21-Jul-2013 22:13:21] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home1/joyofcod/public_html/_dev_intro/logout.php on line 2
 [21-Jul-2013 22:13:31] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home1/joyofcod/public_html/_dev_intro/logout.php on line 2
 [21-Jul-2013 22:14:07] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home1/joyofcod/public_html/_dev_intro/logout.php on line 2
+[21-Jul-2013 22:22:03] PHP Parse error:  syntax error, unexpected '<' in /home1/joyofcod/public_html/_dev_intro/login.php on line 5
+[21-Jul-2013 22:24:09] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/includes/style.phtml/1' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(67): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/logout.php(2): require_once('/home1/joyofcod...')
+#3 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[21-Jul-2013 22:24:32] PHP Parse error:  syntax error, unexpected '<' in /home1/joyofcod/public_html/_dev_intro/login.php on line 5
+[21-Jul-2013 22:25:11] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/includes/style.phtml/1' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(67): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/login.php(2): require_once('/home1/joyofcod...')
+#3 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[21-Jul-2013 22:26:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/includes/style.phtml:1) in /home1/joyofcod/public_html/_dev_intro/app/config/config.php on line 71

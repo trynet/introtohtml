@@ -1,8 +1,7 @@
 <?php
 require_once 'app/config/config.php';
-require_once 'scripts/schedule.php';
-session_destroy();
-echo '<pre>'; print_r($_SESSION);
+require_once 'controllers/schedule.php';
+// echo '<pre>'; print_r($_SESSION);
 ?>
 
 <!DOCTYPE html>
