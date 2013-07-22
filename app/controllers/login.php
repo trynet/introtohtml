@@ -1,6 +1,6 @@
 <?php
 /*-----------------------------------------------------------
-login.process.php
+login controller
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
 Modifed: July 9, 2013

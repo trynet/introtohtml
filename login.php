@@ -7,7 +7,7 @@
 
 <body>
 
-   <form name="login" action="app/controllers/login.process.php">
+   <form name="login" action="app/controllers/login.php">
    username: <input type="text" name="username" /><br />
    password: <input type="password" name="password" /><br />
    <input type="submit" name="submit" value="submit" />

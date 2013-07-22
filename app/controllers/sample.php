@@ -16,7 +16,7 @@ $username  = htmlspecialchars($_GET['username']);
 $password  = md5(htmlspecialchars($_GET['password']));
 
 $data = array('firstname' => $firstname,
-              'email'  => $username,
+              'email'     => $username,
               'password'  => $password);
 
 $userObj = new User();

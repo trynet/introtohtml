@@ -4,6 +4,9 @@ User class
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
 Modifed: July 3, 2013
+
+int addUser(array)
+void authenticateUser(string, string)
 ------------------------------------------------------------*/
 
 require_once 'config/config.php';
@@ -75,6 +78,27 @@ class User {
          $progressObj = new Progress();
          $progress = $progressObj->getProgress($identity['user_id']);
          $authNamespace->progress = $progress;
+      }
+   }
+
+   /**
+    * get arbitrary field
+    *
+    * @param: (int) user_id,
+    * @param: (string) field name
+    * @return: (mixed) field value
+    */
+   public function getField($user_id, $field) {
+      try {
+         $query = "SELECT `$field` FROM " . TBL_USER . " WHERE user_id = ?";
+         $result = $this->db->fetchOne($query, $user_id);
+
+         return $result;
+      } catch (Exception $e) {
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
+
+         return false;
       }
    }
 }
