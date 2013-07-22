@@ -1,10 +1,38 @@
+<style>
+body {
+   font-family: Arial, Helvitica, sans-serif;
+}
+</style>
 <form name="register" id="register" action="register.process.php">
-First Name: <input type="text" name="firstname" value="<?php echo '' ?>" /><br />
-Email Address: <input type="text" name="username" value="<?php echo '' ?>" /><br />
-Last Name: <input type="text" name="" value="<?php echo '' ?>" /><br />
-How Did You Find This Class? <input type="text" name="" value="<?php echo '' ?>" /><br />
-May I subscribe you to my Joy of Code Blog? <input type="checkbox" name="" value="<?php echo '' ?>" /><br />
-Promo Code: <input type="text" name="" value="<?php echo '' ?>" /><br />
-Accept TOS? <input type="checkbox" name="" value="<?php echo '' ?>" /><br />
-<input type="submit" name="submit" value="Submit" />
+   <table>
+      <tr>
+         <td>First Name:</td>
+         <td><input type="text" name="firstname" value="<?php echo '' ?>" /></td>
+      </tr>
+      <tr>
+         <td>Email Address:</td>
+         <td><input type="text" name="username" value="<?php echo '' ?>" /></td>
+      </tr>
+      <tr>
+         <td>Last Name:</td>
+         <td><input type="text" name="" value="<?php echo '' ?>" /></td>
+      </tr>
+      <tr>
+         <td>How Did You Find This Class?</td>
+         <td><input type="text" name="" value="<?php echo '' ?>" /></td>
+      </tr>
+      <tr>
+         <td>May I subscribe you to my Joy of Code Blog?</td>
+         <td><input type="checkbox" name="" value="<?php echo '' ?>" /></td>
+      </tr>
+         <td>Promo Code:</td>
+         <td><input type="text" name="" value="<?php echo '' ?>" /></td>
+      <tr>
+         <td>Accept TOS?</td>
+         <td><input type="checkbox" name="" value="<?php echo '' ?>" /></td>
+      </tr>
+      <tr>
+         <td colspan="2"><input type="submit" name="submit" value="Submit" /></td>
+      </tr>
+   </table>
 </form>
