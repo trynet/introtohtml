@@ -21,6 +21,7 @@ define('TBL_LAB', 'lab');
 define('TBL_LESSON', 'lesson');
 define('TBL_PROGRESS', 'progress');
 
+// paths
 define('PATH', '/home1/joyofcod');
 define('APPLICATION_PATH', PATH . '/public_html/_dev_intro/app');
 
@@ -42,6 +43,7 @@ require_once 'classes/Progress.php';
 require_once 'classes/Lesson.php';
 require_once 'classes/Lab.php';
 require_once 'classes/Appendix.php';
+require_once 'classes/Registration.php';
 
 // database
 $db = Zend_db::factory('Pdo_Mysql', array(
@@ -70,6 +72,7 @@ Zend_Registry::set('logger', $logger);
 // authentication / authorization
 $authNamespace = new Zend_Session_Namespace('Zend_Auth');
 $user_id = $authNamespace->storage['user_id'];
+define('USER_ID', $user_id);
 
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php')
    header('Location: login.php');

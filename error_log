@@ -33,3 +33,98 @@ Stack trace:
 [22-Jul-2013 00:10:45] PHP Warning:  require_once(../config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 10
 [22-Jul-2013 00:10:45] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../config/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 10
 [22-Jul-2013 00:18:38] PHP Fatal error:  Cannot break/continue 1 level in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 16
+[22-Jul-2013 02:39:32] PHP Fatal error:  Class 'User' not found in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 12
+[22-Jul-2013 02:40:33] PHP Fatal error:  Class 'User' not found in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 12
+[22-Jul-2013 03:15:45] PHP Warning:  require_once(APPLICATION_PATH/config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 9
+[22-Jul-2013 03:15:45] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'APPLICATION_PATH/config/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 9
+[22-Jul-2013 03:16:29] PHP Warning:  require_once(../config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 9
+[22-Jul-2013 03:16:29] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../config/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 9
+[22-Jul-2013 03:17:13] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php/9' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(72): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php(11): require_once('/home1/joyofcod...')
+#3 /home1/joyofcod/public_html/_dev_intro/register.php(1): include('/home1/joyofcod...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[22-Jul-2013 03:18:16] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php/9' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(72): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php(11): require_once('/home1/joyofcod...')
+#3 /home1/joyofcod/public_html/_dev_intro/register.php(1): include('/home1/joyofcod...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[22-Jul-2013 03:18:46] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php/9' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(72): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php(12): require_once('/home1/joyofcod...')
+#3 /home1/joyofcod/public_html/_dev_intro/register.php(1): include('/home1/joyofcod...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[22-Jul-2013 03:25:30] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php/9' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(72): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php(10): require_once('/home1/joyofcod...')
+#3 /home1/joyofcod/public_html/_dev_intro/register.php(1): include('/home1/joyofcod...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[22-Jul-2013 03:25:34] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php/9' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(72): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php(10): require_once('/home1/joyofcod...')
+#3 /home1/joyofcod/public_html/_dev_intro/register.php(1): include('/home1/joyofcod...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[22-Jul-2013 03:25:52] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php/9' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(72): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php(10): require_once('/home1/joyofcod...')
+#3 /home1/joyofcod/public_html/_dev_intro/register.php(1): include('/home1/joyofcod...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[22-Jul-2013 03:26:11] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php/9' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(72): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php(10): require_once('/home1/joyofcod...')
+#3 /home1/joyofcod/public_html/_dev_intro/register.php(1): include('/home1/joyofcod...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[22-Jul-2013 03:26:13] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php/9' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(72): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php(10): require_once('/home1/joyofcod...')
+#3 /home1/joyofcod/public_html/_dev_intro/register.php(1): include('/home1/joyofcod...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[22-Jul-2013 03:26:55] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php/9' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(72): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php(10): require_once('/home1/joyofcod...')
+#3 /home1/joyofcod/public_html/_dev_intro/register.php(1): include('/home1/joyofcod...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[22-Jul-2013 03:27:41] PHP Fatal error:  Class 'User' not found in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 11
+[22-Jul-2013 03:27:46] PHP Fatal error:  Class 'User' not found in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 11
+[22-Jul-2013 03:28:27] PHP Fatal error:  Class 'User' not found in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 11
+[22-Jul-2013 03:35:57] PHP Warning:  require_once(../config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 11
+[22-Jul-2013 03:35:57] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../config/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 11
+[22-Jul-2013 03:36:08] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php/10' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(73): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php(11): require_once('/home1/joyofcod...')
+#3 /home1/joyofcod/public_html/_dev_intro/register.php(1): require_once('/home1/joyofcod...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[22-Jul-2013 03:38:45] PHP Warning:  require_once(../config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 11
+[22-Jul-2013 03:38:45] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../config/config.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 11
+[22-Jul-2013 03:39:03] PHP Fatal error:  Call to a member function getField() on a non-object in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 13
+[22-Jul-2013 03:39:20] PHP Fatal error:  Call to a member function getField() on a non-object in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 13

@@ -1,4 +1,4 @@
-<?php include 'app/controllers/register.php' ?>
+<?php require_once 'app/controllers/register.php' ?>
 
 <!DOCTYPE html>
 <html>
@@ -9,7 +9,7 @@
 
 <body>
 
-   <form name="register" id="register" action="app/controllers/register.php">
+   <form method="post" name="register" id="register" action="app/controllers/register.php">
       <table>
          <tr>
             <td>First Name:</td>

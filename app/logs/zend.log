@@ -174,3 +174,48 @@ Array
 
 )
 
+2013-07-22 03:31:06 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'found' in 'field list'
+Array
+(
+    [0] => UPDATE `user` SET `lastname` = ?, `found` = ?, `subscribe` = ?, `promo` = ?, `tos` = ? WHERE (user_id = 1)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+        )
+
+)
+
+2013-07-22 03:31:33 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'found' in 'field list'
+Array
+(
+    [0] => UPDATE `user` SET `lastname` = ?, `found` = ?, `subscribe` = ?, `promo` = ?, `tos` = ? WHERE (user_id = 1)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+        )
+
+)
+
+2013-07-22 03:32:29 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'found' in 'field list'
+Array
+(
+    [0] => UPDATE `user` SET `lastname` = ?, `found` = ?, `subscribe` = ?, `promo` = ?, `tos` = ? WHERE (user_id = 1)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+        )
+
+)
+
