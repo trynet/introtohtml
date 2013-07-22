@@ -23,10 +23,3 @@ $progress = $authNamespace->progress;
 // fixme: this redirect belongs somewhere else
 if ($progress['current_lab'] == 3)
    header('Location: /register.php');
-
-// echo '<pre>script/schedule.php:' . "\n"; print_r($progress); echo '</pre>';
-
-/*
-echo '<pre>'; print_r($_SESSION);
-echo 'user_id: ' . $user_id;
-*/

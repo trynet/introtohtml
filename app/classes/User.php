@@ -107,6 +107,23 @@ class User {
    }
 
    /**
+    * set user as paid
+    *
+    * @param: (int) user_id
+    * @return: (bool) true on success
+    */
+   public function setPaid($user_id) {
+      try {
+         $n = $this->db->update(TBL_USER, array('paid' => 1), "user_id = $user_id");
+         return true;
+      } catch (Exception $e) {
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($message, Zend_Log::ERR);
+         return false;
+      }
+   }
+
+   /**
     * send an email to user
     *
     * @param: (string) message

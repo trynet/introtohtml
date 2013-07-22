@@ -74,6 +74,10 @@ $authNamespace = new Zend_Session_Namespace('Zend_Auth');
 $user_id = $authNamespace->storage['user_id'];
 define('USER_ID', $user_id);
 
+//echo '<pre>'; print_r($_SESSION); echo '</pre>';
+//echo '<pre>'; print_r($_REQUEST); echo '</pre>';
+//echo '<pre>'; print_r($_SERVER); echo '</pre>';
+
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php')
    header('Location: login.php');
    

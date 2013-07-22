@@ -9,7 +9,8 @@ $home_links = array(
 	"index.html:Home Room",         # Home Room
 	"frontoffice:Front Office",     # Front Office
 	"code_tester.html:Code Tester", # Code Tester
-	"workspace:Work Space" );       # Work Space
+	"workspace:Work Space",         # Work Space
+   "logout.php:Log Out");
 		
 ?>
 <header>

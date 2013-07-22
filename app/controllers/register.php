@@ -2,7 +2,7 @@
 /*-----------------------------------------------------------
 register controller
 
-Auther: Gbenga Ojo <service@lucidmediaconcepts.com?
+Author: Gbenga Ojo <service@lucidmediaconcepts.com?
 Origin Date: July 21, 2013
 Modified: July 21, 2013
 ------------------------------------------------------------*/
