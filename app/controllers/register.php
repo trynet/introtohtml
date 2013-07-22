@@ -35,5 +35,8 @@ if (is_null($_POST['submit'])) {
                  'tos'       => $tos);
 
    $result = $registrationObj->registerUser($data, USER_ID);
-   header('Location: http://www.paypal.com');
+   // todo: get promo and usertype and fee
+
+   // header('Location: http://www.paypal.com');
+   header('Location: /paypal.php');
 }
