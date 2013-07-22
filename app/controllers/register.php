@@ -42,6 +42,7 @@ if (is_null($_POST['submit'])) {
       $registrationObj->updateUserType($promocode['usertype_id'], USER_ID);
    }
 
-   header('Location: /app/controllers/success.php');
-   //header('Location: /paypal.php');
+   $params = "u=" . $promocode['usertype_id'];
+   // header('Location: /app/controllers/success.php');
+   header('Location: /paypal.php?' . $params);
 }
