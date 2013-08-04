@@ -88,4 +88,3 @@ define('USER_ID', $user_id);
 
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php')
    header('Location: login.php');
-   

@@ -14,6 +14,12 @@ $current_lesson   = $authNamespace->progress['current_lesson'];
 $current_lab      = $authNamespace->progress['current_lab'];
 $current_appendix = $authNamespace->progress['current_appendix'];
 
+
+// if user is at end of lab 1, redirect to subscribe
+if ($current_lab == 1) {
+   header('Location: /subscription.php');
+}
+
 // if user is at end of lab 2, redirect to registration
 if ($current_lab == 2) {
    header('Location: /register.php');

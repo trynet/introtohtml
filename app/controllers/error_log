@@ -175,3 +175,22 @@ Stack trace:
 #7 {main}
 
 Next exception 'Zend_Db_Statement_Exception' with message  in /home1/joyofcod/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2013 13:16:59] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(73): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcodce....', '5f4dcc3b5aa765d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[28-Jul-2013 01:53:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:19) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 20
+[28-Jul-2013 01:56:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:19) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 20
+[28-Jul-2013 01:57:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:19) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 20
+[28-Jul-2013 01:59:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:20) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 21
+[28-Jul-2013 02:01:43] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:20) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 21
+[28-Jul-2013 02:06:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:19) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 21
+[28-Jul-2013 02:08:43] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:19) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 21
+[28-Jul-2013 02:09:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:19) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 21
+[28-Jul-2013 02:09:26] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:19) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 21
+[28-Jul-2013 02:09:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:19) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 21
+[28-Jul-2013 02:10:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:19) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 21

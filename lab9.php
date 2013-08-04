@@ -132,8 +132,7 @@ building structure to your web pages.</p>
   different for each file. Here's a a table to let you know where the closing
   <code>&lt;/section&gt;</code> tag for the main content goes.</p>
 <p>As you are closing the main content section go ahead and add <code>&lt;aside&gt;</code> right
-  after <code>&lt;/section&gt;</code>. The aside area ends just above <code>&lt;/footer&gt;</code> so
-  don't forget to add <code>&lt;/aside&gt;</code>.</p>
+  after <code>&lt;/section&gt;</code>. The aside area ends just above <code>&lt;footer&gt;</code> . And don't forget to close with <code>&lt;/aside&gt;</code>.</p>
 <table width="100%" border="0">
   <tr>
     <th scope="col">File Name</th>
