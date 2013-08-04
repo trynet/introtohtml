@@ -3,10 +3,14 @@
 User class
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: July 21, 2013
+Modifed: August 4, 2013
 
 int addUser(array)
 void authenticateUser(string, string)
+string getDirectory(int)
+mixed getField(int, string)
+string getDirectory(int)
+bool setPaid(int)
 bool email(string, int)
 ------------------------------------------------------------*/
 
@@ -59,6 +63,19 @@ class User {
          $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
          return false;
       }
+   }
+
+   /**
+    * get the user's directory
+    *
+    * @param: (int) user_id
+    * @return: (string) directory
+    */
+   public function getDirectory($user_id) {
+      $email = $this->getField($user_id, 'email');
+      $dir = str_replace(array('@', '.'), '_', $email);
+
+      return UPLOAD_DIR . '/' . $dir;
    }
 
    /**

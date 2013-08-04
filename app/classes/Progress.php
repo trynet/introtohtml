@@ -3,7 +3,11 @@
 Progress class
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: July 3, 2013
+Modifed: August 4, 2013
+
+construct
+array getProgress(int)
+bool setProgress(int, array)
 ------------------------------------------------------------*/
 
 require_once 'config/config.php';

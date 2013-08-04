@@ -3,16 +3,16 @@
 # php_value include_path ".:/usr/lib64/php:/usr/lib/php:/usr/share/pear:/home1/joyofcod/public_html/_dev_intro/app"
 
 RewriteEngine on
-AuthName "intro"
-AuthUserFile "/home1/joyofcod/public_html/intro/passwd/.htpasswd"
-AuthType Basic
+#AuthName "intro"
+#AuthUserFile "/home1/joyofcod/public_html/intro/passwd/.htpasswd"
+#AuthType Basic
 #require valid-user
 AddHandler server-parsed .html .htm
 
 <Limit POST GET>
 order deny,allow
 allow from all
-require valid-user
+#require valid-user
 </Limit>
 
 #what on earth is this here for?

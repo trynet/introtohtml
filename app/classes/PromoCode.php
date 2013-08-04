@@ -3,9 +3,11 @@
 Promotional code class
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 21, 2013
-Modified: July 21, 2013
+Modified: August 4, 2013
 
 construct
+array isValid(string)
+array getPromoCode(string)
 ------------------------------------------------------------*/
 
 require_once 'config/config.php';

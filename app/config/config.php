@@ -31,6 +31,7 @@ define('TBL_PROGRESS', 'progress');
 // paths
 define('PATH', '/home1/joyofcod');
 define('APPLICATION_PATH', PATH . '/public_html/_dev_intro/app');
+define('UPLOAD_DIR', APPLICATION_PATH . '/../workspace');
 
 set_include_path(get_include_path() . PATH_SEPARATOR . PATH .
                      PATH_SEPARATOR . APPLICATION_PATH);

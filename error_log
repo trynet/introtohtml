@@ -132,3 +132,12 @@ Stack trace:
 [22-Jul-2013 11:35:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/config/config.php:77) in /home1/joyofcod/public_html/_dev_intro/app/controllers/schedule.php on line 25
 [22-Jul-2013 11:36:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/config/config.php:77) in /home1/joyofcod/public_html/_dev_intro/app/controllers/schedule.php on line 25
 [22-Jul-2013 11:37:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/config/config.php:77) in /home1/joyofcod/public_html/_dev_intro/app/controllers/schedule.php on line 25
+
+
+
+******************************
+******************************
+******************************
+******************************
+******************************
+******************************
