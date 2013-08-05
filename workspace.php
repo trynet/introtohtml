@@ -36,7 +36,8 @@
             on using Work Space.</p>
 
             <!-- upload form -->
-            <form name="" enctyp="multipart/form-data" method="post" action="">
+            <form name="" enctype="multipart/form-data" method="post" action="app/controllers/workspace.php">
+               <input type="hidden" name="action" value="uploadfile" />
                <p><b>Step 1</b> Locate the file from your computer that you want to upload
                to your workspace.</p>
                <input type="file" name="fileupload" />
@@ -52,7 +53,8 @@
 
 
             <!-- file admin -->
-            <form name="" enctype="multipart/form-data" method="post" action="">
+            <form name="" enctype="multipart/form-data" method="post" action="app/controllers/workspace.php">
+               <input type="hidden" name="action" value="adminfile" />
                <table width="80%" cellspacing="0" cellpadding="5" align="center">
                   <tr>
                      <th class="cellbottom">Delete</th>
@@ -63,7 +65,13 @@
                      <th class="cellbottom">File Size</th>
                      <th class="cellbottom">Date Uploaded</th>
                   </tr>
-
+                  <tr valign="top">
+                     <td align="right"></td>
+                     <td align="" colspan="4">
+                        <img width="22" border="0" height="22" src="images/dir.gif" />
+                        <a href="">images</a>
+                     </td>
+                  </tr>
                   <?php ?>
                </table> 
             </form>

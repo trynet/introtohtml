@@ -7,4 +7,12 @@ Modified: August 4, 2013
 ------------------------------------------------------------*/
 require_once '../config/config.php';
 
-$action =  htmlspecialchars('action');
+$action =  htmlspecialchars($_POST['action']);
+
+$workspaceObj = new Workspace();
+$n = $workspaceObj->uploadFile($user_id, $_FILES);
+
+if (!$n)
+   echo "<br>error";
+else
+   echo "<br>success";
