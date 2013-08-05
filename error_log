@@ -141,3 +141,12 @@ Stack trace:
 ******************************
 ******************************
 ******************************
+[05-Aug-2013 05:48:33] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Session must be started before any output has been sent to the browser; output started in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php/10' in /home1/joyofcod/Zend/Session.php:451
+Stack trace:
+#0 /home1/joyofcod/Zend/Session/Namespace.php(143): Zend_Session::start(true)
+#1 /home1/joyofcod/public_html/_dev_intro/app/config/config.php(83): Zend_Session_Namespace->__construct('Zend_Auth')
+#2 /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php(15): require_once('/home1/joyofcod...')
+#3 /home1/joyofcod/public_html/_dev_intro/register.php(1): require_once('/home1/joyofcod...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Session.php on line 451
+[05-Aug-2013 06:06:03] PHP Fatal error:  Class 'User' not found in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 10
