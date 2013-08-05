@@ -1,3 +1,4 @@
+<?php $email = $_GET['email'] ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,8 +8,8 @@
 
 <body>
    <center>
-   <form name="login" action="app/controllers/login.php">
-   username: <input type="text" name="username" /><br />
+   <form name="login" action="app/controllers/login.php" method="post">
+   username: <input type="text" name="username" value="<?php echo $email ?>" /><br />
    password: <input type="password" name="password" /><br />
    <input type="submit" name="submit" value="submit" />
    </form>

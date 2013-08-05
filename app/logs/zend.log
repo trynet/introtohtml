@@ -219,3 +219,59 @@ Array
 
 )
 
+2013-08-04 21:45:20 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'no@email4.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => Gbenga
+            [1] => no@email4.com
+            [2] => 5f4dcc3b5aa765d61d8327deb882cf99
+            [3] => iced tea cubes
+        )
+
+)
+
+2013-08-04 21:49:06 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'no@email4.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => Gbenga
+            [1] => no@email4.com
+            [2] => 5f4dcc3b5aa765d61d8327deb882cf99
+            [3] => cocoa
+        )
+
+)
+
+2013-08-04 21:49:42 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'no@email4.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => Gbenga
+            [1] => no@email4.com
+            [2] => 5f4dcc3b5aa765d61d8327deb882cf99
+            [3] => cocoa
+        )
+
+)
+
+2013-08-04 21:49:52 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'no@email4.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => Gbenga
+            [1] => no@email4.com
+            [2] => 5f4dcc3b5aa765d61d8327deb882cf99
+            [3] => cocoa
+        )
+
+)
+
