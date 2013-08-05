@@ -33,10 +33,6 @@
             <td><input type="checkbox" name="subscribe" value="<?php echo '' ?>" /></td>
          </tr>
          <tr>
-            <td>Promo Code:</td>
-            <td><input type="text" name="promo" value="<?php echo '' ?>" /></td>
-         </tr>
-         <tr>
             <td>Accept TOS?</td>
             <td><input type="checkbox" name="tos" value="<?php echo '' ?>" /></td>
          </tr>

@@ -275,3 +275,31 @@ Array
 
 )
 
+2013-08-05 05:29:54 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'john@john.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => John
+            [1] => john@john.com
+            [2] => 5f4dcc3b5aa765d61d8327deb882cf99
+            [3] => p123
+        )
+
+)
+
+2013-08-05 05:30:54 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'john@john.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => John
+            [1] => john@john.com
+            [2] => 5f4dcc3b5aa765d61d8327deb882cf99
+            [3] => p123
+        )
+
+)
+

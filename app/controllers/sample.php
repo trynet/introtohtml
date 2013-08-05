@@ -28,5 +28,13 @@ if ($user_id) { // registration and subsequent login OK
    // persist
    $authNamespace = new Zend_Session_Namespace('Zend_Auth');
    $authNamespace->logged_in = true;
+
+   // promotional code
+   $promocodeObj = new PromoCode();
+   $registrationObj = new Registration();
+
+   $promocode = $promocodeObj->getPromoCode($promotional_code);
+   $registrationObj->updateUserType($promocode['usertype_id'], $user_id);   
+
    header('Location: http://dev.introtohtml.net/login.php?email=' . $username);
 }
