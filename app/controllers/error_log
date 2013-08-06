@@ -240,3 +240,5 @@ Stack trace:
 #3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '1f79e1afb4bec4d...')
 #4 {main}
   thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[06-Aug-2013 16:10:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:25) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 29
+------------------------------

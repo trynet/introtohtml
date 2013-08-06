@@ -25,16 +25,19 @@ $progress = $authNamespace->progress;
 // if user is at end of lab 1, redirect to subscribe
 if ($current_lab == 1 && USERTYPE != USER_FIT) {
    header('Location: /subscription.php');
+   exit();
 }
 
 // if user is at end of lab 2, redirect to registration
 if ($current_lab == 2 && USERTYPE != USER_FIT) {
    header('Location: /register.php');
+   exit();
 }
 
 // if user is a FIT user and we're at lesson 7
 if (USERTYPE == USER_FIT && $current_lab == 7) {
    header('Location: /paypal.php?u=' . USER_FIT);
+   exit();
 }
 
 $progressObj = new Progress();
