@@ -83,6 +83,7 @@ Zend_Registry::set('logger', $logger);
 $authNamespace = new Zend_Session_Namespace('Zend_Auth');
 $user_id = $authNamespace->storage['user_id'];
 define('USER_ID', $user_id);
+define('USERTYPE', $authNamespace->storage['usertype']);
 
 //echo '<pre>'; print_r($_SESSION); echo '</pre>';
 //echo '<pre>'; print_r($_REQUEST); echo '</pre>';

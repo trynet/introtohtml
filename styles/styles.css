@@ -594,8 +594,15 @@ div#social ul
 width:250px;
 margin:0 39px;}
 
+.book_section
+{padding-top:20px;}
 
-/* =====  code stylinh  ======   */
+.book_description
+{width:75%;
+float:right;}
+
+
+/* =====  code styles  ======   */
 
 code 
 {background: #FFFF9B;

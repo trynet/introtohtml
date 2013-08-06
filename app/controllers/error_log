@@ -231,3 +231,12 @@ Stack trace:
 [05-Aug-2013 05:29:04] PHP Fatal error:  Call to a member function getPromoCode() on a non-object in /home1/joyofcod/public_html/_dev_intro/app/controllers/sample.php on line 36
 [05-Aug-2013 06:05:07] PHP Fatal error:  Call to a member function getField() on a non-object in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 40
 [05-Aug-2013 06:05:10] PHP Fatal error:  Call to a member function getField() on a non-object in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 40
+[05-Aug-2013 07:43:39] PHP Parse error:  syntax error, unexpected T_ELSE in /home1/joyofcod/public_html/_dev_intro/app/controllers/success.php on line 44
+[05-Aug-2013 16:43:21] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '1f79e1afb4bec4d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147

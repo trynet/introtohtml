@@ -4,7 +4,7 @@ successful payment made (controller)
 
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 22, 2013
-Modified: July 22, 2013
+Modified: August 5, 2013
 ------------------------------------------------------------*/
 require_once '../config/config.php';
 
@@ -20,6 +20,27 @@ if ($success) {
    // update paid status
    $userObj = new User();
    $userObj->setPaid(USER_ID);
+
+   // send auto-response email
+   switch (USERTYPE) {
+      case USER_DISCOUNT :
+
+      break;
+
+      case USER_FREE :
+
+      break;
+
+      case USER_FIT :
+
+      break;
+
+      case USER_STANDARD :
+      default :
+
+      break;
+   }
+
 } else {
 
 }

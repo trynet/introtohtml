@@ -459,3 +459,10 @@
 [06-Jun-2013 16:00:56] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/intro/frontoffice/change_schedule.php on line 138
 [06-Jun-2013 16:12:19] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/intro/frontoffice/change_schedule.php on line 138
 [10-Jun-2013 12:37:23] PHP Notice:  Undefined offset:  9 in /home1/joyofcod/public_html/intro/frontoffice/change_schedule.php on line 138
+[05-Aug-2013 18:34:44] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3
+[05-Aug-2013 19:45:01] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3
+[05-Aug-2013 19:47:40] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3
+[05-Aug-2013 19:51:10] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3
+[05-Aug-2013 19:52:07] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3
+[05-Aug-2013 19:54:04] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3
+[06-Aug-2013 05:15:36] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3

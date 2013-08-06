@@ -86,7 +86,7 @@ include("../includes/header.php");
 
 
 <p>Your first assignment is to read through everything in the Front Office. Then
-  you'll be ready for Chapter 1 - The Basics which you can access through the
+  you'll be ready for Lesson 1 - The Basics which you can access through the
   Home Room. </p>
 <p>So sit back, relax and enjoy. If all goes well, you're going to learn a lot
   and have some fun in the process. If you have any question about anything,

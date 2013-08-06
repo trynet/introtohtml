@@ -150,3 +150,6 @@ Stack trace:
 #4 {main}
   thrown in /home1/joyofcod/Zend/Session.php on line 451
 [05-Aug-2013 06:06:03] PHP Fatal error:  Class 'User' not found in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 10
+[05-Aug-2013 07:58:26] PHP Notice:  Undefined variable: progress in /home1/joyofcod/public_html/_dev_intro/index.php on line 46
+[05-Aug-2013 07:58:28] PHP Notice:  Undefined variable: progress in /home1/joyofcod/public_html/_dev_intro/index.php on line 46
+[05-Aug-2013 07:58:32] PHP Notice:  Undefined variable: progress in /home1/joyofcod/public_html/_dev_intro/index.php on line 46

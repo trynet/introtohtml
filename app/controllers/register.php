@@ -41,7 +41,7 @@ if (is_null($_POST['submit'])) {
       $usertype = $userObj->getField(USER_ID, 'usertype');
    }
 
-   if ($usertype == USER_FREE) {
+   if ($usertype == USER_FREE || $usertype == USER_FIT) {
       header('Location: /app/controllers/success.php');
    } else {
       $params = "u=" . $usertype;

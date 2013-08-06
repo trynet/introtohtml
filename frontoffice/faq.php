@@ -33,15 +33,15 @@ include("../includes/header.php");
 <p class="faqquestion">Does it matter what browser I use? What about
     my operating system? Does that matter? And what are you using, Friendly Web
     Design Instructor</p>
-<p>Since this class is HTML only, how pages look in a browser is not our concern
+<p>Since this class is HTML only, how pages look in a browser is <strong>irrelevant</strong>
    (but it sure does matter if you go on to learn CSS).</p>
-<p>Having said that I know that as of the moment (January 2012) IE 8 on Windows
+<p>Having said that IE 8 on Windows
   XP does not understand the tags that are new to HTML5. Many of those tags
   are explored in Lesson 9 - First Grouping. So that browser will cause a problem
   with viewing this class material but it won't cause you a problem as far as
-  your work in the Labs is concerned.</p>
+  your work in the Labs is concerned. (Newer versions of IE on all Windows versions should be just fine).</p>
 <p>Bottom  line. All current browsers will have no problem with either the class
-  itself or the practice you'll be doing in each Lab.</p>
+  material or the practice you'll be doing in each Lab.</p>
 <p>As for the operating system, it doesn't matter.</p>
 <p class="faqquestion"><strong>What's The Code Tester?</strong></p>
 <p>This is a handy little thing I invented to give you a chance to quickly try
@@ -97,11 +97,6 @@ include("../includes/header.php");
   in any way to anyone else. The TOS stipulates that you have a restricted license
   to use this class and that you do not own any of the material herein (as they
   say).</p>
-<p class="faqquestion"><strong>Is there a way to change the schedule of the class?
-    Can I speed up the pace to see and do Lessons and Labs that might be more
-    suitable for me?</strong></p>
-<p>Yes. You don't have to do one Lesson and one Lab every week. Here's
-  how to <a href="change_schedule.html">Change Your Schedule</a>.</p>
 
 
 

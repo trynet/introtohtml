@@ -3,7 +3,7 @@
 Schedule
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modified: July 3, 2013
+Modified: August 5, 2013
 
 Executes at the beginning of each lesson to determine which
 ones area are active.
@@ -18,8 +18,4 @@ $lessons    = $lessonObj->getLessons();
 $labs       = $labObj->getLabs();
 $appendices = $appendixObj->getAppendices();
 
-
 $progress = $authNamespace->progress;
-// fixme: this redirect belongs somewhere else
-if ($progress['current_lab'] == 3)
-   header('Location: /register.php');

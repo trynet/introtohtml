@@ -303,3 +303,24 @@ Array
 
 )
 
+2013-08-05 07:51:17 INFO (6): progress.php: usertype - 5
+current lab - 1
+2013-08-05 07:51:38 INFO (6): progress.php: usertype - 5 current lab - 2
+2013-08-05 07:53:06 INFO (6): progress.php: usertype - 5 current lab - 4 USER_FIT - 5
+2013-08-05 07:54:00 INFO (6): progress.php: usertype - 5 current lab - 5 USER_FIT - 5
+2013-08-05 07:54:08 INFO (6): progress.php: usertype - 5 current lab - 6 USER_FIT - 5
+2013-08-05 07:55:00 INFO (6): progress.php: usertype - 5 current lab - 1 USER_FIT - 5
+2013-08-05 07:55:28 INFO (6): progress.php: usertype - 5 current lab - 2 USER_FIT - 5
+2013-08-05 08:00:36 INFO (6): progress.php: usertype - 5 current lab - 1 USER_FIT - 5
+2013-08-05 08:00:53 INFO (6): progress.php: usertype - 5 current lab - 2 USER_FIT - 5
+2013-08-05 08:01:03 INFO (6): progress.php: usertype - 5 current lab - 3 USER_FIT - 5
+2013-08-05 08:01:07 INFO (6): progress.php: usertype - 5 current lab - 4 USER_FIT - 5
+2013-08-05 08:01:14 INFO (6): progress.php: usertype - 5 current lab - 5 USER_FIT - 5
+2013-08-05 08:01:18 INFO (6): progress.php: usertype - 5 current lab - 6 USER_FIT - 5
+2013-08-05 08:01:34 INFO (6): progress.php: usertype - 5 current lab - 7 USER_FIT - 5
+2013-08-05 08:01:41 INFO (6): progress.php: usertype - 5 current lab - 8 USER_FIT - 5
+2013-08-06 15:57:35 INFO (6): progress.php: usertype - 5 current lab - 1 USER_FIT - 5
+2013-08-06 15:57:44 INFO (6): progress.php: usertype - 5 current lab - 2 USER_FIT - 5
+2013-08-06 15:57:53 INFO (6): progress.php: usertype - 5 current lab - 3 USER_FIT - 5
+2013-08-06 15:58:12 INFO (6): progress.php: usertype - 3 current lab - 1 USER_FIT - 5
+2013-08-06 15:58:21 INFO (6): progress.php: usertype - 3 current lab - 2 USER_FIT - 5

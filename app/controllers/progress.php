@@ -3,7 +3,7 @@
 progress.php
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: July 3, 2013
+Modifed: August 5, 2013
 
 determine progression state after lab completion
 ------------------------------------------------------------*/
@@ -14,15 +14,27 @@ $current_lesson   = $authNamespace->progress['current_lesson'];
 $current_lab      = $authNamespace->progress['current_lab'];
 $current_appendix = $authNamespace->progress['current_appendix'];
 
+$message = "progress.php: usertype - " . USERTYPE .
+           " current lab - $current_lab" .
+           " USER_FIT - " . USER_FIT;
+$logger->log($message, Zend_Log::INFO);
+
+$progressObj = new Progress();
+$progress = $authNamespace->progress;
 
 // if user is at end of lab 1, redirect to subscribe
-if ($current_lab == 1) {
+if ($current_lab == 1 && USERTYPE != USER_FIT) {
    header('Location: /subscription.php');
 }
 
 // if user is at end of lab 2, redirect to registration
-if ($current_lab == 2) {
+if ($current_lab == 2 && USERTYPE != USER_FIT) {
    header('Location: /register.php');
+}
+
+// if user is a FIT user and we're at lesson 7
+if (USERTYPE == USER_FIT && $current_lab == 7) {
+   header('Location: /paypal.php?u=' . USER_FIT);
 }
 
 $progressObj = new Progress();
@@ -42,5 +54,3 @@ if ($proceed == 1) {
 
 $progressObj->setProgress($user_id, $data);
 header('Location: /index.php');
-
-echo '<pre>'; print_r($_SESSION);

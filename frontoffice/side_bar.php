@@ -36,30 +36,9 @@
 			else // not 'say_hello', so display link
 				echo '<li><a href="learning_css.html">Learning CSS</a></li>';
 
-		// if the current page is 'say_hello', then deisplay without link
-         if ( basename($_SERVER['REQUEST_URI']) == 'say_hello.html' || basename($_SERVER['REQUEST_URI']) == 'say_hello.php' )
-				echo '<li><strong>Say Hello</strong></li>';
-			else // not 'say_hello', so display link
-				echo '<li><a href="say_hello.html">Say Hello</a></li>';
-
-		// if the current page is 'schedule', then deisplay without link
-         if ( basename($_SERVER['REQUEST_URI']) == 'schedule.html' || basename($_SERVER['REQUEST_URI']) == 'schedule.php' )
-				echo '<li><strong>Schedule</strong></li>';
-			else // not 'schedule', so display link
-				echo '<li><a href="schedule.html">Schedule</a></li>';
-
-		// if the current page is 'change_schedule', then deisplay without link
-         if ( basename($_SERVER['REQUEST_URI']) == 'change_schedule.html' || basename($_SERVER['REQUEST_URI']) == 'change_schedule.php' )
-				echo '<li><strong>Change Your Schedule</strong></li>';
-			else // not 'schedule', so display link
-				echo '<li><a href="change_schedule.html">Change Your Schedule</a></li>';
 
 
-		// if the current page is 'overtime', then deisplay without link
-         if ( basename($_SERVER['REQUEST_URI']) == 'overtime.html' || basename($_SERVER['REQUEST_URI']) == 'overtime.php' )
-				echo '<li><strong>Overtime</strong></li>';
-			else // not 'schedule', so display link
-				echo '<li><a href="overtime.html">Overtime</a></li>';
+
 
 
 		// if the current page is 'faq', then deisplay without link
