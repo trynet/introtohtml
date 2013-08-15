@@ -17,8 +17,21 @@ $home_links = array(
 
 <img src="/images/header.png"  alt="Joy Of Code Intro To HTML" />
 
+<!-- 
 <nav>
-<ul>
+<ul class="nav nav-pills">
+
+ <li class="active"><a href="/index.html"><i class="icon-home"></i>Home Room</a></li>
+<li><a href="/frontoffice"><i class="icon-info-sign"></i>Front Office</a></li>
+<li><a href="/code_tester.html"><i class="icon-pencil"></i>Code Tester</a></li>
+<li><a href="/workspace"><i class="icon-cog"></i>Work Space</a></li>
+<li><a href="/logout.php"><i class="icon-off"></i>Sign Out</a></li>
+
+</ul>
+</nav> -->
+
+<nav>
+<ul> 
 
 <?php 
 $thisdoc = $_SERVER['PHP_SELF'];
@@ -36,10 +49,10 @@ foreach( $home_links as $link )
 		echo "<a href=\"/{$splitLink[0]}\">{$splitLink[1]}</a>";
 	}
 	echo "</li>\n";
-}
+} 
 ?>
 
-</ul>
-</nav>
+ </ul>
+</nav> 
 
 </header>

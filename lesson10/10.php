@@ -25,9 +25,9 @@
 <section id="main">
 
 
- <h1>Lesson 10: A Look At CSS</h1>
+ <h1 class="page-header">Lesson 10: A Look At CSS</h1>
  
-<p class="introduction"> Way back in the first Lesson, I told you about the separation of structure from style.   That's all about the roles that HTML and CSS play in web page design.  </p>
+<p class="introduction lead"> Way back in the first Lesson, I told you about the separation of structure from style.   That's all about the roles that HTML and CSS play in web page design.  </p>
 
 <p>HTML, as you surely must know by now, has the responsibility of web document
   structure, giving meaning to content through the use of the tags. It is the
@@ -51,11 +51,11 @@
 
 <p id="learn">In this lesson we'll go over:</p>
 
-	<ul id="highlights">
-     <li>How CSS Works</li>
-<li>How CSS Attaches To HTML</li>
-<li>Five  Things I'm Dying To Tell You About CSS</li>
-<li>In My Garden: All Dressed Up With CSS and Ready To Go</li>
+	<ul class="nav">
+     <li><i class="icon-ok PadRight5"></i>How CSS Works</li>
+<li><i class="icon-ok PadRight5"></i>How CSS Attaches To HTML</li>
+<li><i class="icon-ok PadRight5"></i>Five  Things I'm Dying To Tell You About CSS</li>
+<li><i class="icon-ok PadRight5"></i>In My Garden: All Dressed Up With CSS and Ready To Go</li>
 
     
     

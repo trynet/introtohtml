@@ -25,9 +25,9 @@
 <section id="main">
 
 
- <h1>Lesson 9: Grouping Elements</h1>
+ <h1 class="page-header">Lesson 9: Grouping Elements</h1>
 
-<p class="introduction">Truth be told you've been using HTML elements to group content all along. While this lesson will show you many new grouping elements, the idea should be nothing new to you.</p>
+<p class="introduction lead">Truth be told you've been using HTML elements to group content all along. While this lesson will show you many new grouping elements, the idea should be nothing new to you.</p>
 
 <p>Grouping is what fortifies the structure of your web docs. You saw a little
   of that in the last lesson when I showed you thead, tbody and tfoot. You've
@@ -50,11 +50,14 @@
 
 <p id="learn">In this lesson we'll go over:</p>
 
-	<ul id="highlights">
-     <li>General Grouping Tags</li>
-<li>What About div And Span?</li>
-<li>Form Group Tags</li>
-<li>Data Table  Grouping Tags</li>
+	<ul class="nav">
+     <li><i class="icon-ok PadRight5"></i>General Grouping Tags</li>
+<li><i class="icon-ok PadRight5"></i>What About div And span?</li>
+<li><i class="icon-ok PadRight5"></i>Form Group Tags</li>
+<li><i class="icon-ok PadRight5"></i>Data Table  Grouping Tags</li>
+</ul>
+
+<p>When you add these new elements to your pages in the Lab, please take note of the HTML outlines I did for all five pages.  There you will see the sequencing of the tags which is most important for understanding the nature of your web documents and for working effectively with CSS.</p>
 
     
     

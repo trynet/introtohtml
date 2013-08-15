@@ -25,11 +25,11 @@
 <section id="main">
 
 
-<H1>Lesson 3: Lists</h1>
+<H1 class="page-header">Lesson 3: Lists</h1>
 
 
 
-<p class="introduction">List markup is a  tried and true way of presenting
+<p class="introduction lead">List markup is a  tried and true way of presenting
 
     structured information to a web visitor.</p>
 
@@ -72,20 +72,26 @@ how HTML works and how to create great page structure.</p>
 		<p id="learn">In this lesson you'll learn about:</p>
         
         
-<ul id="highlights">
+<ul class="nav">
      
-<li>Unordered Lists</li>
+<li><i class="icon-ok PadRight5"></i>Unordered Lists</li>
      
-<li> Ordered Lists</li>
+<li><i class="icon-ok PadRight5"></i>Ordered Lists</li>
 
-<li>Definition Lists</li>
+<li><i class="icon-ok PadRight5"></i>Definition Lists</li>
      
-<li>Nesting Lists</li>
+<li><i class="icon-ok PadRight5"></i>Nesting Lists</li>
 </ul>
+
+<p>You can practice Lists either with the Code Tester or by making a new file.
+  If you do it the latter way, make sure to include in your file the DOCTYPE
+Statement and the required tags you learned in Lesson 1. </p>
+
+
 <p>And, as with all Lessons, there's a Lab. It's called &quot;First Lists.&quot; This
-  time around, you'll be building on Lab 2's file, index.html, where you did
-  some text markup. If you had any errors in that file, make sure you've made
-  all the corrections before doing this Lab so you don't carry over any goofs.
+  time around, you'll be building on Lab 2's five files where you did
+  some basic text markup. If you had any errors in those files, make sure you've made
+  all the corrections before doing this Lab so you don't carry forward any goofs.
   Makes sense?</p>
 
 <p id="cute_line">List Get To It!!</p>

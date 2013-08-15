@@ -16,7 +16,8 @@ bool email(string, int)
 
 require_once 'config/config.php';
 
-class User {
+class User
+{
    private $db;
 
    protected $user_id;

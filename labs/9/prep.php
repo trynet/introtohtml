@@ -27,7 +27,7 @@
 
 <section id="main_content">
 
-<h1><a name="start"></a>Preparation</h1>
+<h1 id="start">Preparation</h1>
 
 <p>If the weather permits, I usually get started in late March. I don't plant early crops although one year I tried broccoli without a good result. </p>
 

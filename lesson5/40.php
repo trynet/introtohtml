@@ -35,13 +35,8 @@
 
 <p>Pointing to a target on the same page is a lot like what you just read but
 it's simpler. This time only one file is involved.</p>
-<p>This technique has been used in the time honored <a href="http://www.joyofcode.com/online-web-design-classes/introduction-to-xhtml-and-css-online-class/faq">Frequently
-    Asked Questions 
-</a>
-   page that I did for my Joy Of Code site. A question is asked at the top of
-  the page and answered somewhere below. Of course, it doesn't have to be a
-  Q and A page to make the target work.</p>
-<p>Here's one of the questions from my FAQ page:</p>
+<p>You've seen this technique use in something like the time honored Frequently Asked Questions page that I once did for my Joy Of Code site. A question is asked at the top of the page and answered some where below. Of course, it doesn't have to be a Q and A page to make the target work.</p>
+<p>Here's one of the questions from my now retired FAQ page:</p>
 
 <p class="exs">Example of a Link To A Target on a Different Page</p>
 
@@ -80,7 +75,7 @@ it's simpler. This time only one file is involved.</p>
 
 
           
-<p><code>&lt;p&gt;&lt;a name=&quot;print&quot;&gt;&lt;/a&gt;&lt;strong&gt;</code>Can I print
+<p><code>&lt;p id=&quot;print&quot;&gt;&lt;strong&gt;</code>Can I print
 course material?<code>&lt;/strong&gt;&lt;/p&gt;</code></p>
 <p><code>&lt;p&gt;</code>You have permission to print the material if you find that a hard
   copy is easier or more convenient for you to review. But my class is licensed
@@ -91,16 +86,16 @@ course material?<code>&lt;/strong&gt;&lt;/p&gt;</code></p>
 
 
 
-<p><a name="print"></a><strong>Can I print course material?</strong></p>
+<p id="print"><strong>Can I print course material?</strong></p>
 
 <p>You have permission to print the material if you find that a hard copy is easier or more convenient for you to review. But my class is licensed to you and you alone, and no other copies, in any format or media, are allowed.</p>
 
 <p>More about that in the Terms Of Service to which you must agree and abide by in order to take this class.</p>
 
+<hr/>
 
-<p>Again, there is nothing noticeable in the page - the target container <code>&lt;a
 
-          name="print"&gt;</code><code>&lt;/a&gt;</code> is invisible to the
+<p>Again, there is nothing noticeable in the page - the target container <code>id="print&quot;&gt;</code> is invisible to the
           browser view. </p>
 
 

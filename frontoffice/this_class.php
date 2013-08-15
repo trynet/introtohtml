@@ -27,7 +27,7 @@ include("../includes/header.php");
 <section id="main">
 
 
-<h1>About This Class</h1>
+<h1>A Little History About This Class</h1>
 
 <p>What you are learning here is from an evolution that began in 1999. This is really the third iteration of this class.</p> 
 

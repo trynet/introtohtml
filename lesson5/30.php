@@ -56,7 +56,7 @@ this page:</p>
 
 
           
-<p><code>&lt;a href="10.html#top"&gt;</code>See Lesson 5: Links<code>&lt;/a&gt;</code></p>
+<p><code>&lt;a href="10.html#lead"&gt;</code>See Lesson 5: Links<code>&lt;/a&gt;</code></p>
 
 
 
@@ -64,7 +64,7 @@ this page:</p>
 
 <p class="views2">Browser View</p>
 
-<a href="10.html#top">See Lesson 5: Links</a>
+<a href="10.html#lead">See Lesson 5: Links</a>
 
 
 <p>That takes care of part one, but there's a second file we have to work on,
@@ -81,7 +81,7 @@ this page:</p>
         
 
           
-<p><code>&lt;H1&gt;&lt;a name=&quot;top&quot;&gt;&lt;/a&gt;</code>Lesson 5: Links<code>&lt;/h1&gt;</code></p>
+<p><code>&lt;H1 id=&quot;lead&quot;&gt;</code>Lesson 5: Links<code>&lt;/h1&gt;</code></p>
 
 
 
@@ -90,14 +90,12 @@ this page:</p>
 <p class="views2">Browser View</p>
 
 
-<div style="background:black;color:white;width:500px; height:500px;">
-
-Video to go here demonstrating how targeted links work and why it may not work
-on these pages.</div>
+<h1 id="top">Lesson 5: Links</h1>
 
 
 
-   <ol>
+
+<ol>
 		  
 		  <li>
 There is no Browser View to show you because you don't see the target
@@ -106,9 +104,7 @@ you would see a link. You just see the result which is taking the user to the ta
 
 <li>
 
-The <code>&lt;a name="top"&gt;</code><code>&lt;/a&gt;</code>
-
-                  container is invisible to the user. But when we select the
+The <code>id=&quot;lead&quot; </code> coding is invisible to the user. But when we select the
 
                   link "Lesson 5: Links,<code></code>" we will be taken
 
@@ -116,18 +112,18 @@ The <code>&lt;a name="top"&gt;</code><code>&lt;/a&gt;</code>
 </li>
 
                 <li>
-Notice name's value "top" is also part of the href 
+Notice the attribute id's value "lead" is also part of the href 
 
-                  value in <code>"href=10.html#top"</code> 
+                  value in <code>"href=10.html#lead"</code> 
 
                   in the 10.html file.
 </li>       
 			   
 			    <li>
-The value "top" is arbitrary, but I always try to pick a word
+The value "lead" is arbitrary, but I always try to pick a word
 
-                  that has relevance to the target. In this case &quot;top&quot; was used
-because it's near the top of the landing page.</li>
+                  that has relevance to the target. In this case &quot;lead&quot; was used
+because it's the  lead heading of the landing page.</li>
 
 			    
 <li>Do not forget to use the <code>#</code> sign has I have used here (in the link that the user clicks). If you leave that out it won't work.</li>

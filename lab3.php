@@ -32,7 +32,7 @@
 
 
 <h1>Lab 3: First Lists</h1>
-<p>In this lab you'll be making Unordered and Ordered Lists. </p>
+<p>In this lab you'll be making Unordered and Ordered Lists. You're also going to get a shot with making a nested list. Good luck with that!!</p>
 <p>All of the pages
   have what will become our navigation interface (menu) at the bottom of the
   page which consists of an Unordered List. Some of the other pages will have
@@ -122,7 +122,7 @@ do at any time.</p>
   basil<br>
   rosemary<br>
   thyme<br>
-steveia <code>&lt;br /&gt;</code> (It's a sweet herb we like to put in our ice
+stevia <code>&lt;br /&gt;</code> (It's a sweet herb we like to put in our ice
 tea)</p>
 <p>Follow the pattern of open and close <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> tags
   as we did for the first 2 lists. Note

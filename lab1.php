@@ -37,13 +37,13 @@
     World&quot; page. (We get to the meat and potatoes of Joy
     
 
-    Of Code in the next Lesson.) If what you're about to do seems pretty easy,
+    Of Code:Intro To HTML in the next Lesson.) If what you're about to do seems pretty easy,
     that's fine. 
 
     We're just going to make a very simple page and then load it to your Work
     
 
-    Space. This will be like kicking  the tires of a new car.</p>
+    Space. This will be like kicking  in the tires of a new car.</p>
 
   <p>If you don't know much about multi-tasking, please read <a href="appendix/B.html">Appendix
       
@@ -173,11 +173,11 @@ to use Notepad to edit a page and then look at that page in any web browser.</p>
         <p>For the encoding choices, make sure you choose ANSI. Other options,
           such as unicode, are not acceptable.</p>
         <p>Just to make sure, here's how the settings should look as you save
-          the file for the first time in Notepad.</p>
+        the file for the first time in Notepad.</p>
 
         <p><img src="images/notepad_settings.gif" alt="Screen Shot Of Notepad Settings" width="460" height="87" style="border:1px #660000 solid;" /></p>
-        <p>(This is getting to be a pretty old image but it still serves its
-          purpose).</p>
+        <p>(This is  a pretty ancient image but it still serves its
+        purpose).</p>
         <p>Save the file and away you go!!</p>
         <p>Now go and find the file in the new folder you created. Make sure
           you can see the .html file extension when you see the filename. If
@@ -242,7 +242,7 @@ to use Notepad to edit a page and then look at that page in any web browser.</p>
 <p>Try adding a second paragraph. You come up with
   the words. Say something
 about Joy Of Code or yourself - I don't care what you say. Just wing it.
-   Want to be brash, bold, and crazy? Give me third paragraph. </p>
+   Want to be brash, bold, and crazy? Give me a third paragraph. </p>
 <p>Just remember the Golden Rule of HTML. Every open tag must be closed!!</p>
 
 <hr/>

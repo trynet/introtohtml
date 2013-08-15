@@ -12,9 +12,9 @@
 
 			// if the current page is 'index', then deisplay without link
          if ( basename($_SERVER['REQUEST_URI']) == 'index.html' || basename($_SERVER['REQUEST_URI']) == 'index.php' )
-				echo '<li><strong>Announcements</strong></li>';
+				echo '<li><strong>How To Take This Class</strong></li>';
 			else // not 'index', so display link
-				echo '<li><a href="index.html">Announcements</a></li>';
+				echo '<li><a href="index.html">How To Take This Class</a></li>';
 			
 			// if the current page is 'welcome', then deisplay without link
          if ( basename($_SERVER['REQUEST_URI']) == 'welcome.html' || basename($_SERVER['REQUEST_URI']) == 'welcome.php' )
@@ -23,11 +23,17 @@
 				echo '<li><a href="welcome.html">Welcome</a></li>';
 
 
+		// if the current page is 'faq', then deisplay without link
+         if ( basename($_SERVER['REQUEST_URI']) == 'faq.html' || basename($_SERVER['REQUEST_URI']) == 'faq.php' )
+				echo '<li><strong>FAQ</strong></li>';
+			else // not 'schedule', so display link
+				echo '<li><a href="faq.html">FAQ</a></li>';
+				
 			// if the current page is 'this_class', then deisplay without link
          if ( basename($_SERVER['REQUEST_URI']) == 'this_class.html' || basename($_SERVER['REQUEST_URI']) == 'this_class.php' )
-				echo '<li><strong>About This Class</strong></li>';
+				echo '<li><strong>A Little History About This Class</strong></li>';
 			else // not 'say_hello', so display link
-				echo '<li><a href="this_class.html">About This Class</a></li>';
+				echo '<li><a href="this_class.html">A Little History About This Class</a></li>';
 
 
 			// if the current page is 'learning_css', then deisplay without link
@@ -41,11 +47,6 @@
 
 
 
-		// if the current page is 'faq', then deisplay without link
-         if ( basename($_SERVER['REQUEST_URI']) == 'faq.html' || basename($_SERVER['REQUEST_URI']) == 'faq.php' )
-				echo '<li><strong>FAQ</strong></li>';
-			else // not 'schedule', so display link
-				echo '<li><a href="faq.html">FAQ</a></li>';
 
 		// if the current page is 'tos', then deisplay without link
          if ( basename($_SERVER['REQUEST_URI']) == 'tos.html' || basename($_SERVER['REQUEST_URI']) == 'tos.php' )

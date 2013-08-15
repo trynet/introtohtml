@@ -26,14 +26,14 @@
 
 
 
- <h1>Lesson 6: Images And Videos</h1>
+ <h1 class="page-header">Lesson 6: Images And Videos</h1>
 
 
 
 
-<p class="introduction">Can you imagine this virtual world without imagery? A world of text 
+<p class="introduction lead">Can you imagine this virtual world without imagery? A world of text 
 
-          alone as it once was (and a few still think it should be - but that
+          alone as it once was (and a few still night think it should be - but that
   discussion is for another 
 
           day).</p>
@@ -47,29 +47,40 @@
 <p>In this lesson, you won't learn how to make or optimize imagery for the web.
   Nor will I cover topics like art direction, color theory and management, and
   the like. Learning graphical design and production is a discipline unto
-  itself and is not directly related to HTML.</p>
+  itself and is not  related to HTML.</p>
 
         <p>Rather, the approach here is to introduce you to working with simple
           
 
-          .gif and .jpg files for your web pages. </p>
+          .gif and .jpg files for your web pages.        </p>
         <p>I'll also show you just how easy it is to embed a video into a web
           page.</p>
 		
 	<p id="learn">In this lesson we'll go over:</p>
     
-	<ul id="highlights">
+	<ul class="nav">
 
-            <li>Web Image Formats</li>
-            <li>How Images Are Used In Web Design</li>
+            <li><i class="icon-ok PadRight5"></i>Web Image Formats</li>
+            <li><i class="icon-ok PadRight5"></i>How Images Are Used In Web Design</li>
 
-            <li>The img Tag</li>
+            <li><i class="icon-ok PadRight5"></i>The img Tag</li>
 
-            <li>Clickable Images</li>
-            <li>What Ever Happened To...?</li>
-            <li>Embedding Videos</li>
+            <li><i class="icon-ok PadRight5"></i>Clickable Images</li>
+            <li><i class="icon-ok PadRight5"></i>What Ever Happened To...?</li>
+            <li><i class="icon-ok PadRight5"></i>Embedding Videos</li>
 
           </ul>
+          
+          
+          <p>In Lab 6 - First Embeds, you'll be transforming your five .html files to
+  accept  embedded images. You can download all the images you will need for
+  this Lab right from the Lab itself. I've also put all the images in your work
+  space to save you from having to upload the images yourself.</p>
+<p>Images are normally kept in a sub-folder relative to your .html files. You'll
+   see more about that when you read through Lesson 6 - Images And Videos , and
+  when you do the Lab and post your work to your Work Space.</p>
+  
+  
 		<p id="cute_line">Imaging The Possibilities!!</p>
 		
 

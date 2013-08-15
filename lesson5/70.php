@@ -95,13 +95,13 @@
 
           <tr class="grayband"> 
 
-            <td><code>name</code></td>
+            <td><code>id</code></td>
 
             <td>Expressed as a word or number.</td>
 
             <td> <p>Used to name a target.</p>
 
-              <p><code>&lt;a name=&quot;who&quot;&gt;&lt;/a&gt;</code></p></td>
+              <p><code>&lt;ul id=&quot;list&quot;&gt;</code></p></td>
 
           </tr>
           

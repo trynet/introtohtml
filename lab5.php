@@ -157,20 +157,19 @@ http://busycooks.about.com/od/pastawithsaucerecipes/r/pestopasta.htm</code></p>
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;</code>Recipes<code>&lt;/a&gt;&lt;/li&gt;<br>
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;</code>Pest Control<code>&lt;/a&gt;&lt;/li&gt;<br>
 &lt;/ul&gt;</code></p>
+
+<hr />
+
 <p>The last link is to a target in the prep.html file. With blog.html still open
    in your text editor create a link around the words &quot;my preparation&quot; It
   will go like:</p>
 <p><code>&lt;a href=&quot;prep.html#start&quot;&gt;</code>my preparation<code>&lt;/a&gt;</code></p>
 <p>Save the file and now open prep.html in your text editor</p>
-<p>Just after </p>
-<p><code>&lt;h1&gt;</code>Preparation<code>&lt;/h1&gt;</code> type in the name
-  of the target which in this case is</p>
-<p><code>&lt;a name=&quot;start&quot;&gt;&lt;/a&gt;</code></p>
-<p>It will go like this (with the named anchor inside the h1 container):</p>
+<p>See  <code>&lt;h1&gt;</code>Preparation<code>&lt;/h1&gt;</code> ?</p>
+<p>Let's add the id attribute inside of the h1 element like this:</p>
 
-<p><code>&lt;h1&gt;<span class="second">&lt;a name=&quot;start&quot;&gt;&lt;/a&gt;</span>Preparation&lt;/h1&gt;</code></p>
-<p>This is hidden code that users will not see. Notice that there is no content
-  between the open and close anchor.. And the word &quot;start&quot; is arbitrary
+<p><code>&lt;h1 <span class="second">id=&quot;start&quot;</span>&gt;</code>Preparation<code>&lt;/h1&gt;</code></p>
+<p>Again, this is hidden code that users will not see.  The value &quot;start&quot; is arbitrary
   . For me in this case, it means the start of the main content of the page.</p>
 <p>Try it out. When you select the &quot;my preparation&quot; link in blog.html
   what happens?</p>

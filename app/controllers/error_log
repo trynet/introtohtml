@@ -242,3 +242,59 @@ Stack trace:
   thrown in /home1/joyofcod/Zend/Registry.php on line 147
 [06-Aug-2013 16:10:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php:25) in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 29
 ------------------------------
+[14-Aug-2013 04:49:02] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(91): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[14-Aug-2013 17:25:12] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(91): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[14-Aug-2013 17:25:51] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(91): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[15-Aug-2013 04:22:38] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(91): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[15-Aug-2013 08:46:50] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(91): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[15-Aug-2013 08:46:54] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(91): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[15-Aug-2013 08:46:59] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(91): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147

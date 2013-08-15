@@ -25,13 +25,13 @@
 <section id="main">
 
 
-<h1><a name="top"></a>Lesson 5: Links</h1>
+<h1 id="lead" class="page-header">Lesson 5: Links</h1>
 
-    <p class="introduction">Since we're in a hypermedia environment, maybe it's time to reveal
+    <p class="introduction lead">Since we're in a hypermedia environment, maybe it's time to reveal
 
           one of the greatest strengths of the Internet - the ability to easily move
 
-          users from one location to another.</p>
+          users from one document to another.</p>
 
 
 
@@ -43,15 +43,15 @@
           needed 
 
           to move users up, down, sideways, and inside out around the web.</p>
-<p id="learn">In this lesson you'll learn about:</p>
+<p id="learn">In this lesson you'll learn:</p>
 		
-				<ul id="hightlights">
-<li>Link To Another Page</li>
-<li>Link To A Target On A Different Page</li>
-<li>Link To A Target on The Same Page</li>
-<li>External Page Link</li>
-<li>Email Link</li>
- <li>Anchor Tag Attributes</li>
+				<ul class="nav">
+<li><i class="icon-ok PadRight5"></i>How To Link To Another Page</li>
+<li><i class="icon-ok PadRight5"></i>How To Link To A Target On A Different Page</li>
+<li><i class="icon-ok PadRight5"></i>How To Link To A Target on The Same Page</li>
+<li><i class="icon-ok PadRight5"></i>How To Make An External Page Link</li>
+<li><i class="icon-ok PadRight5"></i>How To Create An Email Link</li>
+ <li><i class="icon-ok PadRight5"></i>About  Anchor Tag Attributes</li>
 </ul>
 
 
@@ -61,6 +61,13 @@
   web content is much like putting pieces of a puzzle together. Knowing where 
   folders and files are, and how to refer (link) to them, is just the start of 
   learning how to put your puzzle together.</p>
+  
+  <p>To that end, you'll want to read <a href="../appendix/D.html">Appendix D - Files And Folders
+    - What's In A Name</a>? which
+  is about as important an idea as anything you'll learn in our class. To make
+  web pages and sites, you have to understand how to use and refer to URLs, Path
+    Statements, Locations, Addresses. It's really all the same--it's where a
+    file is located and how you refer to it.</p>
 		
 
 <p id="cute_line">To Link Is To Web!!</p>

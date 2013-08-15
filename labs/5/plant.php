@@ -35,7 +35,7 @@
 <li>basil</li>
 <li>rosemary</li>
 <li>thyme</li>
-<li>steveeia<br />
+<li>stevia<br />
 (It's a sweet herb we <br />like to put in our ice tea}</li>
 </ul>
 

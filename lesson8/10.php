@@ -25,10 +25,10 @@
 <section id="main">
 
 
- <h1>Lesson 8: Data Tables</h1>
+ <h1 class="page-header">Lesson 8: Data Tables</h1>
 
 
-<p class="introduction">Gone are the days when tables were used to layout the design of your
+<p class="introduction lead">Gone are the days when tables were used to layout the design of your
           web pages. Sure, you'll still come across an old page (let us hope
           it's an old page) that uses tables for layout but there is no need
         to do that anymore.</p>
@@ -42,12 +42,12 @@
 
 <p id="learn">In this lesson we'll go over:</p>
 
-	<ul id="highlights">
-	<li>Rows And Columns</li>
-<li>The th Tag</li>
-<li>The caption Tag</li>
-<li>Spanning Multiple Rows And Columns</li>
-<li>thead, tbody And tfoot</li>
+	<ul class="nav">
+	<li><i class="icon-ok PadRight5"></i>Rows And Columns</li>
+<li><i class="icon-ok PadRight5"></i>The th Tag</li>
+<li><i class="icon-ok PadRight5"></i>The caption Tag</li>
+<li><i class="icon-ok PadRight5"></i>Spanning Multiple Rows And Columns</li>
+<li><i class="icon-ok PadRight5"></i>thead, tbody And tfoot</li>
 </ul>
 <p id="cute_line">Setting Tables!!</p>
 

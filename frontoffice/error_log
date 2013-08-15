@@ -466,3 +466,5 @@
 [05-Aug-2013 19:52:07] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3
 [05-Aug-2013 19:54:04] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3
 [06-Aug-2013 05:15:36] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3
+[13-Aug-2013 07:56:57] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3
+[13-Aug-2013 08:12:13] PHP Notice:  Undefined index:  REMOTE_USER in /home1/joyofcod/public_html/_dev_intro/includes/announce.php on line 3

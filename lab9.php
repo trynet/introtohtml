@@ -91,7 +91,7 @@ building structure to your web pages.</p>
 <p>Here we go:</p>
 <p><code><span class="second">&lt;footer&gt;</span></code></p>
 <p><code>&lt;address&gt;<br>
-<span class="second">  &lt;span&gt;<</span></code>Bud Kraus<code><span class="second">&lt;/span&gt;<br>
+<span class="second">  &lt;span&gt;</span></code>Bud Kraus<code><span class="second">&lt;/span&gt;<br>
   &lt;span&gt;</span></code>888 MY GARDEN<code><span class="second">&lt;/span&gt;<br>
   &lt;span&gt;&lt;a href=&quot;mailto:bud@inmygarden.com&quot;&gt;</span></code>bud@inmygarden.com<code><span class="second">&lt;/a&gt;&lt;/span&gt;<br>
   &lt;span&gt;&amp;copy;</span></code> IMG, Inc. All Rights Reserved.<code><span class="second">&lt;/span&gt;</span><br>

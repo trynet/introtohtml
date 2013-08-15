@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
 <h1>HTML Outline For prep.html</h1>
 
 
@@ -33,11 +32,7 @@
           </li>
           <li><span class="html_outline">section#main_content</span>
             <ul>
-              <li>h1
-                <ul>
-                  <li>a</li>
-                </ul>
-              </li>
+              <li>h1#start </li>
               <li>p</li>
               <li>p</li>
               <li>p</li>

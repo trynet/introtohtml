@@ -25,10 +25,10 @@
 <section id="main">
 
 
- <h1>Lesson 7: Forms</h1>
+ <h1 class="page-header">Lesson 7: Forms</h1>
 
 
-<p class="introduction">Up to this point, we've learned how to create web pages that present 
+<p class="introduction lead">Up to this point, we've learned how to create web pages that present 
           information to a user.</p>
 
 
@@ -63,13 +63,15 @@ something of value can take place between site owner and user?</p>
           
           	
 	<p id="learn">In this Lesson we'll go over:</p>
-	<ul id="highlights">
-	  <li>The form Tag</li>
-	  <li>The input Tag</li>
-	  <li>The textarea Tag</li>
-	  <li>Select Menus</li>
-	  <li>Data Validation</li>
-	  <li>Accessibility Issues	</li>
+    
+    
+	<ul class="nav">
+	  <li><i class="icon-ok PadRight5"></i>The form Tag</li>
+	  <li><i class="icon-ok PadRight5"></i>The input Tag</li>
+	  <li><i class="icon-ok PadRight5"></i>The textarea Tag</li>
+	  <li><i class="icon-ok PadRight5"></i>Select Menus</li>
+	  <li><i class="icon-ok PadRight5"></i>Data Validation</li>
+	  <li><i class="icon-ok PadRight5"></i>Accessibility Issues	</li>
 </ul>
 <p id="cute_line">Forming An Interactive Page</p>
 

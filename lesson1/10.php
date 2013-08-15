@@ -28,9 +28,9 @@
 
 <section id="main">
 
-<h1>Lesson 1: The Basics</h1>
+<h1 class="page-header">Lesson 1: The Basics</h1>
 
-<p class="introduction">In the beginning there was nothing. Then somewhere in the mid 1990s,
+<p class="introduction lead">In the beginning there was nothing. Then somewhere in the mid 1990s,
 
           we were given (who gave us is coming) the ability to separate structure
 
@@ -62,13 +62,13 @@
 
 <p id="learn">In this lesson you'll learn:</p>
 
-<ul id="highlights">
-     <li>What Is HTML?</li>
-     <li>How To Start An HTML Document (web page)</li>
-     <li>What The DOCTYPE Statement Is</li>
-     <li>What The Required Tags Are</li>
-     <li>HTML Syntax</li>
-     <li>Conventions Used For This Class</li>
+<ul class="nav">
+     <li><i class="icon-ok PadRight5"></i>What Is HTML?</li>
+     <li><i class="icon-ok PadRight5"></i>How To Start An HTML Document (web page)</li>
+     <li><i class="icon-ok PadRight5"></i>What The DOCTYPE Statement Is</li>
+     <li><i class="icon-ok PadRight5"></i>What The Required Tags Are</li>
+     <li><i class="icon-ok PadRight5"></i>HTML Syntax</li>
+     <li><i class="icon-ok PadRight5"></i>Conventions Used For This Class</li>
 </ul>
 <p>As with all Lessons, Lesson 1 has a Lab. It's an Ice Breaker for the class
   and it's called &quot;Hello World.&quot; That's your main assignment as you

@@ -11,6 +11,10 @@
 
 <div id="end">
 &copy; <?php echo date("Y"); ?> TryNet, Inc. All Rights Reserved.
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
 </div>
 
 </footer>
