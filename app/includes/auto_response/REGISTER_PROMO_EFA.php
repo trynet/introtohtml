@@ -16,8 +16,12 @@ Oh yeah, click around in my Front Office section. You'll get lots of information
 
 When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
 
+Now for some really good news!! 
+
+Because you are taking the class as a member of the Editorial Freelancers Association you are going to be enrolling at a reduced fee!! Bud of course, you don't pay for anything until you're ready for Lesson 3.
+
 Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
 
-$signature;
+$signature
 
 EOT;

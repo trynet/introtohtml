@@ -55,7 +55,7 @@
         <tr>
             <td><code>&amp;nbsp;</code></td>
             <td>&nbsp;</td>
-            <td>No Break Space</td>
+            <td>Non Breaking Space</td>
         </tr>
         <tr class="grayband">
             <td><code>&amp;amp;</code></td>
@@ -87,7 +87,7 @@
 </table>
 
             
-<p>I'm a little nutty when it comes to Character Entities because there             are thousands of them.  <a target="_blank" href="http://www.mountaindragon.com/html/iso.htm">Here             are just a few</a> to keep you busy.  Do not try to memorize them!!</p>
+<p>I'm a little nutty when it comes to Character Entities because there             are thousands of them.  <a target="_blank" href="http://www.w3schools.com/tags/ref_symbols.asp">Here             are just a few</a> to keep you busy.  Do not try to memorize them!!</p>
 <a id="next"  href="80.html">One More</a>
 
 

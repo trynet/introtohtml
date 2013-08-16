@@ -36,18 +36,22 @@ class AutoResponse
       try {
          $message   = '';                               // defined in $file
          $subject   = '';                               // defined in $file
-         $signature = "Bud Kraus<br>\n" .               // used in $file
-                      "New York City Web Design Instructor<br>\n" .
-                      "Joy Of Code<br>\n" .
-                      "www.joyofcode.com<br>\n" .
-                      "973 479 2914<br><br>\n\n" .
+         $signature = "Bud Kraus\n" .               // used in $file
+                      "New York City Web Design Instructor\n" .
+                      "Joy Of Code\n" .
+                      "www.joyofcode.com\n" .
+                      "973 479 2914\n\n" .
 
                       "Learn HTML, CSS and WordPress Online With Me";
 
          // get user data
          $userObj   = new User();
          $firstname = $userObj->getField($user_id, 'firstname');
+         $lastname  = $userObj->getField($user_id, 'lastname');
          $email     = $userObj->getField($user_id, 'email');
+         $promo     = $userObj->getField($user_id, 'promo');
+         $found     = $userObj->getField($user_id, 'found');
+         $location  = ''; // todo: Location API
 
          // get message from db, filesystem, define $message in $file and require
          $query  = "SELECT `filename` FROM autoresponse WHERE `autoresponse_id` = ?";
@@ -55,8 +59,6 @@ class AutoResponse
          $file   = AUTO_RESPONSE_PATH . '/' . $result . '.php';
 
          require $file;
-
-echo $message;
 
          $this->sendMessage($message, $subject, $email);
 
@@ -74,10 +76,14 @@ echo $message;
     * @param: (string) to
     * @param: (string) subject
     * @param: (string) message
+    * @param: (bool) instructor - if TRUE, send to instructor email
     * @return: (bool) true on success
     */
-   public function sendMessage($message, $subject, $email) {
+   public function sendMessage($message, $subject, $email, $instructor = false) {
       try {
+         if ($instructor)
+            $email = EMAIL_INSTRUCTOR;
+
          $userObj = new User();
          $userObj->email($message, $subject, $email);
 
