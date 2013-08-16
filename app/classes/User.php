@@ -145,10 +145,12 @@ class User
     * send an email to user
     *
     * @param: (string) message
-    * @param: (int) user_id
+    * @param: (string) subject
+    * @param: (mixed) user_id (or email address)
+    * @param: (string) from  - highest priority from address
     * @return: (bool)
     */
-   public function email($message, $subject, $user_id) {
+   public function email($message, $subject, $user_id, $from = null) {
       if (is_string($user_id))
          $to = $user_id;
       else

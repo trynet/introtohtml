@@ -30,25 +30,37 @@ class AutoResponse
     * @param: (int) message_id
     * @param: (int) user_id
     * @param: (array) params
-    * @return: (string) message
+    * @return: (bool) true if message successfuly constructed and sent
     */
    public function generateMessage($message_id, $user_id, $params = null) {
       try {
+         $message   = '';                               // defined in $file
+         $subject   = '';                               // defined in $file
+         $signature = "Bud Kraus<br>\n" .               // used in $file
+                      "New York City Web Design Instructor<br>\n" .
+                      "Joy Of Code<br>\n" .
+                      "www.joyofcode.com<br>\n" .
+                      "973 479 2914<br><br>\n\n" .
+
+                      "Learn HTML, CSS and WordPress Online With Me";
+
          // get user data
-         $userObj = new User();
+         $userObj   = new User();
          $firstname = $userObj->getField($user_id, 'firstname');
          $email     = $userObj->getField($user_id, 'email');
 
-         // get message from db and require
-         $query = "SELECT `filename` FROM autoresponse WHERE `autoresponse_id` = ?";
+         // get message from db, filesystem, define $message in $file and require
+         $query  = "SELECT `filename` FROM autoresponse WHERE `autoresponse_id` = ?";
          $result = $this->db->fetchOne($query, $message_id);
-         $file = AUTO_RESPONSE_PATH . '/' . $result . '.php';
-      
+         $file   = AUTO_RESPONSE_PATH . '/' . $result . '.php';
+
          require $file;
 
-         echo $message;
+echo $message;
 
-         return $message; // defined in $file
+         $this->sendMessage($message, $subject, $email);
+
+         return true;
       } catch (Exception $e) {
          $this->logger->log('AutoResponse::generateMessage ERROR', Zend_Log::ERR);
 
@@ -64,9 +76,14 @@ class AutoResponse
     * @param: (string) message
     * @return: (bool) true on success
     */
-   public function sendMessage($to, $subject, $message) {
+   public function sendMessage($message, $subject, $email) {
       try {
+         $userObj = new User();
+         $userObj->email($message, $subject, $email);
+
+         return true;
       } catch (Exception $e) {
+         $this->logger->log('AutoResponse::sendMessagge ERROR', Zend_Log::ERR);
       }
    }
 
