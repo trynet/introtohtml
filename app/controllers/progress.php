@@ -6,6 +6,8 @@ Origin Date: July 3, 2013
 Modifed: August 16, 2013
 
 determine progression state after lab completion
+todo: consider splitting file into more application state
+      specific entites
 ------------------------------------------------------------*/
 require_once '../config/config.php';
 
@@ -24,9 +26,9 @@ $progressObj = new Progress();
 $progress = $authNamespace->progress;
 
 // increment values (fixme: currently has to be done before redirect)
-$data = array('current_lesson'   => ++$current_lesson,
-              'current_lab'      => ++$current_lab,
-              'current_appendix' => ++$current_appendix);
+$data = array('current_lesson'   => $current_lesson   + 1,
+              'current_lab'      => $current_lab      + 1,
+              'current_appendix' => $current_appendix + 1);
 
 if ($proceed == 1) {
    // proceed at own rate
@@ -46,16 +48,16 @@ $logger->log('bp1', Zend_Log::INFO);
 
 // if user is at end of lab 2, redirect to registration
 if ($current_lab == 2 && USERTYPE != USER_FIT) {
-   header('Location: /register.php');
    $progressObj->setProgress($user_id, $data);
+   header('Location: /register.php');
 $logger->log('bp2', Zend_Log::INFO);
    exit();
 }
 
 // if user is a FIT user and we're at lesson 7
 if (USERTYPE == USER_FIT && $current_lab == 7) {
-   header('Location: /paypal.php?u=' . USER_FIT);
    $progressObj->setProgress($user_id, $data);
+   header('Location: /paypal.php?u=' . USER_FIT);
 $logger->log('bp3', Zend_Log::INFO);
    exit();
 }

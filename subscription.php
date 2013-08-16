@@ -7,7 +7,7 @@
 
 <body>
    <center>
-      <form action="" method="post" name="">
+      <form action="app/controllers/subscription.php" method="post" name="">
          <table>
             <tr>
                <td>Can I subscribe you to my Joy of Code Blog?</td>

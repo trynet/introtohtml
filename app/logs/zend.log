@@ -528,3 +528,88 @@ Array
 2013-08-16 03:05:36 INFO (6): Progress::setProgress - 1
 2013-08-16 03:05:36 INFO (6): Progress:setProgress - test TRUE
 2013-08-16 03:05:36 INFO (6): bp2
+2013-08-16 03:07:42 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:07:42 INFO (6): Progress::setProgress - 1
+2013-08-16 03:07:42 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:07:42 INFO (6): bp2
+2013-08-16 03:13:04 INFO (6): progress.php: usertype = 3 current lab = 2 USER_FIT = 5
+2013-08-16 03:13:04 INFO (6): bp4
+2013-08-16 03:13:04 INFO (6): Progress::setProgress - 1
+2013-08-16 03:13:04 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:16:52 INFO (6): progress.php: usertype = 3 current lab = 3 USER_FIT = 5
+2013-08-16 03:16:52 INFO (6): bp4
+2013-08-16 03:16:52 INFO (6): Progress::setProgress - 1
+2013-08-16 03:16:52 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:16:52 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:17:31 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:17:31 INFO (6): Progress::setProgress - 1
+2013-08-16 03:17:31 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:17:31 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:17:31 INFO (6): bp2
+2013-08-16 03:21:36 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:21:36 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 03:21:36 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:21:36 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:21:36 INFO (6): bp2
+2013-08-16 03:22:31 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:22:31 INFO (6): bp2
+2013-08-16 03:23:35 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:23:35 INFO (6): bp2
+2013-08-16 03:24:51 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:24:51 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 03:24:51 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:24:51 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:24:51 INFO (6): bp2
+2013-08-16 03:26:31 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:26:31 INFO (6): bp2
+2013-08-16 03:32:37 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:32:47 INFO (6): bp2
+2013-08-16 03:34:11 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:34:11 INFO (6): bp2
+2013-08-16 03:35:26 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:35:26 INFO (6): bp4
+2013-08-16 03:35:26 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 03:35:26 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:35:26 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:35:41 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:35:41 INFO (6): bp4
+2013-08-16 03:35:41 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 03:35:41 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:35:41 INFO (6): Progress:setProgress - UPDATED = 0
+2013-08-16 03:38:31 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:38:31 INFO (6): bp1
+2013-08-16 03:39:12 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:39:12 INFO (6): bp1
+2013-08-16 03:40:37 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:40:37 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 03:40:37 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:40:37 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:40:37 INFO (6): bp1
+2013-08-16 03:40:55 INFO (6): progress.php: usertype = 3 current lab = 2 USER_FIT = 5
+2013-08-16 03:40:55 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 03:40:55 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:40:55 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:40:55 INFO (6): bp2
+2013-08-16 03:41:34 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 03:41:34 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:41:34 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:42:33 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:42:33 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 03:42:33 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:42:33 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:42:33 INFO (6): bp1
+2013-08-16 03:49:16 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:49:16 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 03:49:16 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:49:16 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:49:16 INFO (6): bp1
+2013-08-16 03:50:29 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:50:29 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 03:50:29 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:50:29 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:50:29 INFO (6): bp1
+2013-08-16 03:50:36 INFO (6): progress.php: usertype = 3 current lab = 2 USER_FIT = 5
+2013-08-16 03:50:36 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 03:50:36 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:50:36 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 03:50:36 INFO (6): bp2

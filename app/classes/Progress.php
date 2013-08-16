@@ -61,24 +61,25 @@ class Progress {
     * @return: (bool) true on success
     */
    public function setProgress($user_id, $data = null) {
-      $this->logger->log("Progress::setProgress - $user_id", Zend_Log::INFO);
+      $this->logger->log("Progress::setProgress - USER_ID = $user_id", Zend_Log::INFO);
 
       if (is_array($this->getProgress($user_id))) {
 $this->logger->log("Progress:setProgress - test TRUE", Zend_Log::INFO);
          // update
-         $current_progress['current_lesson']   += 1;
-         $current_progress['current_lab']      += 1;
-         $current_progress['current_appendix'] += 1;
-         $current_progress['proceed'] = 0;
-
          // todo: improve this....
          try {
             if (is_null($data)) {
+               $current_progress = $this->getProgress($user_id);
+               $current_progress['current_lesson']   += 1;
+               $current_progress['current_lab']      += 1;
+               $current_progress['current_appendix'] += 1;
+               $current_progress['proceed'] = 0;
+
                $n = $this->db->update(TBL_PROGRESS, $current_progress, "user_id = $user_id");
             } else {
                $n = $this->db->update(TBL_PROGRESS, $data, "user_id = $user_id");
             }
-
+$this->logger->log("Progress:setProgress - UPDATED = $n", Zend_Log::INFO);
             $authNamespace = new Zend_Session_Namespace('Zend_Auth');
             $authNamespace->progress = $this->getProgress($user_id);
 
