@@ -20,9 +20,11 @@ require_once '../config/config.php';
 $success = true;
 
 if ($success) {
-   // update db progress
-   $progressObj = new Progress();
-   $progressObj->setProgress(USER_ID);
+   // update db progress -- fixme: progress should be updated
+// only after paying, but right now, I believe app/controllers/progress.php
+// is being called before the redirect here.
+//   $progressObj = new Progress();
+//   $progressObj->setProgress(USER_ID);
 
    // update paid status
    $userObj = new User();

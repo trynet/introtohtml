@@ -56,6 +56,8 @@ $logger->log('bp2', Zend_Log::INFO);
 
 // if user is a FIT user and we're at lesson 7
 if (USERTYPE == USER_FIT && $current_lab == 7) {
+// fixme: setProgress shouldn't be called until
+//        after paypal. i.e., app/controllers/paypal.php
    $progressObj->setProgress($user_id, $data);
    header('Location: /paypal.php?u=' . USER_FIT);
 $logger->log('bp3', Zend_Log::INFO);

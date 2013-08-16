@@ -49,12 +49,6 @@ class Progress {
    }
 
    /**
-    * progressExists
-    */
-   public function progressExists($user_id) {
-   }
-
-   /**
     * set progress
     *
     * @param: (int) user_id
