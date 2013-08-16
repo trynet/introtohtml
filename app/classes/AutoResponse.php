@@ -51,6 +51,15 @@ class AutoResponse
          $email     = $userObj->getField($user_id, 'email');
          $promo     = $userObj->getField($user_id, 'promo');
          $found     = $userObj->getField($user_id, 'found');
+
+         $html      = $userObj->getField($user_id, 'html');
+         $css       = $userObj->getField($user_id, 'css');
+         $wordpress = $userObj->getField($user_id, 'wordpress');
+         $html      = ($html == 1) ? 'HTML' : '';
+         $css       = ($css == 1) ? 'CSS' : '';
+         $wordpress = ($wordpress == 1) ? 'WP' : '';
+
+
          $location  = ''; // todo: Location API
 
          // get message from db, filesystem, define $message in $file and require

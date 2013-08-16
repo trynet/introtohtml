@@ -8,4 +8,4 @@ Last Name: $lastname
 
 Email Address: $email
 
-Subscribe To Joy Of Code Blog?: <HTML> <CSS> <WORDPRESS>
+Subscribe To Joy Of Code Blog?: <$html> <$css> <$wp>

@@ -8,7 +8,7 @@ Email Address: $email
 
 URL:  <URL of uploaded page>
 
-Subscribed: <HTML> <CSS> <WP>
+Subscribed: <$html> <$css> <$wp>
 
 EOT;
 

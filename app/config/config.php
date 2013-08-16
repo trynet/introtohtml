@@ -25,12 +25,12 @@ define('REGISTER_INSTRUCTOR',               8);
 define('REGISTER_CLASSROOM_INSTRUCTOR',     9);
 define('UPLOAD_LAB1_NO_REVIEW',            10);
 define('UPLOAD_LAB1_REVIEW',               11);
-define('UPLOAD_LAB1_INSTRUCTOR',           12);
+define('UPLOAD_LAB1_NO_REVIEW_INSTRUCTOR',           12);
 define('UPLOAD_LAB2_PAYPAL_REVIEW',        13);
 define('UPLOAD_LAB2_PAYPAL_NO_REVIEW',     14);
 define('UPLOAD_LAB2_NO_PAYPAL_REVIEW',     15);
 define('UPLOAD_LAB2_NO_PAYPAL_NO_REVIEW ', 16);
-define('UPLOAD_LAB2_INSTRUCTOR',           17);
+define('UPLOAD_LAB2_NO_REVIEW_INSTRUCTOR',           17);
 define('FIT_USER_PAYPAL',                  18);
 define('FIT_USER_PAYPAL_INSTRUCTOR',       19);
 define('UPLOAD_LAB9_NO_REVIEW_INSTRUCTOR', 20);
@@ -47,6 +47,8 @@ define('UPLOAD_LAB4_NO_REVIEW_INSTRUCTOR', 30);
 define('UPLOAD_LAB4_REVIEW_INSTRUCTOR',    31);
 define('UPLOAD_LAB3_NO_REVIEW_INSTRUCTOR', 32);
 define('UPLOAD_LAB3_REVIEW_INSTRUCTOR',    33);
+define('UPLOAD_LAB1_REVIEW_INSTRUCTOR', 34);
+define('UPLOAD_LAB2_REVIEW_INSTRUCTOR', 35);
 
 // program fee
 define('PROGRAM_FEE', 225.00);
