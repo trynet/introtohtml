@@ -30,6 +30,7 @@ if ($usertype == USER_FIT) {
 <body>
    <center>
       <p>Thank you for registering. <?php echo $prompt ?>.<br/>Click the button below to continue to Paypal</p><br />
+
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
          <input type="hidden" name="cmd" value="_s-xclick">
          <input type="hidden" name="hosted_button_id" value="D5YDC2CXCAKXE">

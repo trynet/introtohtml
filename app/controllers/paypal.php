@@ -4,7 +4,14 @@ successful payment made (controller)
 
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 22, 2013
-Modified: August 5, 2013
+Modified: August 16, 2013
+
+fixme: break this page up or something. Reqs changed since last
+       accessed, and payment is now made in at least 3 different
+       places. Auto-responses differ greatly depending on
+       paid status. While still 4 (now 5) main user_accounts
+       scenarios NON-paying members will never reach this
+       controller, and so must be handled elsewhere
 ------------------------------------------------------------*/
 require_once '../config/config.php';
 
@@ -22,6 +29,8 @@ if ($success) {
    $userObj->setPaid(USER_ID);
 
    // send auto-response email
+   // fixme: this wont work for USER_FIT - they will never reach
+   //        page because they'll never go through paypal
    switch (USERTYPE) {
       case USER_DISCOUNT :
 
@@ -45,4 +54,5 @@ if ($success) {
 
 }
 
+// fixme: put some helpful logs here - generally before redirects
 header('Location: /index.php');
