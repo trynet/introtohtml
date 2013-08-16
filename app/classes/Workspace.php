@@ -57,6 +57,18 @@ class Workspace {
    }
 
    /**
+    * get clean email
+    */
+   public function getCleanEmail($user_id) {
+      $userObj = new User();
+
+      $email = $userObj->getField($user_id, 'email');
+      $email = str_replace(array('@', '.'), '_', $email);
+
+      return $email;
+   }
+
+   /**
     * get number of files in user directory
     */
    public function getNumberFiles($user_id) {
@@ -81,5 +93,19 @@ class Workspace {
 
       $files = scandir($dir);
       return $files;
+   }
+
+   /**
+    * file urls    
+    */
+   public function getFileUrls($user_id) {
+      $files = $this->getFileNames($user_id);
+      $clean_email = $this->getCleanEmail($user_id);
+
+      for ($i = 1; $i <= count($files) - 2; $i++) {
+         $urls[] = "http://dev.introtohtml.net/workspace/$clean_email/" . $files[$i];
+      }
+
+      return $urls;
    }
 }

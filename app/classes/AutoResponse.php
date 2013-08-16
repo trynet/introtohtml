@@ -52,6 +52,7 @@ class AutoResponse
          $promo     = $userObj->getField($user_id, 'promo');
          $found     = $userObj->getField($user_id, 'found');
 
+         // subscriptions
          $html      = $userObj->getField($user_id, 'html');
          $css       = $userObj->getField($user_id, 'css');
          $wordpress = $userObj->getField($user_id, 'wordpress');
@@ -59,6 +60,9 @@ class AutoResponse
          $css       = ($css == 1) ? 'CSS' : '';
          $wordpress = ($wordpress == 1) ? 'WP' : '';
 
+         // urls
+         $workspaceObj = new Workspace();
+         $urls = print_r($workspaceObj->getFileUrls($user_id), true);
 
          $location  = ''; // todo: Location API
 
@@ -67,6 +71,7 @@ class AutoResponse
          $result = $this->db->fetchOne($query, $message_id);
          $file   = AUTO_RESPONSE_PATH . '/' . $result . '.php';
 
+$this->logger->log($urls, Zend_Log::INFO); 
          require $file;
 
          $this->sendMessage($message, $subject, $email);

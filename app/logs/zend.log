@@ -644,3 +644,23 @@ Array
 2013-08-16 10:10:40 INFO (6): Progress:setProgress - test TRUE
 2013-08-16 10:10:40 INFO (6): Progress:setProgress - UPDATED = 1
 2013-08-16 10:10:40 INFO (6): bp1
+2013-08-16 12:45:37 INFO (6): 
+2013-08-16 12:46:04 INFO (6): Array
+(
+    [0] => <a href="http://dev.introtohtml.net/workspace/ service_lucidmediaconcepts_com/..">..</a>
+    [1] => <a href="http://dev.introtohtml.net/workspace/ service_lucidmediaconcepts_com/close.gif">close.gif</a>
+)
+
+2013-08-16 12:47:20 INFO (6): 
+2013-08-16 12:49:23 INFO (6): Array
+(
+    [0] => <a href="http://dev.introtohtml.net/workspace/ service_lucidmediaconcepts_com/..">..</a>
+    [1] => <a href="http://dev.introtohtml.net/workspace/ service_lucidmediaconcepts_com/close.gif">close.gif</a>
+)
+
+2013-08-16 12:51:07 INFO (6): Array
+(
+    [0] => http://dev.introtohtml.net/workspace/service_lucidmediaconcepts_com/..
+    [1] => http://dev.introtohtml.net/workspace/service_lucidmediaconcepts_com/close.gif
+)
+

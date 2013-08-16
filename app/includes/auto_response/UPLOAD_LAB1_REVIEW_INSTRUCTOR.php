@@ -6,9 +6,8 @@ $firstname wants me to review the file.
 
 Email Address: $email
 
-URL:  <URL of uploaded page>
+URL: $urls
 
-Subscribed: <$html> <$css> <$wp>
+Subscribed: <$html> <$css> <$wp>;
 
 EOT;
-
