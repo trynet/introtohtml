@@ -314,3 +314,4 @@ Stack trace:
 #3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
 #4 {main}
   thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 02:54:02] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home1/joyofcod/public_html/_dev_intro/app/classes/Progress.php on line 106

@@ -1,3 +1,7 @@
+<?php
+echo '<pre>**DEBUG**<br><a href="logout.php">retry</a>'; session_start(); print_r($_SESSION); echo '</pre>';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

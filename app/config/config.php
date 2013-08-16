@@ -125,6 +125,5 @@ define('USERTYPE', $authNamespace->storage['usertype']);
 //echo '<pre>'; print_r($_SESSION); echo '</pre>';
 //echo '<pre>'; print_r($_REQUEST); echo '</pre>';
 //echo '<pre>'; print_r($_SERVER); echo '</pre>';
-
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php')
    header('Location: login.php');

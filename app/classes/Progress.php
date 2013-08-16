@@ -49,13 +49,22 @@ class Progress {
    }
 
    /**
+    * progressExists
+    */
+   public function progressExists($user_id) {
+   }
+
+   /**
     * set progress
     *
     * @param: (int) user_id
     * @return: (bool) true on success
     */
    public function setProgress($user_id, $data = null) {
-      if ($current_progress = $this->getProgress($user_id)) {
+      $this->logger->log("Progress::setProgress - $user_id", Zend_Log::INFO);
+
+      if (is_array($this->getProgress($user_id))) {
+$this->logger->log("Progress:setProgress - test TRUE", Zend_Log::INFO);
          // update
          $current_progress['current_lesson']   += 1;
          $current_progress['current_lab']      += 1;
@@ -76,10 +85,11 @@ class Progress {
             return $n;
          } catch (Exception $e) {
             $dbLoggerObj = new DbLogger($e);
-            $this->logger->log($message, Zend_Log::ERR);
+            $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
             return false;
          }
       } else {
+$this->logger->log("Progress:setProgress - test FALSE", Zend_Log::INFO);
          // insert (user just created)
          if (is_null($data)) {
             $data = array('user_id' => $user_id,
@@ -96,7 +106,7 @@ class Progress {
             return $id;
          } catch (Exception $e) {
             $dbLoggerObj = new DbLogger($e);
-            $this->logger->log($message, Zend_Log::ERR);
+            $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
             return false;
          }
       } 

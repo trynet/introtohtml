@@ -344,3 +344,187 @@ current lab - 1
 2013-08-15 23:31:26 INFO (6): progress.php: usertype - 4 current lab - 3 USER_FIT - 5
 2013-08-15 23:31:37 INFO (6): progress.php: usertype - 4 current lab - 4 USER_FIT - 5
 2013-08-15 23:31:45 INFO (6): progress.php: usertype - 4 current lab - 5 USER_FIT - 5
+2013-08-16 01:41:42 INFO (6): progress.php: usertype - 3 current lab - 1 USER_FIT - 5
+2013-08-16 01:42:57 INFO (6): progress.php: usertype - 3 current lab - 1 USER_FIT - 5
+2013-08-16 01:46:20 INFO (6): progress.php: usertype - 3 current lab - 2 USER_FIT - 5
+2013-08-16 01:47:02 INFO (6): progress.php: usertype - 3 current lab - 1 USER_FIT - 5
+2013-08-16 01:47:55 INFO (6): progress.php: usertype - 3 current lab - 1 USER_FIT - 5
+2013-08-16 01:52:38 INFO (6): progress.php: usertype - 3 current lab - 1 USER_FIT - 5
+2013-08-16 01:52:38 INFO (6): bp2
+2013-08-16 01:57:42 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 01:57:42 INFO (6): bp2
+2013-08-16 01:58:32 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 01:58:32 INFO (6): bp2
+2013-08-16 02:05:01 INFO (6): progress.php: usertype = 3 current lab = 2 USER_FIT = 5
+2013-08-16 02:05:01 INFO (6): bp4
+2013-08-16 02:06:01 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:06:01 INFO (6): bp2
+2013-08-16 02:10:18 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:10:18 INFO (6): bp2
+2013-08-16 02:13:58 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:13:58 INFO (6): bp2
+2013-08-16 02:15:42 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:15:42 INFO (6): bp1
+2013-08-16 02:16:45 INFO (6): progress.php: usertype = 3 current lab = 2 USER_FIT = 5
+2013-08-16 02:16:45 INFO (6): bp2
+2013-08-16 02:24:43 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:24:43 INFO (6): bp1
+2013-08-16 02:25:54 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:25:54 INFO (6): bp2
+2013-08-16 02:30:58 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:30:58 INFO (6): bp2
+2013-08-16 02:40:12 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:41:53 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:44:39 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:44:39 INFO (6): bp2
+2013-08-16 02:45:30 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:45:38 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:47:00 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:47:00 ERR (3): 
+2013-08-16 02:47:00 INFO (6): bp2
+2013-08-16 02:50:23 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:50:23 ERR (3): 
+2013-08-16 02:50:23 INFO (6): bp2
+2013-08-16 02:53:05 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:53:05 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`current_lesson`, `current_lab`, `current_appendix`, `proceed`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 2
+            [1] => 2
+            [2] => 2
+            [3] => 0
+        )
+
+)
+
+2013-08-16 02:53:05 INFO (6): bp2
+2013-08-16 02:55:00 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:55:00 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`current_lesson`, `current_lab`, `current_appendix`, `proceed`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 2
+            [1] => 2
+            [2] => 2
+            [3] => 0
+        )
+
+)
+
+2013-08-16 02:55:00 INFO (6): bp2
+2013-08-16 02:57:10 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:57:10 INFO (6): 1
+2013-08-16 02:57:10 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`current_lesson`, `current_lab`, `current_appendix`, `proceed`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 2
+            [1] => 2
+            [2] => 2
+            [3] => 0
+        )
+
+)
+
+2013-08-16 02:57:10 INFO (6): bp2
+2013-08-16 02:58:20 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:58:20 INFO (6): Progress::setProgress - 1
+2013-08-16 02:58:20 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`current_lesson`, `current_lab`, `current_appendix`, `proceed`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 2
+            [1] => 2
+            [2] => 2
+            [3] => 0
+        )
+
+)
+
+2013-08-16 02:58:20 INFO (6): bp2
+2013-08-16 02:59:42 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 02:59:42 INFO (6): Progress::setProgress - 1
+2013-08-16 02:59:42 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`current_lesson`, `current_lab`, `current_appendix`, `proceed`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 2
+            [1] => 2
+            [2] => 2
+            [3] => 0
+        )
+
+)
+
+2013-08-16 02:59:42 INFO (6): bp2
+2013-08-16 03:00:28 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:00:28 INFO (6): Progress::setProgress - 1
+2013-08-16 03:00:28 INFO (6): Progress:setProgress - test FALSE
+2013-08-16 03:00:28 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`current_lesson`, `current_lab`, `current_appendix`, `proceed`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 2
+            [1] => 2
+            [2] => 2
+            [3] => 0
+        )
+
+)
+
+2013-08-16 03:00:28 INFO (6): bp2
+2013-08-16 03:03:21 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:03:21 INFO (6): Progress::setProgress - 1
+2013-08-16 03:03:21 INFO (6): Progress:setProgress - CP = false
+2013-08-16 03:03:21 INFO (6): Progress:setProgress - test FALSE
+2013-08-16 03:03:21 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`current_lesson`, `current_lab`, `current_appendix`, `proceed`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 2
+            [1] => 2
+            [2] => 2
+            [3] => 0
+        )
+
+)
+
+2013-08-16 03:03:21 INFO (6): bp2
+2013-08-16 03:04:34 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:04:34 INFO (6): Progress::setProgress - 1
+2013-08-16 03:04:34 INFO (6): Progress:setProgress - CP = true
+2013-08-16 03:04:34 INFO (6): Progress:setProgress - test FALSE
+2013-08-16 03:04:34 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`current_lesson`, `current_lab`, `current_appendix`, `proceed`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 2
+            [1] => 2
+            [2] => 2
+            [3] => 0
+        )
+
+)
+
+2013-08-16 03:04:34 INFO (6): bp2
+2013-08-16 03:05:36 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 03:05:36 INFO (6): Progress::setProgress - 1
+2013-08-16 03:05:36 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 03:05:36 INFO (6): bp2
