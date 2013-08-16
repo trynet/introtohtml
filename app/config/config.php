@@ -3,13 +3,14 @@
 Configuration file
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: July 3, 2013
+Modifed: August 15, 2013
 ------------------------------------------------------------*/
 //error_reporting(E_ALL);
 //ini_set('display_errors', 1);
 
 // admin email
-define('ADMIN_EMAIL', 'service@lucidmediaconcepts.com');
+define('EMAIL_ADMIN', 'service@lucidmediaconcepts.com');
+define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
 
 // program fee
 define('PROGRAM_FEE', 225.00);
@@ -19,7 +20,6 @@ define('USER_STANDARD', 2);
 define('USER_DISCOUNT', 3);
 define('USER_FREE', 4);
 define('USER_FIT', 5);
-
 
 // tables
 define('TBL_USER', 'user');

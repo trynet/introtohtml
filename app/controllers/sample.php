@@ -11,10 +11,10 @@ try the first two lessons
 
 require_once '../config/config.php';
 
-$firstname        = htmlspecialchars($_POST['firstname']);
-$username         = htmlspecialchars($_POST['username']);
+$firstname        = htmlspecialchars($_POST['firstMame']);
+$username         = htmlspecialchars($_POST['userName']);
 $password         = md5(htmlspecialchars($_POST['password']));
-$promotional_code = htmlspecialchars($_POST['promotional_code']);
+$promotional_code = htmlspecialchars($_POST['promoCode']);
 
 $data = array('firstname' => $firstname,
               'email'     => $username,

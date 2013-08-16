@@ -3,7 +3,7 @@
 Auto Response class
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: August 7, 2013
-Modified: August 7, 2013
+Modified: August 15, 2013
 
 construct
 string generateMessage(int, int, array)
@@ -37,14 +37,28 @@ class AutoResponse
    }
 
    /**
-    * get message
+    * send message
     *
-    * @param: message_id
-    * @return: message (w/o parameters)
+    * @param: (string) to
+    * @param: (string) subject
+    * @param: (string) message
+    * @return: (bool) true on success
     */
-    public function getMessage($message_id) {
+   public function sendMessage($to, $subject, $message) {
       try {
       } catch (Exception $e) {
       }
    }
+
+   /**
+    * get message
+    *
+    * @param: (int) message_id
+    * @return: (string) message (w/o parameters)
+    *
+    public function getMessage($message_id) {
+      try {
+      } catch (Exception $e) {
+      }
+   }*/
 }
