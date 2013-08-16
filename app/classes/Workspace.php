@@ -38,7 +38,7 @@ class Workspace {
       if ($_Files['fileupload']['error'])
          return false;
 
-      // todo: input sanitization!!
+      // fixme: input sanitization!!
       $dir = $this->getDirectory($user_id); echo "\ndir: $dir";
       return move_uploaded_file($_Files['fileupload']['tmp_name'], "$dir/" . trim($_Files['fileupload']['name']));
    }
@@ -51,8 +51,35 @@ class Workspace {
     */
    public function getDirectory($user_id) {
       $userObj = new User();
-      $dir = $userObj->getDirectory($user_id);
+      $dir     = $userObj->getDirectory($user_id);
 
       return $dir;
+   }
+
+   /**
+    * get number of files in user directory
+    */
+   public function getNumberFiles($user_id) {
+      $i = 0; 
+      $dir = $this->getDirectory($user_id);
+
+      if ($handle = opendir($dir)) {
+          while (($file = readdir($handle)) !== false){
+             if (!in_array($file, array('.', '..')) && !is_dir($dir.$file)) 
+                 $i++;
+          }
+      }
+
+      return $i;
+   }
+
+   /**
+    * get all filename in user directory
+    */
+   public function getFileNames($user_id) {
+      $dir = $this->getDirectory($user_id);
+
+      $files = scandir($dir);
+      return $files;
    }
 }

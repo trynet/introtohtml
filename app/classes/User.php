@@ -9,7 +9,6 @@ int addUser(array)
 void authenticateUser(string, string)
 string getDirectory(int)
 mixed getField(int, string)
-string getDirectory(int)
 bool setPaid(int)
 bool email(string, int)
 ------------------------------------------------------------*/
