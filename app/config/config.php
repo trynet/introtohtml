@@ -87,6 +87,7 @@ require_once 'classes/Progress.php';
 require_once 'classes/Lesson.php';
 require_once 'classes/Lab.php';
 require_once 'classes/Appendix.php';
+require_once 'classes/Subscription.php';
 require_once 'classes/Registration.php';
 require_once 'classes/PromoCode.php';
 require_once 'classes/Workspace.php';

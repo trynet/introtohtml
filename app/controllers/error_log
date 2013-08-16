@@ -347,3 +347,5 @@ Stack trace:
 #3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
 #4 {main}
   thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 10:25:11] PHP Parse error:  syntax error, unexpected T_STRING in /home1/joyofcod/public_html/_dev_intro/app/controllers/subscription.php on line 21
+[16-Aug-2013 10:25:45] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home1/joyofcod/public_html/_dev_intro/app/classes/Subscription.php on line 52
