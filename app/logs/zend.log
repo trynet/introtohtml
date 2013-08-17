@@ -664,3 +664,145 @@ Array
     [1] => http://dev.introtohtml.net/workspace/service_lucidmediaconcepts_com/close.gif
 )
 
+2013-08-16 13:00:25 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 13:00:25 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 13:00:25 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 13:00:25 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 13:00:25 INFO (6): bp1
+2013-08-16 13:06:52 INFO (6): Progress::setProgress - USER_ID = 49
+2013-08-16 13:06:52 INFO (6): Progress:setProgress - test FALSE
+2013-08-16 13:06:52 INFO (6): 
+2013-08-16 13:12:59 INFO (6): Progress::setProgress - USER_ID = 50
+2013-08-16 13:12:59 INFO (6): Progress:setProgress - test FALSE
+2013-08-16 13:12:59 INFO (6): AutoResponse::generateMessage TRY
+2013-08-16 13:14:58 INFO (6): Progress::setProgress - USER_ID = 51
+2013-08-16 13:14:58 INFO (6): Progress:setProgress - test FALSE
+2013-08-16 13:14:58 INFO (6): AutoResponse::generateMessage TRY
+2013-08-16 13:18:34 INFO (6): AutoResponse::generateMessage TRY
+2013-08-16 13:18:48 INFO (6): AutoResponse::generateMessage TRY
+2013-08-16 13:22:17 INFO (6): Progress::setProgress - USER_ID = 52
+2013-08-16 13:22:17 INFO (6): Progress:setProgress - test FALSE
+2013-08-16 13:22:17 INFO (6): AutoResponse::generateMessage TRY
+2013-08-16 13:24:59 INFO (6): Progress::setProgress - USER_ID = 53
+2013-08-16 13:24:59 INFO (6): Progress:setProgress - test FALSE
+2013-08-16 13:24:59 INFO (6): AutoResponse::generateMessage TRY
+2013-08-16 13:24:59 INFO (6): AutoResponse::generateMessage SEND
+2013-08-16 13:24:59 INFO (6): 
+Hi asdvasdvasdvasdvasdv.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+2013-08-16 14:04:26 INFO (6): AutoResponse::generateMessage TRY
+2013-08-16 14:04:26 INFO (6): AutoResponse::generateMessage SEND
+2013-08-16 14:07:47 INFO (6): AutoResponse::generateMessage TRY
+2013-08-16 14:07:47 INFO (6): AutoResponse::generateMessage SEND
+2013-08-16 14:43:49 INFO (6): progress.php: usertype = 2 current lab = 1 USER_FIT = 5
+2013-08-16 14:43:49 INFO (6): Progress::setProgress - USER_ID = 2
+2013-08-16 14:43:49 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 14:43:49 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 14:43:49 INFO (6): bp1
+2013-08-16 14:46:20 INFO (6): progress.php: usertype = 2 current lab = 2 USER_FIT = 5
+2013-08-16 14:46:20 INFO (6): Progress::setProgress - USER_ID = 2
+2013-08-16 14:46:20 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 14:46:20 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 14:46:20 INFO (6): bp2
+2013-08-16 14:46:45 INFO (6): progress.php: usertype = 2 current lab = 3 USER_FIT = 5
+2013-08-16 14:46:45 INFO (6): bp4
+2013-08-16 14:46:45 INFO (6): Progress::setProgress - USER_ID = 2
+2013-08-16 14:46:45 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 14:46:45 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 14:47:51 INFO (6): progress.php: usertype = 2 current lab = 1 USER_FIT = 5
+2013-08-16 14:47:51 INFO (6): Progress::setProgress - USER_ID = 2
+2013-08-16 14:47:51 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 14:47:51 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 14:47:51 INFO (6): bp1
+2013-08-16 14:57:05 INFO (6): progress.php: usertype = 2 current lab = 1 USER_FIT = 5
+2013-08-16 14:57:05 INFO (6): Progress::setProgress - USER_ID = 2
+2013-08-16 14:57:05 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 14:57:05 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 14:57:05 INFO (6): bp1
+2013-08-16 14:57:37 INFO (6): progress.php: usertype = 2 current lab = 2 USER_FIT = 5
+2013-08-16 14:57:37 INFO (6): Progress::setProgress - USER_ID = 2
+2013-08-16 14:57:37 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 14:57:37 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 14:57:37 INFO (6): bp2
+2013-08-16 14:57:44 INFO (6): progress.php: usertype = 2 current lab = 3 USER_FIT = 5
+2013-08-16 14:57:44 INFO (6): bp4
+2013-08-16 14:57:44 INFO (6): Progress::setProgress - USER_ID = 2
+2013-08-16 14:57:44 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 14:57:44 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 23:04:44 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 23:04:44 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 23:04:44 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 23:04:44 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 23:04:44 INFO (6): bp1
+2013-08-16 23:04:50 INFO (6): progress.php: usertype = 3 current lab = 2 USER_FIT = 5
+2013-08-16 23:04:50 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 23:04:50 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 23:04:50 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 23:04:50 INFO (6): bp2
+2013-08-16 23:04:55 INFO (6): progress.php: usertype = 3 current lab = 3 USER_FIT = 5
+2013-08-16 23:04:55 INFO (6): bp4
+2013-08-16 23:04:55 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 23:04:55 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 23:04:55 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 23:08:18 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-16 23:08:18 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 23:08:18 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 23:08:18 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 23:08:18 INFO (6): bp1
+2013-08-16 23:08:24 INFO (6): progress.php: usertype = 3 current lab = 2 USER_FIT = 5
+2013-08-16 23:08:24 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 23:08:24 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 23:08:24 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 23:08:24 INFO (6): bp2
+2013-08-16 23:08:33 INFO (6): progress.php: usertype = 3 current lab = 3 USER_FIT = 5
+2013-08-16 23:08:33 INFO (6): bp4
+2013-08-16 23:08:33 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 23:08:33 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 23:08:33 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-16 23:08:51 INFO (6): progress.php: usertype = 3 current lab = 4 USER_FIT = 5
+2013-08-16 23:08:51 INFO (6): bp4
+2013-08-16 23:08:51 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-16 23:08:51 INFO (6): Progress:setProgress - test TRUE
+2013-08-16 23:08:51 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-17 11:35:44 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-17 11:35:44 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-17 11:35:44 INFO (6): Progress:setProgress - test TRUE
+2013-08-17 11:35:44 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-17 11:35:44 INFO (6): bp1
+2013-08-17 11:40:06 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-17 11:40:06 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-17 11:40:06 INFO (6): Progress:setProgress - test TRUE
+2013-08-17 11:40:06 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-17 11:40:06 INFO (6): bp1
+2013-08-17 11:40:18 INFO (6): progress.php: usertype = 3 current lab = 2 USER_FIT = 5
+2013-08-17 11:40:18 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-17 11:40:18 INFO (6): Progress:setProgress - test TRUE
+2013-08-17 11:40:18 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-17 11:40:18 INFO (6): bp2
+2013-08-17 11:43:04 INFO (6): progress.php: usertype = 3 current lab = 1 USER_FIT = 5
+2013-08-17 11:43:04 INFO (6): Progress::setProgress - USER_ID = 1
+2013-08-17 11:43:04 INFO (6): Progress:setProgress - test TRUE
+2013-08-17 11:43:04 INFO (6): Progress:setProgress - UPDATED = 1
+2013-08-17 11:43:04 INFO (6): bp1

@@ -3,7 +3,7 @@
 Configuration file
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: August 15, 2013
+Modifed: August 17, 2013
 ------------------------------------------------------------*/
 //error_reporting(E_ALL);
 //ini_set('display_errors', 1);
@@ -11,6 +11,10 @@ Modifed: August 15, 2013
 // admin email
 define('EMAIL_ADMIN', 'service@lucidmediaconcepts.com');
 define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
+
+// define('EMAIL_ADMIN', 'bud@joycode.com');
+// define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
+
 
 // autoresponses
 define('AUTO_RESPONSE_PATH', 'includes/auto_response');
@@ -56,15 +60,18 @@ define('PROGRAM_FEE', 225.00);
 // usertypes
 define('USER_STANDARD', 2);
 define('USER_DISCOUNT', 3);
-define('USER_FREE', 4);
-define('USER_FIT', 5);
+define('USER_FREE',     4);
+define('USER_FIT',      5);
 
 // tables
-define('TBL_USER', 'user');
-define('TBL_APPENDIX', 'appendix');
-define('TBL_LAB', 'lab');
-define('TBL_LESSON', 'lesson');
-define('TBL_PROGRESS', 'progress');
+define('TBL_USER',      'user');
+define('TBL_APPENDIX',  'appendix');
+define('TBL_LAB',       'lab');
+define('TBL_LESSON',    'lesson');
+define('TBL_PROGRESS',  'progress');
+define('TBL_PROMOCODE', 'promocode');
+define('TBL_USER',      'user');
+define('TBL_USERTYPE',  'usertype');
 
 // paths
 define('PATH', '/home1/joyofcod');
@@ -108,7 +115,7 @@ Zend_Db_Table::setDefaultAdapter($db);
 $logger = Zend_Log::factory(array(
    'timestampFormat' =>'Y-m-d H:i:s',
    array(
-      'writerName'      => 'Stream',
+      'writerName'   => 'Stream',
       'writerParams' => array('stream' => APPLICATION_PATH . '/logs/zend.log')
    ),
    array(
@@ -128,5 +135,6 @@ define('USERTYPE', $authNamespace->storage['usertype']);
 //echo '<pre>'; print_r($_SESSION); echo '</pre>';
 //echo '<pre>'; print_r($_REQUEST); echo '</pre>';
 //echo '<pre>'; print_r($_SERVER); echo '</pre>';
+
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php')
    header('Location: login.php');

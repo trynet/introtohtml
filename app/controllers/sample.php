@@ -36,5 +36,9 @@ if ($user_id) { // registration and subsequent login OK
    $promocode = $promocodeObj->getPromoCode($promotional_code);
    $registrationObj->updateUserType($promocode['usertype_id'], $user_id);   
 
+   // auto-response
+   $autoResponseObj = new AutoResponse();
+   $autoResponseObj->generateMessage(1, $user_id);
+
    header('Location: http://dev.introtohtml.net/login.php?email=' . $username);
 }

@@ -3,7 +3,7 @@
 Progress class
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: August 4, 2013
+Modifed: August 17, 2013
 
 construct
 array getProgress(int)

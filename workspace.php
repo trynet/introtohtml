@@ -1,5 +1,5 @@
 <?php
-echo '<pre>**DEBUG**<br><a href="logout.php">retry</a>'; session_start(); print_r($_SESSION); echo '</pre>';
+echo '<pre><a href="logout.php">retry</a>'; session_start(); print_r($_SESSION['Zend_Auth']['progress']); echo '</pre>';
 ?>
 
 <!DOCTYPE html>

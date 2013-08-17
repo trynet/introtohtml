@@ -4,135 +4,17 @@
 @import url('../css/bootstrap-responsive.min.css');
 
 
+/*  Table Of Contents 
 
-/* HTML5 Browser re-set 
-http://html5doctor.com/html-5-reset-stylesheet/
+Font Sizes
 
 */
 
-/* 
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
-Twitter: @rich_clark
-*/
-
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-/*
-body
-   { line-height:1.25;}   */
 
 
 
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section
- {  display:block;}
-
-
-nav ul {
-    list-style:none;
-}
-
-blockquote, q {
-    quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
-
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
-}
-
-
-/*  my re-sets  */
-
-h1, h2, h3, h4, h5, h6
-{font-weight:normal;}
-
-* a:hover
-{outline:0 !important;}
-
-th
-{text-align:left;}
-
-
-
-/* ========  my styles  ========= */
-
-/* ======  font sizes =====  */
+/* ======  Font Sizes =====  */
 
 header nav li a, header nav li strong
 {font-size:10px;}
@@ -170,13 +52,14 @@ aside#sidebar h1
 div#end
 {font-size:10px;}
 
+/* =======  Major Rules */
+
 
 body {
 	background:#fff url(../images/page_bg.jpg) no-repeat  center  fixed;
 	color: #000000;
 	font-family: verdana,helvetica,sans-serif;
-
-        -webkit-background-size: cover;
+   -webkit-background-size: cover;
         -moz-background-size cover;
         -ms-background-size cover;
         -o-background-size: cover;
@@ -198,20 +81,12 @@ box-shadow: 5px 5px 8px #999;  }
 
 header img
 {display:block;
-width:100%;
 margin:0 auto;}
 
+/*  =====  Header Nav ==== */
+
 header nav
-{
-margin-left:22px;;
-/*
-background:#000080;
--moz-border-radius:1em;
--ms-border-radius:1em;
--webkit-border-radius:1em;
--o-border-radius:1em;
-border-radius:1em;
-margin:15px 2px 0; */}
+{margin-left:45px;}
 
 header nav li strong
 { background:#316c2d url(../images/nav_dot.png) no-repeat 5px 5px; 
@@ -227,16 +102,6 @@ border-radius:1em;
 text-decoration:none;;
 border:1px #000 solid;
 font-weight:normal;}
-
-/*
-header nav ul
-{margin-left:20px;
-padding-bottom:5px; } */
-
-
-/* header nav li
-{display:inline;
-list-style-type:none;} */
 
 header nav li a:link, header nav li a:visited
 { /* background:#fff url(../images/nav_dot.png) no-repeat 5px 5px; */
@@ -510,27 +375,34 @@ float:left;
 font-family:'comic sans ms', monospace;}
 
 
-/* =====  home oage  ======   */
+/* =====  home page  ======   */
 
 h1#home
 {text-align:center;}
 
-div#weekly
-{float:left;
-width:20%;
-margin-top:20px;}
+
+section.home
+{width: 800px !important;
+padding:0 50px 0 25px ;}
 
 div#lessons {
    float:left;
-   width:50%;
+   width:35%;
    margin-top:20px;
 }
 
 div#labs {
    float:left;
-   width:50%;
+   width:35%;
    margin-top:20px;
 }
+
+
+div#messages {
+   float:right;
+   width:25%;
+   margin-top:20px;
+} 
 
 
 /* ========  labs =======  */
@@ -813,6 +685,24 @@ border-radius:10px;}
 -o-border-radius:20px;
 -ms-border-radius:20px;
 border-radius:20px;}
+
+
+/* ========  General Purpose ======== */
+
+/*  my re-sets  */
+
+h1, h2, h3, h4, h5, h6
+{font-weight:normal;}
+
+* a:hover
+{outline:0 !important;}
+
+th
+{text-align:left;}
+
+
+
+
 
 
 

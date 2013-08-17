@@ -349,3 +349,141 @@ Stack trace:
   thrown in /home1/joyofcod/Zend/Registry.php on line 147
 [16-Aug-2013 10:25:11] PHP Parse error:  syntax error, unexpected T_STRING in /home1/joyofcod/public_html/_dev_intro/app/controllers/subscription.php on line 21
 [16-Aug-2013 10:25:45] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home1/joyofcod/public_html/_dev_intro/app/classes/Subscription.php on line 52
+[16-Aug-2013 13:06:52] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/gilmeo_asd_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[16-Aug-2013 13:06:52] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[16-Aug-2013 13:12:59] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/sdvasdv_sadvasdv_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[16-Aug-2013 13:12:59] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[16-Aug-2013 13:14:58] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/asdlvn_vpasonv_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[16-Aug-2013 13:14:58] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[16-Aug-2013 13:22:17] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/beasva_das_casdvnio_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[16-Aug-2013 13:22:17] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[16-Aug-2013 13:24:59] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/no_man_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[16-Aug-2013 13:24:59] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[16-Aug-2013 14:18:56] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:19:00] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:19:11] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:29:20] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('service@lucidme...', '611ee35680109bc...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:31:53] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:31:57] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:32:45] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:33:20] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:50:56] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:51:02] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:52:40] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:52:48] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '3b55d4a8642324d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:53:00] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '319f4d26e3c536b...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:53:14] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '319f4d26e3c536b...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:54:10] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '93effef844eb35c...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[16-Aug-2013 14:55:16] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '93effef844eb35c...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147

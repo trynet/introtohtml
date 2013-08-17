@@ -1,4 +1,8 @@
-<?php require_once 'app/controllers/register.php' ?>
+<?php
+require_once 'app/config/config.php';
+require_once 'app/controllers/register.php';
+echo '<pre>'; print_r($_SESSION['Zend_Auth']['progress']); echo '</pre>';
+?>
 
 <!DOCTYPE html>
 <html>

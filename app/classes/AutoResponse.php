@@ -34,6 +34,8 @@ class AutoResponse
     */
    public function generateMessage($message_id, $user_id, $params = null) {
       try {
+$this->logger->log('AutoResponse::generateMessage TRY', Zend_Log::INFO); 
+
          $message   = '';                               // defined in $file
          $subject   = '';                               // defined in $file
          $signature = "Bud Kraus\n" .               // used in $file
@@ -71,10 +73,10 @@ class AutoResponse
          $result = $this->db->fetchOne($query, $message_id);
          $file   = AUTO_RESPONSE_PATH . '/' . $result . '.php';
 
-$this->logger->log($urls, Zend_Log::INFO); 
          require $file;
 
          $this->sendMessage($message, $subject, $email);
+$this->logger->log('AutoResponse::generateMessage SEND', Zend_Log::INFO); 
 
          return true;
       } catch (Exception $e) {

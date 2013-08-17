@@ -1,7 +1,7 @@
 <?php
 require_once 'app/config/config.php';
 require_once 'controllers/schedule.php';
-echo '<pre>'; print_r($_SESSION); echo '</pre>';
+echo '<pre>'; print_r($_SESSION['Zend_Auth']['progress']); echo '</pre>';
 ?>
 
 <!DOCTYPE html>
@@ -32,10 +32,31 @@ echo '<pre>'; print_r($_SESSION); echo '</pre>';
 
 <body>
    <div id="wrapper">
-      <?php include("includes/header.php"); ?>
+      <?php /* include("includes/header.php"); */ ?>
+
+<header>
+
+<img src="/images/header.png"  alt="Joy Of Code Intro To HTML" />
+
+
+<nav>
+<ul class="nav nav-pills">
+
+ <li class="active"><i class="icon-home"></i>Home Room</li>
+<li><a href="/frontoffice"><i class="icon-info-sign"></i>Front Office</a></li>
+<li><a href="/code_tester.html"><i class="icon-pencil"></i>Code Tester</a></li>
+<li><a href="/workspace.php"><i class="icon-cog"></i>Work Space</a></li>
+<li><a href="/logout.php"><i class="icon-off"></i>Sign Out</a></li>
+
+</ul>
+</nav> 
+
+</header>
+
+
 
       <div class="clearfix">
-         <section id="main">
+         <section id="main" class="home">
             <h1 id="home">Home Room</h1>
 
             <div id="lessons">
@@ -66,12 +87,19 @@ echo '<pre>'; print_r($_SESSION); echo '</pre>';
                </ol>
             </div>
 
+<div id="messages">
+<h2>Messages</h2>
+
+<p>Right now, you don't have any.</p>
+
+</div>  
+
             <hr style="clear:both;" />
 
             <div id="appendices">
                <h2>Appendices</h2>
                <p>All the stuff that I could not fit into the Lessons</p>
-               <ol>
+               <ol type="A">
                   <?php for ($i = 1; $i <= count($appendices); $i++) : ?>
                      <?php if ($progress['current_lab'] > ($i - 1)) : ?>
                      <a href="<?php echo $appendices[$i - 1]['url'] ?>"><li><?php echo $appendices[$i - 1]['appendix'] ?></li></a>
