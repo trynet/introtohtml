@@ -3,7 +3,7 @@
 sample.php
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: August 17, 2013
+Modifed: August 18, 2013
 
 Process, register, and login a user after they choose to
 try the first two lessons
@@ -25,9 +25,9 @@ $userObj = new User();
 $user_id = $userObj->addUser($data);
 
 if ($user_id) { // registration and subsequent login OK
-   // persist
-   $authNamespace = new Zend_Session_Namespace('Zend_Auth');
-   $authNamespace->logged_in = true;
+   // persist (pointless because of domain crossing)
+   // $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+   // $authNamespace->logged_in = true;
 
    // promotional code
    $promocodeObj    = new PromoCode();
@@ -38,7 +38,7 @@ if ($user_id) { // registration and subsequent login OK
 
    // auto-response
    $autoResponseObj = new AutoResponse();
-   $autoResponseObj->generateMessage(1, $user_id);
+   $autoResponseObj->generateMessage(REGISTER_NO_PROMO, $user_id);
 
    header('Location: http://dev.introtohtml.net/login.php?email=' . $username);
 }

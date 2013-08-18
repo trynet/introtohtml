@@ -8,6 +8,9 @@ Modifed: August 17, 2013
 //error_reporting(E_ALL);
 //ini_set('display_errors', 1);
 
+// application domain
+define('APPLICATION_DOMAIN', 'http://dev.introtohtml.net');
+
 // admin email
 define('EMAIL_ADMIN', 'service@lucidmediaconcepts.com');
 define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
@@ -27,10 +30,13 @@ define('PROGRESSION_7', 7);
 define('PROGRESSION_8', 8);
 define('PROGRESSION_9', 9);
 
-// autoresponses / application_states
-define('AUTO_RESPONSE_PATH', 'includes/auto_response');
+// application_states
+define('INITIAL_STATE',   0);
+define('SECONDARY_STATE', 1);
+define('TERTIARY_STATE',  2);
 
-define('INITIAL_STATE',                     0);
+// auto-responses
+define('AUTO_RESPONSE_PATH', 'includes/auto_response');
 define('REGISTER_NO_PROMO',                 1);
 define('REGISTER_PROMO_EFA',                2);
 define('REGISTER_PROMO_GAG',                3);

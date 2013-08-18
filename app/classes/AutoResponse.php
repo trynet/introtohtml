@@ -103,6 +103,11 @@ class AutoResponse
          $userObj = new User();
          $userObj->email($message, $subject, $email);
 
+         // log message
+         $log_message  = "AutoResponse::sendMessage() MESSAGE\n";
+         $log_message .= "$message\nSUBJECT: $subject\nEMAIL: $email";
+         $this->logger->log($log_message, Zend_Log::ERR);
+
          return true;
       } catch (Exception $e) {
          $this->logger->log('AutoResponse::sendMessage() ERROR', Zend_Log::ERR);

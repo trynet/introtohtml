@@ -11,6 +11,9 @@ todo: consider splitting file into more application state
 ------------------------------------------------------------*/
 require_once '../config/config.php';
 
+// instantiate Application obj
+$applicationObj = new Application();
+
 // instantiate Progress obj; get session data and HTTP GET params
 $progressObj = new Progress();
 $progression = $authNamespace->progress['progression'];
@@ -33,6 +36,7 @@ switch (USERTYPE) {
    case USER_FREE :
    case USER_FIT :
       $progressObj->setProgress($user_id, $data);
+      $applicationObj->consumeApplicationState();
    break;
 
    case USER_CLASSROOM :

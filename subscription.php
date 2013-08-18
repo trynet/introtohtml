@@ -1,6 +1,6 @@
 <?php
 require_once 'app/config/config.php';
-echo '<pre>'; print_r($_SESSION['Zend_Auth']['progress']); echo '</pre>';
+echo '<pre>'; print_r($DEBUG); echo '</pre>';
 ?>
 <!DOCTYPE html>
 <html>

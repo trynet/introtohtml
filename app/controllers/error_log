@@ -23,3 +23,35 @@ Stack trace:
 #4 {main}
   thrown in /home1/joyofcod/Zend/Registry.php on line 147
 [17-Aug-2013 20:17:06] PHP Fatal error:  Class 'Zend' not found in /home1/joyofcod/public_html/_dev_intro/app/controllers/progress.php on line 22
+[17-Aug-2013 22:04:44] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home1/joyofcod/public_html/_dev_intro/app/controllers/sample.php on line 46
+[17-Aug-2013 22:04:44] PHP Parse error:  syntax error, unexpected ':' in /home1/joyofcod/public_html/_dev_intro/app/controllers/sample.php on line 46
+[17-Aug-2013 22:11:49] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/start_here_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[17-Aug-2013 22:11:49] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[17-Aug-2013 22:17:49] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/sbout_tolea_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[17-Aug-2013 22:17:49] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 01:25:29] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/asvd_falskvas_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 01:25:29] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 01:29:28] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/asvd_falskvas_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 01:29:28] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:02:49] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/asvd_falskvas_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:02:49] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:09:31] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/moot_moot_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:09:31] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:11:24] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/moot_moot2_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:11:24] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:12:04] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/moot_moot2_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:12:04] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:13:01] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/asvd_falskvas_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:13:01] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:13:05] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('asvd@falskvas.c...', 'dc647eb65e6711e...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[18-Aug-2013 02:13:18] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/asvasv_asdlkv_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:13:18] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:24:47] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/vdvvddv_dvd_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 02:24:47] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94

@@ -36,7 +36,7 @@ class Progress {
    public function addProgress($user_id) {
       try {
          $data = array('user_id'     => $user_id,
-                       'progression' => PROGESSION_1,
+                       'progression' => PROGRESSION_1,
                        'proceed'     => 1);
 
          $this->db->insert(TBL_PROGRESS, $data);
