@@ -1,7 +1,7 @@
 <?php
 require_once 'app/config/config.php';
-echo '<pre><a href="logout.php">reset</a>';
-print_r($_SESSION['Zend_Auth']['progress']);
+echo '<pre><a href="logout.php">reset</a><br>';
+print_r($DEBUG);
 echo '</pre>';
 ?>
 

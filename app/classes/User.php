@@ -94,6 +94,7 @@ class User
          // presist to session
          $authNamespace = new Zend_Session_Namespace('Zend_Auth');
          $authNamespace->logged_in = true;
+         $authNamespace->APPLICATION_STATE = null;
 
          // get current progress and persist
          $progressObj             = new Progress();

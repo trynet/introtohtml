@@ -27,8 +27,10 @@ define('PROGRESSION_7', 7);
 define('PROGRESSION_8', 8);
 define('PROGRESSION_9', 9);
 
-// autoresponses
+// autoresponses / application_states
 define('AUTO_RESPONSE_PATH', 'includes/auto_response');
+
+define('INITIAL_STATE',                     0);
 define('REGISTER_NO_PROMO',                 1);
 define('REGISTER_PROMO_EFA',                2);
 define('REGISTER_PROMO_GAG',                3);
@@ -144,9 +146,13 @@ $user_id = $authNamespace->storage['user_id'];
 define('USER_ID', $user_id);
 define('USERTYPE', $authNamespace->storage['usertype']);
 
-//echo '<pre>'; print_r($_SESSION); echo '</pre>';
-//echo '<pre>'; print_r($_REQUEST); echo '</pre>';
-//echo '<pre>'; print_r($_SERVER); echo '</pre>';
+/* debug */
+$DEBUG = array('user_id'           => $authNamespace->storage['user_id'],
+               'usertype'          => $authNamespace->storage['usertype'],
+               'promotional_code'  => $authNamespace->storage['promo'],
+               'progression'       => $authNamespace->progress['progression'],
+               'proceed'           => $authNamespace->progress['proceed'],
+               'APPLICATION_STATE' => $authNamespace->APPLICATION_STATE);
 
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php')
    header('Location: login.php');
