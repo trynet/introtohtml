@@ -15,6 +15,17 @@ define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
 // define('EMAIL_ADMIN', 'bud@joycode.com');
 // define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
 
+// progressions
+define('PROGRESSION_INCREMENT', 1);
+define('PROGRESSION_1', 1);
+define('PROGRESSION_2', 2);
+define('PROGRESSION_3', 3);
+define('PROGRESSION_4', 4);
+define('PROGRESSION_5', 5);
+define('PROGRESSION_6', 6);
+define('PROGRESSION_7', 7);
+define('PROGRESSION_8', 8);
+define('PROGRESSION_9', 9);
 
 // autoresponses
 define('AUTO_RESPONSE_PATH', 'includes/auto_response');
@@ -58,10 +69,11 @@ define('UPLOAD_LAB2_REVIEW_INSTRUCTOR', 35);
 define('PROGRAM_FEE', 225.00);
 
 // usertypes
-define('USER_STANDARD', 2);
-define('USER_DISCOUNT', 3);
-define('USER_FREE',     4);
-define('USER_FIT',      5);
+define('USER_STANDARD',  2);
+define('USER_DISCOUNT',  3);
+define('USER_FREE',      4);
+define('USER_FIT',       5);
+define('USER_CLASSROOM', 6);
 
 // tables
 define('TBL_USER',      'user');

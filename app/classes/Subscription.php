@@ -27,16 +27,16 @@ class Subscription
     */
    public function updateSubscription($user_id, $data) {
       if ($data['subscribe'] != '')
-         $data['subscribe'] = 1;
+          $data['subscribe'] = 1;
 
       if ($data['html'] != '')
-         $data['html'] = 1;
+          $data['html'] = 1;
 
       if ($data['css'] != '')
-         $data['css'] = 1;
+          $data['css'] = 1;
 
       if ($data['wordpress'] != '')
-         $data['wordpress'] = 1;
+          $data['wordpress'] = 1;
 
       try {
          $n = $this->db->update(TBL_USER, $data, "user_id = $user_id");

@@ -4,7 +4,7 @@ Workspace - Uses DB auth instead of HTTP and flat files
 
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 21, 2013
-Modifed: July 21, 2013
+Modifed: August 17, 2013
 ------------------------------------------------------------*/
 
 require_once 'config/config.php';
@@ -39,7 +39,7 @@ class Workspace {
          return false;
 
       // fixme: input sanitization!!
-      $dir = $this->getDirectory($user_id); echo "\ndir: $dir";
+      $dir = $this->getDirectory($user_id); //echo "\ndir: $dir";
       return move_uploaded_file($_Files['fileupload']['tmp_name'], "$dir/" . trim($_Files['fileupload']['name']));
    }
 

@@ -9,24 +9,20 @@ echo '<pre>'; print_r($_SESSION['Zend_Auth']['progress']); echo '</pre>';
 <head>
    <title>Joy Of Code: Intro To HTML -  Home Room</title>
    <link rel="stylesheet" href="styles/styles.css" />
+
+
    <style type="text/css">
-      ection#main
+
+      section#main
       {width:800px;
       float:none;
-      margin:20px auto;}
+      padding:0 50px 0 25px ;}
+
 
       hr
       {visibility:hidden;}
 
-      div#montreal
-      {width:80%;
-      margin: 0 auto;}
 
-      div#montreal img
-      {float:left;
-      padding:10px;
-      margin:0 15px ;
-      border:1px black solid;}
    </style>
 </head>
 
@@ -56,7 +52,7 @@ echo '<pre>'; print_r($_SESSION['Zend_Auth']['progress']); echo '</pre>';
 
 
       <div class="clearfix">
-         <section id="main" class="home">
+         <section id="main">
             <h1 id="home">Home Room</h1>
 
             <div id="lessons">
@@ -64,7 +60,7 @@ echo '<pre>'; print_r($_SESSION['Zend_Auth']['progress']); echo '</pre>';
                <p>Reading Material For Each Lab</p>
                <ol>
                   <?php for ($i = 1; $i <= count($lessons); $i++) : ?>
-                     <?php if ($progress['current_lab'] > ($i - 1)) : ?>
+                     <?php if ($progress['progression'] > ($i - 1)) : ?>
                      <a href="<?php echo $lessons[$i - 1]['url'] ?>"><li><?php echo $lessons[$i - 1]['lesson'] ?></li></a>
                      <?php else : ?>
                      <li><?php echo $lessons[$i - 1]['lesson'] ?></li>
@@ -78,7 +74,7 @@ echo '<pre>'; print_r($_SESSION['Zend_Auth']['progress']); echo '</pre>';
                <p>Hands-On Assignements</p>
                <ol>
                   <?php for ($i = 1; $i <= count($labs); $i++) : ?>
-                     <?php if ($progress['current_lab'] > ($i - 1)) : ?>
+                     <?php if ($progress['progression'] > ($i - 1)) : ?>
                      <a href="<?php echo $labs[$i - 1]['url'] ?>"><li><?php echo $labs[$i - 1]['lab'] ?></li></a>
                      <?php else : ?>
                      <li><?php echo $labs[$i - 1]['lab'] ?></li>
@@ -101,7 +97,7 @@ echo '<pre>'; print_r($_SESSION['Zend_Auth']['progress']); echo '</pre>';
                <p>All the stuff that I could not fit into the Lessons</p>
                <ol type="A">
                   <?php for ($i = 1; $i <= count($appendices); $i++) : ?>
-                     <?php if ($progress['current_lab'] > ($i - 1)) : ?>
+                     <?php if ($progress['progression'] > ($i - 1)) : ?>
                      <a href="<?php echo $appendices[$i - 1]['url'] ?>"><li><?php echo $appendices[$i - 1]['appendix'] ?></li></a>
                      <?php else : ?>
                      <li><?php echo $appendices[$i - 1]['appendix'] ?></li>

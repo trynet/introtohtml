@@ -1,5 +1,8 @@
 <?php
-echo '<pre><a href="logout.php">retry</a>'; session_start(); print_r($_SESSION['Zend_Auth']['progress']); echo '</pre>';
+require_once 'app/config/config.php';
+echo '<pre><a href="logout.php">reset</a>';
+print_r($_SESSION['Zend_Auth']['progress']);
+echo '</pre>';
 ?>
 
 <!DOCTYPE html>

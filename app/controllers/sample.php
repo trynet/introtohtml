@@ -3,9 +3,9 @@
 sample.php
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: August 4, 2013
+Modifed: August 17, 2013
 
-Process, register, and login a user after the choose to
+Process, register, and login a user after they choose to
 try the first two lessons
 ------------------------------------------------------------*/
 
@@ -30,7 +30,7 @@ if ($user_id) { // registration and subsequent login OK
    $authNamespace->logged_in = true;
 
    // promotional code
-   $promocodeObj = new PromoCode();
+   $promocodeObj    = new PromoCode();
    $registrationObj = new Registration();
 
    $promocode = $promocodeObj->getPromoCode($promotional_code);

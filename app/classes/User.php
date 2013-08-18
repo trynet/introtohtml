@@ -3,7 +3,7 @@
 User class
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: August 4, 2013
+Modifed: August 17, 2013
 
 int addUser(array)
 void authenticateUser(string, string)
@@ -54,7 +54,7 @@ class User
          $this->authenticateUser($data['email'], $data['password']);
 
          // setup current progress
-         $progressObj->setProgress($id);
+         $progressObj->addProgress($id);
 
          return $id;
       } catch (Exception $e) {
@@ -96,8 +96,8 @@ class User
          $authNamespace->logged_in = true;
 
          // get current progress and persist
-         $progressObj = new Progress();
-         $progress = $progressObj->getProgress($identity['user_id']);
+         $progressObj             = new Progress();
+         $progress                = $progressObj->getProgress($identity['user_id']);
          $authNamespace->progress = $progress;
       }
    }
@@ -135,7 +135,7 @@ class User
          return true;
       } catch (Exception $e) {
          $dbLoggerObj = new DbLogger($e);
-         $this->logger->log($message, Zend_Log::ERR);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
          return false;
       }
    }
@@ -158,13 +158,12 @@ class User
       $header = 'From: no-reply@introtohtml.net' . "\r\n" .
                 'X-Mailer: PHP/' . phpversion();
 
-      $result = mail($to, $subject, $message, $headers);
-
-      if (!$result) {
+      try {
+         $result = mail($to, $subject, $message, $headers);
+         return true;
+      } catch (Exception $e) {
          $this->logger->log($e->message(), Zend_Log::ERR);
          return false;
       }
-
-      return true;
    }
 }

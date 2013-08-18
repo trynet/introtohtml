@@ -34,7 +34,7 @@ class AutoResponse
     */
    public function generateMessage($message_id, $user_id, $params = null) {
       try {
-$this->logger->log('AutoResponse::generateMessage TRY', Zend_Log::INFO); 
+         $this->logger->log('AutoResponse::generateMessage() BEGIN TRY BLOCK', Zend_Log::INFO); 
 
          $message   = '';                               // defined in $file
          $subject   = '';                               // defined in $file
@@ -58,9 +58,9 @@ $this->logger->log('AutoResponse::generateMessage TRY', Zend_Log::INFO);
          $html      = $userObj->getField($user_id, 'html');
          $css       = $userObj->getField($user_id, 'css');
          $wordpress = $userObj->getField($user_id, 'wordpress');
-         $html      = ($html == 1) ? 'HTML' : '';
-         $css       = ($css == 1) ? 'CSS' : '';
-         $wordpress = ($wordpress == 1) ? 'WP' : '';
+         $html      = ($html == 1)      ? 'HTML' : '';
+         $css       = ($css == 1)       ? 'CSS'  : '';
+         $wordpress = ($wordpress == 1) ? 'WP'   : '';
 
          // urls
          $workspaceObj = new Workspace();
@@ -76,11 +76,11 @@ $this->logger->log('AutoResponse::generateMessage TRY', Zend_Log::INFO);
          require $file;
 
          $this->sendMessage($message, $subject, $email);
-$this->logger->log('AutoResponse::generateMessage SEND', Zend_Log::INFO); 
+         $this->logger->log('AutoResponse::generateMessage() SEND', Zend_Log::INFO); 
 
          return true;
       } catch (Exception $e) {
-         $this->logger->log('AutoResponse::generateMessage ERROR', Zend_Log::ERR);
+         $this->logger->log('AutoResponse::generateMessage() ERROR', Zend_Log::ERR);
 
          return false;
       }
@@ -89,9 +89,9 @@ $this->logger->log('AutoResponse::generateMessage SEND', Zend_Log::INFO);
    /**
     * send message
     *
-    * @param: (string) to
-    * @param: (string) subject
     * @param: (string) message
+    * @param: (string) subject
+    * @param: (string) email
     * @param: (bool) instructor - if TRUE, send to instructor email
     * @return: (bool) true on success
     */
@@ -105,19 +105,7 @@ $this->logger->log('AutoResponse::generateMessage SEND', Zend_Log::INFO);
 
          return true;
       } catch (Exception $e) {
-         $this->logger->log('AutoResponse::sendMessagge ERROR', Zend_Log::ERR);
+         $this->logger->log('AutoResponse::sendMessage() ERROR', Zend_Log::ERR);
       }
    }
-
-   /**
-    * get message
-    *
-    * @param: (int) message_id
-    * @return: (string) message (w/o parameters)
-    *
-    public function getMessage($message_id) {
-      try {
-      } catch (Exception $e) {
-      }
-   }*/
 }

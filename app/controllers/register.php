@@ -24,15 +24,15 @@ if (is_null($_POST['submit'])) {
    $lastname  = htmlspecialchars($_POST['lastname']);
    $email     = htmlspecialchars($_POST['email']);
    $found     = htmlspecialchars($_POST['found']);
-   //$subscribe = htmlspecialchars($_POST['subscribe']);
-   //$promo     = htmlspecialchars($_POST['promo']);
+ //$subscribe = htmlspecialchars($_POST['subscribe']);
+ //$promo     = htmlspecialchars($_POST['promo']);
    $tos       = htmlspecialchars($_POST['tos']);
    $submit    = htmlspecialchars($_POST['submit']);
 
    $data = array('lastname'  => $lastname,
                  'found'     => $found,
-                 //'subscribe' => $subscribe,
-                 //'promo'     => $promo,
+               //'subscribe' => $subscribe,
+               //'promo'     => $promo,
                  'tos'       => $tos);
 
    $result = $registrationObj->registerUser($data, USER_ID);

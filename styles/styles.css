@@ -7,8 +7,18 @@
 /*  Table Of Contents 
 
 Font Sizes
-
-*/
+Header Nav
+Major Rules
+Sidebar
+Other Sidebars
+Footer
+Home Page
+Labs
+Front Office
+Code Style
+Right And Left Adjustments
+Top and Bottom Adjustmenst
+Gene3ral Purpose*/
 
 
 
@@ -33,7 +43,6 @@ caption
 th, td,table.lesson8 caption
 {font-size:14px;}
 
-
 section#main h1
 {font-size:40px;}
 
@@ -43,7 +52,7 @@ section#main h2
 section#main h3
 {font-size:20px;}
 
-section#naim exs
+section#naim .exs
 {font-size:10px;}
 
 aside#sidebar h1
@@ -52,18 +61,57 @@ aside#sidebar h1
 div#end
 {font-size:10px;}
 
+
+/*  =====  Header Nav ==== */
+
+header nav
+{margin-left:45px;}
+
+/*
+header nav li strong
+{background:#316c2d url(../images/nav_dot.png) no-repeat 5px 5px; 
+color:#fff;
+margin-right:10px;
+text-indent:5px;
+padding:0 15px;
+-moz-border-radius:1em;
+-webkit-border-radius:1em;
+-ms-border-radius:1em;
+-o-border-radius:1em;
+border-radius:1em;
+text-decoration:none;;
+border:1px #000 solid;
+font-weight:normal;}  */
+
+header nav li a:link, header nav li a:visited
+{color:#000080;
+margin-right:10px;
+text-indent:5px;
+padding:0 15px;
+-moz-border-radius:1em;
+-webkit-border-radius:1em;
+-ms-border-radius:1em;
+-o-border-radius:1em;
+border-radius:1em;
+text-decoration:none;;
+border:1px /* or green #98cf51 */ #f0932b solid;}
+
+header nav li a:hover
+{color:#777;
+background:#999;}
+
+
 /* =======  Major Rules */
 
-
-body {
-	background:#fff url(../images/page_bg.jpg) no-repeat  center  fixed;
-	color: #000000;
-	font-family: verdana,helvetica,sans-serif;
-   -webkit-background-size: cover;
-        -moz-background-size cover;
-        -ms-background-size cover;
-        -o-background-size: cover;
-        background-size: cover;  }
+body 
+{background:#fff url(../images/page_bg.jpg) no-repeat  center  fixed;
+color: #000000;
+font-family: verdana,helvetica,sans-serif;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+-o-background-size: cover;
+background-size: cover;  }
 
 div#wrapper
 {width:900px;
@@ -83,55 +131,10 @@ header img
 {display:block;
 margin:0 auto;}
 
-/*  =====  Header Nav ==== */
-
-header nav
-{margin-left:45px;}
-
-header nav li strong
-{ background:#316c2d url(../images/nav_dot.png) no-repeat 5px 5px; 
-color:#fff;
-margin-right:10px;
-text-indent:5px;
-padding:0 15px;
--moz-border-radius:1em;
--webkit-border-radius:1em;
--ms-border-radius:1em;
--o-border-radius:1em;
-border-radius:1em;
-text-decoration:none;;
-border:1px #000 solid;
-font-weight:normal;}
-
-header nav li a:link, header nav li a:visited
-{ /* background:#fff url(../images/nav_dot.png) no-repeat 5px 5px; */
-color:#000080;
-margin-right:10px;
-text-indent:5px;
-padding:0 15px;
--moz-border-radius:1em;
--webkit-border-radius:1em;
--ms-border-radius:1em;
--o-border-radius:1em;
-border-radius:1em;
-text-decoration:none;;
-border:1px /* or green #98cf51 */ #f0932b solid;}
-
-header nav li a:hover
-{color:#fff;
-background:#999;}
-
-
-
 section#main
 {margin:20px;
 width:574px;
 float:left;}
-
-
-ul#breadcrumbs li
-{list-style-type:none;
-margin:1em 0 1em  -20px;;}
 
 section#main h1, section#main h2, section#main h3, section#main h4
 {font-family: garamond, serif;}
@@ -152,14 +155,11 @@ font-family:'times new roman', serif;
 -o-border-radius:1em;
 border-radius:1em;}
 
-
-
-
 section#main h2
 {background: url(../images/heading_dot.gif) no-repeat left center;
 padding-left:40px;}
 
-section#main p /*   , section#main li  */ 
+section#main p 
 {margin:1em 0;}
 
 section#main label#example
@@ -183,8 +183,6 @@ section#main p#select
 {clear:both;
 padding-top:1em !important;}
 
-
-
 section#main table 
 {width:90%;
 margin:1em auto;}
@@ -192,8 +190,6 @@ margin:1em auto;}
 section#main table.lesson8 
 {width:auto;
 margin:0 0 0 -1em;;}
-
-
 
 section#main table tr
 {border:1px solid #999;}
@@ -207,7 +203,6 @@ section#main table tr:hover
 section#main table.lesson8 tr:hover
 {background:transparent;}
 
-
 section#main col#left
 {width:10%;}
 
@@ -216,7 +211,6 @@ section#main col#center
 
 section#main col#right
 {width:65%;}
-
 
 section#main col.left
 {width:10%;}
@@ -227,13 +221,8 @@ section#main col.center
 section#main col.right
 {width:65%;}
 
-
-
-
-
 td, th
 {padding:1em;}
-
 
 section#main p#cute_line
 {text-align:center;
@@ -257,23 +246,19 @@ border-radius:1em;
 border:1px solid #999;
 width:25%;}
 
-
 div#form_example fieldset
 {border:1px solid #a8a8a8;}
 
 div#form_example input, div#form_example label
 {float:none;}
 
-
 img#sheets
 {float:left;
 padding:40px 20px 0px 0px;}
 
-
 ol.formclear, ul.formclear, p.formclear
 {clear:both;
 padding-top:10px;}
-
 
 p#note
 {width:75%;
@@ -282,10 +267,7 @@ border: 2px dotted #000080;
 padding:10px;}
 
 
-
-
-
-/* ========  sidebar =======  */
+/* ========  Sidebar =======  */
 
 aside#sidebar
 {float:right;
@@ -320,10 +302,12 @@ aside#sidebar a:hover
 a
 {display:inline !important;}
 
+ul#breadcrumbs li
+{list-style-type:none;
+margin:1em 0 1em  -20px;;}
 
 
-
-/* ======  other sidebars ===== */
+/* ======  Other Sidebars ===== */
 
 aside#csspay
 {width:250px;
@@ -334,13 +318,11 @@ aside#csspay form
 {margin-top:20px ;}
 
 
-
-
+/* =======  Footer ======  */
 
 footer nav ul
 {text-align:center;
 position:relative;}
-
 
 footer nav li
 {display:inline;
@@ -351,7 +333,7 @@ footer nav li a
 text-decoration:none;;}
 
 a#next
-{	background:#eee url(../images/next_arrow.png) no-repeat 5px ;
+{background:#eee url(../images/next_arrow.png) no-repeat 5px ;
 padding-right:5px;
 outline:0;
 display:block;
@@ -363,23 +345,15 @@ text-align: right;
 -o-border-radius:1em;
 border-radius:1em;}
 
-
 div#end
 {text-align:center;
 padding-bottom:20px;}
 
-div#welcome
-{width:220px;
-padding:10px 15px 10px 10px;
-float:left;
-font-family:'comic sans ms', monospace;}
 
-
-/* =====  home page  ======   */
+/* =====  Hoje page  ======   */
 
 h1#home
 {text-align:center;}
-
 
 section.home
 {width: 800px !important;
@@ -405,8 +379,7 @@ div#messages {
 } 
 
 
-/* ========  labs =======  */
-
+/* ========  Labs =======  */
 
 img.peek
 {display:block;
@@ -423,7 +396,13 @@ div.valid p
 
 
 
-/* ===== front office ====== */
+/* ===== Front Office ====== */
+
+div#welcome
+{width:220px;
+padding:10px 15px 10px 10px;
+float:left;
+font-family:'comic sans ms', monospace;}
 
 img#learningxss
 {display:block;
@@ -482,14 +461,14 @@ margin:0 39px;}
 float:right;}
 
 
-/* =====  code styles  ======   */
+/* =====  Code Styles  ======   */
 
 code 
 {background: #FFFF9B;
 font-family: courier,monospace;
 color:#000;
 font-weight:bold;
-	font-family: verdana,helvetica,sans-serif;}
+font-family: verdana,helvetica,sans-serif;}
 
 span.second
 {background:#0f0;}
@@ -509,18 +488,11 @@ span.html_outline
 display:block;
 color:#fff;}
 
-
 .exs 
 {font-variant : small-caps;
 font-weight : bold;}
 
 
-.clearfix:after
-{content: ".";
-display: block;
-height: 0;
-clear: both;
-visibility: hidden;}
 
 
 
@@ -699,6 +671,14 @@ h1, h2, h3, h4, h5, h6
 
 th
 {text-align:left;}
+
+.clearfix:after
+{content: "";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;}
+
 
 
 

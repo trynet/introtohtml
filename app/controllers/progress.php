@@ -11,59 +11,33 @@ todo: consider splitting file into more application state
 ------------------------------------------------------------*/
 require_once '../config/config.php';
 
-$proceed          = htmlspecialchars($_GET['proceed']);
-
-$current_lesson   = $authNamespace->progress['current_lesson'];
-$current_lab      = $authNamespace->progress['current_lab'];
-$current_appendix = $authNamespace->progress['current_appendix'];
-
-$message = "progress.php: usertype = " . USERTYPE .
-           " current lab = $current_lab" .
-           " USER_FIT = " . USER_FIT;
-$logger->log($message, Zend_Log::INFO);
-
+// instantiate Progress obj; get session data and HTTP GET params
 $progressObj = new Progress();
-$progress = $authNamespace->progress;
+$progression = $authNamespace->progress['progression'];
+$proceed     = htmlspecialchars($_GET['proceed']);
+
+// log message
+$log_message  = "ProgressController() USERTYPE = " . USERTYPE;
+$log_message .= "\nProgressController() PROGRESSION = $progression";
+$logger->log($log_message, Zend_Log::INFO);
+
 
 // increment values (fixme: currently has to be done before redirect)
-$data = array('current_lesson'   => $current_lesson   + 1,
-              'current_lab'      => $current_lab      + 1,
-              'current_appendix' => $current_appendix + 1);
+$data = array('progression' => $progression + PROGRESSION_INCREMENT,
+              'proceed'     => $proceed);
 
-if ($proceed == 1) {
-   // proceed at own rate
-   $data['proceed'] = 1;
-} else {
-   // wait for Bud
-   $data['proceed'] = 0;
+switch (USERTYPE) {
+
+   case USER_STANDARD :
+   case USER_DISCOUNT :
+   case USER_FREE :
+   case USER_FIT :
+      $progressObj->setProgress($user_id, $data);
+   break;
+
+   case USER_CLASSROOM :
+      // case irrelevant
+   break;
 }
 
-// if user is at end of lab 1, redirect to subscribe
-if ($current_lab == 1 && USERTYPE != USER_FIT) {
-   $progressObj->setProgress($user_id, $data);
-   header('Location: /subscription.php');
-$logger->log('bp1', Zend_Log::INFO);
-   exit();
-}
-
-// if user is at end of lab 2, redirect to registration
-if ($current_lab == 2 && USERTYPE != USER_FIT) {
-   $progressObj->setProgress($user_id, $data);
-   header('Location: /register.php');
-$logger->log('bp2', Zend_Log::INFO);
-   exit();
-}
-
-// if user is a FIT user and we're at lesson 7
-if (USERTYPE == USER_FIT && $current_lab == 7) {
-// fixme: setProgress shouldn't be called until
-//        after paypal. i.e., app/controllers/paypal.php
-   $progressObj->setProgress($user_id, $data);
-   header('Location: /paypal.php?u=' . USER_FIT);
-$logger->log('bp3', Zend_Log::INFO);
-   exit();
-}
-
-$logger->log('bp4', Zend_Log::INFO);
-$progressObj->setProgress($user_id, $data);
 header('Location: /index.php');

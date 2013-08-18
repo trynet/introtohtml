@@ -32,7 +32,7 @@ class PromoCode {
     * check promo code and return fee
     *
     * @param: (string) promotional code
-    * @return: (array) promocode record
+    * @return: (array) promotional code record
     */
    public function isValid($promotional_code) {
       foreach ($this->promos as $promo) {
@@ -44,7 +44,7 @@ class PromoCode {
    }
 
    /**
-    * get promocode record(s)
+    * get promotional code record(s)
     *
     * @param: (string) promotional code
     * @return: (array)
