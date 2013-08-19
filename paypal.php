@@ -1,5 +1,6 @@
 <?php
 require_once 'app/config/config.php';
+echo '<pre>'; print_r($DEBUG); echo '</pre>';
 
 // todo: place following logic in appropriate area outside of view
 $usertype = $_GET['u'];

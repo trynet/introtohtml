@@ -19,6 +19,10 @@ $progressObj = new Progress();
 $progression = $authNamespace->progress['progression'];
 $proceed     = htmlspecialchars($_GET['proceed']);
 
+// if proceed is empty, get current db value
+if (empty($proceed))
+   $proceed = $authNamespace->progress['proceed'];
+
 // log message
 $log_message  = "ProgressController() USERTYPE = " . USERTYPE;
 $log_message .= "\nProgressController() PROGRESSION = $progression";

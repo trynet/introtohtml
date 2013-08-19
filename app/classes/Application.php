@@ -29,7 +29,7 @@ class Application
 
       // get current application state
       if (is_null($application_state))
-         $application_state = $authNamespace->APPLICATION_STATE
+         $application_state = $authNamespace->APPLICATION_STATE;
 
       // determine next application state
       switch ($application_state) {

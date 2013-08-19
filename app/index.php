@@ -30,14 +30,22 @@ switch ($APPLICATION_STATE) {
       // user subscribed and finished lab two. next, they'll
       // need to finish registration and pay
       $data = array('proceed' => $proceed);
-      $progessObj->setProgress(USER_ID, $data);
-      header('Location: /paypal.php');
+      $progressObj->setProgress(USER_ID, $data);
+      header('Location: /register.php');
       exit();
    break;
 
+   case TERTIARY_STATE :
+   default :
+      // for all user groups except U(4) FIT, continue
+      header('Location: /app/controllers/progress.php');
+   break;
+      
+/*
    case REGISTER_NO_PROMO :
       // user just registered with no promo code
       // handled in controllers/sample.php when received from 
       // joyofcode.com
    break;
+*/
 }

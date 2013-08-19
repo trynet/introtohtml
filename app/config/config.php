@@ -90,7 +90,6 @@ define('TBL_LAB',       'lab');
 define('TBL_LESSON',    'lesson');
 define('TBL_PROGRESS',  'progress');
 define('TBL_PROMOCODE', 'promocode');
-define('TBL_USER',      'user');
 define('TBL_USERTYPE',  'usertype');
 
 // paths
@@ -121,6 +120,7 @@ require_once 'classes/Registration.php';
 require_once 'classes/PromoCode.php';
 require_once 'classes/Workspace.php';
 require_once 'classes/AutoResponse.php';
+require_once 'classes/Application.php';
 
 // database
 $db = Zend_db::factory('Pdo_Mysql', array(
