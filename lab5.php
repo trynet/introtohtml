@@ -30,7 +30,7 @@
 
 <section id="main">
 
-<h1>Lab 5: First Site</h1>
+<h1 class="lab-header">Lab 5: First Site</h1>
 <p>In this lab we will link to pages inside and outside of your site. We'll also
   do a named target link and an email link.</p>
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />

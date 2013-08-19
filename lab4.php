@@ -30,7 +30,7 @@
 
 <section id="main">
 
-<h1>Lab 4: First Checking</h1>
+<h1 class="lab-header">Lab 4: First Checking</h1>
 <p>This time around there is no code or content to add to your pages. Rather,
   I am going to show you how to error check your pages. This process is called
   validation</p>

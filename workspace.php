@@ -10,7 +10,7 @@ echo '</pre>';
 <head>
    <title>Intro To HTML :: Workspace</title>
    <link rel="stylesheet" href="styles/styles.css" />
-   <link rel="stylesheet" href="app/includes/style.css" type="text/css" />
+   <!-- <link rel="stylesheet" href="app/includes/style.css" type="text/css" />-->
    <script type="text/javascript" src="app/includes/jquery-1.10.2.min.js"></script>
 </head>
 
@@ -20,11 +20,12 @@ echo '</pre>';
       <header>
          <img src="images/header.png" alt="" />
          <nav>
-            <ul>
-               <li><a href="index.html">Home Room</a></li>
-               <li><a href="frontoffice">Front Office</a></li>
-               <li><a href="code_tester.html">Code Testers</a></li>
-               <li><strong>Work </strong></li>
+ <ul class="nav nav-pills">
+               <li><a href="index.html"><i class="icon-home"></i>Home Room</a></li>
+               <li><a href="frontoffice"><i class="icon-info-sign"></i>Front Office</a></li>
+               <li><a href="code_tester.html"><i class="icon-pencil"></i>Code Testers</a></li>
+               <li><i class="icon-cog"></i><strong>Work  Space</strong></li>
+               <li><a href="/logout.php"><i class="icon-off"></i>Sign Out</a></li>
             </ul>
          </nav>
       </header>

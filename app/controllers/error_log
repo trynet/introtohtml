@@ -55,3 +55,25 @@ Stack trace:
 [18-Aug-2013 02:13:18] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
 [18-Aug-2013 02:24:47] PHP Warning:  scandir(/home1/joyofcod/public_html/_dev_intro/app/../workspace/vdvvddv_dvd_com) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
 [18-Aug-2013 02:24:47] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 94
+[18-Aug-2013 05:09:23] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(90): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(18): User->authenticateUser('bud@joyofcode.c...', '28d33acd07cb3ff...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[18-Aug-2013 13:42:00] PHP Fatal error:  Call to a member function authenticateUser() on a non-object in /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php on line 13
+[18-Aug-2013 13:42:29] PHP Fatal error:  Call to a member function authenticateUser() on a non-object in /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php on line 13
+[18-Aug-2013 13:43:09] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(51): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(110): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(15): User->authenticateUser('...', '...', true)
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[18-Aug-2013 18:05:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php:47) in /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php on line 16
+[18-Aug-2013 18:05:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php:47) in /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php on line 16
+[18-Aug-2013 18:05:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php:47) in /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php on line 16
+[18-Aug-2013 18:06:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php:47) in /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php on line 16

@@ -19,7 +19,7 @@ global $lessonsArray;
 ?>
         <aside id="sidebar">
 		<header>
-			<h1>Pages</h1>
+			<h1>Pages In This Lesson</h1>
 		</header>
 		<nav>
 			<ol>
@@ -54,7 +54,7 @@ for( $i = 0; $i < sizeof( $labsArray ); $i++ )
 	$labno = $i + 1;
 	if( $chapterNumber == ($labno) )
 	{
-		echo "<p><a href=\"../lab{$labno}.html\">Lab {$labno}: {$labsArray[$i]}</a></p>";
+		echo "<p class=\"btn btn-large\"><a  href=\"../lab{$labno}.html\"><i class=\"icon-hand-right\"></i>Lab {$labno}: {$labsArray[$i]}</a></p>";
 	}
 }
 ?>

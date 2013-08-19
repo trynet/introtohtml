@@ -31,7 +31,7 @@
 <section id="main">
 
 
-<h1>Lab 8: First Data Tables</h1>
+<h1 class="lab-header">Lab 8: First Data Tables</h1>
 <p>Tables are used to organize information in row and column format.</p>
   
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />

@@ -30,7 +30,7 @@
 
 <section id="main">
 
-<h1>Lab 6: First Embeds</h1>
+<h1 class="lab-header">Lab 6: First Embeds</h1>
 <p>At last we get to the matter of embedding images and videos into our pages.
   In the case of images, our code will reference an image file for a given page.
   For the two videos, it's going to be a copy and paste job. You'll see.</p>

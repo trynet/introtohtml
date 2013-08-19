@@ -31,7 +31,7 @@
 <section id="main">
 
 
-<h1>Lab 7: First Forms</h1>
+<h1 class="lab-header">Lab 7: First Forms</h1>
 <p>Form elements allow us to collect data that is submitted willfully by a user.
   In this lab you'll add some of the most widely used from elements.</p>
   

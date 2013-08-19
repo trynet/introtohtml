@@ -31,7 +31,7 @@
 <section id="main">
 
 
-<h1>Lab 3: First Lists</h1>
+<h1 class="lab-header">Lab 3: First Lists</h1>
 <p>In this lab you'll be making Unordered and Ordered Lists. You're also going to get a shot with making a nested list. Good luck with that!!</p>
 <p>All of the pages
   have what will become our navigation interface (menu) at the bottom of the

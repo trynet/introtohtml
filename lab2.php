@@ -31,7 +31,7 @@
 <section id="main">
 
 
-<h1>Lab 2: First Tags</h1>
+<h1 class="lab-header">Lab 2: First Tags</h1>
 <p>So, here we go. Your first real Lab. Are you ready for the big time?</p>
 <p>You are going to start by first making five starter&quot; HTML files that
   will act as shells for your content. I will let you know when to copy and paste.

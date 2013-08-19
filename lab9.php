@@ -31,7 +31,7 @@
 <section id="main">
 
 
-<h1>Lab 9: First Grouping</h1>
+<h1 class="lab-header">Lab 9: First Grouping</h1>
 <p>Grouping elements helps give meaning to content and is a primary method to
 building structure to your web pages.</p>
   

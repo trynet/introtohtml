@@ -11,8 +11,8 @@ require_once 'config/config.php';
 
 class AuthAdapter implements Zend_Auth_Adapter_Interface
 {
-   protected $username;
-   protected $password;
+   public $username;
+   public $password;
 
    private $db;
 
@@ -39,13 +39,20 @@ class AuthAdapter implements Zend_Auth_Adapter_Interface
     * @return Zend_Auth_Result
     */
    public function authenticate() {
+      // sso
+      if ($_SESSION['Zend_Auth']['logged_in']) {
+         $this->username = $_SESSION['Zend_Auth']['SSO_details']['email'];
+         $this->password = $_SESSION['Zend_Auth']['SSO_details']['password'];
+
+      }
       if ($this->username == '' || $this->password == '')
          return new Zend_Auth_Result(0, array($this->username, $this->password));
 
+      // authenticate...
       $query = "SELECT * FROM " . TBL_USER . " WHERE email = ? AND password = ?";
       $row = $this->db->fetchAll($query, array($this->username, $this->password));
 
-      if ($row[0]['email'] == $this->username) {
+      if ($row[0]['email'] == $this->username || $_SESSION['Zend_Auth']['logged_in']) {
          return new Zend_Auth_Result(1, $row[0]);
       } else {
          $logger = Zend_Registry::get('log');

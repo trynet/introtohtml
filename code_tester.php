@@ -30,9 +30,9 @@
 
  <li><a href="/index.html"><i class="icon-home"></i>Home Room</a></li>
 <li><a href="/frontoffice"><i class="icon-info-sign"></i>Front Office</a></li>
-<li class="active"><i class="icon-pencil"></i>Code Tester</li>
+<li class="active"><i class="icon-pencil"></i><strong>Code Tester</strong></li>
 <li><a href="workspace.php"><i class="icon-cog"></i>Work Space</a></li
-<li><a href="/logout.php"><i class="icon-off"></i>Sign Out</a></li>
+><li><a href="/logout.php"><i class="icon-off"></i>Sign Out</a></li>
 
 </ul>
 </nav> 
@@ -55,27 +55,28 @@
 
 <p>Test Your Code In This Box - The Code Tester</p>
 
+
 <form method="post"
 action="http://www.joyofcode.com/cgi-bin/code_tester_ws2.cgi" target="view">
 
 <textarea name="Html" cols="50" rows="10">
 </textarea>
 <br />
-<input type="submit" value="Give It A Try"
-name="submit" class="submit" />
-
+  <button type="submit" name="submit"  class="btn btn-warning">Give It A Try</button>
 
 <p>Here's What You Did</p>
 
-
 <iframe scrolling="auto"     name="view" title="This box contains the results of the input of the textarea box."></iframe>
+
 
 <br />
 
-<input type="reset" value="Try Again?" class="submit"  />
+  <button type="reset" id="tryAgain" name="reset"  class="btn">Try Again</button>
 
 
 </form>
+
+
 
 </div>
 

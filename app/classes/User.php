@@ -3,7 +3,7 @@
 User class
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: August 17, 2013
+Modifed: August 18, 2013
 
 int addUser(array)
 void authenticateUser(string, string)
@@ -79,18 +79,38 @@ class User
    }
 
    /**
+    * get sso authentication
+    *
+    * @param: username - email address
+    * @return:
+    */
+   public function getSsoAuthentication($username) {
+      try {
+         $query = "SELECT logged_in FROM " . TBL_USER . " WHERE email = ?";
+         $result = $this->db->fetchOne($query, $username);
+
+         return true;
+      } catch (Exception $e) {
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
+
+         return false;
+      }
+   }
+
+   /**
     * authenticate user
     *
     * @param: (string) username/email
     * @param: (string) password/md5
     */
-   public function authenticateUser($username, $password) {
+   public function authenticateUser($username, $password, $sso = false) {
       $authAdapter = new AuthAdapter($username, $password);
       $auth        = Zend_Auth::getInstance();
       $result      = $auth->authenticate($authAdapter);
       $identity    = $auth->getIdentity();
 
-      if ($result->isValid()) {
+      if ($result->isValid() || $sso == true) {
          // presist to session
          $authNamespace = new Zend_Session_Namespace('Zend_Auth');
          $authNamespace->logged_in = true;
@@ -104,6 +124,26 @@ class User
          $progress                = $progressObj->getProgress($identity['user_id']);
          $authNamespace->progress = $progress;
       }
+   }
+
+   /**
+    * log user out
+    *
+    * @param: (int) user_id
+    * @return: (bool) true on success
+    */
+   public function logout($user_id) {
+      try {
+         $n = $this->db->update(TBL_USER, array('logged_in' => 0), "user_id = $user_id");
+
+         return true;
+      } catch (Exception $e) {
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
+
+         return false;
+      }
+
    }
 
    /**

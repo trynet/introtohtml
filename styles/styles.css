@@ -15,10 +15,45 @@ Footer
 Home Page
 Labs
 Front Office
+Code Tester
 Code Style
 Right And Left Adjustments
 Top and Bottom Adjustmenst
 Gene3ral Purpose*/
+
+
+/* Layout Info
+
+1 - All elements are inside <div id="wrapper">
+
+#wrapper
+width:900px;
+margin:5px auto 10px;
+
+Tow column Layout is set with <seciton id="main"> floating to the left and <aside id="sidebar"> floating to the right inside parent <div id="wrparrer">
+
+#main
+width:551px;
+padding-left:25px;
+margin:20px;
+
+#sidebar
+width:220px;
+padding:10px 0 10px 50px;
+margin:75px 20px 0 -10px;
+
+
+Home Page is a single col and does not use <aside id="sidebar">
+
+This rule is an embed:
+
+  section#main
+   {width:800px;
+    float:none;
+    padding:0 50px 0 25px ;
+margin:20px;}
+
+*/
 
 
 
@@ -116,7 +151,7 @@ background-size: cover;  }
 div#wrapper
 {width:900px;
 background:#fff;     
-margin:10px auto;
+margin:5px auto 10px;
 -moz-border-radius:2em;
 -webkit-border-radius:1em;
 -o-border-radius:1em;
@@ -132,22 +167,23 @@ header img
 margin:0 auto;}
 
 section#main
-{margin:20px;
-width:574px;
+{width:551px;
+padding-left:25px;
+margin:20px;
 float:left;}
 
 section#main h1, section#main h2, section#main h3, section#main h4
 {font-family: garamond, serif;}
 
 section#main p.introduction:first-letter {
- font-size : 400%;
- font-weight : bold;
- float : left;
+font-size : 400%;
+font-weight : bold;
+float : left;
 padding:20px;
 margin: 0 10px  10px  0;
- color : #fff;
+color : #fff;
 background:#000;
-border:1px solid #a9a9a9;
+border:2px solid /* gray #a9a9a9 */ #f0932b;
 font-family:'times new roman', serif;
 -moz-border-radius:1em;
 -webkit-border-radius:1em;
@@ -229,12 +265,6 @@ section#main p#cute_line
 font-weight:bold;
 font-variant:small-caps;}
 
-a#code_tester_icon
-{background:url(../images/code_tester_icon.gif) no-repeat left top;
-padding-left:40px;
-height:40px;
-display:block;}
-
 p.views2
 {border:1px solid #000080;
 text-indent:1em;
@@ -272,14 +302,14 @@ padding:10px;}
 aside#sidebar
 {float:right;
 width:220px;
+padding:10px 0 10px 50px;
 margin:75px 20px 0 -10px;
 -moz-border-radius:1em;
 -ms-border-radius:1em;
 -webkit-border-radius:1em;
 -o-border-radius:1em;
 border-radius:1em;
-border:1px solid #999;
-padding:10px 0 10px 50px;}
+border:1px solid #999;}
 
 aside#sidebar h1
 {margin-left: -20px;}
@@ -298,7 +328,7 @@ color: #000080;}
 aside#sidebar a:hover
 {text-decoration:underline;}
 
- aside.appendix  /* over rides display:block for ahcnhors */
+ aside.appendix  /* over rides display:block for anchors */
 a
 {display:inline !important;}
 
@@ -355,31 +385,28 @@ padding-bottom:20px;}
 h1#home
 {text-align:center;}
 
-section.home
-{width: 800px !important;
-padding:0 50px 0 25px ;}
+div#lessons 
+{float:left;
+width:35%;
+margin-top:20px;}
 
-div#lessons {
-   float:left;
-   width:35%;
-   margin-top:20px;
-}
+div#labs 
+{float:left;
+width:35%;
+margin-top:20px;}
 
-div#labs {
-   float:left;
-   width:35%;
-   margin-top:20px;
-}
-
-
-div#messages {
-   float:right;
-   width:25%;
-   margin-top:20px;
-} 
+div#messages 
+{float:right;
+width:25%;
+margin-top:20px;} 
 
 
 /* ========  Labs =======  */
+
+.lab-header 
+{padding-bottom: 9px;
+margin: 20px 0 20px;
+border-bottom: 1px solid #eeeeee;}
 
 img.peek
 {display:block;
@@ -393,8 +420,6 @@ border:2px dotted #000080;}
 
 div.valid p
 {padding: 0 20px;}
-
-
 
 /* ===== Front Office ====== */
 
@@ -421,7 +446,6 @@ margin:0 auto;}
 
 label
 {float:left;}
-
 
 
 ul.schedule li
@@ -459,6 +483,24 @@ margin:0 39px;}
 .book_description
 {width:75%;
 float:right;}
+
+
+/* ====  Code Tester  ======= */
+
+div#how_to_try_box textarea
+{width:250px;
+height:200px;}
+
+div#how_to_try_box iframe
+{border:none;
+width:250px;
+height:237px;}
+
+a#code_tester_icon
+{background:url(../images/code_tester_icon.gif) no-repeat left top;
+padding-left:40px;
+height:40px;
+display:block;}
 
 
 /* =====  Code Styles  ======   */

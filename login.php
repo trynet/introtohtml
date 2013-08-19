@@ -1,4 +1,35 @@
-<?php $email = $_GET['email'] ?>
+<?php
+// Single Sign-On ...
+session_start();
+
+$email = htmlspecialchars($_GET['email']);
+
+if (strlen($email) > -1) {
+   mysql_connect('localhost', 'joyofcod', 'Bk050553@');
+   mysql_select_db('joyofcod_introtohtml');
+
+   $query = "SELECT * FROM user WHERE email = '$email'";
+   $result = mysql_query($query);
+
+   if ($result) {
+      // obtain user record
+      $row = mysql_fetch_array($result);
+
+      if ($row['logged_in']) {
+         // set a session variable corresponding appropriately
+         // with the application expected logged in session
+         $_SESSION['Zend_Auth']['logged_in'] = 1;
+         $_SESSION['Zend_Auth']['SSO'] = 1;
+         $_SESSION['Zend_Auth']['SSO_details'] = $row;
+
+         // redirect
+         header('Location: /app/controllers/login.php');
+      }
+   }
+}
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>

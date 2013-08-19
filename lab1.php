@@ -27,7 +27,7 @@
 <section id="main">
 
 
-<h1>Lab 1  : Hello World</h1>
+<h1 class="lab-header">Lab 1  : Hello World</h1>
 
  <p>This being Lab 1, we'll take things nice and easy just to get rolling.</p>
 

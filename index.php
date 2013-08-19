@@ -11,6 +11,11 @@ echo '</pre>';
 <head>
    <title>Joy Of Code: Intro To HTML -  Home Room</title>
    <link rel="stylesheet" href="styles/styles.css" />
+   
+   <link rel="icon" href="images/favicon.ico" type="image/ico"/>
+   <link rel="icon" href="images/favicon.gif" type="image/gif"/>
+   <link rel="icon" href="images/favicon.png" type="image/png"/>
+   
 
 
    <style type="text/css">
@@ -18,6 +23,7 @@ echo '</pre>';
       section#main
       {width:800px;
       float:none;
+	  margin:20px;
       padding:0 50px 0 25px ;}
 
 
@@ -40,7 +46,7 @@ echo '</pre>';
 <nav>
 <ul class="nav nav-pills">
 
- <li class="active"><i class="icon-home"></i>Home Room</li>
+ <li class="active"><i class="icon-home"></i><strong>Home Room</strong></li>
 <li><a href="/frontoffice"><i class="icon-info-sign"></i>Front Office</a></li>
 <li><a href="/code_tester.html"><i class="icon-pencil"></i>Code Tester</a></li>
 <li><a href="/workspace.php"><i class="icon-cog"></i>Work Space</a></li>
@@ -110,12 +116,10 @@ echo '</pre>';
 
             <h2>And In The End</h2>
 
-            <p>This is what you are making, one lab at a time but these files include CSS.</p>
+            <p>This is what you are making, one lab at a time but these pages include CSS.</p>
 
-            <ul>
-              <li><a href="project/">In My Garden</a>
-              </li>
-            </ul>
+          <p><a href="project/">In My Garden</a></p>
+         
          </section>
       </div>  <!--  end clearfix -->
 
