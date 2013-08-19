@@ -363,11 +363,11 @@ footer nav li a
 text-decoration:none;;}
 
 a#next
-{background:#eee url(../images/next_arrow.png) no-repeat 5px ;
-padding-right:5px;
+{background:#eee url(../images/next_arrow.png) no-repeat 8px 3px ;
 outline:0;
 display:block;
 text-decoration:none;
+padding-right:8px;
 text-align: right;
 -moz-border-radius:1em;
 -webkit-border-radius:1em;

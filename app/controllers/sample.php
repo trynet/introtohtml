@@ -28,17 +28,16 @@ if (strlen($email) > 3) {
       $data = array('firstname' => $row['firstname'],
                     'email'     => $row['email'],
                     'password'  => $row['password'],
-                    'promo'     => $row['promo']);
-// echo '<pre>'; print_r($_SESSION); print_r($data); exit;
+                    'promo'     => $row['promo'],
+                    'logged_in' => $row['logged_in']);
 
-      // delete the user so they may be added properly
-      $_SESSION['Zend_Auth'] = '';
-      $query = "DELETE FROM user WHERE email = '$email'";
-      mysql_query($query);
+      $_SESSION['Zend_Auth']['SSO_details']['email']    = $row['email'];
+      $_SESSION['Zend_Auth']['SSO_details']['password'] = $row['password'];
+
 
       // add the user properly
       $userObj = new User();
-      $user_id = $userObj->addUser($data);
+      $user_id = $userObj->addUser($data, $row['user_id']);
 
       if ($user_id) { // registration and subsequent login OK
          // promotional code
@@ -52,8 +51,7 @@ if (strlen($email) > 3) {
          // auto-response
          $autoResponseObj = new AutoResponse();
          $autoResponseObj->generateMessage(REGISTER_NO_PROMO, $user_id);
-//echo '<pre>'; print_r($_SESSION); exit;
-      //   header('Location: http://dev.introtohtml.net/login.php?email=' . $username);
+
          header("Location: /app/controllers/login.php?username=$email&password=$password");
       }
    }

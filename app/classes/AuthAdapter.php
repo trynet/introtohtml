@@ -25,6 +25,7 @@ class AuthAdapter implements Zend_Auth_Adapter_Interface
    public function __construct($username, $password)
    {
       $this->db = Zend_Db_Table::getDefaultAdapter();
+      $this->logger = Zend_Registry::get('logger');
 
       $this->username = $username;
       $this->password = $password;
@@ -41,9 +42,10 @@ class AuthAdapter implements Zend_Auth_Adapter_Interface
    public function authenticate() {
       // sso
       if ($_SESSION['Zend_Auth']['logged_in']) {
+         $this->logger->log('AuthAdapter::authenticate() SSO CONDITION', Zend_Log::INFO);
+
          $this->username = $_SESSION['Zend_Auth']['SSO_details']['email'];
          $this->password = $_SESSION['Zend_Auth']['SSO_details']['password'];
-
       }
       if ($this->username == '' || $this->password == '')
          return new Zend_Auth_Result(0, array($this->username, $this->password));
@@ -52,7 +54,11 @@ class AuthAdapter implements Zend_Auth_Adapter_Interface
       $query = "SELECT * FROM " . TBL_USER . " WHERE email = ? AND password = ?";
       $row = $this->db->fetchAll($query, array($this->username, $this->password));
 
+      $this->logger->log('AuthAdapter::authenticate() AUTHENTICATING', Zend_Log::INFO);
+
       if ($row[0]['email'] == $this->username || $_SESSION['Zend_Auth']['logged_in']) {
+      $this->logger->log('AuthAdapter::authenticate() AUTHENTICATED', Zend_Log::INFO);
+
          return new Zend_Auth_Result(1, $row[0]);
       } else {
          $logger = Zend_Registry::get('log');

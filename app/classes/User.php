@@ -41,15 +41,21 @@ class User
     * add user
     *
     * @param: (array) data
+    * @param: (int) if user_id exists, update
     * @return: (int) last insert id
     */
-   public function addUser($data) {
+   public function addUser($data, $user_id = null) {
       try {
          $progressObj  = new Progress();
          $workspaceObj = new Workspace();
 
-         $n = $this->db->insert(TBL_USER, $data);
-         $id = $this->db->lastInsertId();
+         if (is_null($user_id)) {
+            $n = $this->db->insert(TBL_USER, $data);
+            $id = $this->db->lastInsertId();
+         } else {
+            $n = $this->db->update(TBL_USER, $data, "user_id = $user_id");
+            $id = $user_id;
+         }
 
          // log new user in
          $this->authenticateUser($data['email'], $data['password']);
