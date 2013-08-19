@@ -109,6 +109,7 @@ class User
     * @param: (string) password/md5
     */
    public function authenticateUser($username, $password, $sso = false) {
+      // todo: set logged_in = 1;
       $authAdapter = new AuthAdapter($username, $password);
       $auth        = Zend_Auth::getInstance();
       $result      = $auth->authenticate($authAdapter);

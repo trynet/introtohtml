@@ -17,8 +17,8 @@ if ($_SESSION['Zend_Auth']['SSO'] == true) {
    exit();
 }
 
-$username = htmlspecialchars($_POST['username']);
-$password = md5(htmlspecialchars($_POST['password']));
+$username = htmlspecialchars($_REQUEST['username']);
+$password = md5(htmlspecialchars($_REQUEST['password']));
 
 $data = array('email'    => $username,
               'password' => $password);

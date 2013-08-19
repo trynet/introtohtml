@@ -11,43 +11,50 @@ try the first two lessons
 
 require_once '../config/config.php';
 
-$firstname        = $_SESSION['Zend_Auth']['firstname'];
-$username         = $_SESSION['Zend_Auth']['username'];
-$password         = $_SESSION['Zend_Auth']['password'];
-$promotional_code = $_SESSION['Zend_Auth']['promotional_code'];
+$email = htmlspecialchars($_GET['email']);
 
-$firstname        = htmlspecialchars($_POST['firstMame']);
-$username         = htmlspecialchars($_POST['userName']);
-$password         = md5(htmlspecialchars($_POST['password']));
-$promotional_code = htmlspecialchars($_POST['promoCode']);
+// todo - regexp for input validation
+if (strlen($email) > 3) {
+   mysql_connect('localhost', 'joyofcod', 'Bk050553@');
+   mysql_select_db('joyofcod_introtohtml');
 
-$data = array('firstname' => $firstname,
-              'email'     => $username,
-              'password'  => $password,
-              'promo'     => $promotional_code);
+   $query = "SELECT * FROM user WHERE email = '$email'";
+   $result = mysql_query($query);
 
-$userObj = new User();
-$user_id = $userObj->addUser($data);
+   if ($result) {
+      $row = mysql_fetch_array($result);
+      $password = $row['password'];
 
-// echo '<pre>'; print_r($data);
+      $data = array('firstname' => $row['firstname'],
+                    'email'     => $row['email'],
+                    'password'  => $row['password'],
+                    'promo'     => $row['promo']);
+// echo '<pre>'; print_r($_SESSION); print_r($data); exit;
 
-if ($user_id) { // registration and subsequent login OK
-   // persist (pointless because of domain crossing)
-   // $authNamespace = new Zend_Session_Namespace('Zend_Auth');
-   // $authNamespace->logged_in = true;
+      // delete the user so they may be added properly
+      $_SESSION['Zend_Auth'] = '';
+      $query = "DELETE FROM user WHERE email = '$email'";
+      mysql_query($query);
 
-   // promotional code
-   $promocodeObj    = new PromoCode();
-   $registrationObj = new Registration();
+      // add the user properly
+      $userObj = new User();
+      $user_id = $userObj->addUser($data);
 
-   // user type
-   $promocode = $promocodeObj->getPromoCode($promotional_code);
-   $registrationObj->updateUserType($promocode['usertype_id'], $user_id);   
+      if ($user_id) { // registration and subsequent login OK
+         // promotional code
+         $promocodeObj    = new PromoCode();
+         $registrationObj = new Registration();
 
-   // auto-response
-   $autoResponseObj = new AutoResponse();
-   $autoResponseObj->generateMessage(REGISTER_NO_PROMO, $user_id);
+         // user type
+         $promocode = $promocodeObj->getPromoCode($promotional_code);
+         $registrationObj->updateUserType($promocode['usertype_id'], $user_id);   
 
-//   header('Location: http://dev.introtohtml.net/login.php?email=' . $username);
-   header('Location: /app/controller/login.php');
+         // auto-response
+         $autoResponseObj = new AutoResponse();
+         $autoResponseObj->generateMessage(REGISTER_NO_PROMO, $user_id);
+//echo '<pre>'; print_r($_SESSION); exit;
+      //   header('Location: http://dev.introtohtml.net/login.php?email=' . $username);
+         header("Location: /app/controllers/login.php?username=$email&password=$password");
+      }
+   }
 }
