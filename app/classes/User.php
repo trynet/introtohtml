@@ -45,7 +45,8 @@ class User
     */
    public function addUser($data) {
       try {
-         $progressObj = new Progress();
+         $progressObj  = new Progress();
+         $workspaceObj = new Workspace();
 
          $n = $this->db->insert(TBL_USER, $data);
          $id = $this->db->lastInsertId();
@@ -55,6 +56,9 @@ class User
 
          // setup current progress
          $progressObj->addProgress($id);
+
+         // create workspace dir
+         $workspaceObj->createDirectory($id);
 
          return $id;
       } catch (Exception $e) {

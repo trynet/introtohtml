@@ -57,6 +57,17 @@ class Workspace {
    }
 
    /**
+    * create a user directory
+    *
+    * @param: (int) user_id
+    * @return: (bool) true on success
+    */
+   public function createDirectory($user_id) {
+      $dir = $this->getDirectory($user_id);
+      return mkdir($dir, 0755);
+   }
+
+   /**
     * get clean email
     */
    public function getCleanEmail($user_id) {
