@@ -1149,3 +1149,506 @@ ProgressController() PROGRESSION = 7
 ProgressController() PROGRESSION = 8
 2013-08-18 19:09:32 INFO (6): Progress::setProgress() USER_ID = 1
 2013-08-18 19:09:32 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-18 19:13:17 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-18 19:13:17 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi Yoko.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: yoko@ono.com
+2013-08-18 19:13:17 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-18 19:18:02 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-18 19:18:02 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi Yoko.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: yoko@ono.com
+2013-08-18 19:18:02 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-18 19:32:49 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'yoko@ono.com' for key 'email'
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => Yoko
+            [1] => yoko@ono.com
+            [2] => d41d8cd98f00b204e9800998ecf8427e
+            [3] => gag
+        )
+
+)
+
+2013-08-18 19:33:12 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-18 19:33:12 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi Yoko.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: yoko@ono1.com
+2013-08-18 19:33:12 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-18 20:01:23 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+        )
+
+)
+
+2013-08-18 20:03:14 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+        )
+
+)
+
+2013-08-18 20:04:36 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+        )
+
+)
+
+2013-08-18 20:04:49 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+        )
+
+)
+
+2013-08-18 20:05:30 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+        )
+
+)
+
+2013-08-18 20:05:58 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+        )
+
+)
+
+2013-08-18 20:06:59 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+        )
+
+)
+
+2013-08-18 20:48:46 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `user` SET `logged_in` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+2013-08-18 23:14:58 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-18 23:14:58 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi .
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: 
+2013-08-18 23:14:58 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-18 23:16:48 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-18 23:16:48 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi .
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: 
+2013-08-18 23:16:48 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-18 23:17:02 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-18 23:17:02 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi .
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: 
+2013-08-18 23:17:02 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-19 00:08:16 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-19 00:08:17 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: service@lucidmediaconcepts.com
+2013-08-19 00:08:17 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-19 00:12:35 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-19 00:12:35 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: service@lucidmediaconcepts.com
+2013-08-19 00:12:35 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-19 00:15:04 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-19 00:15:04 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: service@lucidmediaconcepts.com
+2013-08-19 00:15:04 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-19 00:15:12 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-19 00:15:13 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: service@lucidmediaconcepts.com
+2013-08-19 00:15:13 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-19 00:26:15 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstname' cannot be null
+Array
+(
+    [0] => INSERT INTO `user` (`firstname`, `email`, `password`, `promo`) VALUES (?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+        )
+
+)
+
+2013-08-19 00:27:14 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-19 00:27:15 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-19 00:27:15 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-19 00:28:24 INFO (6): Progress::setProgress() USER_ID = 71
+2013-08-19 00:28:24 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-19 00:28:34 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 1
+2013-08-19 00:28:34 INFO (6): Progress::setProgress() USER_ID = 71
+2013-08-19 00:28:34 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-19 00:28:48 INFO (6): Progress::setProgress() USER_ID = 71
+2013-08-19 00:28:48 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-19 00:32:25 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 2
+2013-08-19 00:32:25 INFO (6): Progress::setProgress() USER_ID = 71
+2013-08-19 00:32:25 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-19 00:32:49 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 3
+2013-08-19 00:32:49 INFO (6): Progress::setProgress() USER_ID = 71
+2013-08-19 00:32:49 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-19 00:33:03 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 4
+2013-08-19 00:33:03 INFO (6): Progress::setProgress() USER_ID = 71
+2013-08-19 00:33:03 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-19 00:33:08 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 5
+2013-08-19 00:33:08 INFO (6): Progress::setProgress() USER_ID = 71
+2013-08-19 00:33:08 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-19 00:33:27 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 6
+2013-08-19 00:33:27 INFO (6): Progress::setProgress() USER_ID = 71
+2013-08-19 00:33:27 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-19 00:33:33 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 7
+2013-08-19 00:33:33 INFO (6): Progress::setProgress() USER_ID = 71
+2013-08-19 00:33:33 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-19 00:33:40 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 8
+2013-08-19 00:33:40 INFO (6): Progress::setProgress() USER_ID = 71
+2013-08-19 00:33:40 INFO (6): Progress::setProgress() UPDATED = 1

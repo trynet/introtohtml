@@ -16,7 +16,7 @@ if ($usertype == USER_FIT) {
              "group at a discounted rate of $225.00";
 } else {
    $usertype = USER_STANDARD;
-   $prompt = '';
+   $prompt = "[message here - $250.00]";
 }
 ?>
 

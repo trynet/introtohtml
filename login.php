@@ -4,7 +4,8 @@ session_start();
 
 $email = htmlspecialchars($_GET['email']);
 
-if (strlen($email) > -1) {
+// todo - regexp for input validation
+if (strlen($email) > 3) {
    mysql_connect('localhost', 'joyofcod', 'Bk050553@');
    mysql_select_db('joyofcod_introtohtml');
 

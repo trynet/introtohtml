@@ -1,6 +1,6 @@
 <?php
 /*-----------------------------------------------------------
-sample.php
+sample.php - for cats who want to sample the course
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
 Modifed: August 18, 2013
@@ -10,6 +10,11 @@ try the first two lessons
 ------------------------------------------------------------*/
 
 require_once '../config/config.php';
+
+$firstname        = $_SESSION['Zend_Auth']['firstname'];
+$username         = $_SESSION['Zend_Auth']['username'];
+$password         = $_SESSION['Zend_Auth']['password'];
+$promotional_code = $_SESSION['Zend_Auth']['promotional_code'];
 
 $firstname        = htmlspecialchars($_POST['firstMame']);
 $username         = htmlspecialchars($_POST['userName']);
@@ -24,6 +29,8 @@ $data = array('firstname' => $firstname,
 $userObj = new User();
 $user_id = $userObj->addUser($data);
 
+// echo '<pre>'; print_r($data);
+
 if ($user_id) { // registration and subsequent login OK
    // persist (pointless because of domain crossing)
    // $authNamespace = new Zend_Session_Namespace('Zend_Auth');
@@ -33,6 +40,7 @@ if ($user_id) { // registration and subsequent login OK
    $promocodeObj    = new PromoCode();
    $registrationObj = new Registration();
 
+   // user type
    $promocode = $promocodeObj->getPromoCode($promotional_code);
    $registrationObj->updateUserType($promocode['usertype_id'], $user_id);   
 
@@ -40,5 +48,6 @@ if ($user_id) { // registration and subsequent login OK
    $autoResponseObj = new AutoResponse();
    $autoResponseObj->generateMessage(REGISTER_NO_PROMO, $user_id);
 
-   header('Location: http://dev.introtohtml.net/login.php?email=' . $username);
+//   header('Location: http://dev.introtohtml.net/login.php?email=' . $username);
+   header('Location: /app/controller/login.php');
 }

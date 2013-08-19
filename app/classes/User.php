@@ -199,8 +199,8 @@ class User
       else
          $to = $this->getField($user_id, 'email');
 
-      $header = 'From: no-reply@introtohtml.net' . "\r\n" .
-                'X-Mailer: PHP/' . phpversion();
+      $headers = 'From: bud@joyofcode.com' . "\r\n" .
+                 'X-Mailer: PHP/' . phpversion();
 
       try {
          $result = mail($to, $subject, $message, $headers);
