@@ -6,6 +6,11 @@
 
 <title>HTML Outline< For index.html</title>
 
+   <link rel="icon" href="../images/favicon.ico" type="image/ico"/>
+   <link rel="icon" href="../images/favicon.gif" type="image/gif"/>
+   <link rel="icon" href="../images/favicon.png" type="image/png"/>
+   
+
 <link rel="stylesheet" href="../styles/outline.css" />
 
 <meta charset="utf-8" />

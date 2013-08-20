@@ -9,7 +9,11 @@
 
 <meta charset="utf-8" />
 
-<link rel="stylesheet" href="../styles/styles.css" />
+   <link rel="icon" href="../images/favicon.ico" type="image/ico"/>
+   <link rel="icon" href="../images/favicon.gif" type="image/gif"/>
+   <link rel="icon" href="../images/favicon.png" type="image/png"/>
+
+   <link rel="stylesheet" href="../styles/styles.css" />
 
 <!--[if lte IE 8]>
 <script src="../html5.js" type="text/javascript"></script>

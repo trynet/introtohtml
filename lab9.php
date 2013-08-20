@@ -15,7 +15,13 @@
 <meta charset="utf-8" />
 
 
+   <link rel="icon" href="images/favicon.ico" type="image/ico"/>
+   <link rel="icon" href="images/favicon.gif" type="image/gif"/>
+   <link rel="icon" href="images/favicon.png" type="image/png"/>
+
 <link rel="stylesheet" href="styles/styles.css" />
+
+
 
 
 </head>
