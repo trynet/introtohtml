@@ -41,10 +41,19 @@ if (is_null($_POST['submit'])) {
       $usertype = $userObj->getField(USER_ID, 'usertype');
    }
 
-   if ($usertype == USER_FREE || $usertype == USER_FIT) {
-      header('Location: /app/controllers/paypal.php');
-   } else {
-      $params = "u=" . $usertype;
-      header('Location: /paypal.php?' . $params);
+   // simply progress - no need for the free user to go to
+   // paypal
+   if ($usertype == USER_FREE) {
+      header('Location: /app/controllers/progress.php');
+      exit();
    }
+
+   // by now, only standard and discount users should be here,
+   // all others have been filtered out by index.php and this
+   // file (FIT & CLASSROOM in index.php; FREE directly above)
+   // Auto-responses for the final two groups (discount, standard)
+   // will be sent in the paypal controller, since the response needs
+   // to include whether or not the payment was successful.
+   $params = "u=" . $usertype;
+   header('Location: /paypal.php?' . $params);
 }

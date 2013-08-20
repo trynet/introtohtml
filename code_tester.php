@@ -33,7 +33,7 @@
 
  <li><a href="/index.html"><i class="icon-home"></i>Home Room</a></li>
 <li><a href="/frontoffice"><i class="icon-info-sign"></i>Front Office</a></li>
-<li class="active"><i class="icon-pencil"></i><strong>Code Tester</strong></li>
+<li class="current"><a href="code_tester.php"><i class="icon-pencil"></i><strong>Code Tester</strong></a></li>
 <li><a href="workspace.php"><i class="icon-cog"></i>Work Space</a></li
 ><li><a href="/logout.php"><i class="icon-off"></i>Sign Out</a></li>
 

@@ -51,8 +51,52 @@ switch ($APPLICATION_STATE) {
    case SECONDARY_STATE :
       // user subscribed and finished lab two. next, they'll
       // need to finish registration and pay
+
+      // but first, auto-responses; these will be saved to session
+      // variables because two out of four use cases must be
+      // redirected to Paypal before sending our auto-response
+      switch ($proceed) {
+         case PROCEED_WAIT :
+            $message_id            = UPLOAD_LAB2_REVIEW;
+            $instructor_message_id = UPLOAD_LAB1_REVIEW_INSTRUCTOR;
+         break;
+
+         case PROCEED_CONTINUE :
+         default :
+            $message_id            = UPLOAD_LAB2_NO_REVIEW;
+            $instructor_message_id = UPLOAD_LAB1_NO_REVIEW_INSTRUCTOR;
+         break;
+      }
+      // session variable
+      $authNamespace->message_id = $message_id;
+
+      // if any of the following (non-immediately-paying) usertypes are using
+      // the app, send the auto-response, now.
+      // if (!(USERTYPE == USER_STANDARD || USERTYPE == USER_DISCOUNT)) {
+      if (USERTYPE == USER_FREE || USERTYPE == USER_FIT || USERTYPE == USER_CLASSROOM) {
+         // to user
+         $autoResponseObj = new AutoResponse();
+         $autoResponseObj->generateMessage($message_id, $user_id);
+
+         // to instructor
+         $params = array('instructor' => true);
+         $autoResponseObj->generateMessage($instructor_message_id, $user_id, $params);
+      }
+
+      // save wait or proceed choice
       $data = array('proceed' => $proceed);
       $progressObj->setProgress(USER_ID, $data);
+
+      // fit and classroom users have already registered all of
+      // their information. fit users have paid after having registered
+      // at the JOC site. simply progress...
+      if (USERTYPE == USER_FIT || USERTYPE == USER_CLASSROOM) {
+         header('Location: /app/controllers/progress.php');
+         exit();
+      }
+
+      // all other users need to register the remainder of their
+      // infor before progressing
       header('Location: /register.php');
       exit();
    break;
