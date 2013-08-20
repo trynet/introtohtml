@@ -48,9 +48,45 @@ if (strlen($email) > 3) {
          $promocode = $promocodeObj->getPromoCode($promotional_code);
          $registrationObj->updateUserType($promocode['usertype_id'], $user_id);   
 
-         // auto-response
+         // auto-response depending on promotional code
          $autoResponseObj = new AutoResponse();
-         $autoResponseObj->generateMessage(REGISTER_NO_PROMO, $user_id);
+
+         switch ($promocode) {
+            case PROMO_EFA :
+               $message_id = REGISTER_PROMO_EFA;
+            break;
+
+            case PROMO_GAG :
+               $message_id = REGISTER_PROMO_GAG;
+            break;
+
+            case PROMO_REDUCED :
+               $message_id = REGISTER_PROMO_REDUCED;
+            break;
+
+            case PROMO_ADULTED :
+               $message_id = REGISTER_PROMO_ADULTED;
+            break;
+
+            case PROMO_FIT :
+               $message_id = REGISTER_PROMO_FIT;
+            break;
+
+            case PROMO_CLASSROOM :
+               $message_id = REGISTER_CLASSROOM_INSTRUCTOR;
+            break;
+
+            case PROMO_NONE :
+            defaut :
+               $message_id = REGISTER_NO_PROMO;
+            break;
+         }
+
+         // auto-response to user
+         $autoResponseObj->generateMessage($message_id, $user_id);
+         // auto-response to instructor
+         $params = array('instructor' => true);
+         $autoResponseObj->generateMessage(REGISTER_INSTRUCTOR, $user_id, $params);
 
          header("Location: /app/controllers/login.php?username=$email&password=$password");
       }

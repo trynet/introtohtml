@@ -3026,3 +3026,50 @@ ProgressController() PROGRESSION = 1
 2013-08-20 12:45:53 INFO (6): AuthAdapter::authenticate() SSO CONDITION
 2013-08-20 12:45:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
 2013-08-20 12:45:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-20 13:06:42 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `user` SET `logged_in` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+2013-08-20 13:06:47 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-20 13:06:47 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-20 13:06:54 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-20 13:06:54 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-20 13:07:04 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-20 13:07:04 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-20 13:07:04 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-20 13:07:04 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-20 13:07:08 INFO (6): Progress::setProgress() USER_ID = 1
+2013-08-20 13:07:08 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-20 13:07:11 INFO (6): ProgressController() USERTYPE = 3
+ProgressController() PROGRESSION = 1
+2013-08-20 13:07:11 INFO (6): Progress::setProgress() USER_ID = 1
+2013-08-20 13:07:11 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-20 13:07:20 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-20 13:07:20 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-20 13:07:41 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-20 13:07:41 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-20 13:07:41 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-20 13:07:49 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-20 13:07:50 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-20 13:07:50 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-20 13:08:02 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-20 13:08:02 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-20 13:08:02 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-20 13:08:10 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-20 13:08:11 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-20 13:08:11 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-20 13:08:11 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-20 13:08:13 INFO (6): Progress::setProgress() USER_ID = 1
+2013-08-20 13:08:13 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-20 13:09:35 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-20 13:09:35 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-20 13:09:35 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-20 14:01:19 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-20 14:01:19 INFO (6): Workspace::getWorkspaceData() FILES READ

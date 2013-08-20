@@ -75,6 +75,10 @@ class AutoResponse
 
          require $file;
 
+         // change email to instructor email if param is set
+         if ($params['instructor'] == true)
+            $email = EMAIL_INSTRUCTOR;
+
          $this->sendMessage($message, $subject, $email);
          $this->logger->log('AutoResponse::generateMessage() SEND', Zend_Log::INFO); 
 

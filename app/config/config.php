@@ -18,6 +18,15 @@ define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
 // define('EMAIL_ADMIN', 'bud@joycode.com');
 // define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
 
+// promotional codes
+define('PROMO_NONE',     '');
+define('PROMO_EFA',      'efa');
+define('PROMO_GAG',      'gag');
+define('PROMO_REDUCED',  'reduced');
+define('PROMO_ADULTED',  'adulted');
+define('PROMO_FIT',      'fit');
+define('PROMO_CLASSROOM', 'classroom');
+
 // progressions
 define('PROGRESSION_INCREMENT', 1);
 define('PROGRESSION_1', 1);
@@ -29,6 +38,10 @@ define('PROGRESSION_6', 6);
 define('PROGRESSION_7', 7);
 define('PROGRESSION_8', 8);
 define('PROGRESSION_9', 9);
+
+// proceed or wait
+define('PROCEED_CONTINUE', 1);
+define('PROCEED_WAIT',     0);
 
 // application_states
 define('INITIAL_STATE',   0);

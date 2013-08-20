@@ -96,27 +96,31 @@ aside#sidebar h1
 div#end
 {font-size:10px;}
 
+code
+{font-size:16px;}
+
 
 /*  =====  Header Nav ==== */
 
 header nav
 {margin-left:45px;}
 
-/*
-header nav li strong
-{background:#316c2d url(../images/nav_dot.png) no-repeat 5px 5px; 
+
+header nav li.active
+{background:#316c2d /* url(../images/nav_dot.png) no-repeat 5px 5px;  */
 color:#fff;
 margin-right:10px;
+padding-bottom:-20px !important;
 text-indent:5px;
-padding:0 15px;
--moz-border-radius:1em;
+padding:0 10px ;
+/* -moz-border-radius:1em;
 -webkit-border-radius:1em;
 -ms-border-radius:1em;
 -o-border-radius:1em;
 border-radius:1em;
 text-decoration:none;;
-border:1px #000 solid;
-font-weight:normal;}  */
+border:1px #000 solid; */}  
+
 
 header nav li a:link, header nav li a:visited
 {color:#000080;
@@ -505,12 +509,12 @@ display:block;}
 
 /* =====  Code Styles  ======   */
 
-code 
+code
 {background: #FFFF9B;
-font-family: courier,monospace;
-color:#000;
-font-weight:bold;
-font-family: verdana,helvetica,sans-serif;}
+ color: #000000;
+border:none;
+line-height:1.2
+font-family: garamond, times,serif;}
 
 span.second
 {background:#0f0;}

@@ -42,7 +42,7 @@ if (is_null($_POST['submit'])) {
    }
 
    if ($usertype == USER_FREE || $usertype == USER_FIT) {
-      header('Location: /app/controllers/success.php');
+      header('Location: /app/controllers/paypal.php');
    } else {
       $params = "u=" . $usertype;
       header('Location: /paypal.php?' . $params);

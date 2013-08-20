@@ -23,3 +23,5 @@ RewriteRule ^(.*)\.html$ $1.php [NC,L]
 RewriteCond %{HTTP_HOST} ^introtohtml\-net\.joyofcode\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.introtohtml\-net\.joyofcode\.com$
 RewriteRule ^/?$ "http\:\/\/introtohtml\.net" [R=301,L]
+
+ErrorDocument 404 /404error.html 
