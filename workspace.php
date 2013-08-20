@@ -1,6 +1,7 @@
 <?php
 require_once 'app/config/config.php';
 $workspaceObj = new Workspace();
+$files = $workspaceObj->getWorkspaceData(USER_ID);
 
 echo '<pre><a href="logout.php">reset</a><br>';
 print_r($DEBUG);
@@ -87,7 +88,17 @@ echo '</pre>';
                         <a href="">images</a>
                      </td>
                   </tr>
-                  <?php ?>
+                  <?php foreach ($files as $file) : ?>
+                  <tr valign="top">
+                     <td align="center">
+                        <a href="app/controllers/workspace.php?delete=<?php echo '' ?>"><input type="image" src="../images/delete.gif"></a>
+                     </td>
+                     <td align="right">&nbsp;</td>
+                     <td><a target="_blank" href="<?php echo $file['url'] ?>"><?php echo $file['filename'] ?></a></td>
+                     <td><?php echo $file['filesize'] ?></td>
+                     <td><?php echo $file['date'] ?></td>
+                  </tr>
+                  <?php endforeach ?>
                </table> 
             </form>
             <!-- end file admin -->

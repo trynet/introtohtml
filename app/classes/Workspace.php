@@ -149,6 +149,54 @@ class Workspace {
    }
 
    /**
+    * get workspace data
+    */
+   public function getWorkspaceData($user_id) {
+      try {
+         $this->logger->log("Workspace::getWorkspaceData() READING FILES", Zend_Log::INFO);
+   
+         $i = 0;
+         $dir = $this->getDirectory($user_id);
+
+         if ($handle = opendir($dir)) {
+            while (($file = readdir($handle)) !== false) {
+               if (!in_array($file, array('.', '..')) && !is_dir($dir . '/' . $file)) {
+                  $realpath = realpath($dir . '/' . $file);
+
+                  $filedata[$i]['fullpath'] = $realpath;
+                  $filedata[$i]['filename'] = basename($file);
+
+                  $size = filesize($realpath);
+                  $filedata[$i]['filesize'] = empty($size) ? '--' : $size;
+
+                  $date = filectime($realpath);
+                  $filedata[$i]['date']     = empty($date) ? '--' : date("m/d/Y", $date);
+                  $filedata[$i]['url']      = 'workspace/' . $this->getCleanEmail($user_id) . "/$file";
+                  $i++;
+               }
+            }
+         }
+
+         $this->logger->log("Workspace::getWorkspaceData() FILES READ", Zend_Log::INFO);
+         return $filedata;
+      } catch (Exception $e) {
+         $this->logger->log("Workspace::getWorkspaceData() ERROR", Zend_Log::ERR);
+
+         return false;
+      }
+   }
+
+   /**
+    * delete file
+    *
+    * @param: (int) path to file
+    * @return: (bool) true on success
+    */
+   public function deleteFile($filename) {
+      return unlink($filename);
+   }
+
+   /**
     * get number of files in user directory
     */
    public function getNumberFiles($user_id) {
@@ -172,6 +220,12 @@ class Workspace {
       $dir = $this->getDirectory($user_id);
 
       $files = scandir($dir);
+
+      // crude and inefficient, but effective way to remove
+      // '.' and '..' from the array
+      array_shift($files);
+      array_shift($files);
+
       return $files;
    }
 
@@ -183,7 +237,7 @@ class Workspace {
       $clean_email = $this->getCleanEmail($user_id);
 
       for ($i = 1; $i <= count($files) - 2; $i++) {
-         $urls[] = "http://dev.introtohtml.net/workspace/$clean_email/" . $files[$i];
+         $urls[] = APPLICATION_DOMAIN . "/workspace/$clean_email/" . $files[$i];
       }
 
       return $urls;
