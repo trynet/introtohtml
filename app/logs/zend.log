@@ -2786,3 +2786,60 @@ EMAIL: gbenga@lucidmediaconcepts.com
 2013-08-19 15:39:09 INFO (6): AuthAdapter::authenticate() SSO CONDITION
 2013-08-19 15:39:09 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
 2013-08-19 15:39:09 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-19 18:29:04 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-19 18:29:22 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-19 18:29:22 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-19 19:20:10 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-19 19:20:10 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-19 19:20:10 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-19 19:20:10 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '145' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`user_id`, `progression`, `proceed`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => 145
+            [1] => 1
+            [2] => 1
+        )
+
+)
+
+2013-08-19 19:20:10 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-19 19:20:10 ERR (3): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-19 19:20:10 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-19 19:20:10 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-19 19:20:10 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-19 19:20:10 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-19 19:26:40 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-19 19:26:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-19 19:26:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-19 19:28:51 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-19 19:28:51 INFO (6): AuthAdapter::authenticate() AUTHENTICATED

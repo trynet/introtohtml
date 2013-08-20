@@ -43,3 +43,19 @@ Stack trace:
 [19-Aug-2013 14:23:25] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 67
 [19-Aug-2013 14:54:25] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/User.php:69) in /home1/joyofcod/public_html/_dev_intro/app/controllers/sample.php on line 57
 [19-Aug-2013 15:31:20] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 67
+[19-Aug-2013 18:29:04] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(64): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(121): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(26): User->authenticateUser('bud@joyofcode.c...', '0c56f61a5565c1d...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[19-Aug-2013 19:26:40] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(64): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(121): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(26): User->authenticateUser('bud@joyofcode.c...', '28d33acd07cb3ff...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147

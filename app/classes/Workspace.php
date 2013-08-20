@@ -4,7 +4,7 @@ Workspace - Uses DB auth instead of HTTP and flat files
 
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 21, 2013
-Modifed: August 17, 2013
+Modifed: August 19, 2013
 ------------------------------------------------------------*/
 
 require_once 'config/config.php';
@@ -38,9 +38,61 @@ class Workspace {
       if ($_Files['fileupload']['error'])
          return false;
 
-      // fixme: input sanitization!!
-      $dir = $this->getDirectory($user_id); //echo "\ndir: $dir";
-      return move_uploaded_file($_Files['fileupload']['tmp_name'], "$dir/" . trim($_Files['fileupload']['name']));
+      try {
+         // fixme: input sanitization!! (check ext and/or filetype at least)
+         $dir = $this->getDirectory($user_id); //echo "\ndir: $dir";
+         move_uploaded_file($_Files['fileupload']['tmp_name'], "$dir/" . trim($_Files['fileupload']['name']));
+
+         // track number of files uploaded
+         $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+         $authNamespace->num_files_uploaded += 1;
+
+         // log
+         $this->logger->log('Workspace::uploadFile() FILE UPLOADED', Zend_Log::INFO);
+
+         return $result;
+      } catch (Exception $e) {
+         $this->logger->log('Workspace::uploadFile() FILE UPLOAD ERROR', Zend_Log::ERR);
+         return $false; 
+      }
+   }
+
+   /**
+    * reset uploaded file number
+    */
+   public function resetNumFilesUploaded() {
+      $authNamespace = new Zend_Session_Namespace();
+      $authNamespace->num_files_uploaded = 0;
+   }
+
+   /**
+    * determine if the minimum number of files have been uploaded
+    *
+    * @param: (int) user_id
+    * @return: (bool) true if met
+    */
+   public function minFilesUploaded($user_id) {
+      $upload_requirements = array(PROGRESSION_1 => 1,
+                                   PROGRESSION_2 => 5,
+                                   PROGRESSION_3 => 5,
+                                   PROGRESSION_4 => 5,
+                                   PROGRESSION_5 => 5,
+                                   PROGRESSION_6 => 5,
+                                   PROGRESSION_7 => 2,
+                                   PROGRESSION_8 => 2,
+                                   PROGRESSION_9 => 5);
+
+      $authNamespace      = new Zend_Session_Namespace('Zend_Auth');
+      $num_files_uploaded = $authNamespace->num_files_uploaded;
+      $progression        = $authNamespace->progress['progression'];
+
+      // has the user uploaded enough to progress?
+      if ($num_files_uploaded >= $progression) {
+         $this->logger->log('Workspace::minFilesUploaded() TRUE', Zend_Log::INFO);
+         return true;
+      }
+
+      return false;
    }
 
    /**

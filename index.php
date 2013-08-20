@@ -3,7 +3,6 @@ require_once 'app/config/config.php';
 require_once 'controllers/schedule.php';
 echo '<pre>';
 print_r($DEBUG);
-print_r($_SESSION);
 echo '</pre>';
 ?>
 

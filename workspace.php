@@ -10,7 +10,6 @@ echo '</pre>';
 <head>
    <title>Intro To HTML :: Workspace</title>
    <link rel="stylesheet" href="styles/styles.css" />
-   <!-- <link rel="stylesheet" href="app/includes/style.css" type="text/css" />-->
    <script type="text/javascript" src="app/includes/jquery-1.10.2.min.js"></script>
 </head>
 
@@ -20,7 +19,7 @@ echo '</pre>';
       <header>
          <img src="images/header.png" alt="" />
          <nav>
- <ul class="nav nav-pills">
+            <ul class="nav nav-pills">
                <li><a href="index.html"><i class="icon-home"></i>Home Room</a></li>
                <li><a href="frontoffice"><i class="icon-info-sign"></i>Front Office</a></li>
                <li><a href="code_tester.html"><i class="icon-pencil"></i>Code Testers</a></li>
@@ -46,15 +45,17 @@ echo '</pre>';
             <!-- upload form -->
             <form name="" enctype="multipart/form-data" method="post" action="app/controllers/workspace.php">
                <input type="hidden" name="action" value="uploadfile" />
-               <p><b>Step 1</b> Locate the file from your computer that you want to upload
+               <p><!--b>Step 1</b--> Locate the file from your computer that you want to upload
                to your workspace.</p>
                <input type="file" name="fileupload" />
 
+               <!--
                <p><b>Step 2</b> Type in the filename that you are going to upload. This
                should be the same filename as you've just chosen to upload. For example,
                index.html.</p>
                <input type="text" name="filename" />
-
+               -->
+               <br />
                <input type="submit" name="submit" value="Upload File">
             </form>
             <!-- end upload form -->

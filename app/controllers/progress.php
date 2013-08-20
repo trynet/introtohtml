@@ -14,6 +14,9 @@ require_once '../config/config.php';
 // instantiate Application obj
 $applicationObj = new Application();
 
+// Workspace obj
+$workspaceObj = new Workspace();
+
 // instantiate Progress obj; get session data and HTTP GET params
 $progressObj = new Progress();
 $progression = $authNamespace->progress['progression'];
@@ -39,7 +42,13 @@ switch (USERTYPE) {
    case USER_DISCOUNT :
    case USER_FREE :
    case USER_FIT :
+      // progression
       $progressObj->setProgress($user_id, $data);
+      
+      // reset files uploaded (number)
+      $workspaceObj->resetNumFilesUploaded();
+      
+      // consume current app state and determine next
       $applicationObj->consumeApplicationState();
    break;
 

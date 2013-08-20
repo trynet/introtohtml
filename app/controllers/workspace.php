@@ -12,7 +12,8 @@ $action =  htmlspecialchars($_POST['action']);
 $workspaceObj = new Workspace();
 $n = $workspaceObj->uploadFile($user_id, $_FILES);
 
-if (!$n)
+if (!$n) { // upload error -- uh oh!
    echo "<br>error";
-else
+} else {
    echo "<br>success";
+}
