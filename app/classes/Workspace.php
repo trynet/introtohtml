@@ -16,6 +16,8 @@ class Workspace {
    private $progress;
    private $directory;
 
+   public $upload_requirements;
+
    /**
     * construct
     */
@@ -25,6 +27,17 @@ class Workspace {
 
       $this->userObj     = new User();
       $this->progressObj = new Progress();
+
+      $this->upload_requirements = array('_init_'      => 0, // only a sentinel offset
+                                         PROGRESSION_1 => 1,
+                                         PROGRESSION_2 => 5,
+                                         PROGRESSION_3 => 5,
+                                         PROGRESSION_4 => 5,
+                                         PROGRESSION_5 => 5,
+                                         PROGRESSION_6 => 5,
+                                         PROGRESSION_7 => 2,
+                                         PROGRESSION_8 => 2,
+                                         PROGRESSION_9 => 5);
    }
 
    /**
@@ -50,7 +63,7 @@ class Workspace {
          // log
          $this->logger->log('Workspace::uploadFile() FILE UPLOADED', Zend_Log::INFO);
 
-         return $result;
+         return true;
       } catch (Exception $e) {
          $this->logger->log('Workspace::uploadFile() FILE UPLOAD ERROR', Zend_Log::ERR);
          return $false; 
@@ -66,28 +79,32 @@ class Workspace {
    }
 
    /**
+    * determine files needed to continue
+    *
+    * @param: (int) user_id
+    * @return: (int) num files needed
+    */
+   public function filesNeededToProceed() {
+      $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+      $num_files_uploaded = $authNamespace->num_files_uploaded;
+      $progression = $authNamespace->progress['progression'];
+
+      return $this->upload_requirements[$progression] - $num_files_uploaded;
+   }
+
+   /**
     * determine if the minimum number of files have been uploaded
     *
     * @param: (int) user_id
     * @return: (bool) true if met
     */
-   public function minFilesUploaded($user_id) {
-      $upload_requirements = array(PROGRESSION_1 => 1,
-                                   PROGRESSION_2 => 5,
-                                   PROGRESSION_3 => 5,
-                                   PROGRESSION_4 => 5,
-                                   PROGRESSION_5 => 5,
-                                   PROGRESSION_6 => 5,
-                                   PROGRESSION_7 => 2,
-                                   PROGRESSION_8 => 2,
-                                   PROGRESSION_9 => 5);
-
+   public function minFilesUploaded() {
       $authNamespace      = new Zend_Session_Namespace('Zend_Auth');
       $num_files_uploaded = $authNamespace->num_files_uploaded;
       $progression        = $authNamespace->progress['progression'];
 
       // has the user uploaded enough to progress?
-      if ($num_files_uploaded >= $progression) {
+      if ($num_files_uploaded >= $this->upload_requirements[$progression]) {
          $this->logger->log('Workspace::minFilesUploaded() TRUE', Zend_Log::INFO);
          return true;
       }

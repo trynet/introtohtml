@@ -1,5 +1,7 @@
 <?php
 require_once 'app/config/config.php';
+$workspaceObj = new Workspace();
+
 echo '<pre><a href="logout.php">reset</a><br>';
 print_r($DEBUG);
 echo '</pre>';
@@ -35,8 +37,12 @@ echo '</pre>';
 
             <h1> Work Space</h1>
 
+            <?php if ($workspaceObj->minFilesUploaded()) : ?>
             <a href="../app/index.php?proceed=0">Proceed to next lesson (wait for Bud)</a><br />
             <a href="../app/index.php?proceed=1">Proceed to next lesson (at my own pace)</a>
+            <?php else : ?>
+            <p>You need to upload <b><?php echo $workspaceObj->filesNeededToProceed() ?></b> more file(s) to proceed</p>
+            <?php endif ?>
 
             <p>Work Space is your dedicated place to post your Lab  files for
             me to review and make my comments. <a href="#notes">See detailed notes</a>

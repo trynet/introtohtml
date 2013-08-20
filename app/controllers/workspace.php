@@ -10,10 +10,13 @@ require_once '../config/config.php';
 $action =  htmlspecialchars($_POST['action']);
 
 $workspaceObj = new Workspace();
-$n = $workspaceObj->uploadFile($user_id, $_FILES);
+$result = $workspaceObj->uploadFile($user_id, $_FILES);
 
-if (!$n) { // upload error -- uh oh!
-   echo "<br>error";
-} else {
-   echo "<br>success";
+// if some error (perhaps even malicious attempt; regexp or
+// similar input filters in Workspace::uploadFile() needed)
+if (!$result) {
+   header('Location: /workspace.php?error=1');
+   exit();
 }
+
+header('Location: /workspace.php');

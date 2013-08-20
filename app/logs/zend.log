@@ -2843,3 +2843,15 @@ EMAIL: gbenga@lucidmediaconcepts.com
 2013-08-19 19:26:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
 2013-08-19 19:28:51 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
 2013-08-19 19:28:51 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-19 20:34:22 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-19 20:37:16 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-19 20:41:17 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-19 20:41:27 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-19 20:52:29 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-19 20:54:18 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-19 20:54:59 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-19 20:56:43 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-19 20:58:15 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-19 20:58:35 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-19 21:02:50 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-19 21:02:51 INFO (6): Workspace::minFilesUploaded() TRUE

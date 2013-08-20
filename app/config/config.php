@@ -153,12 +153,13 @@ define('USER_ID', $user_id);
 define('USERTYPE', $authNamespace->storage['usertype']);
 
 /* debug */
-$DEBUG = array('user_id'           => $authNamespace->storage['user_id'],
-               'usertype'          => $authNamespace->storage['usertype'],
-               'promotional_code'  => $authNamespace->storage['promo'],
-               'progression'       => $authNamespace->progress['progression'],
-               'proceed'           => $authNamespace->progress['proceed'],
-               'APPLICATION_STATE' => $authNamespace->APPLICATION_STATE);
+$DEBUG = array('user_id'            => $authNamespace->storage['user_id'],
+               'usertype'           => $authNamespace->storage['usertype'],
+               'promotional_code'   => $authNamespace->storage['promo'],
+               'progression'        => $authNamespace->progress['progression'],
+               'proceed'            => $authNamespace->progress['proceed'],
+               'num_files_uploaded' => $authNamespace->num_files_uploaded,
+               'APPLICATION_STATE'  => $authNamespace->APPLICATION_STATE);
 
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php')
    header('Location: login.php');
