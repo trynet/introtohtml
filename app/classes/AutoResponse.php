@@ -38,7 +38,7 @@ class AutoResponse
 
          $authNamespace = new Zend_Session_Namespace('Zend_Auth');
          $proceed = $authNamespace->progress['proceed'];
-         $proceed_url = APPLICATION_DOMAIN ."/app/controllers/progress.php?" .
+         $proceed_url = APPLICATION_DOMAIN ."/app/controllers/instructor.php?" .
                            "user_id=$user_id&instructor_proceed=true";
 
          $message   = '';                               // defined in $file

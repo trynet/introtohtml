@@ -6209,3 +6209,141 @@ ProgressController() PROGRESSION = 2
 2013-08-22 14:21:11 INFO (6): Progress::setProgress() USER_ID = 179
 2013-08-22 14:21:11 INFO (6): Progress::setProgress() UPDATED = 1
 2013-08-22 14:21:11 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-22 14:23:01 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 14:23:01 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 14:23:01 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 14:23:05 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 14:23:05 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 14:23:15 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-22 14:23:15 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 14:23:15 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 14:23:15 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-22 14:23:39 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 14:23:40 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Olugbenga.
+
+So how did that first page go? Hopefully, not that bad but I see that you want me to have a look.
+
+Give me 48 hours to take a look and I'll let you know my thoughts. Lots of times I get back to students real quick.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: I see you uploaded your first .html file
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 14:23:40 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 14:23:40 INFO (6): Progress::setProgress() USER_ID = 179
+2013-08-22 14:23:40 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 14:23:44 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 14:23:44 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Olugbenga wants me to review the file.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css.LCK
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+    [8] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.html
+)
+
+
+Subscribed: <> <CSS> <>;
+
+<a href="http://dev.introtohtml.net/app/controllers/progress.php?user_id=179&instructor_proceed=true">Allow Olugbenga to proceed</a>
+
+SUBJECT: Olugbenga Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 14:23:44 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 14:23:45 INFO (6): ProgressController() USERTYPE = 3
+ProgressController() PROGRESSION = 1
+2013-08-22 14:23:45 INFO (6): Progress::setProgress() USER_ID = 179
+2013-08-22 14:23:45 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 14:23:45 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-22 14:24:17 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-22 14:31:00 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-22 14:31:37 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-22 14:32:04 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-22 14:34:03 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-22 14:38:21 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 14:38:21 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 14:38:21 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 14:38:24 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 14:38:24 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 14:38:32 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-22 14:38:32 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 14:38:32 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 14:38:32 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-22 14:38:35 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 14:38:35 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Olugbenga.
+
+So how did that first page go? Hopefully, not that bad but I see that you want me to have a look.
+
+Give me 48 hours to take a look and I'll let you know my thoughts. Lots of times I get back to students real quick.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: I see you uploaded your first .html file
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 14:38:35 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 14:38:35 INFO (6): Progress::setProgress() USER_ID = 179
+2013-08-22 14:38:35 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-22 14:38:44 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 14:38:44 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Olugbenga wants me to review the file.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css.LCK
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+    [8] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.html
+)
+
+
+Subscribed: <HTML> <CSS> <>;
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=179&instructor_proceed=true">Allow Olugbenga to proceed</a>
+
+SUBJECT: Olugbenga Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 14:38:44 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 14:38:44 INFO (6): ProgressController() USERTYPE = 3
+ProgressController() PROGRESSION = 1
+2013-08-22 14:38:44 INFO (6): Progress::setProgress() USER_ID = 179
+2013-08-22 14:38:44 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 14:38:44 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0

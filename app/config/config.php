@@ -177,6 +177,6 @@ $DEBUG = array('user_id'            => $authNamespace->storage['user_id'],
                'num_files_uploaded' => $authNamespace->num_files_uploaded,
                'APPLICATION_STATE'  => $authNamespace->APPLICATION_STATE);
 
-if (!$authNamespace->logged_in && ($_SERVER['SCRIPT_NAME'] != '/login.process.php' ||
-                                   $_SERVER['SCRIPT_NAME'] != '/app/controllers/progress.php'))
-   header('Location: login.php');
+if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php') {
+      header('Location: login.php');
+}

@@ -14,28 +14,6 @@ require_once '../config/config.php';
 // instantiate Progress Obj
 $progressObj = new Progress();
 
-// The following section is for when the instructor selects the
-// link from within an email, indicating that the files have
-// been reviewed and that the student is set to continue
-$email_user_id = htmlspecialchars($_GET['user_id']);
-$instructor_proceed = htmlspecialchars($_GET['instructor_proceed']);
-
-if (is_numeric($user_id) && $instructor_proceed) {
-   $progress = $progressObj->getProgress($email_user_id);
-   $data = array('progression' => $progress['progression'] + PROGRESSION_INCREMENT,
-                 'proceed'     => 1);
-   $n = $progressObj->setProgress($email_user_id, $data);
-
-   if ($n)
-      $message = "Student set to proceed";
-   else
-      $message = "An error occurred setting student to proceed";
-
-   exit($message); // we're not actually in the app, so display message
-                   // and exit;
-}
-/* -- end above section -- */
-
 // instantiate Application obj
 $applicationObj = new Application();
 
