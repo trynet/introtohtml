@@ -10,4 +10,6 @@ URL: $urls
 
 Subscribed: <$html> <$css> <$wp>;
 
+<a href="$proceed_url">Allow $firstname to proceed</a>
+
 EOT;

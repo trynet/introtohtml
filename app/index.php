@@ -23,13 +23,13 @@ switch ($APPLICATION_STATE) {
       switch ($proceed) {
          case PROCEED_WAIT :
             $message_id = UPLOAD_LAB1_REVIEW;
-            $instructor_message_id = UPLOAD_LAB1_REVIEW_INSTRUCTOR;
+            //$instructor_message_id = UPLOAD_LAB1_REVIEW_INSTRUCTOR;
          break;
 
          case PROCEED_CONTINUE :
          default :                               // should really only ever be 0 or 1
             $message_id = UPLOAD_LAB1_NO_REVIEW; // if not, someone prolly did something naughty
-            $instructor_message_id = UPLOAD_LAB1_NO_REVIEW_INSTRUCTOR;
+            //$instructor_message_id = UPLOAD_LAB1_NO_REVIEW_INSTRUCTOR;
          break;
       }
       // to user
@@ -37,7 +37,7 @@ switch ($APPLICATION_STATE) {
       $autoResponseObj->generateMessage($message_id, $user_id);
 
       // to instructor
-      // had to move to controllers/subscription.php in order to have subscription
+      // had to move to [*controllers/subscription.php*] in order to have subscription
       // data present in message.
       /*$params = array('instructor' => true);
       $autoResponseObj->generateMessage($instructor_message_id, $user_id, $params);*/
@@ -46,7 +46,7 @@ switch ($APPLICATION_STATE) {
       $data = array('proceed' => $proceed);
       $progressObj->setProgress(USER_ID, $data);
 
-      header('Location: /subscription.php');
+      header("Location: /subscription.php?proceed=$proceed");
       exit();
    break;
 

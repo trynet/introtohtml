@@ -36,6 +36,11 @@ class AutoResponse
       try {
          $this->logger->log('AutoResponse::generateMessage() BEGIN TRY BLOCK', Zend_Log::INFO); 
 
+         $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+         $proceed = $authNamespace->progress['proceed'];
+         $proceed_url = APPLICATION_DOMAIN ."/app/controllers/progress.php?" .
+                           "user_id=$user_id&instructor_proceed=true";
+
          $message   = '';                               // defined in $file
          $subject   = '';                               // defined in $file
          $signature = "Bud Kraus\n" .               // used in $file

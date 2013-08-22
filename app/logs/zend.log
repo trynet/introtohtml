@@ -6204,3 +6204,8 @@ ProgressController() PROGRESSION = 1
 2013-08-22 13:48:09 INFO (6): Progress::setProgress() USER_ID = 179
 2013-08-22 13:48:09 INFO (6): Progress::setProgress() UPDATED = 1
 2013-08-22 13:48:09 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-22 14:21:11 INFO (6): ProgressController() USERTYPE = 3
+ProgressController() PROGRESSION = 2
+2013-08-22 14:21:11 INFO (6): Progress::setProgress() USER_ID = 179
+2013-08-22 14:21:11 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 14:21:11 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0

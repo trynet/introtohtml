@@ -67,8 +67,6 @@ echo '<pre>'; print_r($DEBUG); echo '</pre>';
 
 
       <form action="app/controllers/subscription.php" method="post" name="">
-        
-  
 
                HTML
                <input type="checkbox" name="html" value="HTML" id="html" /></td>

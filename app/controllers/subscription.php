@@ -9,7 +9,11 @@ $css       = htmlspecialchars($_POST['css']);
 $wordpress = htmlspecialchars($_POST['wordpress']);
 
 // get $_GET variable (for progession wait or proceed)
+// dont think this variable is set in $_GET. Obtain
+// from session instead
 $proceed = htmlspecialchars($_GET['proceed']);
+$authNamespace = new Zend_Session_Namespace('Zend_Auth');
+$proceed = $authNamespace->progress['proceed'];
 
 $data = array('subscribe' => $subscribe,
               'html'      => $html,
