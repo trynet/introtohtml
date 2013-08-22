@@ -9,6 +9,8 @@ require_once '../config/config.php';
 
 $action =  htmlspecialchars($_POST['action']);
 
+// todo - add delete action
+
 $workspaceObj = new Workspace();
 $result = $workspaceObj->uploadFile($user_id, $_FILES);
 

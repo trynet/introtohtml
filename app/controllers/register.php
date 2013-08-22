@@ -54,6 +54,12 @@ if (is_null($_POST['submit'])) {
    // Auto-responses for the final two groups (discount, standard)
    // will be sent in the paypal controller, since the response needs
    // to include whether or not the payment was successful.
+
+   // FIT users are also sent to paypal, but directly from the JOC
+   // site, where upon the will reach the /controllers/paypal.php
+   // page and have their auto-response sent like the STANDARD and
+   // DISCOUNT users. The appropriate message will the in the session
+   // variabe (message_id)
    $params = "u=" . $usertype;
    header('Location: /paypal.php?' . $params);
 }

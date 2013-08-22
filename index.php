@@ -36,7 +36,6 @@ echo '</pre>';
 
 <body>
    <div id="wrapper">
-      <?php /* include("includes/header.php"); */ ?>
 
 <header>
 
@@ -46,7 +45,7 @@ echo '</pre>';
 <nav>
 <ul class="nav nav-pills">
 
- <li class="active"><i class="icon-home"></i><strong>Home Room</strong></li>
+ <li class="current"><a href="/"><i class="icon-home"></i><strong>Home Room</strong></span></a></li>
 <li><a href="/frontoffice"><i class="icon-info-sign"></i>Front Office</a></li>
 <li><a href="/code_tester.html"><i class="icon-pencil"></i>Code Tester</a></li>
 <li><a href="/workspace.php"><i class="icon-cog"></i>Work Space</a></li>
@@ -61,6 +60,8 @@ echo '</pre>';
 
       <div class="clearfix">
          <section id="main">
+         
+         
             <h1 id="home">Home Room</h1>
 
             <div id="lessons">
@@ -94,7 +95,7 @@ echo '</pre>';
 <div id="messages">
 <h2>Messages</h2>
 
-<p>Right now, you don't have any.</p>
+<p><?php echo $firstname ?>, right now, you don't have any.</p>
 
 </div>  
 

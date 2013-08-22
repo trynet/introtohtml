@@ -32,7 +32,7 @@
 <ul class="nav nav-pills">
 
  <li><a href="/index.html"><i class="icon-home"></i>Home Room</a></li>
-<li class="active"><i class="icon-info-sign"></i><strong>Front Office</strong></li>
+<li class="current"><a href="/"><i class="icon-info-sign"></i><strong>Front Office</strong></a></li>
 <li><a href="/code_tester.html"><i class="icon-pencil"></i>Code Tester</a></li>
 <li><a href="/workspace.php"><i class="icon-cog"></i>Work Space</a></li>
 <li><a href="/logout.php"><i class="icon-off"></i>Sign Out</a></li>

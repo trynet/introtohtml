@@ -43,12 +43,12 @@
   
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />
   
-<ul>
-  <li><a href="labs/4/index.html" target="_blank">index.html</a></li>
-  <li><a href="labs/4/prep.html" target="_blank">prep.html</a></li>
-  <li><a href="labs/4/plant.html" target="_blank">plant.html</a></li>
-  <li><a href="labs/4/harvest.html" target="_blank">harvest.html</a></li>
-  <li><a href="labs/4/blog.html" target="_blank">blog.html</a></li>
+<ul class="nav">
+  <li><a href="labs/4/index.html" target="_blank"><i class="icon-file"></i>index.html</a></li>
+  <li><a href="labs/4/prep.html" target="_blank"><i class="icon-file"></i>prep.html</a></li>
+  <li><a href="labs/4/plant.html" target="_blank"><i class="icon-file"></i>plant.html</a></li>
+  <li><a href="labs/4/harvest.html" target="_blank"><i class="icon-file"></i>harvest.html</a></li>
+  <li><a href="labs/4/blog.html" target="_blank"><i class="icon-file"></i>blog.html</a></li>
 </ul>
 
 <h2>Watch My Video To See What You Will Be Doing</h2>

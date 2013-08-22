@@ -54,12 +54,12 @@
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />
   
 
-<ul>
-  <li><a href="labs/2/index.html" target="_blank">index.html</a></li>
-  <li><a href="labs/2/prep.html" target="_blank">prep.html</a></li>
-  <li><a href="labs/2/plant.html" target="_blank">plant.html</a></li>
-  <li><a href="labs/2/harvest.html" target="_blank">harvest.html</a></li>
-  <li><a href="labs/2/blog.html" target="_blank">blog.html</a></li>
+<ul class="nav">
+  <li><a href="labs/2/index.html" target="_blank"><i class="icon-file"></i>index.html</a></li>
+  <li><a href="labs/2/prep.html" target="_blank"><i class="icon-file"></i>prep.html</a></li>
+  <li><a href="labs/2/plant.html" target="_blank"><i class="icon-file"></i>plant.html</a></li>
+  <li><a href="labs/2/harvest.html" target="_blank"><i class="icon-file"></i>harvest.html</a></li>
+  <li><a href="labs/2/blog.html" target="_blank"><i class="icon-file"></i>blog.html</a></li>
 </ul>
 
 <p id="note"><strong>NOTE:</strong>  You 
@@ -73,8 +73,8 @@
 
 <p>Save the file  5 different times, each time  with one of the following
   file names:</p>
-<ul>
-  <li>  index.html  </li>
+<ul class="nav">
+  <li>index.html  </li>
   <li>prep.html    </li>
   <li>plant.html    </li>
   <li>harvest.html    </li>

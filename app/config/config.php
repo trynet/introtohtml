@@ -12,11 +12,11 @@ Modifed: August 17, 2013
 define('APPLICATION_DOMAIN', 'http://dev.introtohtml.net');
 
 // admin email
-define('EMAIL_ADMIN', 'service@lucidmediaconcepts.com');
-define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
+//define('EMAIL_ADMIN', 'service@lucidmediaconcepts.com');
+//define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
 
-// define('EMAIL_ADMIN', 'bud@joycode.com');
-// define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
+define('EMAIL_ADMIN', 'bud@joycode.com');
+define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
 
 // promotional codes
 define('PROMO_NONE',     '');
@@ -164,6 +164,8 @@ $authNamespace = new Zend_Session_Namespace('Zend_Auth');
 $user_id = $authNamespace->storage['user_id'];
 define('USER_ID', $user_id);
 define('USERTYPE', $authNamespace->storage['usertype']);
+$firstname = $authNamespace->storage['firstname'];
+$email     = $authNamespace->storage['email'];
 
 /* debug */
 $DEBUG = array('user_id'            => $authNamespace->storage['user_id'],

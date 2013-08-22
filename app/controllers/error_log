@@ -59,3 +59,18 @@ Stack trace:
 #3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(26): User->authenticateUser('bud@joyofcode.c...', '28d33acd07cb3ff...')
 #4 {main}
   thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[20-Aug-2013 17:50:34] PHP Parse error:  syntax error, unexpected ':' in /home1/joyofcod/public_html/_dev_intro/app/controllers/sample.php on line 80
+[20-Aug-2013 19:35:11] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/auto_response/.php' (include_path='.:/usr/lib64/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/AutoResponse.php on line 76
+[20-Aug-2013 19:35:36] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/auto_response/.php' (include_path='.:/usr/lib64/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/AutoResponse.php on line 76
+[21-Aug-2013 10:24:01] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[21-Aug-2013 10:26:43] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[21-Aug-2013 11:26:36] PHP Warning:  require_once(app/config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 11
+[21-Aug-2013 11:26:36] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'app/config/config.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 11
+[21-Aug-2013 12:37:03] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[21-Aug-2013 13:34:20] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[21-Aug-2013 13:53:46] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[21-Aug-2013 14:22:21] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[21-Aug-2013 14:32:16] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[21-Aug-2013 14:39:25] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[21-Aug-2013 20:41:34] PHP Warning:  require_once(app/config/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 11
+[21-Aug-2013 20:41:34] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'app/config/config.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/app/controllers/register.php on line 11

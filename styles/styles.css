@@ -102,22 +102,6 @@ div#end
 header nav
 {margin-left:45px;}
 
-/*
-header nav li strong
-{background:#316c2d url(../images/nav_dot.png) no-repeat 5px 5px; 
-color:#fff;
-margin-right:10px;
-text-indent:5px;
-padding:0 15px;
--moz-border-radius:1em;
--webkit-border-radius:1em;
--ms-border-radius:1em;
--o-border-radius:1em;
-border-radius:1em;
-text-decoration:none;;
-border:1px #000 solid;
-font-weight:normal;}  */
-
 header nav li a:link, header nav li a:visited
 {color:#000080;
 margin-right:10px;
@@ -136,7 +120,13 @@ header nav li a:hover
 background:#999;}
 
 li.current a
-{background:#f0932b;}
+{background:transparent;
+border:none !important;}
+
+li.current a:hover
+{color:#000060;
+background:transparent;}
+
 
 
 /* =======  Major Rules */
@@ -512,7 +502,7 @@ code
 {background: #FFFF9B;
  color: #000000;
 border:none;
-
+font-size:16px;
 line-height:1.2
 font-family: garamond, times,serif;}
 

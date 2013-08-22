@@ -51,12 +51,12 @@
   
 
   
-<ul>
-  <li><a href="labs/3/index.html" target="_blank">index.html</a></li>
-  <li><a href="labs/3/prep.html" target="_blank">prep.html</a></li>
-  <li><a href="labs/3/plant.html" target="_blank">plant.html</a></li>
-  <li><a href="labs/3/harvest.html" target="_blank">harvest.html</a></li>
-  <li><a href="labs/3/blog.html" target="_blank">blog.html</a></li>
+<ul class="nav">
+  <li><a href="labs/3/index.html" target="_blank"><i class="icon-file"></i>index.html</a></li>
+  <li><a href="labs/3/prep.html" target="_blank"><i class="icon-file"></i>prep.html</a></li>
+  <li><a href="labs/3/plant.html" target="_blank"><i class="icon-file"></i>plant.html</a></li>
+  <li><a href="labs/3/harvest.html" target="_blank"><i class="icon-file"></i>harvest.html</a></li>
+  <li><a href="labs/3/blog.html" target="_blank"><i class="icon-file"></i>blog.html</a></li>
 </ul>
 
 <h2>Step 1: Start by adding the list which will become the navigation interface

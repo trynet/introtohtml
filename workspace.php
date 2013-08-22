@@ -11,7 +11,13 @@ echo '</pre>';
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Intro To HTML :: Workspace</title>
+   <title>Work Space</title>
+
+   <link rel="icon" href="images/favicon.ico" type="image/ico"/>
+   <link rel="icon" href="images/favicon.gif" type="image/gif"/>
+   <link rel="icon" href="images/favicon.png" type="image/png"/>
+   
+
    <link rel="stylesheet" href="styles/styles.css" />
    <script type="text/javascript" src="app/includes/jquery-1.10.2.min.js"></script>
 </head>
@@ -26,7 +32,8 @@ echo '</pre>';
                <li><a href="index.html"><i class="icon-home"></i>Home Room</a></li>
                <li><a href="frontoffice"><i class="icon-info-sign"></i>Front Office</a></li>
                <li><a href="code_tester.html"><i class="icon-pencil"></i>Code Testers</a></li>
-               <li><i class="icon-cog"></i><strong>Work  Space</strong></li>
+               <li class="current"><a href="workspace.html"><i class="icon-cog"></i><strong>Work  Space</strong></a>
+               </li>
                <li><a href="/logout.php"><i class="icon-off"></i>Sign Out</a></li>
             </ul>
          </nav>
@@ -91,7 +98,7 @@ echo '</pre>';
                   <?php foreach ($files as $file) : ?>
                   <tr valign="top">
                      <td align="center">
-                        <a href="app/controllers/workspace.php?delete=<?php echo '' ?>"><input type="image" src="../images/delete.gif"></a>
+                        <a href="app/controllers/workspace.php?delete=<?php echo '' // $file['fullpath'] ?>"><input type="image" src="../images/delete.gif"></a>
                      </td>
                      <td align="right">&nbsp;</td>
                      <td><a target="_blank" href="<?php echo $file['url'] ?>"><?php echo $file['filename'] ?></a></td>

@@ -45,7 +45,7 @@ if (strlen($email) > 3) {
          $registrationObj = new Registration();
 
          // user type
-         $promocode = $promocodeObj->getPromoCode($promotional_code);
+         $promocode = $promocodeObj->getPromoCode($row['promo']);
          $registrationObj->updateUserType($promocode['usertype_id'], $user_id);   
 
          // auto-response depending on promotional code
@@ -77,7 +77,7 @@ if (strlen($email) > 3) {
             break;
 
             case PROMO_NONE :
-            defaut :
+            default :
                $message_id = REGISTER_NO_PROMO;
             break;
          }

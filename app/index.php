@@ -4,7 +4,7 @@ index.php - 'gateway' to application by way of the application
    state
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: August 17, 2013
-Modifed: August 17, 2013
+Modifed: August 20, 2013
 ------------------------------------------------------------*/
 require_once 'config/config.php';
 
@@ -58,13 +58,13 @@ switch ($APPLICATION_STATE) {
       switch ($proceed) {
          case PROCEED_WAIT :
             $message_id            = UPLOAD_LAB2_REVIEW;
-            $instructor_message_id = UPLOAD_LAB1_REVIEW_INSTRUCTOR;
+            $instructor_message_id = UPLOAD_LAB2_REVIEW_INSTRUCTOR;
          break;
 
          case PROCEED_CONTINUE :
          default :
             $message_id            = UPLOAD_LAB2_NO_REVIEW;
-            $instructor_message_id = UPLOAD_LAB1_NO_REVIEW_INSTRUCTOR;
+            $instructor_message_id = UPLOAD_LAB2_NO_REVIEW_INSTRUCTOR;
          break;
       }
       // session variable
@@ -73,7 +73,8 @@ switch ($APPLICATION_STATE) {
       // if any of the following (non-immediately-paying) usertypes are using
       // the app, send the auto-response, now.
       // if (!(USERTYPE == USER_STANDARD || USERTYPE == USER_DISCOUNT)) {
-      if (USERTYPE == USER_FREE || USERTYPE == USER_FIT || USERTYPE == USER_CLASSROOM) {
+      // if (USERTYPE == USER_FREE || USERTYPE == USER_FIT || USERTYPE == USER_CLASSROOM) {
+      if (USERTYPE == USER_FREE || USERTYPE == USER_CLASSROOM) {
          // to user
          $autoResponseObj = new AutoResponse();
          $autoResponseObj->generateMessage($message_id, $user_id);
@@ -103,7 +104,31 @@ switch ($APPLICATION_STATE) {
 
    case TERTIARY_STATE :
    default :
+      // for lessons labs 3 - 9, only send autoresponses to instructor
       // for all user groups except U(4) FIT, continue
-      header('Location: /app/controllers/progress.php');
+      $autoResponseObj = new AutoResponse();
+      $params = array('instructor' => true);
+
+
+      // todo - determine message id based on progression
+      if ($proceed) 
+         $autoResponseObj->generateMessage(UPLOAD_LAB3_NO_REVIEW_INSTRUCTOR, $user_id, $params);
+      else
+         $autoResponseObj->generateMessage(UPLOAD_LAB3_REVIEW_INSTRUCTOR, $user_id, $params);
+
+      header("Location: /app/controllers/progress.php?proceed=$proceed");
    break;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -76,6 +76,7 @@ class Workspace {
    public function resetNumFilesUploaded() {
       $authNamespace = new Zend_Session_Namespace();
       $authNamespace->num_files_uploaded = 0;
+      $this->logger->log('Workspace::resetNumFilesUploaded() SESSION VALUE ' . $authNamespace->num_files_uploaded, Zend_Log::ERR);
    }
 
    /**

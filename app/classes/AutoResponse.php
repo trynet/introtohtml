@@ -73,7 +73,7 @@ class AutoResponse
          $result = $this->db->fetchOne($query, $message_id);
          $file   = AUTO_RESPONSE_PATH . '/' . $result . '.php';
 
-         require $file;
+         include $file;
 
          // change email to instructor email if param is set
          if ($params['instructor'] == true)
