@@ -14,6 +14,8 @@ $workspaceObj = new Workspace();
 if ($a == 'delete') {
    $file = htmlspecialchars($_GET['file']);
    $workspaceObj->deleteFile(USER_ID, $file);
+   header('Location: /workspace.php'); // in case an error occurred
+   exit();                             // before delete attempt
 }
    
 

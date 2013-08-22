@@ -45,11 +45,20 @@ class Workspace {
     *
     * @param: (int) user_id
     * @param: (array) $_FILES
-    * @return: (bool)
+    * @return: (mixed)
     */
    public function uploadFile($user_id, $_Files) {
       if ($_Files['fileupload']['error'])
          return false;
+
+      // allowed extensions
+      $allowed = array('css', 'html', 'htm');
+      $ext = pathinfo($_Files['fileupload']['name'], PATHINFO_EXTENSION);
+
+      if (!in_array($ext, $allowed)) {
+         $this->logger->log('Workspace::uploadFile() BAD EXTENSION', Zend_Log::INFO);
+         return false;
+      }
 
       try {
          // fixme: input sanitization!! (check ext and/or filetype at least)

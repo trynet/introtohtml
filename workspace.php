@@ -3,6 +3,10 @@ require_once 'app/config/config.php';
 $workspaceObj = new Workspace();
 $files = $workspaceObj->getWorkspaceData(USER_ID);
 
+$error = $_GET['error'];
+if (!empty($error))
+   $error_message = '<p style="color: red">There was an error uploading your file. Please try again</p>';
+
 echo '<pre><a href="logout.php">reset</a><br>';
 print_r($DEBUG);
 echo '</pre>';
@@ -44,6 +48,7 @@ echo '</pre>';
          <section id="main">
 
             <h1> Work Space</h1>
+            <?php echo $error_message ?>
 
             <?php if ($workspaceObj->minFilesUploaded()) : ?>
             <a href="../app/index.php?proceed=0">Proceed to next lesson (wait for Bud)</a><br />
