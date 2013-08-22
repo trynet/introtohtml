@@ -33,10 +33,17 @@ class Progress {
     * @param: (int) user_id
     * @return: (bool) true on success
     */
-   public function addProgress($user_id) {
+   public function addProgress($user_id, $promocode = null) {
       try {
+         // determine where this user starts
+         $progression = PROGRESSION_1;
+         if ($promocode == PROMO_FIT)
+            $progression = PROGRESSION_7;
+         if ($promocode == PROMO_CLASSROOM)
+            $progression = PROGRESSION_10;
+
          $data = array('user_id'     => $user_id,
-                       'progression' => PROGRESSION_1,
+                       'progression' => $progression,
                        'proceed'     => 1);
 
          $this->db->insert(TBL_PROGRESS, $data);

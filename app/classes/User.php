@@ -61,7 +61,7 @@ class User
          $this->authenticateUser($data['email'], $data['password']);
 
          // setup current progress
-         $progressObj->addProgress($id);
+         $progressObj->addProgress($id, $data['promo']);
 
          // create workspace dir
          $workspaceObj->createDirectory($id);

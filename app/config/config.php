@@ -38,6 +38,7 @@ define('PROGRESSION_6', 6);
 define('PROGRESSION_7', 7);
 define('PROGRESSION_8', 8);
 define('PROGRESSION_9', 9);
+define('PROGRESSION_10', 10);
 
 // proceed or wait
 define('PROCEED_CONTINUE', 1);

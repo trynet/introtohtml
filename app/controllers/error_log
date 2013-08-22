@@ -105,3 +105,7 @@ Stack trace:
 [22-Aug-2013 14:41:42] PHP Warning:  require_once(Zend/Db/Adapter/Pdo/Mysql.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/joyofcod/public_html/_dev_intro/app/controllers/instructor.php on line 2
 [22-Aug-2013 14:41:42] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zend/Db/Adapter/Pdo/Mysql.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/joyofcod/public_html/_dev_intro/app/controllers/instructor.php on line 2
 [22-Aug-2013 16:25:12] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[22-Aug-2013 17:26:14] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[22-Aug-2013 17:37:15] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[22-Aug-2013 17:37:58] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[22-Aug-2013 17:42:45] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146

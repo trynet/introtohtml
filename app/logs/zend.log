@@ -7046,3 +7046,320 @@ EMAIL: service@lucidmediaconcepts.com
 2013-08-22 17:11:17 INFO (6): Workspace::getWorkspaceData() READING FILES
 2013-08-22 17:11:17 INFO (6): Workspace::getWorkspaceData() FILES READ
 2013-08-22 17:11:17 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-22 17:25:24 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 17:25:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 17:25:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 17:25:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 17:25:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 17:26:14 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 17:26:14 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 17:26:14 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 17:26:14 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 17:26:14 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: bud@joyofcode.com
+headers:
+From: bud@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-22 17:26:14 INFO (6): User::email() MESSAGE SENT
+2013-08-22 17:26:14 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 17:26:14 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 17:26:14 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 17:26:14 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-22 17:26:14 INFO (6): User::email() MESSAGE SENT
+2013-08-22 17:26:14 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Gbenga
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+Promo Code: fit
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 17:26:14 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 17:26:15 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 17:26:15 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 17:26:15 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 17:26:43 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 17:26:43 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 17:27:06 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-22 17:27:09 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 17:27:09 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 17:27:17 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-22 17:27:19 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 17:27:19 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 17:27:19 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-22 17:27:23 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 17:27:23 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: bud@joyofcode.com
+headers:
+From: bud@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-22 17:27:23 INFO (6): User::email() MESSAGE SENT
+2013-08-22 17:27:23 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Gbenga.
+
+So how did that first page go? Hopefully, not that bad but I see that you want me to have a look.
+
+Give me 48 hours to take a look and I'll let you know my thoughts. Lots of times I get back to students real quick.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: I see you uploaded your first .html file
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 17:27:23 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 17:27:23 INFO (6): Progress::setProgress() USER_ID = 182
+2013-08-22 17:27:23 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 17:27:27 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 17:27:27 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-22 17:27:27 INFO (6): User::email() MESSAGE SENT
+2013-08-22 17:27:27 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga wants me to review the file.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+Subscribed: <> <> <>;
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=182&instructor_proceed=true">Allow Gbenga to proceed</a>
+
+SUBJECT: Gbenga Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 17:27:27 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 17:27:27 INFO (6): ProgressController() USERTYPE = 5
+ProgressController() PROGRESSION = 7
+2013-08-22 17:27:27 INFO (6): Progress::setProgress() USER_ID = 182
+2013-08-22 17:27:27 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 17:27:27 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-22 17:37:15 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 17:37:15 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 17:37:15 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 17:37:15 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 17:37:15 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: bud@joyofcode.com
+headers:
+From: bud@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-22 17:37:15 INFO (6): User::email() MESSAGE SENT
+2013-08-22 17:37:15 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga2.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 17:37:15 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 17:37:15 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 17:37:15 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-22 17:37:15 INFO (6): User::email() MESSAGE SENT
+2013-08-22 17:37:15 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Gbenga2
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 17:37:15 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 17:37:15 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 17:37:15 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 17:37:15 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 17:37:58 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 17:37:58 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 17:37:58 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 17:37:58 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 17:37:58 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: bud@joyofcode.com
+headers:
+From: bud@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-22 17:37:59 INFO (6): User::email() MESSAGE SENT
+2013-08-22 17:37:59 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga2.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 17:37:59 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 17:37:59 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 17:37:59 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-22 17:37:59 INFO (6): User::email() MESSAGE SENT
+2013-08-22 17:37:59 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Gbenga2
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+Promo Code: classroom
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 17:37:59 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 17:37:59 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 17:37:59 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 17:37:59 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 17:42:45 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 17:42:45 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 17:42:45 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 17:42:45 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 17:42:45 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: bud@joyofcode.com
+headers:
+From: bud@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-22 17:42:45 INFO (6): User::email() MESSAGE SENT
+2013-08-22 17:42:45 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga3.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 17:42:45 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 17:42:45 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 17:42:45 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-22 17:42:45 INFO (6): User::email() MESSAGE SENT
+2013-08-22 17:42:45 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Gbenga3
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+Promo Code: classroom
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 17:42:45 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 17:42:46 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 17:42:46 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 17:42:46 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
