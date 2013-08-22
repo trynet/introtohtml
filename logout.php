@@ -8,4 +8,4 @@ $auth = Zend_Auth::getInstance();
 $auth->clearIdentity();
 
 Zend_Session::destroy();
-header('Location: index.php');
+header('Location: ' . JOC_DOMAIN);

@@ -10,6 +10,7 @@ Modifed: August 17, 2013
 
 // application domain
 define('APPLICATION_DOMAIN', 'http://dev.introtohtml.net');
+define('JOC_DOMAIN', 'http://www.joyofcode.com/new');
 
 // admin email
 //define('EMAIL_ADMIN', 'service@lucidmediaconcepts.com');

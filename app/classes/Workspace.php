@@ -74,7 +74,7 @@ class Workspace {
     * reset uploaded file number
     */
    public function resetNumFilesUploaded() {
-      $authNamespace = new Zend_Session_Namespace();
+      $authNamespace = new Zend_Session_Namespace('Zend_Auth');
       $authNamespace->num_files_uploaded = 0;
       $this->logger->log('Workspace::resetNumFilesUploaded() SESSION VALUE ' . $authNamespace->num_files_uploaded, Zend_Log::ERR);
    }
@@ -193,7 +193,14 @@ class Workspace {
     * @param: (int) path to file
     * @return: (bool) true on success
     */
-   public function deleteFile($filename) {
+   public function deleteFile($user_id, $filename) {
+      if (strstr($filename, '..') !== false)
+         exit('not today...');
+
+      $dir = $this->getDirectory($user_id);
+      $filename = $dir . '/' . $filename;
+
+      $this->logger->log("Workspace::deleteFile() DELETING...", Zend_Log::INFO);
       return unlink($filename);
    }
 

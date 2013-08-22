@@ -98,7 +98,7 @@ echo '</pre>';
                   <?php foreach ($files as $file) : ?>
                   <tr valign="top">
                      <td align="center">
-                        <a href="app/controllers/workspace.php?delete=<?php echo '' // $file['fullpath'] ?>"><input type="image" src="../images/delete.gif"></a>
+                        <a href="app/controllers/workspace.php?a=delete&file=<?php echo $file['filename'] ?>"><img border="0" src="../images/delete.gif"></a>
                      </td>
                      <td align="right">&nbsp;</td>
                      <td><a target="_blank" href="<?php echo $file['url'] ?>"><?php echo $file['filename'] ?></a></td>
