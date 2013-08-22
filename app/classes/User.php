@@ -205,16 +205,31 @@ class User
     * @return: (bool)
     */
    public function email($message, $subject, $user_id, $from = null) {
+      // set to address
       if (is_string($user_id))
          $to = $user_id;
       else
          $to = $this->getField($user_id, 'email');
 
-      $headers = 'From: bud@joyofcode.com' . "\r\n" .
+      // set from address
+      if (is_null($from))
+         $from = 'bud@joyofcode.com';
+
+      // set headers
+      $headers = "From: $from" . "\r\n" .
                  'X-Mailer: PHP/' . phpversion();
 
       try {
+         $logmessage = "to: $to, from: $from\nheaders:\n$headers";
+         $this->logger->log("User::email() $logmessage", Zend_Log::INFO);
+//echo "<pre>log: $logmessage"; exit;
          $result = mail($to, $subject, $message, $headers);
+
+         if ($result)
+            $this->logger->log("User::email() MESSAGE SENT", Zend_Log::INFO);
+         else
+            $this->logger->log("User::email() ERROR SENDING MESSAGE", Zend_Log::INFO);
+
          return true;
       } catch (Exception $e) {
          $this->logger->log($e->message(), Zend_Log::ERR);

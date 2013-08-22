@@ -16,7 +16,7 @@ So just get started. It's a lot of fun. You'll see that HTML is no mysterious th
 
 Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
 
-When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
 
 Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
 

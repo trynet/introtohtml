@@ -81,10 +81,12 @@ class AutoResponse
          include $file;
 
          // change email to instructor email if param is set
-         if ($params['instructor'] == true)
+         if ($params['instructor'] == true) {
             $email = EMAIL_INSTRUCTOR;
+            $from  = EMAIL_INSTRUCTOR;
+         }
 
-         $this->sendMessage($message, $subject, $email);
+         $this->sendMessage($message, $subject, $email, $from);
          $this->logger->log('AutoResponse::generateMessage() SEND', Zend_Log::INFO); 
 
          return true;
@@ -101,16 +103,21 @@ class AutoResponse
     * @param: (string) message
     * @param: (string) subject
     * @param: (string) email
-    * @param: (bool) instructor - if TRUE, send to instructor email
+    * @param: (bool) instructor - if not FALSE, send to instructor email
+    *             // above param seems redundant
     * @return: (bool) true on success
     */
    public function sendMessage($message, $subject, $email, $instructor = false) {
+      $from = null;
+
       try {
-         if ($instructor)
+         if (!is_null($instructor)) {
             $email = EMAIL_INSTRUCTOR;
+            $from = EMAIL_ADMIN;
+         }
 
          $userObj = new User();
-         $userObj->email($message, $subject, $email);
+         $userObj->email($message, $subject, $email, $from);
 
          // log message
          $log_message  = "AutoResponse::sendMessage() MESSAGE\n";
