@@ -110,7 +110,7 @@ class AutoResponse
          // log message
          $log_message  = "AutoResponse::sendMessage() MESSAGE\n";
          $log_message .= "$message\nSUBJECT: $subject\nEMAIL: $email";
-         $this->logger->log($log_message, Zend_Log::ERR);
+         $this->logger->log($log_message, Zend_Log::INFO);
 
          return true;
       } catch (Exception $e) {

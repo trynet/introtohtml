@@ -13,11 +13,11 @@ define('APPLICATION_DOMAIN', 'http://dev.introtohtml.net');
 define('JOC_DOMAIN', 'http://www.joyofcode.com/new');
 
 // admin email
-//define('EMAIL_ADMIN', 'service@lucidmediaconcepts.com');
-//define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
+define('EMAIL_ADMIN', 'service@lucidmediaconcepts.com');
+define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
 
-define('EMAIL_ADMIN', 'bud@joycode.com');
-define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
+//define('EMAIL_ADMIN', 'bud@joycode.com');
+//define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
 
 // promotional codes
 define('PROMO_NONE',     '');

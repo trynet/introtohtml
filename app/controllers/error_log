@@ -78,3 +78,13 @@ Stack trace:
 [21-Aug-2013 22:50:18] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
 [21-Aug-2013 22:58:43] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
 [21-Aug-2013 23:02:35] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[22-Aug-2013 10:14:53] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[22-Aug-2013 10:42:00] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[22-Aug-2013 10:51:10] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[22-Aug-2013 10:54:26] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[22-Aug-2013 10:57:06] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[22-Aug-2013 11:19:12] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[22-Aug-2013 11:32:24] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[22-Aug-2013 12:40:44] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[22-Aug-2013 12:41:58] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137
+[22-Aug-2013 13:14:00] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 137

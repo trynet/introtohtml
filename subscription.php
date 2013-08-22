@@ -71,16 +71,15 @@ echo '<pre>'; print_r($DEBUG); echo '</pre>';
   
 
                HTML
-               <input type="checkbox" name="html" id="html" /></td>
- 
+               <input type="checkbox" name="SubscribeBlog[]" value="HTML" id="html" /></td>
  
                CSS
-               <input type="checkbox" name="css" id="css" />
-       
+               <input type="checkbox" name="SubscribeBlog[]" value="CSS" id="css" />
+
                WordPress
-            <input type="checkbox" name="wordpress" id="wordpress" />
+            <input type="checkbox" name="SubscribeBlog[]" value="WordPress" id="wordpress" />
          
-<input type="submit" name="submit" value="Submit" />
+            <input type="submit" name="submit" value="Submit" />
       
       </form>
 

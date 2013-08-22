@@ -7,7 +7,7 @@ $firstname has moved on to Lesson 2.
 
 Email Address: $email
 
-URL:  <URL of uploaded page>
+URL:  $urls;
 
 Subscribed: <$html> <$css> <$wp>
 

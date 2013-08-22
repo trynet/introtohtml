@@ -4,7 +4,7 @@ index.php - 'gateway' to application by way of the application
    state
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: August 17, 2013
-Modifed: August 20, 2013
+Modifed: August 22, 2013
 ------------------------------------------------------------*/
 require_once 'config/config.php';
 
@@ -18,7 +18,7 @@ $progressObj = new Progress();
 
 switch ($APPLICATION_STATE) {
    case INITIAL_STATE :
-      // user just finisehd lab 1, send to subscription
+      // user just finished lab 1, send to subscription
       // send auto-responses
       switch ($proceed) {
          case PROCEED_WAIT :
