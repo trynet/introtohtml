@@ -8,7 +8,7 @@ Email Address: $email
 
 URL: $urls
 
-Subscribed: <$html> <$css> <$wp>;
+Subscribed: <$html> <$css> <$wordpress>;
 
 <a href="$proceed_url">Allow $firstname to proceed</a>
 

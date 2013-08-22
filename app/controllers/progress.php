@@ -33,8 +33,11 @@ $log_message  = "ProgressController() USERTYPE = " . USERTYPE;
 $log_message .= "\nProgressController() PROGRESSION = $progression";
 $logger->log($log_message, Zend_Log::INFO);
 
-// increment values (fixme: currently has to be done before redirect)
-$data = array('progression' => $progression + PROGRESSION_INCREMENT,
+// increment values (progess only if not waiting for Bud)
+if ($proceed)
+   $progression = $progression + PROGRESSION_INCREMENT;
+
+$data = array('progression' => $progression,
               'proceed'     => $proceed);
 
 switch (USERTYPE) {
