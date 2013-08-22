@@ -9,6 +9,8 @@ Email Address: $email
 
 URL:  $urls;
 
-Subscribed: <$html> <$css> <$wp>
+SubscribeBlog: <$html>
+SubscribeBlog: <$css>
+SubscribeBlog: <$wordpress>
 
 EOT;

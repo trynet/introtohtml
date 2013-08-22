@@ -5857,3 +5857,350 @@ EMAIL: service@lucidmediaconcepts.com
 2013-08-22 13:14:01 INFO (6): AuthAdapter::authenticate() SSO CONDITION
 2013-08-22 13:14:01 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
 2013-08-22 13:14:01 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 13:25:09 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 13:25:09 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 13:25:09 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 13:25:09 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:25:09 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Bang.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 13:25:09 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:25:09 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:25:09 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Bang
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 13:25:09 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:25:09 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 13:25:09 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 13:25:09 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 13:25:28 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 13:25:28 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 13:25:36 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-22 13:25:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 13:25:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 13:25:37 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-22 13:26:09 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:26:10 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Bang.
+
+So how did that first page go? Hopefully, not that bad but I see that you want me to have a look.
+
+Give me 48 hours to take a look and I'll let you know my thoughts. Lots of times I get back to students real quick.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: I see you uploaded your first .html file
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 13:26:10 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:26:10 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:26:10 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Bang wants me to review the file.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css.LCK
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.html
+)
+
+
+Subscribed: <> <> <>;
+
+SUBJECT: Bang Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 13:26:10 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:26:10 INFO (6): Progress::setProgress() USER_ID = 178
+2013-08-22 13:26:10 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 13:35:19 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 13:35:19 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 13:35:19 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 13:35:19 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:35:19 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Olugbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 13:35:19 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:35:19 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:35:20 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Olugbenga
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+Promo Code: efa
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 13:35:20 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:35:20 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 13:35:20 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 13:35:20 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 13:35:25 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 13:35:25 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 13:35:32 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-22 13:35:33 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 13:35:33 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 13:35:33 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-22 13:35:46 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:35:46 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Olugbenga.
+
+So how did that first page go? Hopefully, not that bad but I see that you want me to have a look.
+
+Give me 48 hours to take a look and I'll let you know my thoughts. Lots of times I get back to students real quick.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: I see you uploaded your first .html file
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 13:35:46 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:35:46 INFO (6): Progress::setProgress() USER_ID = 179
+2013-08-22 13:35:46 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 13:35:59 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:35:59 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Olugbenga wants me to review the file.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css.LCK
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.html
+)
+
+
+Subscribed: <> <> <>;
+
+SUBJECT: Olugbenga Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 13:35:59 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:35:59 INFO (6): ProgressController() USERTYPE = 3
+ProgressController() PROGRESSION = 1
+2013-08-22 13:35:59 INFO (6): Progress::setProgress() USER_ID = 179
+2013-08-22 13:35:59 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 13:35:59 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-22 13:38:46 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 13:38:46 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 13:38:49 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 13:38:49 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 13:39:13 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 13:39:13 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 13:39:13 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 13:39:18 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 13:39:18 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 13:39:29 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-22 13:39:29 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 13:39:29 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 13:39:29 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-22 13:39:34 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:39:35 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Olugbenga.
+
+So how did that first page go? Hopefully, not that bad but I see that you want me to have a look.
+
+Give me 48 hours to take a look and I'll let you know my thoughts. Lots of times I get back to students real quick.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: I see you uploaded your first .html file
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 13:39:35 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:39:35 INFO (6): Progress::setProgress() USER_ID = 179
+2013-08-22 13:39:35 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-22 13:46:46 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:46:46 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Olugbenga wants me to review the file.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css.LCK
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+    [8] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.html
+)
+
+
+Subscribed: <HTML> <> <>;
+
+SUBJECT: Olugbenga Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 13:46:46 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:46:47 INFO (6): ProgressController() USERTYPE = 3
+ProgressController() PROGRESSION = 1
+2013-08-22 13:46:47 INFO (6): Progress::setProgress() USER_ID = 179
+2013-08-22 13:46:47 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 13:46:47 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-22 13:47:36 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-22 13:47:36 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-22 13:47:36 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-22 13:47:41 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 13:47:41 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 13:47:49 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-22 13:47:50 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-22 13:47:50 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-22 13:47:50 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-22 13:47:59 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:48:00 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Olugbenga.
+
+I see that you're feeling pretty confident about things and have moved on to the next Lesson. That's great because that is where things get a tad more interesting.
+ 
+I'm about to show you the real basic HTML tags that you will use for so many web pages. As you'll see you are going to get started with the 5 .html files that make up the In My Garden project.  You'll continue to work on these 5 pages as you go on through the class and really learn HTML.
+
+You do like home grown tomatoes, don't you?
+
+Don't skip a page. Do everything in order for best results.
+
+After you upload your pages you'll see you have a few options but I don't want to get ahead of myself.
+
+See you in 2!!
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: So, you're feeling good about HTML, huh?
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-22 13:48:00 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:48:00 INFO (6): Progress::setProgress() USER_ID = 179
+2013-08-22 13:48:00 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 13:48:06 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-22 13:48:06 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Olugbenga wants me to review the file.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/chat.css.LCK
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+    [8] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.html
+)
+
+
+Subscribed: <HTML> <CSS> <>;
+
+SUBJECT: Olugbenga Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-22 13:48:06 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-22 13:48:09 INFO (6): ProgressController() USERTYPE = 3
+ProgressController() PROGRESSION = 1
+2013-08-22 13:48:09 INFO (6): Progress::setProgress() USER_ID = 179
+2013-08-22 13:48:09 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-22 13:48:09 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0

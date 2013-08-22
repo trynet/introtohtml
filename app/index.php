@@ -37,8 +37,10 @@ switch ($APPLICATION_STATE) {
       $autoResponseObj->generateMessage($message_id, $user_id);
 
       // to instructor
-      $params = array('instructor' => true);
-      $autoResponseObj->generateMessage($instructor_message_id, $user_id, $params);
+      // had to move to controllers/subscription.php in order to have subscription
+      // data present in message.
+      /*$params = array('instructor' => true);
+      $autoResponseObj->generateMessage($instructor_message_id, $user_id, $params);*/
 
       // save wait or proceed choice first
       $data = array('proceed' => $proceed);
