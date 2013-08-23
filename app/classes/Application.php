@@ -15,6 +15,8 @@ class Application
     * construct
     */
    public function __construct() {
+      $this->db = Zend_Db_Table::getDefaultAdapter();
+      $this->logger = Zend_Registry::get('logger');
    }
 
    /**
@@ -56,6 +58,44 @@ class Application
       $authNamespace->APPLICATION_STATE = $application_state;
    }
 
+   /**
+    * getApplicationState - get application state (from db)
+    *
+    * @return: (int) application state
+    */
+   public function getApplicationState($user_id) {
+      try {
+         $query = "SELECT `application_state` FROM " . TBL_PROGRESS . " WHERE user_id = ?";
+         $result = $this->db->fetchOne($query, $user_id);
+
+         return $result;
+      } catch (Exception $e) {
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
+
+         return false;
+      }
+   }
+
+   /**
+    * save application state
+    *
+    * @return: null
+    */
+   public function saveApplicationState() {
+      $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+      $application_state = $authNamespace->APPLICATION_STATE;
+      $user_id           = $authNamespace->storage['user_id'];
+
+      $data = array('application_state' => $application_state);
+
+      try {
+         $n = $this->db->update(TBL_PROGRESS, $data, "user_id = $user_id"); 
+      } catch (Exception $e) {
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
+      }
+   }
 }
 
 

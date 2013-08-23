@@ -16,7 +16,7 @@ define('JOC_DOMAIN', 'http://www.joyofcode.com/new');
 define('EMAIL_ADMIN', 'webmaster@joyofcode.com');
 
 define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
-//define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
+// define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
 
 // promotional codes
 define('PROMO_NONE',     '');
@@ -168,6 +168,8 @@ define('USERTYPE', $authNamespace->storage['usertype']);
 $firstname = $authNamespace->storage['firstname'];
 $email     = $authNamespace->storage['email'];
 
+// set application state
+
 /* debug */
 $DEBUG = array('user_id'            => $authNamespace->storage['user_id'],
                'usertype'           => $authNamespace->storage['usertype'],
@@ -178,5 +180,5 @@ $DEBUG = array('user_id'            => $authNamespace->storage['user_id'],
                'APPLICATION_STATE'  => $authNamespace->APPLICATION_STATE);
 
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php') {
-      header('Location: login.php');
+      header('Location: ' . JOC_DOMAIN . '/sign-in');
 }

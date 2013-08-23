@@ -52,7 +52,7 @@ class Workspace {
          return false;
 
       // allowed extensions
-      $allowed = array('css', 'html', 'htm');
+      $allowed = array('html', 'htm');
       $ext = pathinfo($_Files['fileupload']['name'], PATHINFO_EXTENSION);
 
       if (!in_array($ext, $allowed)) {

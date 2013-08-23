@@ -13,9 +13,10 @@ if (is_numeric($user_id) && $instructor_proceed) {
    $result = mysql_query($query);
 
    $row = mysql_fetch_array($result);
-   $proceed = $row['proceed'] + 1;
+   //$proceed = $row['proceed'] + 1;
+   $progression = $row['progression'] + 1;
 
-   $query = "UPDATE progress SET proceed = $proceed WHERE user_id = $user_id";
+   $query = "UPDATE progress SET progression = $progression WHERE user_id = $user_id";
    mysql_query($query);
 
    if (!mysql_errno())

@@ -8,4 +8,4 @@ $auth = Zend_Auth::getInstance();
 $auth->clearIdentity();
 
 Zend_Session::destroy();
-header('Location: ' . JOC_DOMAIN);
+header('Location: ' . JOC_DOMAIN . '/sign-in');

@@ -90,6 +90,7 @@ class User
 
    /**
     * get sso authentication
+    * todo: delete - don't think this is being used
     *
     * @param: username - email address
     * @return:
@@ -127,8 +128,12 @@ class User
          $authNamespace->logged_in = true;
 
          // application state
-         if (is_null($authNamespace->APPLICATION_STATE))
-            $authNamespace->APPLICATION_STATE = INITIAL_STATE;
+         if (is_null($authNamespace->APPLICATION_STATE)) {
+            $applicationObj = new Application();
+            $application_state = $applicationObj->getApplicationState($identity['user_id']);
+            $authNamespace->APPLICATION_STATE = $application_state;
+            //$authNamespace->APPLICATION_STATE = INITIAL_STATE;
+         } 
 
          // get current progress and persist
          $progressObj             = new Progress();
@@ -146,6 +151,10 @@ class User
    public function logout($user_id) {
       try {
          $n = $this->db->update(TBL_USER, array('logged_in' => 0), "user_id = $user_id");
+
+         // save application state
+         $applicationObj = new Application();
+         $applicationObj->saveApplicationState();
 
          return true;
       } catch (Exception $e) {
