@@ -136,3 +136,5 @@ Stack trace:
 [23-Aug-2013 18:20:26] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
 [23-Aug-2013 18:38:26] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
 [23-Aug-2013 18:46:53] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/auto_response/.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/AutoResponse.php on line 81
+[24-Aug-2013 11:07:14] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[24-Aug-2013 11:09:28] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146

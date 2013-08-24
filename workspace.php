@@ -1,12 +1,22 @@
 <?php
 require_once 'app/config/config.php';
+
+// create workspace object and get user data
 $workspaceObj = new Workspace();
 $files = $workspaceObj->getWorkspaceData(USER_ID);
 
+// if CLASSROOM user, disable this workspace
+if (USERTYPE == USER_CLASSROOM) {
+   echo '<p>You do not have permissions to view this page. Please return to the <a href="index.html">Home Room</a>.';
+   exit();
+}
+
+// error message if file uploaded erroneous
 $error = $_GET['error'];
 if (!empty($error))
    $error_message = '<p style="color: red">There was an error uploading your file. Please try again</p>';
 
+// debug data -- delete on production
 echo '<pre><a href="logout.php">reset</a><br>';
 print_r($DEBUG);
 echo '</pre>';
