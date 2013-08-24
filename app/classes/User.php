@@ -132,7 +132,6 @@ class User
             $applicationObj = new Application();
             $application_state = $applicationObj->getApplicationState($identity['user_id']);
             $authNamespace->APPLICATION_STATE = $application_state;
-            //$authNamespace->APPLICATION_STATE = INITIAL_STATE;
          } 
 
          // get current progress and persist

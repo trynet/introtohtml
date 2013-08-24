@@ -9595,3 +9595,850 @@ ProgressController() PROGRESSION = 2
 2013-08-23 17:53:50 INFO (6): Progress::setProgress() USER_ID = 198
 2013-08-23 17:53:50 INFO (6): Progress::setProgress() UPDATED = 0
 2013-08-23 17:53:50 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-23 18:20:26 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:20:26 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:20:26 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:20:26 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:20:26 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: bud@joyofcode.com
+headers:
+From: bud@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:20:27 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:20:27 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-23 18:20:27 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:20:27 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:20:27 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:20:27 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:20:27 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Gbenga
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 18:20:27 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:20:27 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:20:27 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:20:27 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:20:31 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:20:31 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:20:46 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:20:46 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:20:46 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:20:46 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:20:51 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:20:51 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: bud@joyofcode.com
+headers:
+From: bud@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:20:51 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:20:51 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Gbenga.
+
+So how did that first page go? Hopefully, not that bad but I see that you want me to have a look.
+
+Give me 48 hours to take a look and I'll let you know my thoughts. Lots of times I get back to students real quick.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: I see you uploaded your first .html file
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-23 18:20:51 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:20:51 INFO (6): Progress::setProgress() USER_ID = 199
+2013-08-23 18:20:51 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-23 18:20:54 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:20:54 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:20:54 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:20:54 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga wants me to review the file.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+Subscribed: <HTML> <CSS> <WP>;
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=199&instructor_proceed=true">Allow Gbenga to proceed</a>
+
+SUBJECT: Gbenga Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 18:20:54 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:20:54 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 1
+2013-08-23 18:20:54 INFO (6): Progress::setProgress() USER_ID = 199
+2013-08-23 18:20:54 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:20:54 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-23 18:23:01 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:23:01 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:23:10 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:23:10 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:23:10 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:23:10 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:23:12 INFO (6): Progress::setProgress() USER_ID = 199
+2013-08-23 18:23:12 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:23:28 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:23:28 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:23:28 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:24:23 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:24:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:24:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:24:26 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:24:26 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:24:32 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:24:32 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:24:32 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:24:32 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:24:35 INFO (6): Progress::setProgress() USER_ID = 199
+2013-08-23 18:24:35 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:25:04 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:25:04 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:25:04 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:25:13 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:25:13 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:25:13 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:25:23 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:25:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:25:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:26:06 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:26:06 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:26:06 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:27:18 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:27:18 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:27:18 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:27:37 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:27:37 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:27:37 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:27:53 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:27:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:27:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:28:53 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:28:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:28:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:29:33 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:29:33 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:29:33 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:29:40 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:29:40 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:29:40 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:31:03 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:31:03 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:31:03 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:31:19 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:31:19 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:31:19 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:31:53 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:31:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:31:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:33:41 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:33:41 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:33:41 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:33:58 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:33:58 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:33:58 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:34:08 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:34:08 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:34:08 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:34:23 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:34:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:34:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:34:28 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:34:28 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:34:36 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:34:36 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:34:36 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:34:36 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:34:40 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:34:40 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: bud@joyofcode.com
+headers:
+From: bud@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:34:40 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:34:40 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Gbenga.
+
+So how did that first page go? Hopefully, not that bad but I see that you want me to have a look.
+
+Give me 48 hours to take a look and I'll let you know my thoughts. Lots of times I get back to students real quick.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: I see you uploaded your first .html file
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-23 18:34:40 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:34:40 INFO (6): Progress::setProgress() USER_ID = 199
+2013-08-23 18:34:40 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:34:44 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:34:44 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:34:44 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:34:44 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga wants me to review the file.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+Subscribed: <HTML> <CSS> <WP>;
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=199&instructor_proceed=true">Allow Gbenga to proceed</a>
+
+SUBJECT: Gbenga Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 18:34:44 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:34:44 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 1
+2013-08-23 18:34:44 INFO (6): Progress::setProgress() USER_ID = 199
+2013-08-23 18:34:44 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:34:44 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-23 18:36:15 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `user` SET `logged_in` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+2013-08-23 18:38:26 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:38:26 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:38:26 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:38:26 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:38:26 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: bud@joyofcode.com
+headers:
+From: bud@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:38:27 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:38:27 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi gbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-23 18:38:27 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:38:27 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:38:27 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:38:27 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:38:27 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: gbenga
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 18:38:27 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:38:27 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:38:27 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:38:27 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:38:50 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:38:50 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:39:00 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:39:01 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:39:01 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:39:01 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:39:03 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:39:03 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: bud@joyofcode.com
+headers:
+From: bud@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:39:03 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:39:03 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, gbenga.
+
+So how did that first page go? Hopefully, not that bad but I see that you want me to have a look.
+
+Give me 48 hours to take a look and I'll let you know my thoughts. Lots of times I get back to students real quick.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: I see you uploaded your first .html file
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-23 18:39:03 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:39:03 INFO (6): Progress::setProgress() USER_ID = 200
+2013-08-23 18:39:03 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-23 18:39:06 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:39:06 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:39:07 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:39:07 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+gbenga wants me to review the file.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+Subscribed: <HTML> <CSS> <WP>;
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=200&instructor_proceed=true">Allow gbenga to proceed</a>
+
+SUBJECT: gbenga Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 18:39:07 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:39:07 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 1
+2013-08-23 18:39:07 INFO (6): Progress::setProgress() USER_ID = 200
+2013-08-23 18:39:07 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:39:07 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-23 18:39:47 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:39:47 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:39:47 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:40:04 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:40:04 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:40:04 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:40:09 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:40:09 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:40:17 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:40:18 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:40:18 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:40:25 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:40:25 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:40:25 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:40:32 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:40:32 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:40:32 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:40:40 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:40:40 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:40:40 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:40:47 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:40:47 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:40:47 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:40:47 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:40:50 INFO (6): Progress::setProgress() USER_ID = 200
+2013-08-23 18:40:50 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:46:53 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:46:53 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: bud@joyofcode.com
+headers:
+From: bud@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:46:53 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:46:53 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-23 18:46:53 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:46:53 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:46:53 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:46:54 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:46:54 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+gbenga has moved on to payment and here is the data:
+
+Last Name: 
+Promo Code: 
+How did you find this class?: 0
+
+Student is waiting for review of following links:
+
+URLs: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=200&instructor_proceed=true">Allow gbenga to proceed</a>
+
+SUBJECT: gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 18:46:54 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:46:54 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 2
+2013-08-23 18:46:54 INFO (6): Progress::setProgress() USER_ID = 200
+2013-08-23 18:46:54 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:46:54 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-23 18:47:37 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:47:37 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:47:37 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:48:54 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:48:54 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:49:01 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:49:01 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:49:01 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:49:11 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:49:11 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:49:11 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:49:18 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:49:19 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:49:19 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:49:28 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:49:28 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:49:28 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:49:41 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:49:41 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:49:41 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:49:41 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:49:43 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:49:43 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:49:44 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:49:44 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+gbenga  wants files to be reviewed for Lab .
+
+URLs: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=200&instructor_proceed=true">Allow gbenga to proceed</a>
+
+SUBJECT: File Uploads Lab 
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 18:49:44 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:49:44 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 3
+2013-08-23 18:49:44 INFO (6): Progress::setProgress() USER_ID = 200
+2013-08-23 18:49:44 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:49:44 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-23 18:52:52 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:52:52 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:52:52 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:52:59 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:52:59 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:53:05 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:53:05 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:53:05 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:53:11 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:53:11 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:53:11 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:53:16 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:53:17 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:53:17 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:53:22 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:53:23 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:53:23 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:53:30 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:53:30 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:53:30 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:53:30 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:53:33 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:53:33 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:53:34 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:53:34 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+gbenga  wants files to be reviewed for Lab 4.
+
+URLs: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=200&instructor_proceed=true">Allow gbenga to proceed</a>
+
+SUBJECT: File Uploads Lab 4
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 18:53:34 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:53:34 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 4
+2013-08-23 18:53:34 INFO (6): Progress::setProgress() USER_ID = 200
+2013-08-23 18:53:34 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:53:34 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-23 18:54:07 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:54:07 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:54:07 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:54:11 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:54:11 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:54:21 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:54:21 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:54:21 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:54:27 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:54:27 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:54:27 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:54:32 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:54:33 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:54:33 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:54:39 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:54:40 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:54:40 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:54:45 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:54:46 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:54:46 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:54:46 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:54:52 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:54:52 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:54:53 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:54:53 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+gbenga  wants files to be reviewed for Lab 5.
+
+URLs: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=200&instructor_proceed=true">Allow gbenga to proceed</a>
+
+SUBJECT: File Uploads Lab 5
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 18:54:53 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:54:53 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 5
+2013-08-23 18:54:53 INFO (6): Progress::setProgress() USER_ID = 200
+2013-08-23 18:54:53 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:54:53 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-23 18:55:20 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-23 18:55:20 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-23 18:55:20 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-23 18:55:31 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:55:31 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:55:39 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:55:39 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:55:39 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:55:45 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:55:46 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:55:46 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:55:52 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:55:52 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:55:52 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:55:58 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:55:58 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:55:58 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:56:04 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 18:56:04 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:56:04 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:56:04 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 18:56:10 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 18:56:10 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 18:56:10 INFO (6): User::email() MESSAGE SENT
+2013-08-23 18:56:10 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+gbenga  wants files to be reviewed for Lab 6.
+
+URLs: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=200&instructor_proceed=true">Allow gbenga to proceed</a>
+
+SUBJECT: File Uploads Lab 6
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 18:56:10 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 18:56:11 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 6
+2013-08-23 18:56:11 INFO (6): Progress::setProgress() USER_ID = 200
+2013-08-23 18:56:11 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 18:56:11 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-23 18:56:15 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:56:15 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:56:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:56:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 18:57:11 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 18:57:11 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:00:42 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:00:42 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:00:51 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 19:00:52 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:00:52 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:00:58 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 19:00:58 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:00:58 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:00:58 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 19:01:03 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 19:01:03 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 19:01:03 INFO (6): User::email() MESSAGE SENT
+2013-08-23 19:01:03 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+gbenga  wants files to be reviewed for Lab 7.
+
+URLs: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=200&instructor_proceed=true">Allow gbenga to proceed</a>
+
+SUBJECT: File Uploads Lab 7
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 19:01:03 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 19:01:04 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 7
+2013-08-23 19:01:04 INFO (6): Progress::setProgress() USER_ID = 200
+2013-08-23 19:01:04 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 19:01:04 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-23 19:01:24 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:01:24 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:01:31 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 19:01:31 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:01:31 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:01:38 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 19:01:39 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:01:39 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:01:39 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 19:01:43 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 19:01:43 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 19:01:43 INFO (6): User::email() MESSAGE SENT
+2013-08-23 19:01:43 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+gbenga  wants files to be reviewed for Lab 8.
+
+URLs: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=200&instructor_proceed=true">Allow gbenga to proceed</a>
+
+SUBJECT: File Uploads Lab 8
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 19:01:43 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 19:01:43 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 8
+2013-08-23 19:01:43 INFO (6): Progress::setProgress() USER_ID = 200
+2013-08-23 19:01:43 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 19:01:43 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-23 19:02:06 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:02:06 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:02:14 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 19:02:14 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:02:14 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:02:21 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 19:02:21 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:02:21 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:02:28 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 19:02:28 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:02:28 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:02:34 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 19:02:35 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:02:35 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:02:40 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-23 19:02:40 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-23 19:02:40 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-23 19:02:40 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-23 19:02:43 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-23 19:02:43 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-23 19:02:43 INFO (6): User::email() MESSAGE SENT
+2013-08-23 19:02:43 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+gbenga  wants files to be reviewed for Lab 9.
+
+URLs: Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=200&instructor_proceed=true">Allow gbenga to proceed</a>
+
+SUBJECT: File Uploads Lab 9
+EMAIL: service@lucidmediaconcepts.com
+2013-08-23 19:02:43 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-23 19:02:44 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 9
+2013-08-23 19:02:44 INFO (6): Progress::setProgress() USER_ID = 200
+2013-08-23 19:02:44 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-23 19:02:44 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0

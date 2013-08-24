@@ -51,6 +51,9 @@ class AutoResponse
 
                       "Learn HTML, CSS and WordPress Online With Me";
 
+         // get lesson/lab #
+         $lab = $authNamespace->progress['progression'];
+
          // get user data
          $userObj   = new User();
          $firstname = $userObj->getField($user_id, 'firstname');
