@@ -53,7 +53,6 @@ switch ($APPLICATION_STATE) {
    case SECONDARY_STATE :
       // user subscribed and finished lab two. next, they'll
       // need to finish registration and pay
-
       // but first, auto-responses; these will be saved to session
       // variables because two out of four use cases must be
       // redirected to Paypal before sending our auto-response
@@ -70,12 +69,11 @@ switch ($APPLICATION_STATE) {
          break;
       }
       // session variable
-      $authNamespace->message_id = $message_id;
+      $authNamespace->message_id            = $message_id;
+      $authNamespace->instructor_message_id = $instructor_message_id;
 
       // if any of the following (non-immediately-paying) usertypes are using
       // the app, send the auto-response, now.
-      // if (!(USERTYPE == USER_STANDARD || USERTYPE == USER_DISCOUNT)) {
-      // if (USERTYPE == USER_FREE || USERTYPE == USER_FIT || USERTYPE == USER_CLASSROOM) {
       if (USERTYPE == USER_FREE || USERTYPE == USER_CLASSROOM) {
          // to user
          $autoResponseObj = new AutoResponse();
@@ -99,7 +97,7 @@ switch ($APPLICATION_STATE) {
       }
 
       // all other users need to register the remainder of their
-      // infor before progressing
+      // info before progressing
       header('Location: /register.php');
       exit();
    break;

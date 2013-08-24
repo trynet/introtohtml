@@ -10,10 +10,8 @@ How did you find this class?: $found
 
 Student is waiting for review of following links:
 
-URL:  <URL of uploaded page>
-URL:  <URL of uploaded page>
-URL:  <URL of uploaded page>
-URL:  <URL of uploaded page>
-URL:  <URL of uploaded page>
+URLs: $urls
+
+<a href="$proceed_url">Allow $firstname to proceed</a>
 
 EOT;

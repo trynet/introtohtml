@@ -43,7 +43,7 @@ echo '<pre>'; print_r($DEBUG); echo '</pre>';
 <nav>
 <ul class="nav nav-pills">
 
- <li><a href="/"><i class="icon-home"></i>Home Room</span></a></li>
+<li><a href="/"><i class="icon-home"></i>Home Room</span></a></li>
 <li><a href="/frontoffice"><i class="icon-info-sign"></i>Front Office</a></li>
 <li><a href="/code_tester.html"><i class="icon-pencil"></i>Code Tester</a></li>
 <li><a href="/workspace.php"><i class="icon-cog"></i>Work Space</a></li>

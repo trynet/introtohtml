@@ -12,9 +12,8 @@ Modifed: August 17, 2013
 define('APPLICATION_DOMAIN', 'http://dev.introtohtml.net');
 define('JOC_DOMAIN', 'http://www.joyofcode.com/new');
 
-// admin email
+// email addresses
 define('EMAIL_ADMIN', 'webmaster@joyofcode.com');
-
 define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
 // define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
 

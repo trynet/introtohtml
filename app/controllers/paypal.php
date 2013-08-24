@@ -4,9 +4,10 @@ successful payment made (controller)
 
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 22, 2013
-Modified: August 20, 2013
+Modified: August 23, 2013
 ------------------------------------------------------------*/
 require_once '../config/config.php';
+//echo '<pre>'; print_r($DEBUG);
 
 // todo: use Paypal IPN (or similar technology) to determine
 //       whether the payment transaction was successful
@@ -32,18 +33,27 @@ if ($success) {
       // user_id, authentication, or application session data exists
       // for them.
       case USER_FIT :
-         $message_id = FIT_USER_PAYPAL;
+         $message_idi           = FIT_USER_PAYPAL;
+         $instructor_message_id = FIT_USER_PAYPAL_INSTRUCTOR;
       break;
 
       case USER_DISCOUNT :
       case USER_STANDARD :
       default :
-         $message_id = $authNamespace->message_id;
+         $message_id            = $authNamespace->message_id;
+         $instructor_message_id = $authNamespace->instructor_message_id;
       break;
    }
 
-   // send autoresponse
+//echo "message_id: $message_id; instructor_messsage_id: $instructor_message_id";
+//exit;
+
+   // send autoresponse to user
    $autoResponseObj->generateMessage($message_id, USER_ID);
+
+   // send autoresponse to instructor
+   $params = array('instructor' => true);
+   $autoResponseObj->generateMessage($instructor_message_id, USER_ID, $params);
 
 } else {
 
