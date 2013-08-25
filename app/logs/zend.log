@@ -10819,3 +10819,383 @@ ProgressController() PROGRESSION = 1
 2013-08-24 18:03:34 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
 2013-08-24 18:04:00 INFO (6): Workspace::getWorkspaceData() READING FILES
 2013-08-24 18:04:00 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 10:49:50 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-25 10:49:50 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-25 10:49:50 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-25 10:50:01 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 10:50:01 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 10:54:35 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 10:54:35 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 10:56:39 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 10:56:39 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:03:44 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:03:44 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:07:25 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:07:25 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:08:03 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 11:08:04 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:08:04 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:08:43 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 11:08:43 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:08:43 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:08:43 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:11:04 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:11:04 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:11:04 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:12:52 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:12:52 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:12:52 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:17:23 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:17:23 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:17:23 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:18:03 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:18:03 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:18:03 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:18:07 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:18:07 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:18:07 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:20:38 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:20:38 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:20:38 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:21:02 INFO (6): Workspace::deleteFile() DELETING...
+2013-08-25 11:21:02 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:21:02 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:21:02 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:22:06 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 11:22:06 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:22:06 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:22:06 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:23:52 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:23:52 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:23:52 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:25:52 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:25:52 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:25:52 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:27:29 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:27:29 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:27:29 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:27:38 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:27:38 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:27:38 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:31:15 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:31:15 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:31:15 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:32:02 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:32:02 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:32:02 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:35:40 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:35:40 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:35:40 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:37:20 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:37:20 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:37:20 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 11:40:11 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 11:40:11 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 11:40:11 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 12:45:48 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 12:45:48 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 12:45:48 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 12:49:46 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 12:49:46 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 12:49:46 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 12:50:20 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 12:50:20 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 12:50:20 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 12:52:17 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 12:52:18 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 12:52:18 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 12:55:07 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 12:55:07 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 12:55:07 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 12:57:43 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 12:57:43 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 12:57:43 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 12:58:15 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 12:58:15 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 12:58:15 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 12:58:15 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 12:58:22 INFO (6): Workspace::deleteFile() DELETING...
+2013-08-25 12:58:22 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 12:58:22 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 12:58:22 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 12:58:38 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 12:58:39 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 12:58:39 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 12:58:39 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 12:59:39 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 12:59:39 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 12:59:39 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:00:47 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:00:47 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:00:47 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:05:06 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:05:06 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:05:06 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:05:50 INFO (6): Progress::setProgress() USER_ID = 204
+2013-08-25 13:05:50 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-25 13:05:56 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:05:56 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:05:56 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:06:10 INFO (6): Progress::setProgress() USER_ID = 204
+2013-08-25 13:06:11 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-25 13:06:25 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:06:25 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:06:25 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:14:05 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:14:05 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:14:05 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:15:49 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:15:49 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:15:49 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:15:49 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:15:49 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:15:49 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:15:50 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:15:50 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:15:50 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:15:50 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:15:50 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:15:50 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:15:50 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:15:50 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:15:50 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:16:08 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-25 13:16:08 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-25 13:16:08 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-25 13:18:02 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-25 13:18:02 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-25 13:18:02 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-25 13:18:13 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:18:13 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:18:33 INFO (6): Workspace::deleteFile() DELETING...
+2013-08-25 13:18:34 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:18:34 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:18:54 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 13:18:54 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:18:54 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:20:30 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:20:30 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:20:43 INFO (6): Workspace::deleteFile() DELETING...
+2013-08-25 13:20:43 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:20:43 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:21:05 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 13:21:06 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:21:06 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:21:06 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:21:15 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:21:15 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:21:42 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:21:42 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:21:42 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:21:45 INFO (6): Progress::setProgress() USER_ID = 204
+2013-08-25 13:21:45 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-25 13:22:18 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:22:18 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:22:18 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:22:49 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:22:49 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:26:27 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:26:27 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:26:27 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 13:40:17 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:40:17 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:50:54 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:50:54 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:55:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:55:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:55:54 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:55:54 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:56:20 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:56:20 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 13:57:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 13:57:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:01:34 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:01:34 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:03:52 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:03:52 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:05:49 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:05:49 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:12:02 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:12:02 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:12:09 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:12:09 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:12:15 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:12:15 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:12:20 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:12:20 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:12:25 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:12:25 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:14:09 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:14:09 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:14:34 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:14:34 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:14:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:14:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:15:45 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:15:45 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:19:56 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:19:56 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:20:03 INFO (6): Workspace::deleteFile() DELETING...
+2013-08-25 14:20:03 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:20:03 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:20:19 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 14:20:19 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:20:19 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:20:35 INFO (6): Workspace::deleteFile() DELETING...
+2013-08-25 14:20:35 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:20:35 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:20:46 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 14:20:46 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:20:46 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:20:46 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 14:22:21 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:22:21 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:22:21 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 14:23:24 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:23:24 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:23:24 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 14:24:04 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:24:04 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:24:04 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 14:25:36 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:25:36 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:25:36 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 14:28:01 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:28:01 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:28:01 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 14:28:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:28:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:28:37 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 14:28:40 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:28:40 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:28:40 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 14:30:50 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:30:50 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:30:50 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 14:31:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 14:31:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 14:31:37 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 16:51:08 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-25 16:51:08 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-25 16:51:08 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-25 16:51:08 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-25 16:51:08 INFO (6): User::email() to: webmaster@joyofcode.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-25 16:51:08 INFO (6): User::email() MESSAGE SENT
+2013-08-25 16:51:08 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Bud.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: webmaster@joyofcode.com
+2013-08-25 16:51:08 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-25 16:51:08 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-25 16:51:08 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-25 16:51:08 INFO (6): User::email() MESSAGE SENT
+2013-08-25 16:51:08 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Bud
+
+Email Address: webmaster@joyofcode.com
+
+Promo Code: classrom
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-25 16:51:08 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-25 16:51:08 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-25 16:51:08 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-25 16:51:08 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-25 16:51:18 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 16:51:18 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 16:59:16 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-25 16:59:16 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-25 16:59:16 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-25 16:59:16 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-25 16:59:16 INFO (6): User::email() to: webmaster@joyofcode.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-25 16:59:17 INFO (6): User::email() MESSAGE SENT
+2013-08-25 16:59:17 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Buddy.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: webmaster@joyofcode.com
+2013-08-25 16:59:17 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-25 16:59:17 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-25 16:59:17 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-25 16:59:17 INFO (6): User::email() MESSAGE SENT
+2013-08-25 16:59:17 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Buddy
+
+Email Address: webmaster@joyofcode.com
+
+Promo Code: classroom
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-25 16:59:17 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-25 16:59:17 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-25 16:59:17 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-25 16:59:17 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-25 16:59:25 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 16:59:25 INFO (6): Workspace::getWorkspaceData() FILES READ

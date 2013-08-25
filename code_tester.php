@@ -65,7 +65,7 @@ action="http://www.joyofcode.com/cgi-bin/code_tester_ws2.cgi" target="view">
 <textarea name="Html" cols="50" rows="10">
 </textarea>
 <br />
-  <button type="submit" name="submit"  class="btn btn-warning">Give It A Try</button>
+  <button type="submit" name="submit"  class="btn btn-primary">Give It A Try</button>
 
 <p>Here's What You Did</p>
 

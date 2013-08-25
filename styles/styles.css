@@ -15,11 +15,12 @@ Footer
 Home Page
 Labs
 Front Office
+Register
 Code Tester
 Code Style
 Right And Left Adjustments
 Top and Bottom Adjustmenst
-Gene3ral Purpose*/
+General Purpose*/
 
 
 /* Layout Info
@@ -476,6 +477,14 @@ margin:0 39px;}
 .book_description
 {width:75%;
 float:right;}
+
+
+/* ==== Register ====== */
+
+
+input#inputLastName
+{height:30px;}
+
 
 
 /* ====  Code Tester  ======= */

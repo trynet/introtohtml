@@ -68,12 +68,16 @@ echo '<pre>'; print_r($DEBUG); echo '</pre>';
    
    <p>I see that you've reached the end of Lab 2.  In order to go on and do the rest of the class you'll need to proceed with payment with PayPal.  If you don't have a PayPal account that's no big deal because you can pay with any card.  You don't even have to pay right now if you prefer to use PayPal's Bill Me Later option.</p>
    
-   <p>I know you email address is <strong><?php echo $email ?></strong> so I won't ask again but please fill out this little form to continue on with the class.</p>
+   <p>I know your email address is <strong><?php echo $email ?></strong> so I won't ask again but please fill out this little form to continue on with the class.</p>
    
 
 
-   
+
    <form method="post" name="register" id="register" action="app/controllers/register.php" class="form-horizontal">
+   
+
+   
+   
    
    
    
