@@ -3,7 +3,7 @@
 User class
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: August 18, 2013
+Modifed: August 24, 2013
 
 int addUser(array)
 void authenticateUser(string, string)
@@ -221,7 +221,7 @@ class User
 
       // set from address
       if (is_null($from))
-         $from = 'bud@joyofcode.com';
+         $from = 'Bud Kraus <bud@joyofcode.com>';
 
       // set headers
       $headers = "From: $from" . "\r\n" .
@@ -230,7 +230,7 @@ class User
       try {
          $logmessage = "to: $to, from: $from\nheaders:\n$headers";
          $this->logger->log("User::email() $logmessage", Zend_Log::INFO);
-//echo "<pre>log: $logmessage"; exit;
+
          $result = mail($to, $subject, $message, $headers);
 
          if ($result)
