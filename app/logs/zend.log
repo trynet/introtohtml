@@ -11199,3 +11199,211 @@ EMAIL: service@lucidmediaconcepts.com
 2013-08-25 16:59:17 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
 2013-08-25 16:59:25 INFO (6): Workspace::getWorkspaceData() READING FILES
 2013-08-25 16:59:25 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 17:41:31 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 17:41:31 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 17:44:49 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 17:44:49 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 17:44:52 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 17:44:52 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 17:46:17 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 17:46:17 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 17:47:46 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 17:47:46 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 17:48:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 17:48:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 17:57:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 17:57:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 17:58:21 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 17:58:21 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 17:58:23 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 17:58:23 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 17:58:38 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 17:58:38 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:08:56 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:08:56 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:11:52 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:11:52 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:12:17 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:12:17 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:15:52 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:15:52 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:16:06 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:16:06 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:17:18 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:17:18 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:37:13 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-25 18:37:13 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-25 18:37:13 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-25 18:37:17 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:37:17 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:37:27 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 18:37:27 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:37:27 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:37:27 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 18:37:39 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-25 18:37:39 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-25 18:37:39 INFO (6): User::email() MESSAGE SENT
+2013-08-25 18:37:39 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Gbenga.
+
+I see that you're feeling pretty confident about things and have moved on to the next Lesson. That's great because that is where things get a tad more interesting.
+ 
+I'm about to show you the real basic HTML tags that you will use for so many web pages. As you'll see you are going to get started with the 5 .html files that make up the In My Garden project.  You'll continue to work on these 5 pages as you go on through the class and really learn HTML.
+
+You do like home grown tomatoes, don't you?
+
+Don't skip a page. Do everything in order for best results.
+
+After you upload your pages you'll see you have a few options but I don't want to get ahead of myself.
+
+See you in 2!!
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: So, you're feeling good about HTML, huh?
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-25 18:37:39 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-25 18:37:39 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-25 18:37:39 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-25 18:37:44 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-25 18:37:44 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-25 18:37:44 INFO (6): User::email() MESSAGE SENT
+2013-08-25 18:37:44 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+
+Gbenga has moved on to Lesson 2.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL:  Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+;
+
+SubscribeBlog: <HTML>
+SubscribeBlog: <CSS>
+SubscribeBlog: <WP>
+
+SUBJECT: Gbenga Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-25 18:37:44 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-25 18:37:44 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 1
+2013-08-25 18:37:44 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-25 18:37:44 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-25 18:37:44 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-25 18:37:47 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:37:47 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:37:55 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 18:37:55 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:37:55 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:38:09 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 18:38:09 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:38:09 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:38:14 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 18:38:14 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:38:14 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:38:18 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 18:38:18 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:38:18 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:38:23 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-25 18:38:24 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 18:38:24 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 18:38:24 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-25 18:38:31 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-25 18:38:31 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-25 19:04:43 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-25 19:04:43 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-25 19:30:59 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `user` SET `paid` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 1
+        )
+
+)
+
+2013-08-25 19:30:59 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-25 19:30:59 INFO (6): User::email() to: , from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-25 19:30:59 INFO (6): User::email() ERROR SENDING MESSAGE
+2013-08-25 19:30:59 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: 
+2013-08-25 19:30:59 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-25 19:30:59 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-25 19:30:59 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-25 19:30:59 INFO (6): User::email() MESSAGE SENT
+2013-08-25 19:30:59 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: service@lucidmediaconcepts.com
+2013-08-25 19:30:59 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-25 19:30:59 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-25 19:31:48 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `user` SET `paid` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 1
+        )
+
+)
+
+2013-08-25 19:31:48 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-25 19:31:48 INFO (6): User::email() to: , from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-25 19:31:48 INFO (6): User::email() ERROR SENDING MESSAGE
+2013-08-25 19:31:48 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: 
+2013-08-25 19:31:48 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-25 19:31:48 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-25 19:31:48 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-25 19:31:48 INFO (6): User::email() MESSAGE SENT
+2013-08-25 19:31:48 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: service@lucidmediaconcepts.com
+2013-08-25 19:31:48 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-25 19:31:48 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-25 19:34:30 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 

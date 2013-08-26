@@ -7,13 +7,13 @@ Origin Date: July 22, 2013
 Modified: August 23, 2013
 ------------------------------------------------------------*/
 require_once '../config/config.php';
-//echo '<pre>'; print_r($DEBUG);
 
 // todo: use Paypal IPN (or similar technology) to determine
 //       whether the payment transaction was successful
-$success = true;
+$paypalObj = new Paypal();
+$result = $paypalObj->verify();
 
-if ($success) {
+if ($result) {
    // update paid status
    $userObj = new User();
    $userObj->setPaid(USER_ID);

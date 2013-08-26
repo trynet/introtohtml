@@ -134,6 +134,7 @@ require_once 'classes/PromoCode.php';
 require_once 'classes/Workspace.php';
 require_once 'classes/AutoResponse.php';
 require_once 'classes/Application.php';
+require_once 'classes/Paypal.php';
 
 // database
 $db = Zend_db::factory('Pdo_Mysql', array(

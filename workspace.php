@@ -7,7 +7,52 @@ $files = $workspaceObj->getWorkspaceData(USER_ID);
 
 // if CLASSROOM user, disable this workspace
 if (USERTYPE == USER_CLASSROOM) {
-   echo '<p>You do not have permissions to view this page. Please return to the <a href="index.html">Home Room</a>.';
+   echo 
+   
+   '<!DOCTYPE html>
+<html>
+<head>
+   <title>Work Space</title>
+
+   <link rel="icon" href="images/favicon.ico" type="image/ico"/>
+   <link rel="icon" href="images/favicon.gif" type="image/gif"/>
+   <link rel="icon" href="images/favicon.png" type="image/png"/>
+   
+
+   <link rel="stylesheet" href="styles/styles.css" />
+   <script type="text/javascript" src="app/includes/jquery-1.10.2.min.js"></script>
+</head>
+   
+   
+   
+  <div id="wrapper">
+      <header>
+         <img src="images/header.png" alt="" />
+
+      </header>
+
+      <div class="clearfix">
+
+         <section id="main">
+
+            <h1> Work Space?</h1>
+			
+			<p>Not really.  Not for you</p>
+			
+			<p>Because you are taking this in class you don\'t need a place to upload your pages. So, gently hit your Back Button or just go to the 
+             <a href="index.html">Home Room</a>.
+   
+   </seciton>
+   
+   </div>
+   
+   </div>
+   
+   
+   </body>';
+   
+
+   
    exit();
 }
 
