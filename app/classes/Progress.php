@@ -103,4 +103,25 @@ class Progress {
          return false;
       }
    }
+
+   /**
+    * get arbitrary field
+    *
+    * @param: (int) user_id,
+    * @param: (string) field name
+    * @return: (mixed) field value
+    */
+   public function getField($user_id, $field) {
+      try {
+         $query = "SELECT `$field` FROM " . TBL_PROGRESS . " WHERE user_id = ?";
+         $result = $this->db->fetchOne($query, $user_id);
+
+         return $result;
+      } catch (Exception $e) {
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
+
+         return false;
+      }
+   }
 }

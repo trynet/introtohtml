@@ -2,6 +2,11 @@
 require_once 'app/config/config.php';
 echo '<pre>'; print_r($DEBUG); echo '</pre>';
 
+$authNamespace = new Zend_Session_Namespace('Zend_Auth');
+$message_id            = $authNamespace->message_id;
+$instructor_message_id = $authNamespace->instructor_message_id;
+$custom_value          = "&message_id=$message_id&instructor_message_id=$instructor_message_id&user_id=$user_id";
+
 // todo: place following logic in appropriate area outside of view
 $usertype = $_GET['u'];
 
@@ -17,8 +22,7 @@ if ($usertype == USER_FIT) {
 } else {
    $usertype = USER_STANDARD;
    $prompt = "<p>I'm really happy for you to see that  you're going on with your personal HTML training. There is a lot of good things to learn just ahead. </p>
-
-<p>Your investment for the remainder of the class is $250.</P>";
+              <p>Your investment for the remainder of the class is $250.</p>";
 }
 ?>
 
@@ -78,7 +82,7 @@ if ($usertype == USER_FIT) {
 
 
       <form  class="PadBottom15" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-         <input type="hidden" name="custom" value="<?php echo $user_id ?>">
+         <input type="hidden" name="custom" value="<?php echo $custom_value ?>">
          <input type="hidden" name="cmd" value="_s-xclick">
          <input type="hidden" name="hosted_button_id" value="D5YDC2CXCAKXE">
          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">

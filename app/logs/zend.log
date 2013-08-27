@@ -13034,3 +13034,1875 @@ ProgressController() PROGRESSION =
 ProgressController() PROGRESSION = 
 2013-08-26 21:10:58 INFO (6): ProgressController() USERTYPE = 
 ProgressController() PROGRESSION = 
+2013-08-26 22:51:40 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-26 23:09:35 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-26 23:09:35 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-26 23:09:35 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-26 23:09:43 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:09:43 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:30:24 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:30:24 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:30:33 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-26 23:30:33 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-26 23:30:33 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-26 23:30:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:30:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:31:03 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-26 23:31:04 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:31:04 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:31:09 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-26 23:31:10 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:31:10 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:31:16 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-26 23:31:17 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:31:17 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:31:23 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-26 23:31:24 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:31:24 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:31:36 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-26 23:31:36 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:31:36 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:31:36 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-26 23:31:49 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-26 23:31:49 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-26 23:31:50 INFO (6): User::email() MESSAGE SENT
+2013-08-26 23:31:50 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Gbenga.
+
+I see that you're feeling pretty confident about things and have moved on to the next Lesson. That's great because that is where things get a tad more interesting.
+ 
+I'm about to show you the real basic HTML tags that you will use for so many web pages. As you'll see you are going to get started with the 5 .html files that make up the In My Garden project.  You'll continue to work on these 5 pages as you go on through the class and really learn HTML.
+
+You do like home grown tomatoes, don't you?
+
+Don't skip a page. Do everything in order for best results.
+
+After you upload your pages you'll see you have a few options but I don't want to get ahead of myself.
+
+See you in 2!!
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: So, you're feeling good about HTML, huh?
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-26 23:31:50 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-26 23:31:50 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-26 23:31:50 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-26 23:32:24 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:32:24 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:32:24 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-26 23:32:27 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:32:27 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:32:27 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-26 23:32:34 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-26 23:32:35 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-26 23:32:35 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-26 23:33:17 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-26 23:33:17 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-26 23:33:17 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-26 23:33:20 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:33:20 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:33:25 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-26 23:33:26 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:33:26 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:33:26 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-26 23:33:33 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-26 23:33:33 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-26 23:33:33 INFO (6): User::email() MESSAGE SENT
+2013-08-26 23:33:33 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Gbenga.
+
+I see that you're feeling pretty confident about things and have moved on to the next Lesson. That's great because that is where things get a tad more interesting.
+ 
+I'm about to show you the real basic HTML tags that you will use for so many web pages. As you'll see you are going to get started with the 5 .html files that make up the In My Garden project.  You'll continue to work on these 5 pages as you go on through the class and really learn HTML.
+
+You do like home grown tomatoes, don't you?
+
+Don't skip a page. Do everything in order for best results.
+
+After you upload your pages you'll see you have a few options but I don't want to get ahead of myself.
+
+See you in 2!!
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: So, you're feeling good about HTML, huh?
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-26 23:33:33 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-26 23:33:33 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-26 23:33:33 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-26 23:33:36 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-26 23:33:36 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-26 23:33:36 INFO (6): User::email() MESSAGE SENT
+2013-08-26 23:33:36 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+
+Gbenga has moved on to Lesson 2.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL:  Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+;
+
+SubscribeBlog: <HTML>
+SubscribeBlog: <CSS>
+SubscribeBlog: <WP>
+
+SUBJECT: Gbenga Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-26 23:33:36 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-26 23:33:36 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 1
+2013-08-26 23:33:36 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-26 23:33:36 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-26 23:33:36 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-26 23:33:40 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:33:40 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:33:47 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-26 23:33:48 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:33:48 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:33:54 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-26 23:33:55 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:33:55 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:34:01 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-26 23:34:02 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:34:02 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:34:08 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-26 23:34:08 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:34:08 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:34:15 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-26 23:34:15 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-26 23:34:15 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-26 23:34:15 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-26 23:34:20 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-26 23:34:20 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-26 23:36:19 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-26 23:36:31 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-26 23:36:53 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-26 23:37:34 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-26 23:38:57 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-26 23:41:38 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-26 23:47:00 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:11:25 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:11:26 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:11:26 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:11:26 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:11:26 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:11:26 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:11:26 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:11:26 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:11:26 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:11:26 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:11:26 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:11:26 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:11:27 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:14:08 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:14:08 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:14:08 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:14:08 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:14:09 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:14:09 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:14:09 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:14:09 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:14:09 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:14:09 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:14:09 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:14:09 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:14:09 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:14:39 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:14:40 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:14:40 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:14:40 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:14:40 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:14:40 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:14:40 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:14:40 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:14:40 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:14:40 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:14:40 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:14:40 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:14:40 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:14:52 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:14:53 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:14:53 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:14:53 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:14:53 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:14:53 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:14:53 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:14:53 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:14:53 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:14:54 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:14:54 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:14:54 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:14:54 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:15:14 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:15:15 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:15:15 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:15:15 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:15:15 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:15:15 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:15:15 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:15:15 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:15:15 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:15:15 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:15:15 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:15:15 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:15:15 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:15:57 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:15:58 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:15:58 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:15:58 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:15:58 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:15:58 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:15:58 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:15:58 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:15:58 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:15:58 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:15:58 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:15:58 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:15:58 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:17:19 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:17:20 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:17:20 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:17:20 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:17:21 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:17:21 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:17:21 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:17:21 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:17:21 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:17:21 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:17:21 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:17:21 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:17:21 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:19:03 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:19:03 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:19:03 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:19:03 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:19:04 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:19:04 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:19:04 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:19:04 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:19:04 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:19:04 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:19:04 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:19:04 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:19:04 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:19:30 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:19:31 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:19:31 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:19:31 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:19:31 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:19:31 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:19:31 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:19:31 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:19:31 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:19:31 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:19:31 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:19:31 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:19:31 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:20:02 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:20:03 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:20:03 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:20:03 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:20:03 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:20:03 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:20:03 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:20:03 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:20:03 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:20:03 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:20:03 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:20:03 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:20:03 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:25:24 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:25:25 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:25:25 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:25:25 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:25:25 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:25:25 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:25:25 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:25:25 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:25:25 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:25:26 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:25:26 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:25:26 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:25:26 INFO (6): ProgressController() USERTYPE = 
+ProgressController() PROGRESSION = 
+2013-08-27 00:30:13 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:30:14 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:30:14 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:30:14 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:30:14 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:30:14 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:30:14 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:30:14 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:30:14 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:30:14 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:30:14 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:30:14 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:30:14 INFO (6): PaypalController - PROGRESS USERTYPE = 2
+PaypalController - PROGRESSION = 
+2013-08-27 00:36:07 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:36:08 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:36:08 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:36:08 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:36:08 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:36:08 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:36:08 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:36:08 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:36:08 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:36:08 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:36:08 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:36:08 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:36:08 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 2
+2013-08-27 00:41:02 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:41:02 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:41:02 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:41:02 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:41:02 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:41:02 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:41:02 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:41:02 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:41:02 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:41:03 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:41:03 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:41:03 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:41:03 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 2
+2013-08-27 00:41:03 INFO (6): Progress::setProgress() USER_ID = 
+2013-08-27 00:41:03 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `progress` SET `progression` = ?, `proceed` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 3
+            [1] => 1
+        )
+
+)
+
+2013-08-27 00:41:03 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:41:13 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:41:14 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:41:14 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:41:14 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:41:14 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:41:14 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:41:14 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:41:14 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:41:14 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:41:15 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:41:15 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:41:15 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:41:15 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 2
+2013-08-27 00:41:15 INFO (6): Progress::setProgress() USER_ID = 
+2013-08-27 00:41:15 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `progress` SET `progression` = ?, `proceed` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 3
+            [1] => 1
+        )
+
+)
+
+2013-08-27 00:41:15 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:41:36 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:41:36 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:41:36 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:41:36 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:41:37 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:41:37 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:41:37 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:41:37 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:41:37 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:41:37 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:41:37 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:41:37 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:41:37 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 2
+2013-08-27 00:41:37 INFO (6): Progress::setProgress() USER_ID = 
+2013-08-27 00:41:37 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `progress` SET `progression` = ?, `proceed` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 3
+            [1] => 1
+        )
+
+)
+
+2013-08-27 00:41:37 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:42:17 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:42:18 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:42:18 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:42:18 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:42:18 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:42:18 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:42:18 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:42:18 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:42:18 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:42:19 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:42:19 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:42:19 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:42:19 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 2
+2013-08-27 00:42:19 INFO (6): Progress::setProgress() USER_ID = 
+2013-08-27 00:42:19 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `progress` SET `progression` = ?, `proceed` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 3
+            [1] => 1
+        )
+
+)
+
+2013-08-27 00:42:19 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:43:40 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:43:41 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:43:41 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:43:41 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:43:41 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:43:41 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:43:41 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:43:41 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:43:41 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:43:41 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:43:41 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:43:41 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:43:41 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 2
+2013-08-27 00:43:41 INFO (6): Progress::setProgress() USER_ID = 
+2013-08-27 00:43:41 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `progress` SET `progression` = ?, `proceed` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 3
+            [1] => 1
+        )
+
+)
+
+2013-08-27 00:43:41 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:44:40 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:44:40 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:44:40 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:44:40 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:44:41 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:44:41 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:44:41 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:44:41 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:44:41 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:44:41 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:44:41 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:44:41 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:44:41 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 2
+2013-08-27 00:44:41 INFO (6): Progress::setProgress() USER_ID = 
+2013-08-27 00:44:41 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `progress` SET `progression` = ?, `proceed` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 3
+            [1] => 1
+        )
+
+)
+
+2013-08-27 00:44:41 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:44:52 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:44:53 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:44:53 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:44:53 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:44:53 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:44:53 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:44:53 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:44:53 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:44:53 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:44:53 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:44:53 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:44:53 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:44:53 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 2
+2013-08-27 00:44:53 INFO (6): Progress::setProgress() USER_ID = 
+2013-08-27 00:44:53 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `progress` SET `progression` = ?, `proceed` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 3
+            [1] => 1
+        )
+
+)
+
+2013-08-27 00:44:53 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:45:14 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:45:15 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:45:15 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:45:15 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:45:15 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:45:15 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:45:15 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:45:15 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:45:15 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:45:15 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:45:15 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:45:15 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:45:15 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 2
+2013-08-27 00:45:15 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 00:45:15 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 00:45:15 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:45:56 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:45:58 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:45:58 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:45:58 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:45:58 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:45:58 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:45:58 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:45:58 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:45:58 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:45:58 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:45:58 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:45:58 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:45:58 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 3
+2013-08-27 00:45:58 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 00:45:58 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 00:45:58 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:46:18 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:46:19 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:46:19 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:46:19 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:46:19 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:46:19 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:46:19 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:46:19 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:46:19 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:46:19 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:46:19 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:46:19 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:46:19 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 4
+2013-08-27 00:46:19 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 00:46:19 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 00:46:19 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:46:23 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:46:24 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:46:24 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:46:24 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:46:24 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:46:24 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:46:24 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:46:24 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:46:24 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:46:24 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:46:24 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:46:24 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:46:24 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 5
+2013-08-27 00:46:24 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 00:46:24 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 00:46:24 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:46:31 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:46:31 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:46:31 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:46:31 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:46:31 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:46:31 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:46:31 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:46:31 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:46:31 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:46:32 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:46:32 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:46:32 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:46:32 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 6
+2013-08-27 00:46:32 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 00:46:32 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 00:46:32 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:46:52 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:46:53 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:46:53 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:46:53 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:46:53 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:46:53 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:46:53 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:46:53 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:46:53 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:46:54 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:46:54 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:46:54 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:46:54 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 7
+2013-08-27 00:46:54 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 00:46:54 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 00:46:54 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:47:20 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:47:20 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:47:20 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:47:20 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:47:20 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:47:20 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:47:20 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:47:20 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:47:20 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:47:21 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:47:21 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:47:21 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:47:21 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 8
+2013-08-27 00:47:21 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 00:47:21 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 00:47:21 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:47:35 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:47:37 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:47:37 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:47:37 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:47:37 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:47:37 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:47:37 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:47:37 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:47:37 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:47:37 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:47:37 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:47:37 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:47:37 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 9
+2013-08-27 00:47:37 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 00:47:37 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 00:47:37 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:48:59 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:48:59 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:48:59 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:48:59 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:49:00 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:49:00 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:49:00 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:49:00 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:49:00 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:49:00 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:49:00 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:49:00 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:49:00 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 10
+2013-08-27 00:49:00 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 00:49:00 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 00:49:00 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:50:02 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:50:03 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:50:03 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:50:03 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:50:03 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:50:03 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:50:03 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:50:03 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:50:03 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:50:03 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:50:03 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:50:03 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:50:03 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 11
+2013-08-27 00:50:03 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 00:50:03 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 00:50:03 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 00:51:36 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:51:37 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:51:37 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:51:37 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:51:37 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:51:37 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:51:37 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:51:37 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:51:37 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:51:37 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:51:37 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:51:37 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:51:37 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 12
+2013-08-27 00:51:41 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:51:41 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:51:41 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:51:41 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:51:42 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:51:42 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:51:42 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:51:42 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:51:42 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:51:42 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:51:42 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:51:42 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:51:42 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 12
+2013-08-27 00:51:44 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:51:46 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:51:46 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:51:46 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:51:47 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:51:47 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:51:47 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:51:47 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:51:47 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:51:47 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:51:47 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:51:47 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:51:47 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 12
+2013-08-27 00:55:25 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:55:26 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:55:26 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:55:26 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:55:26 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:55:26 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:55:26 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:55:26 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:55:26 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:55:26 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:55:26 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:55:26 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:55:26 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 12
+2013-08-27 00:57:03 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:57:03 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:57:04 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:57:04 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:57:04 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:57:04 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:57:04 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:57:04 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:57:04 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:57:04 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:57:04 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:57:04 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:57:04 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 12
+2013-08-27 00:57:29 INFO (6): PaypalController - EXECUTING...
+2013-08-27 00:57:30 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 00:57:30 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:57:30 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 00:57:30 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:57:30 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 00:57:30 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:57:30 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 00:57:30 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 00:57:30 INFO (6): User::email() MESSAGE SENT
+2013-08-27 00:57:30 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 00:57:30 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 00:57:30 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 12
+2013-08-27 01:00:38 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-27 01:00:38 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-27 01:00:38 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-27 01:00:38 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:00:38 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 01:00:38 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:00:38 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi GbengaPaypal.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 01:00:38 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:00:38 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:00:38 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 01:00:39 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:00:39 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: GbengaPaypal
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+Promo Code: efa
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 01:00:39 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:00:39 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-27 01:00:39 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-27 01:00:39 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-27 01:00:43 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 01:00:43 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 01:00:49 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 01:00:50 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 01:00:50 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 01:00:50 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-27 01:01:04 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:01:04 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 01:01:04 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:01:04 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, GbengaPaypal.
+
+I see that you're feeling pretty confident about things and have moved on to the next Lesson. That's great because that is where things get a tad more interesting.
+ 
+I'm about to show you the real basic HTML tags that you will use for so many web pages. As you'll see you are going to get started with the 5 .html files that make up the In My Garden project.  You'll continue to work on these 5 pages as you go on through the class and really learn HTML.
+
+You do like home grown tomatoes, don't you?
+
+Don't skip a page. Do everything in order for best results.
+
+After you upload your pages you'll see you have a few options but I don't want to get ahead of myself.
+
+See you in 2!!
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: So, you're feeling good about HTML, huh?
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 01:01:04 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:01:04 INFO (6): Progress::setProgress() USER_ID = 219
+2013-08-27 01:01:04 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 01:01:07 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:01:07 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 01:01:07 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:01:07 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+
+GbengaPaypal has moved on to Lesson 2.
+
+Email Address: gbenga@lucidmediaconcepts.com
+
+URL:  Array
+(
+    [0] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/close.gif
+    [1] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/common.css
+    [2] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/datepicker.css
+    [3] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/facebook.alert.css
+    [4] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global.css
+    [5] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/global_ie.css
+    [6] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/helloworld.html
+    [7] => http://dev.introtohtml.net/workspace/gbenga_lucidmediaconcepts_com/index.css
+)
+;
+
+SubscribeBlog: <HTML>
+SubscribeBlog: <CSS>
+SubscribeBlog: <WP>
+
+SUBJECT: GbengaPaypal Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 01:01:07 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:01:08 INFO (6): ProgressController() USERTYPE = 3
+ProgressController() PROGRESSION = 1
+2013-08-27 01:01:08 INFO (6): Progress::setProgress() USER_ID = 219
+2013-08-27 01:01:08 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 01:01:08 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 01:01:12 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 01:01:12 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 01:01:20 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 01:01:21 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 01:01:21 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 01:01:26 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 01:01:27 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 01:01:27 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 01:01:33 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 01:01:38 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 01:01:38 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 01:01:44 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 01:01:45 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 01:01:45 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 01:01:45 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:01:46 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:01:46 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:01:46 INFO (6): User::email() to: , from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 01:01:46 INFO (6): User::email() ERROR SENDING MESSAGE
+2013-08-27 01:01:46 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: 
+2013-08-27 01:01:46 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:01:46 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:01:46 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 01:01:46 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:01:46 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+ has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT:  Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 01:01:46 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:01:46 INFO (6): PaypalController - PROGRESS usertype = 
+PaypalController - PROGRESSION = 
+2013-08-27 01:01:46 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 01:01:46 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 01:01:46 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 01:01:52 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 01:01:52 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 01:01:52 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 01:01:52 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-27 01:02:06 INFO (6): Progress::setProgress() USER_ID = 219
+2013-08-27 01:02:06 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 01:02:28 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:02:29 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:02:29 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:02:29 INFO (6): User::email() to: , from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 01:02:29 INFO (6): User::email() ERROR SENDING MESSAGE
+2013-08-27 01:02:29 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: 
+2013-08-27 01:02:29 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:02:29 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:02:29 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 01:02:29 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:02:29 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+ has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT:  Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 01:02:29 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:02:29 INFO (6): PaypalController - PROGRESS usertype = 
+PaypalController - PROGRESSION = 
+2013-08-27 01:02:29 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 01:02:29 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 01:02:29 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 01:06:07 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:06:09 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:06:09 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:06:09 INFO (6): User::email() to: , from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 01:06:09 INFO (6): User::email() ERROR SENDING MESSAGE
+2013-08-27 01:06:09 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: 
+2013-08-27 01:06:09 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:06:09 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:06:09 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 01:06:09 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:06:09 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+ has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT:  Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 01:06:09 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:06:09 INFO (6): PaypalController - PROGRESS usertype = 
+PaypalController - PROGRESSION = 
+2013-08-27 01:06:09 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 01:06:09 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 01:06:09 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 01:06:14 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:06:14 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:06:14 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:06:14 INFO (6): User::email() to: gbenga@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 01:06:14 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:06:14 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: gbenga@lucidmediaconcepts.com
+2013-08-27 01:06:14 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:06:14 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:06:14 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 01:06:15 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:06:15 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+GbengaPaypal has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: GbengaPaypal Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 01:06:15 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:06:15 INFO (6): PaypalController - PROGRESS usertype = 3
+PaypalController - PROGRESSION = 2
+2013-08-27 01:06:15 INFO (6): Progress::setProgress() USER_ID = 219
+2013-08-27 01:06:15 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 01:06:15 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 01:06:25 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:06:26 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:06:46 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:06:47 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:07:07 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:07:07 INFO (6): PaypalController - NOT VERIFIED
+2013-08-27 01:07:28 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:07:29 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:07:44 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:07:45 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:07:45 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:07:45 INFO (6): User::email() to: , from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 01:07:45 INFO (6): User::email() ERROR SENDING MESSAGE
+2013-08-27 01:07:45 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: 
+2013-08-27 01:07:45 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:07:45 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:07:45 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 01:07:45 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:07:45 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+ has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT:  Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 01:07:45 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:07:45 INFO (6): PaypalController - PROGRESS usertype = 
+PaypalController - PROGRESSION = 
+2013-08-27 01:07:45 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 01:07:45 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 01:07:45 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 01:08:50 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:08:51 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:11:31 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:11:32 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:16:54 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:16:54 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:23:50 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:23:51 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:23:51 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:23:51 INFO (6): User::email() to: , from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 01:23:51 INFO (6): User::email() ERROR SENDING MESSAGE
+2013-08-27 01:23:51 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: 
+2013-08-27 01:23:51 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:23:51 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:23:51 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 01:23:51 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:23:51 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+ has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT:  Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 01:23:51 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:23:51 INFO (6): PaypalController - PROGRESS usertype = 
+PaypalController - PROGRESSION = 
+2013-08-27 01:23:51 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 01:23:51 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 01:23:51 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 01:27:29 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:27:30 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:27:30 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:27:30 INFO (6): User::email() to: , from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 01:27:30 INFO (6): User::email() ERROR SENDING MESSAGE
+2013-08-27 01:27:30 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: 
+2013-08-27 01:27:30 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:27:30 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:27:30 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 01:27:30 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:27:30 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+ has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT:  Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 01:27:30 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:27:30 INFO (6): PaypalController - PROGRESS usertype = 
+PaypalController - PROGRESSION = 
+2013-08-27 01:27:30 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 01:27:30 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 01:27:30 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 01:27:35 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:27:36 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:28:54 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:28:55 INFO (6): PaypalController - NOT VERIFIED
+2013-08-27 01:29:05 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:29:06 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:29:06 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:29:06 INFO (6): User::email() to: , from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 01:29:06 INFO (6): User::email() ERROR SENDING MESSAGE
+2013-08-27 01:29:06 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: 
+2013-08-27 01:29:06 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:29:06 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:29:06 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 01:29:06 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:29:06 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+ has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT:  Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 01:29:06 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:29:06 INFO (6): PaypalController - PROGRESS usertype = 
+PaypalController - PROGRESSION = 
+2013-08-27 01:29:06 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 01:29:06 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 01:29:06 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 01:34:18 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:34:19 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:34:19 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:34:19 INFO (6): User::email() to: , from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 01:34:19 INFO (6): User::email() ERROR SENDING MESSAGE
+2013-08-27 01:34:19 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: 
+2013-08-27 01:34:19 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:34:19 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 01:34:19 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 01:34:20 INFO (6): User::email() MESSAGE SENT
+2013-08-27 01:34:20 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+ has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT:  Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-27 01:34:20 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 01:34:20 INFO (6): PaypalController - PROGRESS usertype = 
+PaypalController - PROGRESSION = 
+2013-08-27 01:34:20 INFO (6): Progress::setProgress() USER_ID = 203
+2013-08-27 01:34:20 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 01:34:20 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
