@@ -47,6 +47,8 @@
   you are looking at the source code of these files as much as anything. How
   the page looks in a browser is a matter that belongs to CSS.</p>
   
+     <div class="thumbnail">
+  
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />
   
 
@@ -58,6 +60,8 @@
   <li><a href="labs/3/harvest.html" target="_blank"><i class="icon-file"></i>harvest.html</a></li>
   <li><a href="labs/3/blog.html" target="_blank"><i class="icon-file"></i>blog.html</a></li>
 </ul>
+
+</div>
 
 <h2>Step 1: Start by adding the list which will become the navigation interface
   for the site.</h2>

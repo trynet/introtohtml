@@ -41,6 +41,8 @@
   I am going to show you how to error check your pages. This process is called
   validation</p>
   
+  <div class="thumbnail">
+    
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />
   
 <ul class="nav">
@@ -50,6 +52,8 @@
   <li><a href="labs/4/harvest.html" target="_blank"><i class="icon-file"></i>harvest.html</a></li>
   <li><a href="labs/4/blog.html" target="_blank"><i class="icon-file"></i>blog.html</a></li>
 </ul>
+
+</div>
 
 <h2>Watch My Video To See What You Will Be Doing</h2>
 <p>Sit back, relax and enjoy the show while I show you how to find the coding

@@ -47,10 +47,11 @@
           
 <p class="views2">Code View</p>
 
-<p><code>&lt;object width=&quot;640&quot; height=&quot;360&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/uX7wgVWpUGw?version=3&amp;amp;hl=en_US&quot;&gt;&lt;/param&gt;&lt;param
-  name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param
-  name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed
-  src=&quot;http://www.youtube.com/v/uX7wgVWpUGw?version=3&amp;amp;hl=en_US&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;640&quot; height=&quot;360&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;</code></p>
+<p><code>&lt;object width=&quot;640&quot; height=&quot;360&quot;&gt;&lt;param name=&quot;movie&quot; 
+<br>value=&quot;http://www.youtube.com/v/uX7wgVWpUGw?version=<br>3&amp;amp;hl=en_US&quot;&gt;&lt;/param&gt;&lt;param
+  name=&quot;allowFullScreen&quot; <br>value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param
+  name=&quot;allowscriptaccess&quot; <br>value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed
+  <br>src=&quot;http://www.youtube.com/v/uX7wgVWpUGw?<br>version=3&amp;amp;hl=en_US&quot; type=&quot;application/x-shockwave<br>-flash&quot; width=&quot;640&quot; height=&quot;360&quot; <br>allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;</code></p>
 <p class="views2">Browser View</p>
 
 

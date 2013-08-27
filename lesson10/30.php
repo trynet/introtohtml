@@ -184,11 +184,7 @@ font-family:arial, Helvetica, sans-serif;}
   (which is the cascade inside the Designer Style Sheet).</p>
 <p>In An External File</p>
 <p>Look at the source code of this page and you will see this inside<code>&lt;head&gt;&lt;/head&gt;</code>:</p>
-<p><code>   &lt;link rel=&quot;icon&quot; href=&quot;../images/favicon.ico&quot; type=&quot;image/ico&quot;/&gt;
-   &lt;link rel=&quot;icon&quot; href=&quot;../images/favicon.gif&quot; type=&quot;image/gif&quot;/&gt;
-   &lt;link rel=&quot;icon&quot; href=&quot;../images/favicon.png&quot; type=&quot;image/png&quot;/&gt;
-
-   &lt;link rel=&quot;stylesheet&quot; href=&quot;../styles/styles.css&quot; /&gt;</code></p>
+<p><code>      &lt;link rel=&quot;stylesheet&quot; href=&quot;../styles/styles.css&quot; /&gt;</code></p>
 <p>This is a &quot;link&quot; to a .css file for this site. All the style rules
   for this web site are in one file. See, that's the separation of structure
   from style principle in operation. It's not just talk - it's real!!</p>

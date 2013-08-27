@@ -59,7 +59,7 @@ if (USERTYPE == USER_CLASSROOM) {
 // error message if file uploaded erroneous
 $error = $_GET['error'];
 if (!empty($error))
-   $error_message = '<p style="color: red">There was an error uploading your file. Please try again</p>';
+   $error_message = '<p id="error">Oh no!! What happened?  There was an error trying to upload your file. Maybe you did not use the correct file extension as in page<span>.html</span>. Or maybe you simply for got to choose the file you are working on in your computer to upload. (How could you!!)</p>';
 
 // debug data -- delete on production
 echo '<pre><a href="logout.php">reset</a><br>';
@@ -160,10 +160,12 @@ echo '</pre>';
           <form name="" enctype="multipart/form-data" method="post" action="app/controllers/workspace.php">
                <input type="hidden" name="action" value="adminfile" />
                
+                  <?php echo $error_message ?>
+
+               
                <div class="thumbnail MarBottom15 PadBottom15">
                
-              <?php echo $error_message ?>
-
+           
             <?php if ($workspaceObj->minFilesUploaded()) : ?>
             
             
@@ -184,7 +186,7 @@ echo '</pre>';
 
          
             <?php else : ?>
-            <p>You need to upload <strong><?php echo $workspaceObj->filesNeededToProceed() ?></strong> more file(s) before you can go on to learn more cool stuff!!</p>
+         <p><strong><?php echo $firstname ?></strong>, you need to upload <strong><?php echo $workspaceObj->filesNeededToProceed() ?></strong> more file(s) before you can go on to learn more cool stuff!!</p>
             <?php endif ?>
             
             </div>

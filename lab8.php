@@ -39,11 +39,16 @@
 
 <h1 class="lab-header">Lab 8: First Data Tables</h1>
 <p>Tables are used to organize information in row and column format.</p>
+
+  <div class="thumbnail">
   
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />
   <p>In this lab we're only adding a table to the harvest and blog pages.
     Look at this <a href="labs/8/index.html" target="_blank">home
     page</a>. Still just a work in progress. But progress, none-the-less!!</p>
+    
+    </div>
+    
 <h2>Step 1: Let's begin with the &quot;Vegetables And Their Due Dates&quot; table
   on the harvest page.</h2>
 <p>Our table for the harvest.html page goes just after:</p>

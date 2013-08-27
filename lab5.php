@@ -39,10 +39,12 @@
 <h1 class="lab-header">Lab 5: First Site</h1>
 <p>In this lab we will link to pages inside and outside of your site. We'll also
   do a named target link and an email link.</p>
+    <div class="thumbnail">
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />
   <p>Now that all of our pages link together you can see what we will have accomplished
     when you are done with this lab by starting with the <a href="labs/5/index.html" target="_blank">home
     page</a>.</p>
+    </div>
     
 <h2>Step 1: Link our five pages to each other.</h2>
 <p>Let's take another step forward towards building our navigation interface.

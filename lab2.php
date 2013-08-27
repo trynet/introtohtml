@@ -50,6 +50,8 @@
   I am talking about the source code. Make sure to compare what you did with
   what I did. We are after good coding practices here, so we can do more interesting
    - and fun - stuff down the road.</p>
+   
+   <div class="thumbnail">
   
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />
   
@@ -67,6 +69,8 @@
    , you may 
   <a href="dl/content.zip">down load all of the content</a> in this .zip file.
   This will save you a bunch of time.</p>
+  
+  </div>
 
   
 <h2>Step 1. Copy and paste this <a href="labs/2/base.txt">starter code</a> into a text editor.</h2>

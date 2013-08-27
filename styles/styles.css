@@ -15,6 +15,7 @@ Footer
 Home Page
 Labs
 Front Office
+Wordkshop
 Register
 Code Tester
 Code Style
@@ -477,6 +478,18 @@ margin:0 39px;}
 .book_description
 {width:75%;
 float:right;}
+
+
+/* Workshop */
+
+p#error
+{color:#f00;
+font-size:18px;
+padding:20px 0;}
+
+p#error span
+{color:#000;
+font-weight:bold;}
 
 
 /* ==== Register ====== */

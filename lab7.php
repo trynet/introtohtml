@@ -41,10 +41,15 @@
 <p>Form elements allow us to collect data that is submitted willfully by a user.
   In this lab you'll add some of the most widely used from elements.</p>
   
+    <div class="thumbnail">
+  
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />
   <p>In this lab we're only adding form elements to the index and blog pages.
     Look at this <a href="labs/7/index.html" target="_blank">home
     page</a>. Still just a work in progress. But progress, none-the-less!!</p>
+    
+    </div>
+    
 <h2>Step 1: Let's add some radio buttons and a submit button to the home page.</h2>
 <p>We begin the html just after:</p>
 <p><code>&lt;p&gt;</code>Do you like working in the yard?<code>&lt;/p&gt;</code></p>

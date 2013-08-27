@@ -69,6 +69,8 @@
 
 work on your first page in another browser window.</p>
 
+<div class="thumbnail">
+
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />
 
 
@@ -77,6 +79,8 @@ work on your first page in another browser window.</p>
       look at the source code, read 
     
 <a href="#more"><strong>more about my sneak a peek pages</strong></a> below.</p>
+
+</div>
 
   <p>Here's <a href="lesson1/10.html">Lesson  1 - The Basics</a> if you need to
 go back to it.

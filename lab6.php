@@ -41,6 +41,8 @@
   In the case of images, our code will reference an image file for a given page.
   For the two videos, it's going to be a copy and paste job. You'll see.</p>
   
+    <div class="thumbnail">
+  
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />
 
 
@@ -50,6 +52,10 @@
   <p>Download these <a href="dl/images.zip">images.zip file</a>, then extract
     all the files into the images folder. Keep this folder as a subfolder where
     your 5 html files are located.</p>
+    
+    </div>
+    
+    
 <h2>Step 1: Embed the image used as part of the header for each file.</h2>
   <p>Start with index.html. We will be referring to (embedding) the file named
     &quot;strip.jpg.&quot; This file, like all of our image files, is located
@@ -102,10 +108,17 @@ the breakfast radish seeds.<code>&lt;/p&gt;</code></p>
 
 
 
-<p><code>&lt;object width=&quot;480&quot; height=&quot;390&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/kAaAecXPLhY?version=3&amp;amp;hl=en_US&amp;amp;rel=0&quot;&gt;&lt;/param&gt;&lt;param
-  name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param
-  name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed
-src=&quot;http://www.youtube.com/v/kAaAecXPLhY?version=3&amp;amp;hl=en_US&amp;amp;rel=0&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;480&quot; height=&quot;390&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;</code></p>
+<p><code>&lt;object width=&quot;480&quot; height=&quot;390&quot;&gt; 
+&lt;param name=&quot;movie&quot; <br>
+value=&quot;http://www.youtube.com/v/kAaAecXPLhY?version=3&amp;amp;hl=en_US&amp;amp;rel=0&quot;&gt;<br>
+&lt;/param&gt;&lt;param
+  name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;<br>
+  &lt;param
+  name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;<br>
+  &lt;embed
+src=&quot;http://www.youtube.com/v/kAaAecXPLhY?version=3&amp;amp;hl=en_US&amp;amp;rel=0&quot; <br>
+type=&quot;application/x-shockwave-flash&quot; width=&quot;480&quot; height=&quot;390&quot; <br>allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;</code></p>
+<br>
 <p>NOTE: With this code your page will not validate! See the comment I made in
   the source code of my file as to the reason why this is so. But you still need
   to validate the page so just add <code>&lt;!-- </code>and<code> --&gt;</code> around
@@ -180,10 +193,10 @@ src=&quot;http://www.youtube.com/v/kAaAecXPLhY?version=3&amp;amp;hl=en_US&amp;am
  <p>Just below:</p>
  <p><code>&lt;p&gt;</code>When you pick and eat a fresh tomato you realize why it's called a fruit. Nothing like eating a sun drenched cherry tomato right from the vine. But here I'm picking an Early Girl.<code>&lt;/p&gt;</code></p>
  <p>copy and paste this video code.</p>
- <p><code>&lt;object width=&quot;640&quot; height=&quot;390&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/iDWwzfJeYQk?version=3&amp;amp;hl=en_US&amp;amp;rel=0&quot;&gt;&lt;/param&gt;&lt;param
-   name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param
+ <p><code>&lt;object width=&quot;640&quot; height=&quot;390&quot;&gt;&lt;param name=&quot;movie&quot; <br>value=&quot;http://www.youtube.com/v/iDWwzfJeYQk?version=3&amp;amp;hl=en_US&amp;amp;rel=0&quot;&gt;&lt;/param&gt;<br>&lt;param
+   name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;<br>&lt;param
    name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed
- width=&quot;640&quot; height=&quot;390&quot; src=&quot;http://www.youtube.com/v/iDWwzfJeYQk?version=3&amp;amp;hl=en_US&amp;amp;rel=0&quot; type=&quot;application/x-shockwave-flash&quot;  allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;</code></p>
+ width=&quot;640&quot; height=&quot;390&quot; <br>src=&quot;http://www.youtube.com/v/iDWwzfJeYQk?version=3&amp;amp;hl=en_US&amp;amp;rel=0&quot; <br>type=&quot;application/x-shockwave-flash&quot;  <br>allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;</code></p>
  <p>And just like the other page, this page won't validate with that code so comment
    out this stuff like you did with the other video before you validate this
     page.</p>

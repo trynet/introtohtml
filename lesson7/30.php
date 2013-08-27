@@ -352,7 +352,7 @@ name=&quot;web_address&quot; placeholder=&quot;Web  Address&quot; /&gt;&lt;/labe
 <tr>
     <td><code>type="password"</code></td>
     <td>Same as a Text Box except the user sees ***** instead of what is typed.</td>
-    <td><code>&lt;input type="password" size="10" value=&quot;&quot; name=&quot;private&quot; 
+    <td><code>&lt;input type="password" value=&quot;&quot; name=&quot;private&quot; 
       /&gt;</code></td>
   </tr>
   
@@ -365,7 +365,7 @@ name=&quot;web_address&quot; placeholder=&quot;Web  Address&quot; /&gt;&lt;/labe
 <tr>
     <td><code>type="image"</code></td>
     <td>Used to replace Form Submit button with a graphic image.</td>
-    <td><code>&lt;input type="image" src="images/submitbut.gif" alt=&quot;Order
+    <td><code>&lt;input type="image" src="images/submitbut.gif" <br> alt=&quot;Order
         Now&quot; /&gt;</code></td>
   </tr>
   </tbody>

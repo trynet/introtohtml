@@ -40,6 +40,8 @@
 <h1 class="lab-header">Lab 9: First Grouping</h1>
 <p>Grouping elements helps give meaning to content and is a primary method to
 building structure to your web pages.</p>
+
+<div class="thumbnail">
   
 <img src="images/peek.jpg" alt="Sneak A Peek " class="peek" />
   <p>In this lab we are adding  elements that you won't see, but as you know
@@ -62,7 +64,9 @@ building structure to your web pages.</p>
   <li><a href="outlines/blog.html">blog.html</a></li>
 </ul>
 
-<p>Now that should help you understand the idea of the structure of a document!!</p>
+<p>Now that should help you understand the idea about the structure of a document!!</p>
+
+</div>
 
 
 <h2>Step 1: Add the following five grouping elements to all five pages: div,
