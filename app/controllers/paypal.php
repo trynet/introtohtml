@@ -105,6 +105,7 @@ if (is_numeric($vars['user_id'])) {
    }
 } else {
    $logger->log("PaypalController - NOT VERIFIED", Zend_Log::INFO);
+   header('Location: /index.php');
    exit(); // fixme or todo
 }
 

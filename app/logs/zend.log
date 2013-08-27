@@ -14906,3 +14906,529 @@ PaypalController - PROGRESSION =
 2013-08-27 01:34:20 INFO (6): Progress::setProgress() USER_ID = 203
 2013-08-27 01:34:20 INFO (6): Progress::setProgress() UPDATED = 0
 2013-08-27 01:34:20 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 01:40:12 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:40:13 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 01:48:56 INFO (6): PaypalController - EXECUTING...
+2013-08-27 01:48:57 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 02:06:31 INFO (6): PaypalController - EXECUTING...
+2013-08-27 02:06:32 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 02:10:11 INFO (6): PaypalController - EXECUTING...
+2013-08-27 02:10:12 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 02:11:48 INFO (6): PaypalController - EXECUTING...
+2013-08-27 02:11:49 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 02:27:11 INFO (6): PaypalController - EXECUTING...
+2013-08-27 02:27:12 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 02:31:38 INFO (6): PaypalController - EXECUTING...
+2013-08-27 02:31:39 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 02:52:18 INFO (6): PaypalController - EXECUTING...
+2013-08-27 02:52:19 INFO (6): PaypalController - NOT VERIFIED
+2013-08-27 02:59:40 INFO (6): PaypalController - EXECUTING...
+2013-08-27 02:59:41 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 03:05:34 INFO (6): PaypalController - EXECUTING...
+2013-08-27 03:05:35 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 03:31:53 INFO (6): PaypalController - EXECUTING...
+2013-08-27 03:31:54 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 03:35:33 INFO (6): PaypalController - EXECUTING...
+2013-08-27 03:35:34 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 03:37:10 INFO (6): PaypalController - EXECUTING...
+2013-08-27 03:37:10 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 03:56:59 INFO (6): PaypalController - EXECUTING...
+2013-08-27 03:57:00 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 05:17:53 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:17:54 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 05:26:08 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-27 05:26:08 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-27 05:26:08 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-27 05:26:08 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`user_id`, `progression`, `proceed`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => 2
+            [1] => 1
+            [2] => 1
+        )
+
+)
+
+2013-08-27 05:26:08 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 05:26:08 INFO (6): User::email() to: bud@joyofcode.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 05:26:08 INFO (6): User::email() MESSAGE SENT
+2013-08-27 05:26:08 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Bud.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: bud@joyofcode.com
+2013-08-27 05:26:08 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 05:26:08 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 05:26:08 INFO (6): User::email() to: bud@joyofcode.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 05:26:09 INFO (6): User::email() MESSAGE SENT
+2013-08-27 05:26:09 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Bud
+
+Email Address: bud@joyofcode.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: bud@joyofcode.com
+2013-08-27 05:26:09 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 05:26:09 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-27 05:26:09 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-27 05:26:09 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-27 05:26:15 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 05:26:15 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 05:26:32 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 05:26:32 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 05:26:32 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 05:26:32 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-27 05:26:39 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 05:26:39 INFO (6): User::email() to: bud@joyofcode.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 05:26:39 INFO (6): User::email() MESSAGE SENT
+2013-08-27 05:26:39 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Bud.
+
+I see that you're feeling pretty confident about things and have moved on to the next Lesson. That's great because that is where things get a tad more interesting.
+ 
+I'm about to show you the real basic HTML tags that you will use for so many web pages. As you'll see you are going to get started with the 5 .html files that make up the In My Garden project.  You'll continue to work on these 5 pages as you go on through the class and really learn HTML.
+
+You do like home grown tomatoes, don't you?
+
+Don't skip a page. Do everything in order for best results.
+
+After you upload your pages you'll see you have a few options but I don't want to get ahead of myself.
+
+See you in 2!!
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: So, you're feeling good about HTML, huh?
+EMAIL: bud@joyofcode.com
+2013-08-27 05:26:39 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 05:26:39 INFO (6): Progress::setProgress() USER_ID = 2
+2013-08-27 05:26:39 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 05:26:44 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 05:26:44 INFO (6): User::email() to: bud@joyofcode.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 05:26:44 INFO (6): User::email() MESSAGE SENT
+2013-08-27 05:26:44 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+
+Bud has moved on to Lesson 2.
+
+Email Address: bud@joyofcode.com
+
+URL:  ;
+
+SubscribeBlog: <HTML>
+SubscribeBlog: <CSS>
+SubscribeBlog: <WP>
+
+SUBJECT: Bud Lab 1
+EMAIL: bud@joyofcode.com
+2013-08-27 05:26:44 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 05:26:44 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 1
+2013-08-27 05:26:44 INFO (6): Progress::setProgress() USER_ID = 2
+2013-08-27 05:26:44 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 05:26:44 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 05:28:00 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 05:28:00 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 05:28:48 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 05:28:48 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 05:28:48 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 05:28:57 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 05:28:57 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 05:28:57 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 05:29:08 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 05:29:09 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 05:29:09 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 05:29:18 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 05:29:18 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 05:29:18 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 05:29:28 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 05:29:28 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 05:29:28 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 05:29:28 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-27 05:29:48 INFO (6): Progress::setProgress() USER_ID = 2
+2013-08-27 05:29:48 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 05:31:16 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:31:17 INFO (6): PaypalController - uid: 2; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 05:31:17 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 05:31:17 INFO (6): User::email() to: bud@joyofcode.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 05:31:17 INFO (6): User::email() MESSAGE SENT
+2013-08-27 05:31:17 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: bud@joyofcode.com
+2013-08-27 05:31:17 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 05:31:17 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 05:31:17 INFO (6): User::email() to: bud@joyofcode.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 05:31:17 INFO (6): User::email() MESSAGE SENT
+2013-08-27 05:31:17 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Bud has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Bud Lab2
+EMAIL: bud@joyofcode.com
+2013-08-27 05:31:17 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 05:31:17 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 2
+2013-08-27 05:31:17 INFO (6): Progress::setProgress() USER_ID = 2
+2013-08-27 05:31:17 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 05:31:17 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 05:31:28 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:31:29 INFO (6): PaypalController - uid: 2; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 05:31:30 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:31:30 INFO (6): PaypalController - NOT VERIFIED
+2013-08-27 05:31:49 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:31:50 INFO (6): PaypalController - NOT VERIFIED
+2013-08-27 05:31:50 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:31:50 INFO (6): PaypalController - uid: 2; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 05:32:32 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:32:33 INFO (6): PaypalController - uid: 2; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 05:33:54 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:33:54 INFO (6): PaypalController - NOT VERIFIED
+2013-08-27 05:33:55 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:33:55 INFO (6): PaypalController - uid: 2; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 05:36:38 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:36:38 INFO (6): PaypalController - uid: 2; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 05:36:58 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `user` SET `logged_in` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+2013-08-27 05:39:16 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-27 05:39:16 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-27 05:39:16 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-27 05:39:16 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 05:39:17 INFO (6): User::email() to: webmaster@joyofcode.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 05:39:17 INFO (6): User::email() MESSAGE SENT
+2013-08-27 05:39:17 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Bud.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: webmaster@joyofcode.com
+2013-08-27 05:39:17 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 05:39:17 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 05:39:17 INFO (6): User::email() to: bud@joyofcode.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 05:39:17 INFO (6): User::email() MESSAGE SENT
+2013-08-27 05:39:17 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Bud
+
+Email Address: webmaster@joyofcode.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: bud@joyofcode.com
+2013-08-27 05:39:17 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 05:39:17 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-27 05:39:17 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-27 05:39:17 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-27 05:41:59 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:42:00 INFO (6): PaypalController - uid: 2; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 05:50:22 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:50:23 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 05:52:41 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:52:42 INFO (6): PaypalController - uid: 2; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 05:56:16 INFO (6): PaypalController - EXECUTING...
+2013-08-27 05:56:17 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 06:14:03 INFO (6): PaypalController - EXECUTING...
+2013-08-27 06:14:03 INFO (6): PaypalController - uid: 2; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 06:22:34 INFO (6): PaypalController - EXECUTING...
+2013-08-27 06:22:35 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 06:26:17 INFO (6): PaypalController - EXECUTING...
+2013-08-27 06:26:17 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 06:27:53 INFO (6): PaypalController - EXECUTING...
+2013-08-27 06:27:54 INFO (6): PaypalController - uid: 203; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 06:47:41 INFO (6): PaypalController - EXECUTING...
+2013-08-27 06:47:42 INFO (6): PaypalController - uid: 219; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 06:56:44 INFO (6): PaypalController - EXECUTING...
+2013-08-27 06:56:45 INFO (6): PaypalController - uid: 2; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 08:21:55 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-27 08:21:55 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-27 08:21:55 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-27 08:21:55 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 08:21:55 INFO (6): User::email() to: guru@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 08:21:55 INFO (6): User::email() MESSAGE SENT
+2013-08-27 08:21:55 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: guru@lucidmediaconcepts.com
+2013-08-27 08:21:55 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 08:21:55 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 08:21:55 INFO (6): User::email() to: bud@joyofcode.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 08:21:55 INFO (6): User::email() MESSAGE SENT
+2013-08-27 08:21:55 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Gbenga
+
+Email Address: guru@lucidmediaconcepts.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: bud@joyofcode.com
+2013-08-27 08:21:55 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 08:21:56 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-27 08:21:56 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-27 08:21:56 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-27 08:22:02 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 08:22:02 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 08:22:06 INFO (6): PaypalController - EXECUTING...
+2013-08-27 08:22:06 INFO (6): PaypalController - uid: 2; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 08:22:11 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 08:22:12 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 08:22:12 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 08:22:12 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-27 08:22:17 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 08:22:17 INFO (6): User::email() to: guru@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 08:22:18 INFO (6): User::email() MESSAGE SENT
+2013-08-27 08:22:18 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Gbenga.
+
+I see that you're feeling pretty confident about things and have moved on to the next Lesson. That's great because that is where things get a tad more interesting.
+ 
+I'm about to show you the real basic HTML tags that you will use for so many web pages. As you'll see you are going to get started with the 5 .html files that make up the In My Garden project.  You'll continue to work on these 5 pages as you go on through the class and really learn HTML.
+
+You do like home grown tomatoes, don't you?
+
+Don't skip a page. Do everything in order for best results.
+
+After you upload your pages you'll see you have a few options but I don't want to get ahead of myself.
+
+See you in 2!!
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: So, you're feeling good about HTML, huh?
+EMAIL: guru@lucidmediaconcepts.com
+2013-08-27 08:22:18 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 08:22:18 INFO (6): Progress::setProgress() USER_ID = 221
+2013-08-27 08:22:18 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 08:22:24 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 08:22:24 INFO (6): User::email() to: bud@joyofcode.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 08:22:24 INFO (6): User::email() MESSAGE SENT
+2013-08-27 08:22:24 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+
+Gbenga has moved on to Lesson 2.
+
+Email Address: guru@lucidmediaconcepts.com
+
+URL:  ;
+
+SubscribeBlog: <HTML>
+SubscribeBlog: <CSS>
+SubscribeBlog: <WP>
+
+SUBJECT: Gbenga Lab 1
+EMAIL: bud@joyofcode.com
+2013-08-27 08:22:24 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 08:22:25 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 1
+2013-08-27 08:22:25 INFO (6): Progress::setProgress() USER_ID = 221
+2013-08-27 08:22:25 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 08:22:25 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 08:22:28 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 08:22:28 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 08:22:36 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 08:22:37 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 08:22:37 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 08:22:44 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 08:22:44 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 08:22:44 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 08:22:50 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 08:22:51 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 08:22:51 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 08:22:58 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 08:22:58 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 08:22:58 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 08:23:05 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-27 08:23:06 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-27 08:23:06 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-27 08:23:06 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-27 08:23:11 INFO (6): Progress::setProgress() USER_ID = 221
+2013-08-27 08:23:11 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-27 08:24:18 INFO (6): PaypalController - EXECUTING...
+2013-08-27 08:24:19 INFO (6): PaypalController - uid: 221; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 08:24:19 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 08:24:19 INFO (6): User::email() to: guru@lucidmediaconcepts.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-27 08:24:20 INFO (6): User::email() MESSAGE SENT
+2013-08-27 08:24:20 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: guru@lucidmediaconcepts.com
+2013-08-27 08:24:20 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 08:24:20 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-27 08:24:20 INFO (6): User::email() to: bud@joyofcode.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-27 08:24:20 INFO (6): User::email() MESSAGE SENT
+2013-08-27 08:24:20 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Gbenga has moved on to payment and here is the data:
+
+Student has paid and moved on to 3 without a need to review files.
+
+SUBJECT: Gbenga Lab2
+EMAIL: bud@joyofcode.com
+2013-08-27 08:24:20 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-27 08:24:20 INFO (6): PaypalController - PROGRESS usertype = 2
+PaypalController - PROGRESSION = 2
+2013-08-27 08:24:20 INFO (6): Progress::setProgress() USER_ID = 221
+2013-08-27 08:24:20 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-27 08:24:20 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-27 08:24:30 INFO (6): PaypalController - EXECUTING...
+2013-08-27 08:24:31 INFO (6): PaypalController - uid: 221; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 08:24:52 INFO (6): PaypalController - EXECUTING...
+2013-08-27 08:24:53 INFO (6): PaypalController - uid: 221; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 08:24:56 INFO (6): PaypalController - EXECUTING...
+2013-08-27 08:24:57 INFO (6): PaypalController - NOT VERIFIED
+2013-08-27 08:25:33 INFO (6): PaypalController - EXECUTING...
+2013-08-27 08:25:34 INFO (6): PaypalController - uid: 221; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 08:26:56 INFO (6): PaypalController - EXECUTING...
+2013-08-27 08:26:57 INFO (6): PaypalController - uid: 221; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
+2013-08-27 08:29:39 INFO (6): PaypalController - EXECUTING...
+2013-08-27 08:29:40 INFO (6): PaypalController - uid: 221; mid: UPLOAD_LAB2_NO_REVIEW; imid: 17
