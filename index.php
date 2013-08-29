@@ -90,10 +90,14 @@ echo '</pre>';
                </ol>
             </div>
 
-<div id="messages">
+<div id="messages" class="thumbnail">
 <h2>Messages</h2>
 
-<p><?php echo $firstname ?>, right now, you don't have any.</p>
+<p>Hi <?php echo $firstname ?>. Not going to have many messages for you here because you are taking this in a real class room. </p>
+
+<p class="center">Have Fun!!</p>
+
+<!--<p><?php echo $firstname ?>, right now, you don't have any. But stay alert and check here for updates. </p>-->
 
 </div>  
 

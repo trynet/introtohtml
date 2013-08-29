@@ -51,7 +51,7 @@
     page</a>. A work in progress but a thing of beauty!!</p>
   <p>Download these <a href="dl/images.zip">images.zip file</a>, then extract
     all the files into the images folder. Keep this folder as a subfolder where
-    your 5 html files are located.</p>
+    your 5 html files are located on your computer.</p>
     
     </div>
     
@@ -81,7 +81,7 @@
     should be able to do this using the pattern of embedding the image strip
     described above.</p>
 <p>If you aren't sure about this, look at the source code of my page.</p>
-<p>How did you do? If you got both of theses images into index.html, it's time
+<p>How did you do? If you got both of these images into index.html, it's time
   to move on.</p>
 <h2>Step 2: Add the tiller image to prep.html.</h2>
 <p>This is a lot like adding the image of me in index.html.</p>

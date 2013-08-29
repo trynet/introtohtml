@@ -171,7 +171,7 @@ echo '</pre>';
             
 
             
-            <p><strong><?php echo $firstname ?></strong>, now that you have finished this lab you need to make a command decision. Do you...</p>
+            <p><strong><?php echo $firstname ?>, now that you have finished this lab you need to make a command decision about going on to Lesson 3 and thre rest of the class. So...</strong></p>
             
                         <hr/>
             
@@ -263,7 +263,7 @@ echo '</pre>';
                </li>
                
                <li>
-                 <p>What about images? We won't get into that until Lesson 6 but don't you worry. If you follow my instructions in  Lab 6 when you upload your .html files you'll see that your images will show up in your Work Space web pages automagicvally!!</p></li>
+                 <p>What about images? We won't get into that until Lesson 6 but don't you worry. If you follow my instructions in  Lab 6 and write your path statements just like I tell you to when you upload your .html files you'll see that your images will show up in your Work Space web pages automagicvally!!</p></li>
                
                
                <li>

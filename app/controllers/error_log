@@ -239,3 +239,33 @@ Stack trace:
 [27-Aug-2013 05:31:17] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/auto_response/.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/AutoResponse.php on line 84
 [27-Aug-2013 05:39:16] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
 [27-Aug-2013 08:24:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/auto_response/.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/AutoResponse.php on line 84
+[27-Aug-2013 12:10:48] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[27-Aug-2013 12:12:41] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[27-Aug-2013 12:50:43] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[27-Aug-2013 12:59:13] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[27-Aug-2013 16:37:38] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[27-Aug-2013 17:31:01] PHP Fatal error:  Uncaught exception 'Zend_Exception' with message 'No entry is registered for key 'log'' in /home1/joyofcod/Zend/Registry.php:147
+Stack trace:
+#0 /home1/joyofcod/public_html/_dev_intro/app/classes/AuthAdapter.php(64): Zend_Registry::get('log')
+#1 /home1/joyofcod/Zend/Auth.php(117): AuthAdapter->authenticate()
+#2 /home1/joyofcod/public_html/_dev_intro/app/classes/User.php(122): Zend_Auth->authenticate(Object(AuthAdapter))
+#3 /home1/joyofcod/public_html/_dev_intro/app/controllers/login.php(26): User->authenticateUser('jgregor', '87664aa1f50a83b...')
+#4 {main}
+  thrown in /home1/joyofcod/Zend/Registry.php on line 147
+[27-Aug-2013 17:31:38] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[27-Aug-2013 17:32:03] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[27-Aug-2013 17:33:42] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 06:16:19] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 06:32:48] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 06:34:19] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 06:47:54] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 06:49:37] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 06:50:49] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 06:51:48] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 07:13:11] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/auto_response/.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/AutoResponse.php on line 84
+[28-Aug-2013 07:26:03] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 07:34:06] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 08:22:47] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 08:27:21] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 08:29:23] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146
+[28-Aug-2013 16:52:19] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 146

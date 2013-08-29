@@ -1,7 +1,7 @@
 @import url('print.css');
 
 @import url('../css/bootstrap.min.css');
-@import url('../css/bootstrap-responsive.min.css');
+@import url('../css/bootstrap-responsive.min.css'); 
 
 
 /*  Table Of Contents 
@@ -15,7 +15,7 @@ Footer
 Home Page
 Labs
 Front Office
-Wordkshop
+Work Shop
 Register
 Code Tester
 Code Style
@@ -375,24 +375,24 @@ div#end
 padding-bottom:20px;}
 
 
-/* =====  Hoje page  ======   */
+/* =====  Home Page  ======   */
 
 h1#home
 {text-align:center;}
 
 div#lessons 
 {float:left;
-width:35%;
+width:33%;
 margin-top:20px;}
 
 div#labs 
 {float:left;
-width:35%;
+width:33%;
 margin-top:20px;}
 
 div#messages 
 {float:right;
-width:25%;
+width:29%;
 margin-top:20px;} 
 
 
@@ -736,6 +736,9 @@ display: block;
 height: 0;
 clear: both;
 visibility: hidden;}
+
+.center
+{text-align:center;}
 
 
 
