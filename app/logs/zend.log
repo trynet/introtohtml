@@ -18491,3 +18491,19 @@ ProgressController() PROGRESSION =
 2013-08-28 22:00:13 INFO (6): AuthAdapter::authenticate() SSO CONDITION
 2013-08-28 22:00:13 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
 2013-08-28 22:00:13 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-28 22:02:24 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-28 22:02:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-28 22:02:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-28 22:02:27 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-28 22:02:27 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-28 22:02:32 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-28 22:02:32 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-28 22:03:01 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-28 22:03:01 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-28 22:03:01 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-28 22:04:09 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-28 22:04:09 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-28 22:04:09 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-28 22:06:22 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-28 22:06:22 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-28 22:06:22 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
