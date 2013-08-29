@@ -4,7 +4,7 @@ Workspace - Uses DB auth instead of HTTP and flat files
 
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 21, 2013
-Modifed: August 19, 2013
+Modifed: August 28, 2013
 ------------------------------------------------------------*/
 
 require_once 'config/config.php';
@@ -142,8 +142,42 @@ class Workspace {
     * @return: (bool) true on success
     */
    public function createDirectory($user_id) {
-      $dir = $this->getDirectory($user_id);
-      return mkdir($dir, 0755);
+      try {
+         // make dir
+         $dir = $this->getDirectory($user_id);
+         $result = mkdir($dir, 0755);
+
+         if ($result) {
+            // make img dir
+            $dir = $dir . '/images';
+            mkdir($dir, 0755);
+
+            // copy images
+            $base_img_dir = UPLOAD_DIR . '/_base/images';
+            $this->recurse_copy($base_img_dir, $dir);
+         }
+
+         return $result;
+      } catch (Exception $e) {
+         $this->logger->log('Workspace::createDirectory() ERROR', Zend_Log::ERR);
+      }
+   }
+
+   function recurse_copy($src, $dst) { 
+      $dir = opendir($src); 
+      @mkdir($dst); 
+
+      while (false !== ( $file = readdir($dir)) ) {
+         if (( $file != '.' ) && ( $file != '..' )) {
+            if ( is_dir($src . '/' . $file) ) {
+               recurse_copy($src . '/' . $file,$dst . '/' . $file);
+            }
+            else {
+               copy($src . '/' . $file,$dst . '/' . $file);
+            }
+         }
+      }
+      closedir($dir);
    }
 
    /**

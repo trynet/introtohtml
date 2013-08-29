@@ -208,14 +208,16 @@ echo '</pre>';
                      <th class="cellbottom">Date Uploaded</th>
                  </tr>
                      
-         <!--         </tr>
+                  <!--
+                  </tr>
                   <tr valign="top">
                      <td align="right"></td>
                      <td align="" colspan="4">
                         <img width="22" border="0" height="22" src="images/dir.gif" />
                         <a href="">images</a>
                      </td>
-                  </tr>-->
+                  </tr>
+                  -->
                   <?php foreach ($files as $file) : ?>
                   <tr valign="top">
                   <td>
