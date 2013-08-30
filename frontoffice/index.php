@@ -1,3 +1,8 @@
+<?php
+require_once '../app/config/config.php';
+?>
+
+
 <!DOCTYPE html>
 
 <html>
@@ -48,23 +53,28 @@
 
 <section id="main">
 
-<h1 id="home">Front Office</h1>
-
-<p>Welcome to Joy Of Code:Intro To HTML. I'm going to give you all the goodies on how to successfully  learn HTML in my class. So heads up and have fun!!</p>
 
 
 
-<h1>How To Take This Class</h1>
+
+<h1 id="home">Welcome <?php echo $firstname ?>!!</h1>
 
 
-<p>Yup, the first two lessons and labs are free. So, if you haven't already, begin with Lesson 1. When you have finished reading that go to Lab 1 to do an ice breaker assignment - your first web page. If you've never done this before I think you'll find it very cool. You're going to use your browser and a text editor  to accomplish that historic feat. </p>
+<p>You are in my Front Office,  the place to say and get things done that I don't elsewhere in Joy Of Code: Intro To HTML.</p>
 
-<h2>Then What?</h2>
+<p>Here, among other things, I'm going to give you some help on how to successfully learn HTML in my class. So heads up and have fun! </p>
 
-<p>After you've made your first web doc - hellp.html - you'll upload it tow your Word Space. </p>
-<p>&nbsp;</p>
-<p>1. Read and do everything in order. Lesson and Lab</p>
-<p>2. Do it all AR your pace - not mien</p>
+<p>It's not very often that you can have fun and learn something useful at the same time but you can here. I don't' call it the Joy Of Code for nothing. This just might change your life.</p>
+
+<h2>Getting Started</h2>
+
+<p>For most people - and that could mean you - the first two lessons and labs are free. So, if you haven't already, begin with Lesson 1. When you have finished reading that go to Lab 1 to do an ice breaker assignment - your first web page. If you've never done this before I think you'll find it very cool. You're going to use your browser and a text editor to accomplish that historic feat. </p>
+
+<p>(If you've paid a third party the first two lessons won't be free but you got a discount so  you did get a break.)</p>
+
+<p>Just go through the class one step at a time by reading a Lesson then doing a hands-on Lab that exercises what you have just read. It's very structured. It took me years to develop this and it works. Don't' skip anything and do everting in order and you should do really well. Hint: HTML is not a programming language or rocket science. How do I know? Trust me, I do.</p>
+
+<p>You can go through this class at your speed much like reading a book. And ff you need help with your Lab assignments it's really easy to let me know.</p>
 
 
 </section>

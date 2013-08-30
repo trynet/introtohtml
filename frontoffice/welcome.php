@@ -31,7 +31,7 @@ include("../includes/header.php");
 <section id="main">
 
 
-<h1>Welcome</h1>
+<h1>This Is Me</h1>
 
 <div id="welcome">
 
@@ -41,9 +41,7 @@ include("../includes/header.php");
 
 </div>
 
-<p>You are in my Front Office, the place where I keep all things administrivia.
-  This is my space to say and get things done that I don't elsewhere in Joy Of
-  Code: Intro To HTML.</p>
+
 <p>My name is Bud Kraus, Your Friendly Web Design Instructor. One of the things
   I love most about Intro To HTML is that it gives me the opportunity to teach
   you  skills that will last a life time.</p>

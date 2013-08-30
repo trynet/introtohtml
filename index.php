@@ -93,11 +93,24 @@ echo '</pre>';
 <div id="messages" class="thumbnail">
 <h2>Messages</h2>
 
-<p>Hi <?php echo $firstname ?>. Not going to have many messages for you here because you are taking this in a real class room. </p>
+<!--<p><?php echo $firstname ?>, right now, you don't have any. But stay alert and check here for updates. </p>
 
-<p class="center">Have Fun!!</p>
+<p>For once, I don't have a lot to say. :-)</p>
+-->
 
-<!--<p><?php echo $firstname ?>, right now, you don't have any. But stay alert and check here for updates. </p>-->
+<p><?php echo $firstname ?>,  thanks for going on with the class. Your payment has been received, appreciated and not yet spent!!</p>
+
+<p>I will be here to make sure that this will be an enJoyable learning experience for you.</p>
+
+<p>I think you know the drill. After you do Lab 3 you can wait for me to review your pages or just go on to Lesson 4.</p>
+
+<hr/>
+
+<p>Just let me know if you have questions or comments. You know where to reach me and I'll be happy to hear form you.</p>
+
+
+
+
 
 </div>  
 

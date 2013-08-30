@@ -1,7 +1,7 @@
 <aside id="sidebar">
 
    <header>
-      <h1>Front Office</h1>
+      <h1>Front Office Pages</h1>
    </header>
    
    <nav>
@@ -12,15 +12,15 @@
 
 			// if the current page is 'index', then deisplay without link
          if ( basename($_SERVER['REQUEST_URI']) == 'index.html' || basename($_SERVER['REQUEST_URI']) == 'index.php' )
-				echo '<li><strong>How To Take This Class</strong></li>';
+				echo '<li><strong>Welcome</strong></li>';
 			else // not 'index', so display link
-				echo '<li><a href="index.html">How To Take This Class</a></li>';
+				echo '<li><a href="index.html">Welcome</a></li>';
 			
 			// if the current page is 'welcome', then deisplay without link
          if ( basename($_SERVER['REQUEST_URI']) == 'welcome.html' || basename($_SERVER['REQUEST_URI']) == 'welcome.php' )
-				echo '<li><strong>Welcome</strong></li>';
+				echo '<li><strong>This Is Me</strong></li>';
 			else // not 'say_hello', so display link
-				echo '<li><a href="welcome.html">Welcome</a></li>';
+				echo '<li><a href="welcome.html">This Is Me</a></li>';
 
 
 		// if the current page is 'faq', then deisplay without link

@@ -312,8 +312,11 @@ aside#sidebar h1
 aside#sidebar p
 {margin: 1em 0 1em -20px;}
 
-aside#sidebar ul 
+aside#sidebar ul
 {list-style-position:inside;}
+
+aside#sidebar ol
+{margin-left:0;}
 
 aside#sidebar a:link, aside#sidebar a:visited
 {text-decoration:none;
