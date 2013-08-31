@@ -68,7 +68,7 @@ define('POST_P2_REVIEW_NO_PAYPAL_UG2', 15);
 define('POST_P2_REVIEW_NO_PAYPAL_UG3', 16);
 define('POST_P2_REVIEW_PAYPAL',        17);
 define('POST_P8',                      18);
-
+define('DEFAULT_MESSAGE',              19);
 
 // auto-responses
 define('AUTO_RESPONSE_PATH', 'includes/auto_response');
@@ -200,8 +200,11 @@ $DEBUG = array('user_id'            => $authNamespace->storage['user_id'],
                'progression'        => $authNamespace->progress['progression'],
                'proceed'            => $authNamespace->progress['proceed'],
                'num_files_uploaded' => $authNamespace->num_files_uploaded,
+               'message'            => $authNamespace->homepage_message,
                'APPLICATION_STATE'  => $authNamespace->APPLICATION_STATE);
 
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php') {
+   if (!$_SERVER['SCRIPT_NAME'] == '/app/controllers/paypal.php') {
       header('Location: ' . JOC_DOMAIN . '/sign-in');
+   }
 }

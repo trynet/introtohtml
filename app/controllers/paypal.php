@@ -19,10 +19,13 @@ $vars      = $paypalObj->verify();
 if (is_numeric($vars['user_id'])) {
    // log message
    $logmessage = "uid: " . $vars['user_id'] . "; mid: " . $vars['message_id'] .
-                 "; imid: " . $vars['instructor_message_id'];
+                 "; imid: " . $vars['instructor_message_id'] .
+                 "; hmid: " . $vars['homepage_message_id'];
    $logger->log("PaypalController - $logmessage", Zend_Log::INFO);
 
    // todo: 20130827 - what the heck is going on here?
+   //       20130830 - paypal sent an email earlier, check it
+   //                  I believe this script needs to send an HTTP 200 response
    if ($vars['user_id'] == 203)
       exit;
 
@@ -30,6 +33,7 @@ if (is_numeric($vars['user_id'])) {
    $userObj        = new User();
    $progressObj    = new Progress();
    $workspaceObj   = new Workspace();
+   $messageObj     = new Message();
    $applicationObj = new Application();
 
    // update paid status
@@ -62,14 +66,26 @@ if (is_numeric($vars['user_id'])) {
       default :
          $message_id            = $vars['message_id'];
          $instructor_message_id = $vars['instructor_message_id'];
+
+         // set homepage message
+         $authNamespace->homepage_message = $messageObj->getMessage($vars['homepage_message_id']);
       break;
+   }
+
+   // homepage message
+   if ($usertype == USER_STANDARD) {
+      $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_REVIEW_PAYPAL);
+   } else if ($usertype == USER_DISCOUNT) {
+      $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_REVIEW_PAYPAL);
+   } else {
+      $authNamespace->homepage_message = $messageObj->getMessage(DEFAULT_MESSAGE);
    }
 
    // increment values (progess only if not waiting for Bud)
    // 20130827:01:50 - a loop seems to be executing somewhere. Paypa
    //    calling this script repeatedly? fixme
    //    adding a conditional on progression so it doesn't increment
-   //    during these repitions
+   //    during these repititions
    if ($progression < 3) {
 
       // send autoresponse to user
@@ -104,6 +120,16 @@ if (is_numeric($vars['user_id'])) {
       $applicationObj->consumeApplicationState();
    }
 } else {
+   if ($usertype == USER_STANDARD) {
+      $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_REVIEW_NO_PAYPAL_UG1);
+   } else if ($usertype == USER_DISCOUNT) {
+      $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_REVIEW_NO_PAYPAL_UG2);
+   } else if ($usertype == USER_FREE) {
+      $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_REVIEW_NO_PAYPAL_UG3);
+   } else {
+      $authNamespace->homepage_message = $messageObj->getMessage(DEFAULT_MESSAGE);
+   }
+
    $logger->log("PaypalController - NOT VERIFIED", Zend_Log::INFO);
    header('Location: /index.php');
    exit(); // fixme or todo
@@ -112,4 +138,4 @@ if (is_numeric($vars['user_id'])) {
 // header('Location: /app/controllers/progress.php');
 header('Location: /index.php'); // Paypal users return to this page, but
                                 // now, processing has already been done,
-                                // so send to homepage
+                                // so send to homepage (requirements alteration)

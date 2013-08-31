@@ -22365,3 +22365,406 @@ EMAIL: service@lucidmediaconcepts.com
 2013-08-31 01:53:24 INFO (6): AuthAdapter::authenticate() SSO CONDITION
 2013-08-31 01:53:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
 2013-08-31 01:53:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 02:43:12 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:43:12 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:43:18 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 1
+2013-08-31 02:43:18 INFO (6): Progress::setProgress() USER_ID = 290
+2013-08-31 02:43:18 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-31 02:43:18 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-31 02:43:42 INFO (6): ProgressController() USERTYPE = 2
+ProgressController() PROGRESSION = 2
+2013-08-31 02:43:42 INFO (6): Progress::setProgress() USER_ID = 290
+2013-08-31 02:43:42 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-31 02:43:42 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-31 02:44:27 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 02:44:27 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 02:44:27 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 02:44:28 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 02:44:28 INFO (6): User::email() to: hoo@areyou.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-31 02:44:28 INFO (6): User::email() MESSAGE SENT
+2013-08-31 02:44:28 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi hoo.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: hoo@areyou.com
+2013-08-31 02:44:28 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 02:44:28 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 02:44:28 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-31 02:44:28 INFO (6): User::email() MESSAGE SENT
+2013-08-31 02:44:28 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: hoo
+
+Email Address: hoo@areyou.com
+
+Promo Code: efa
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-31 02:44:28 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 02:44:28 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 02:44:28 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 02:44:28 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 02:45:49 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:45:50 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:45:57 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:45:58 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:45:58 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:45:58 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-31 02:46:05 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 02:46:05 INFO (6): User::email() to: hoo@areyou.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-31 02:46:06 INFO (6): User::email() MESSAGE SENT
+2013-08-31 02:46:06 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, hoo.
+
+I see that you're feeling pretty confident about things and have moved on to the next Lesson. That's great because that is where things get a tad more interesting.
+ 
+I'm about to show you the real basic HTML tags that you will use for so many web pages. As you'll see you are going to get started with the 5 .html files that make up the In My Garden project.  You'll continue to work on these 5 pages as you go on through the class and really learn HTML.
+
+You do like home grown tomatoes, don't you?
+
+Don't skip a page. Do everything in order for best results.
+
+After you upload your pages you'll see you have a few options but I don't want to get ahead of myself.
+
+See you in 2!!
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: So, you're feeling good about HTML, huh?
+EMAIL: hoo@areyou.com
+2013-08-31 02:46:06 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 02:46:06 INFO (6): Progress::setProgress() USER_ID = 291
+2013-08-31 02:46:06 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-31 02:46:10 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 02:46:10 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-31 02:46:10 INFO (6): User::email() MESSAGE SENT
+2013-08-31 02:46:10 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+
+hoo has moved on to Lesson 2.
+
+Email Address: hoo@areyou.com
+
+URL:  ;
+
+SubscribeBlog: <HTML>
+SubscribeBlog: <CSS>
+SubscribeBlog: <WP>
+
+SUBJECT: hoo Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-31 02:46:10 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 02:46:11 INFO (6): ProgressController() USERTYPE = 3
+ProgressController() PROGRESSION = 1
+2013-08-31 02:46:11 INFO (6): Progress::setProgress() USER_ID = 291
+2013-08-31 02:46:11 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-31 02:46:11 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-31 02:46:17 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:46:17 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:46:26 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:46:27 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:46:27 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:46:35 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:46:36 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:46:36 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:46:43 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:46:43 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:46:43 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:46:49 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:46:50 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:46:50 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:46:56 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:46:57 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:46:57 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:46:57 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-31 02:47:03 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:47:03 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:47:03 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:47:03 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-31 02:47:19 INFO (6): Progress::setProgress() USER_ID = 291
+2013-08-31 02:47:19 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-31 02:50:39 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 02:50:39 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 02:50:39 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 02:50:39 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 02:50:39 INFO (6): User::email() to: Icecream@youscream.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-31 02:50:39 INFO (6): User::email() MESSAGE SENT
+2013-08-31 02:50:39 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Icecream.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: Icecream@youscream.com
+2013-08-31 02:50:39 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 02:50:39 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 02:50:39 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-31 02:50:39 INFO (6): User::email() MESSAGE SENT
+2013-08-31 02:50:39 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Icecream
+
+Email Address: Icecream@youscream.com
+
+Promo Code: gag
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-31 02:50:39 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 02:50:39 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 02:50:39 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 02:50:39 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 02:50:43 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:50:43 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:50:52 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:50:53 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:50:53 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:50:53 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-31 02:50:59 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 02:50:59 INFO (6): User::email() to: Icecream@youscream.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-31 02:51:00 INFO (6): User::email() MESSAGE SENT
+2013-08-31 02:51:00 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Icecream.
+
+I see that you're feeling pretty confident about things and have moved on to the next Lesson. That's great because that is where things get a tad more interesting.
+ 
+I'm about to show you the real basic HTML tags that you will use for so many web pages. As you'll see you are going to get started with the 5 .html files that make up the In My Garden project.  You'll continue to work on these 5 pages as you go on through the class and really learn HTML.
+
+You do like home grown tomatoes, don't you?
+
+Don't skip a page. Do everything in order for best results.
+
+After you upload your pages you'll see you have a few options but I don't want to get ahead of myself.
+
+See you in 2!!
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: So, you're feeling good about HTML, huh?
+EMAIL: Icecream@youscream.com
+2013-08-31 02:51:00 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 02:51:00 INFO (6): Progress::setProgress() USER_ID = 292
+2013-08-31 02:51:00 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-31 02:51:05 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 02:51:05 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-31 02:51:05 INFO (6): User::email() MESSAGE SENT
+2013-08-31 02:51:05 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+
+Icecream has moved on to Lesson 2.
+
+Email Address: Icecream@youscream.com
+
+URL:  ;
+
+SubscribeBlog: <HTML>
+SubscribeBlog: <CSS>
+SubscribeBlog: <WP>
+
+SUBJECT: Icecream Lab 1
+EMAIL: service@lucidmediaconcepts.com
+2013-08-31 02:51:05 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 02:51:05 INFO (6): ProgressController() USERTYPE = 3
+ProgressController() PROGRESSION = 1
+2013-08-31 02:51:05 INFO (6): Progress::setProgress() USER_ID = 292
+2013-08-31 02:51:05 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-31 02:51:05 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-31 02:51:10 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:51:10 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:51:15 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:51:16 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:51:16 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:51:23 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:51:23 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:51:23 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:51:30 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:51:31 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:51:31 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:51:36 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:51:36 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:51:36 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:51:42 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-08-31 02:51:42 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-08-31 02:51:42 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-08-31 02:51:42 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-08-31 02:51:47 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 02:51:47 INFO (6): User::email() to: Icecream@youscream.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-31 02:51:47 INFO (6): User::email() MESSAGE SENT
+2013-08-31 02:51:47 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: Icecream@youscream.com
+2013-08-31 02:51:47 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 02:51:47 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 02:51:47 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-31 02:51:47 INFO (6): User::email() MESSAGE SENT
+2013-08-31 02:51:47 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Icecream has moved on to payment and here is the data:
+
+Last Name: 
+Promo Code: gag
+How did you find this class?: 
+
+Student is waiting for review of following links:
+
+URLs: 
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=292&instructor_proceed=true">Allow Icecream to proceed</a>
+
+SUBJECT: Icecream Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-31 02:51:47 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 02:51:47 INFO (6): Progress::setProgress() USER_ID = 292
+2013-08-31 02:51:47 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-31 02:52:05 INFO (6): ProgressController() USERTYPE = 3
+ProgressController() PROGRESSION = 2
+2013-08-31 02:52:05 INFO (6): Progress::setProgress() USER_ID = 292
+2013-08-31 02:52:05 INFO (6): Progress::setProgress() UPDATED = 0
+2013-08-31 02:52:05 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-31 03:19:19 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:19:32 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:19:53 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:20:35 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:21:58 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:24:39 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:28:41 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:29:00 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:29:25 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:29:40 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:30:01 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:40:43 INFO (6): PaypalController - EXECUTING...
+2013-08-31 03:40:44 INFO (6): PaypalController - uid: 292; mid: UPLOAD_LAB2_REVIEW; imid: 35; hmid: 
+2013-08-31 03:40:44 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 03:40:44 INFO (6): User::email() to: Icecream@youscream.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-31 03:40:45 INFO (6): User::email() MESSAGE SENT
+2013-08-31 03:40:45 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+SUBJECT: 
+EMAIL: Icecream@youscream.com
+2013-08-31 03:40:45 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 03:40:45 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 03:40:45 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-31 03:40:45 INFO (6): User::email() MESSAGE SENT
+2013-08-31 03:40:45 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Icecream has moved on to payment and here is the data:
+
+Last Name: 
+Promo Code: gag
+How did you find this class?: 0
+
+Student is waiting for review of following links:
+
+URLs: 
+
+<a href="http://dev.introtohtml.net/app/controllers/instructor.php?user_id=292&instructor_proceed=true">Allow Icecream to proceed</a>
+
+SUBJECT: Icecream Lab2
+EMAIL: service@lucidmediaconcepts.com
+2013-08-31 03:40:45 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 03:40:45 INFO (6): PaypalController - PROGRESS usertype = 3
+PaypalController - PROGRESSION = 2
+2013-08-31 03:40:45 INFO (6): Progress::setProgress() USER_ID = 292
+2013-08-31 03:40:45 INFO (6): Progress::setProgress() UPDATED = 1
+2013-08-31 03:40:45 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0

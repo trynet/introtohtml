@@ -300,3 +300,16 @@ Stack trace:
 
 Next exception 'Zend_Db_Statement_Exce in /home1/joyofcod/Zend/Db/Statement/Pdo.php on line 234
 [31-Aug-2013 01:48:12] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[31-Aug-2013 03:19:20] PHP Fatal error:  Call to undefined function  curlopt_httpheader() in /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php on line 60
+[31-Aug-2013 03:19:33] PHP Fatal error:  Call to undefined function  curlopt_httpheader() in /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php on line 60
+[31-Aug-2013 03:19:54] PHP Fatal error:  Call to undefined function  curlopt_httpheader() in /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php on line 60
+[31-Aug-2013 03:20:36] PHP Fatal error:  Call to undefined function  curlopt_httpheader() in /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php on line 60
+[31-Aug-2013 03:21:58] PHP Fatal error:  Call to undefined function  curlopt_httpheader() in /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php on line 60
+[31-Aug-2013 03:24:40] PHP Fatal error:  Call to undefined function  curlopt_httpheader() in /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php on line 60
+[31-Aug-2013 03:28:41] PHP Fatal error:  Call to undefined function  curlopt_httpheader() in /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php on line 60
+[31-Aug-2013 03:29:00] PHP Fatal error:  Call to undefined function  curlopt_httpheader() in /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php on line 60
+[31-Aug-2013 03:29:25] PHP Fatal error:  Call to undefined function  curlopt_httpheader() in /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php on line 60
+[31-Aug-2013 03:29:40] PHP Fatal error:  Call to undefined function  curlopt_httpheader() in /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php on line 60
+[31-Aug-2013 03:30:02] PHP Fatal error:  Call to undefined function  curlopt_httpheader() in /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php on line 60
+[31-Aug-2013 03:40:44] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/auto_response/.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/AutoResponse.php on line 84
+[31-Aug-2013 03:40:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php:62) in /home1/joyofcod/public_html/_dev_intro/app/controllers/paypal.php on line 139

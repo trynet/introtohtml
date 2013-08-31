@@ -5,7 +5,8 @@ echo '<pre>'; print_r($DEBUG); echo '</pre>';
 $authNamespace = new Zend_Session_Namespace('Zend_Auth');
 $message_id            = $authNamespace->message_id;
 $instructor_message_id = $authNamespace->instructor_message_id;
-$custom_value          = "&message_id=$message_id&instructor_message_id=$instructor_message_id&user_id=$user_id";
+$homepage_message_id   = $authNamespace->homepage_message_id;
+$custom_value          = "&message_id=$message_id&instructor_message_id=$instructor_message_id&user_id=$user_id&homepage_message_id=$homepage_message_id";
 
 // todo: place following logic in appropriate area outside of view
 $usertype = $_GET['u'];

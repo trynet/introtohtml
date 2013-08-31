@@ -52,6 +52,16 @@ class Paypal
       $result = curl_exec($ch);
       curl_close($ch);
 
+
+      // HTTP 200 ok
+      $ch = curl_init();
+      curl_setopt_array($ch, array(CURLOPT_URL => $this->_url,
+                                   CURLOPT_SSL_VERIFYPEER => false));
+      curl_setopt($ch, CURLOPT_HTTPHEADER, array('HTTP/1.1 200 OK'));
+
+      curl_exec($ch);
+      curl_close($ch);
+
       $fh = fopen('/home1/joyofcod/public_html/_dev_intro/workspace/service_lucidmediaconcepts_com/result.txt', 'w');
       fwrite($fh, "$result -- $postFields");
 
@@ -63,10 +73,12 @@ class Paypal
          $message_id            = htmlspecialchars(substr($vars[1], strpos($vars[1], '=') + 1));
          $instructor_message_id = htmlspecialchars(substr($vars[2], strpos($vars[2], '=') + 1));
          $user_id               = htmlspecialchars(substr($vars[3], strpos($vars[3], '=') + 1));
+         $homepage_message_id   = htmlspecialchars(substr($vars[4], strpos($vars[4], '=') + 1));
 
          $arr = array('message_id'            => $message_id,
                       'instructor_message_id' => $instructor_message_id,
-                      'user_id'               => $user_id);
+                      'user_id'               => $user_id,
+                      'homepage_message_id'   => $homepage_message_id);
 
          return $arr;
       }

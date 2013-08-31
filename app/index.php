@@ -16,6 +16,8 @@ $APPLICATION_STATE = $authNamespace->APPLICATION_STATE;
 $proceed = htmlspecialchars($_GET['proceed']);
 $progressObj = new Progress();
 
+$messageObj = new Message();
+
 switch ($APPLICATION_STATE) {
    case INITIAL_STATE :
       // user just finished lab 1, send to subscription
@@ -24,12 +26,35 @@ switch ($APPLICATION_STATE) {
          case PROCEED_WAIT :
             $message_id = UPLOAD_LAB1_REVIEW;
             //$instructor_message_id = UPLOAD_LAB1_REVIEW_INSTRUCTOR;
+
+            // homepage message
+            if (USERTYPE == USER_STANDARD) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P1_REVIEW_UG1);
+            } else if (USERTYPE == USER_DISCOUNT) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P1_REVIEW_UG2);
+            } else if (USERTYPE == USER_FREE) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P1_REVIEW_UG3);
+            } else {
+               $authNamespace->homepage_message = $messageObj->getMessage(DEFAULT_MESSAGE);
+            }
+               
          break;
 
          case PROCEED_CONTINUE :
          default :                               // should really only ever be 0 or 1
             $message_id = UPLOAD_LAB1_NO_REVIEW; // if not, someone prolly did something naughty
             //$instructor_message_id = UPLOAD_LAB1_NO_REVIEW_INSTRUCTOR;
+
+            // homepage message
+            if (USERTYPE == USER_STANDARD) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P1_NO_REVIEW_UG1);
+            } else if (USERTYPE == USER_DISCOUNT) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P1_NO_REVIEW_UG2);
+            } else if (USERTYPE == USER_FREE) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P1_NO_REVIEW_UG3);
+            } else {
+               $authNamespace->homepage_message = $messageObj->getMessage(DEFAULT_MESSAGE);
+            }
          break;
       }
       // to user
@@ -61,12 +86,33 @@ switch ($APPLICATION_STATE) {
          case PROCEED_WAIT :
             $message_id            = UPLOAD_LAB2_REVIEW;
             $instructor_message_id = UPLOAD_LAB2_REVIEW_INSTRUCTOR;
+
+            if (USERTYPE == USER_STANDARD) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_REVIEW_NO_PAYPAL_UG1);
+            } else if (USERTYPE == USER_DISCOUNT) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_REVIEW_NO_PAYPAL_UG2);
+            } else if (USERTYPE == USER_FREE) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_REVIEW_NO_PAYPAL_UG3);
+            } else {
+               $authNamespace->homepage_message = $messageObj->getMessage(DEFAULT_MESSAGE);
+            }
          break;
 
          case PROCEED_CONTINUE :
          default :
             $message_id            = UPLOAD_LAB2_NO_REVIEW;
             $instructor_message_id = UPLOAD_LAB2_NO_REVIEW_INSTRUCTOR;
+
+            // homepage message
+            if (USERTYPE == USER_STANDARD) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_NO_REVIEW);
+            } else if (USERTYPE == USER_DISCOUNT) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_NO_REVIEW);
+            } else if (USERTYPE == USER_FREE) {
+               $authNamespace->homepage_message = $messageObj->getMessage(POST_P3_NO_REVIEW);
+            } else {
+               $authNamespace->homepage_message = $messageObj->getMessage(DEFAULT_MESSAGE);
+            }
          break;
       }
 
@@ -120,6 +166,10 @@ switch ($APPLICATION_STATE) {
          $autoResponseObj->generateMessage(UPLOAD_LAB3_NO_REVIEW_INSTRUCTOR, $user_id, $params);
       else
          $autoResponseObj->generateMessage(UPLOAD_LAB3_REVIEW_INSTRUCTOR, $user_id, $params);
+
+      if ($authNamespace->progress['progression'] >= PROGRESSION_8) {
+         $authNamespace->homepage_message = $messageObj->getMessage(POST_P8);
+      }
 
       header("Location: /app/controllers/progress.php?proceed=$proceed");
    break;
