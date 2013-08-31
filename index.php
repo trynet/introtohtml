@@ -93,10 +93,11 @@ echo '</pre>';
 <div id="messages" class="thumbnail">
 <h2>Messages</h2>
 
+<?php include $authNamespace->homepage_message ?>
+
 <!--<p><?php echo $firstname ?>, right now, you don't have any. But stay alert and check here for updates. </p>
 
 <p>For once, I don't have a lot to say. :-)</p>
--->
 
 <p><?php echo $firstname ?>,  thanks for going on with the class. Your payment has been received, appreciated and not yet spent!!</p>
 
@@ -108,7 +109,7 @@ echo '</pre>';
 
 <p>Just let me know if you have questions or comments. You know where to reach me and I'll be happy to hear form you.</p>
 
-
+-->
 
 
 

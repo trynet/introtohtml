@@ -48,6 +48,28 @@ define('INITIAL_STATE',   0);
 define('SECONDARY_STATE', 1);
 define('TERTIARY_STATE',  2);
 
+// messages
+define('MESSAGE_PATH', 'includes/messages');
+define('FIRST_LOGIN_UG1',               1);
+define('FIRST_LOGIN_UG2',               2);
+define('FIRST_LOGIN_UG3',               3);
+define('FIRST_LOGIN_UG4',               4);
+define('FIRST_LOGIN_UG5',               5);
+define('POST_P1_NO_REVIEW_UG1',         6);
+define('POST_P1_NO_REVIEW_UG2',         7);
+define('POST_P1_NO_REVIEW_UG3',         8);
+define('POST_P1_REVIEW_UG1',            9);
+define('POST_P1_REVIEW_UG2',           10);
+define('POST_P1_REVIEW_UG3',           11);
+define('POST_P2_NO_REVIEW',            12);
+define('POST_P2_NO_REVIEW_UG3',        13);
+define('POST_P2_REVIEW_NO_PAYPAL_UG1', 14);
+define('POST_P2_REVIEW_NO_PAYPAL_UG2', 15);
+define('POST_P2_REVIEW_NO_PAYPAL_UG3', 16);
+define('POST_P2_REVIEW_PAYPAL',        17);
+define('POST_P8',                      18);
+
+
 // auto-responses
 define('AUTO_RESPONSE_PATH', 'includes/auto_response');
 define('REGISTER_NO_PROMO',                 1);
@@ -135,6 +157,7 @@ require_once 'classes/Workspace.php';
 require_once 'classes/AutoResponse.php';
 require_once 'classes/Application.php';
 require_once 'classes/Paypal.php';
+require_once 'classes/Message.php';
 
 // database
 $db = Zend_db::factory('Pdo_Mysql', array(

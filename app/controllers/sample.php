@@ -40,6 +40,11 @@ if (strlen($email) > 3) {
       $user_id = $userObj->addUser($data, $row['user_id']);
 
       if ($user_id) { // registration and subsequent login OK
+         $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+
+         // messages
+         $messageObj = new Message();
+
          // promotional code
          $promocodeObj    = new PromoCode();
          $registrationObj = new Registration();
@@ -54,31 +59,38 @@ if (strlen($email) > 3) {
          switch ($promocode) {
             case PROMO_EFA :
                $message_id = REGISTER_PROMO_EFA;
+               $authNamespace->homepage_message = $messageObj->getMessage(FIRST_LOGIN_UG2);
             break;
 
             case PROMO_GAG :
                $message_id = REGISTER_PROMO_GAG;
+               $authNamespace->homepage_message = $messageObj->getMessage(FIRST_LOGIN_UG2);
             break;
 
             case PROMO_REDUCED :
                $message_id = REGISTER_PROMO_REDUCED;
+               $authNamespace->homepage_message = $messageObj->getMessage(FIRST_LOGIN_UG2);
             break;
 
             case PROMO_ADULTED :
                $message_id = REGISTER_PROMO_ADULTED;
+               $authNamespace->homepage_message = $messageObj->getMessage(FIRST_LOGIN_UG2);
             break;
 
             case PROMO_FIT :
                $message_id = REGISTER_PROMO_FIT;
+               $authNamespace->homepage_message = $messageObj->getMessage(FIRST_LOGIN_UG4);
             break;
 
             case PROMO_CLASSROOM :
                $message_id = REGISTER_CLASSROOM_INSTRUCTOR;
+               $authNamespace->homepage_message = $messageObj->getMessage(FIRST_LOGIN_UG5);
             break;
 
             case PROMO_NONE :
             default :
                $message_id = REGISTER_NO_PROMO;
+               $authNamespace->homepage_message = $messageObj->getMessage(FIRST_LOGIN_UG1);
             break;
          }
 

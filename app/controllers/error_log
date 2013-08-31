@@ -281,3 +281,22 @@ Stack trace:
 [30-Aug-2013 11:06:06] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
 [30-Aug-2013 12:45:53] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
 [30-Aug-2013 22:37:14] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/auto_response/.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/AutoResponse.php on line 84
+[31-Aug-2013 01:45:28] PHP Fatal error:  Class 'Message' not found in /home1/joyofcod/public_html/_dev_intro/app/controllers/sample.php on line 46
+[31-Aug-2013 01:46:10] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[31-Aug-2013 01:46:10] PHP Fatal error:  Call to undefined method Zend_Db_Table::getDefaultAdapater() in /home1/joyofcod/public_html/_dev_intro/app/classes/Message.php on line 14
+[31-Aug-2013 01:46:44] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[31-Aug-2013 01:46:44] PHP Fatal error:  Function name must be a string in /home1/joyofcod/public_html/_dev_intro/app/controllers/sample.php on line 93
+[31-Aug-2013 01:47:45] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[31-Aug-2013 01:47:45] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1' in /home1/joyofcod/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home1/joyofcod/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home1/joyofcod/Zend/Db/Statement.php(303): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home1/joyofcod/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home1/joyofcod/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query(1, Array)
+#4 /home1/joyofcod/Zend/Db/Adapter/Abstract.php(827): Zend_Db_Adapter_Pdo_Abstract->query(1, Array)
+#5 /home1/joyofcod/public_html/_dev_intro/app/classes/Message.php(19): Zend_Db_Adapter_Abstract->fetchOne(1)
+#6 /home1/joyofcod/public_html/_dev_intro/app/controllers/sample.php(93): Message->getMessage(1)
+#7 {main}
+
+Next exception 'Zend_Db_Statement_Exce in /home1/joyofcod/Zend/Db/Statement/Pdo.php on line 234
+[31-Aug-2013 01:48:12] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148

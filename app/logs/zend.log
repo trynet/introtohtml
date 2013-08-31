@@ -21998,3 +21998,370 @@ PaypalController - PROGRESSION =
 2013-08-30 22:37:14 INFO (6): Progress::setProgress() USER_ID = 219
 2013-08-30 22:37:14 INFO (6): Progress::setProgress() UPDATED = 0
 2013-08-30 22:37:14 ERR (3): Workspace::resetNumFilesUploaded() SESSION VALUE 0
+2013-08-31 01:16:38 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:16:38 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:16:38 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:32:22 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:32:22 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:32:22 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:32:22 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 01:32:22 INFO (6): User::email() to: test@test.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-31 01:32:22 INFO (6): User::email() MESSAGE SENT
+2013-08-31 01:32:22 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Test2.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: test@test.com
+2013-08-31 01:32:22 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 01:32:22 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 01:32:22 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-31 01:32:23 INFO (6): User::email() MESSAGE SENT
+2013-08-31 01:32:23 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Test2
+
+Email Address: test@test.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-31 01:32:23 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 01:32:23 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:32:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:32:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:45:28 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:45:28 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:45:28 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:46:10 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:46:10 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:46:10 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:46:10 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '287' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`user_id`, `progression`, `proceed`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => 287
+            [1] => 1
+            [2] => 1
+        )
+
+)
+
+2013-08-31 01:46:44 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:46:44 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:46:44 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:46:44 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '287' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`user_id`, `progression`, `proceed`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => 287
+            [1] => 1
+            [2] => 1
+        )
+
+)
+
+2013-08-31 01:47:45 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:47:45 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:47:45 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:47:45 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '287' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`user_id`, `progression`, `proceed`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => 287
+            [1] => 1
+            [2] => 1
+        )
+
+)
+
+2013-08-31 01:48:12 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:48:12 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:48:12 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:48:12 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '287' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `progress` (`user_id`, `progression`, `proceed`) VALUES (?, ?, ?)
+    [1] => Array
+        (
+            [0] => 287
+            [1] => 1
+            [2] => 1
+        )
+
+)
+
+2013-08-31 01:48:12 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 01:48:12 INFO (6): User::email() to: john@john.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-31 01:48:13 INFO (6): User::email() MESSAGE SENT
+2013-08-31 01:48:13 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi asdvas.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: john@john.com
+2013-08-31 01:48:13 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 01:48:13 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 01:48:13 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-31 01:48:13 INFO (6): User::email() MESSAGE SENT
+2013-08-31 01:48:13 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: asdvas
+
+Email Address: john@john.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-31 01:48:13 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 01:48:13 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:48:13 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:48:13 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:49:53 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:49:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:49:53 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:49:53 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 01:49:53 INFO (6): User::email() to: anemail@address.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-31 01:49:53 INFO (6): User::email() MESSAGE SENT
+2013-08-31 01:49:53 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi sdvdasv.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: anemail@address.com
+2013-08-31 01:49:53 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 01:49:53 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 01:49:53 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-31 01:49:54 INFO (6): User::email() MESSAGE SENT
+2013-08-31 01:49:54 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: sdvdasv
+
+Email Address: anemail@address.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-31 01:49:54 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 01:49:54 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:49:54 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:49:54 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:52:23 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:52:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:52:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:52:23 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 01:52:23 INFO (6): User::email() to: no@email.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-31 01:52:24 INFO (6): User::email() MESSAGE SENT
+2013-08-31 01:52:24 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi vasvasvasv.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: no@email.com
+2013-08-31 01:52:24 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 01:52:24 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 01:52:24 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-31 01:52:24 INFO (6): User::email() MESSAGE SENT
+2013-08-31 01:52:24 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: vasvasvasv
+
+Email Address: no@email.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-31 01:52:24 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 01:52:24 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:52:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:52:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:53:23 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:53:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:53:23 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-08-31 01:53:24 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 01:53:24 INFO (6): User::email() to: asdvln@asdkvnas.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+X-Mailer: PHP/5.2.17
+2013-08-31 01:53:24 INFO (6): User::email() MESSAGE SENT
+2013-08-31 01:53:24 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi vasdvasdv.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me;
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: asdvln@asdkvnas.com
+2013-08-31 01:53:24 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 01:53:24 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-08-31 01:53:24 INFO (6): User::email() to: service@lucidmediaconcepts.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+X-Mailer: PHP/5.2.17
+2013-08-31 01:53:24 INFO (6): User::email() MESSAGE SENT
+2013-08-31 01:53:24 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: vasdvasdv
+
+Email Address: asdvln@asdkvnas.com
+
+Promo Code: 
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: service@lucidmediaconcepts.com
+2013-08-31 01:53:24 INFO (6): AutoResponse::generateMessage() SEND
+2013-08-31 01:53:24 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-08-31 01:53:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-08-31 01:53:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
