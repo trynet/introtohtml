@@ -3,11 +3,9 @@
 progress.php
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: August 16, 2013
+Modifed: August 29, 2013
 
 determine progression state after lab completion
-todo: consider splitting file into more application state
-      specific entites
 ------------------------------------------------------------*/
 require_once '../config/config.php';
 

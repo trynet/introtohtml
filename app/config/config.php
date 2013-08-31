@@ -14,8 +14,8 @@ define('JOC_DOMAIN', 'http://www.joyofcode.com/new');
 
 // email addresses
 define('EMAIL_ADMIN', 'webmaster@joyofcode.com');
-//define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
-define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
+define('EMAIL_INSTRUCTOR', 'service@lucidmediaconcepts.com');
+//define('EMAIL_INSTRUCTOR', 'bud@joyofcode.com');
 
 // promotional codes
 define('PROMO_NONE',     '');

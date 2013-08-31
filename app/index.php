@@ -4,7 +4,7 @@ index.php - 'gateway' to application by way of the application
    state
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: August 17, 2013
-Modifed: August 22, 2013
+Modifed: August 29, 2013
 ------------------------------------------------------------*/
 require_once 'config/config.php';
 
@@ -53,8 +53,9 @@ switch ($APPLICATION_STATE) {
    case SECONDARY_STATE :
       // user subscribed and finished lab two. next, they'll
       // need to finish registration and pay
-      // but first, auto-responses; these will be saved to session
-      // variables because two out of four use cases must be
+      // but first, auto-responses; these will be saved (somewhere,
+      // not session variables anymore. todo: remove 
+      // variables) because two out of four use cases must be
       // redirected to Paypal before sending our auto-response
       switch ($proceed) {
          case PROCEED_WAIT :
@@ -68,13 +69,17 @@ switch ($APPLICATION_STATE) {
             $instructor_message_id = UPLOAD_LAB2_NO_REVIEW_INSTRUCTOR;
          break;
       }
-      // session variable
+
+      // session variable todo: delete these
       $authNamespace->message_id            = $message_id;
       $authNamespace->instructor_message_id = $instructor_message_id;
 
       // if any of the following (non-immediately-paying) usertypes are using
       // the app, send the auto-response, now.
-      if (USERTYPE == USER_FREE || USERTYPE == USER_CLASSROOM) {
+      // or if a paying user deciedes to wait for Bud's review. Requirements
+      // changed again -- now paying users who decide to wait on instructor
+      // should be sent to homepage instead of PayPal.
+      if (USERTYPE == USER_FREE || USERTYPE == USER_CLASSROOM || $proceed == PROCEED_WAIT) {
          // to user
          $autoResponseObj = new AutoResponse();
          $autoResponseObj->generateMessage($message_id, $user_id);

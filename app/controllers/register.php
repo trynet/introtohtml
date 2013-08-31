@@ -4,7 +4,7 @@ register controller
 
 Author: Gbenga Ojo <service@lucidmediaconcepts.com?
 Origin Date: July 21, 2013
-Modified: August 23, 2013
+Modified: August 29, 2013
 ------------------------------------------------------------*/
 
 if (is_null($_POST['submit'])) {
@@ -43,7 +43,13 @@ if (is_null($_POST['submit'])) {
 
    // simply progress - no need for the free user to go to
    // paypal
-   if ($usertype == USER_FREE) {
+   // updated requirements -- paying users who decide to wait
+   // on instructor feedback should not be sent to Paypal
+   // until instructor decides
+   $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+   $proceed = $authNamespace->progress['proceed'];
+
+   if ($usertype == USER_FREE || $proceed == 0) {
       header('Location: /app/controllers/progress.php');
       exit();
    }
