@@ -36,8 +36,9 @@ include("../includes/header.php");
 <div id="welcome">
 
 <img src="../images/bud_hoeing.png" />
-
 <p>Why am I working so hard here?  You are going to have to do the labs to find out.</p>
+
+<p>Oh yeah, my wife Arlene told me to get rid of this rather shabby photo but you can see I haven't listened to her - yet.</p>
 
 </div>
 

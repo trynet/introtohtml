@@ -72,9 +72,9 @@ require_once '../app/config/config.php';
 
 <p>(If you've paid a third party the first two lessons won't be free but you got a discount so  you did get a break.)</p>
 
-<p>Just go through the class one step at a time by reading a Lesson then doing a hands-on Lab that exercises what you have just read. It's very structured. It took me years to develop this and it works. Don't' skip anything and do everting in order and you should do really well. Hint: HTML is not a programming language or rocket science. How do I know? Trust me, I do.</p>
+<p>Just go through the class one step at a time by reading a Lesson then doing a hands-on Lab that exercises what you have just read. It's very structured. It took me years to develop this and it works. Don't' skip anything and do everything in order and you should do really well. Hint: HTML is not a programming language or rocket science. How do I know? Trust me, I do.</p>
 
-<p>You can go through this class at your speed much like reading a book. And ff you need help with your Lab assignments it's really easy to let me know.</p>
+<p>You can go through this class at your speed much like reading a book. But if you need help with your Lab assignments it's really easy to let me know.</p>
 
 
 </section>

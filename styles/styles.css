@@ -129,6 +129,10 @@ li.current a:hover
 {color:#000060;
 background:transparent;}
 
+header nav ul li:nth-child(5)
+{padding-left:212px;
+padding-top:5px;}
+
 
 
 /* =======  Major Rules */
@@ -390,12 +394,12 @@ margin-top:20px;}
 
 div#labs 
 {float:left;
-width:33%;
+width:23%;
 margin-top:20px;}
 
 div#messages 
 {float:right;
-width:29%;
+width:39%;
 margin-top:20px;} 
 
 

@@ -55,16 +55,16 @@ include("../includes/header.php");
 
   <img src="../images/fred-and-ginger.jpg" alt="Photo Of Astaire and Rogers Dancing" id="fred" />
 
-<ul style="float:right;width:350px;">
-    <li><strong>Decide how much you want to pay</strong><br />
+<ul class="nav" style="float:right;width:350px;">
+    <li><i class="icon-play-circle PadRight5"></i><strong>Decide how much you want to pay</strong><br />
       (Minimum fee of $165 includes no-time-limit access to the material plus
       a one hour webinar)</li>
-    <li>Take advantage of<strong> reduced fees</strong> because Joy Of Code:
+    <li><i class="icon-play-circle PadRight5"></i>Take advantage of<strong> reduced fees</strong> because Joy Of Code:
       Practical CSS is in development</li>
-    <li> Schedule webinar time at your convenience</li>
-    <li>Learn at your own pace <br />
+    <li><i class="icon-play-circle PadRight5"></i>Schedule webinar time at your convenience</li>
+    <li><i class="icon-play-circle PadRight5"></i>Learn at your own pace <br />
       ( even more flexible that this workshop!!)</li>
-    <li>Create a web page template<br />
+    <li><i class="icon-play-circle PadRight5"></i>Create a web page template<br />
       (and I will give you feedback) </li>
     </ul>
     
@@ -81,7 +81,7 @@ include("../includes/header.php");
     
     <p>How to...</p>
     
-    <ul>
+    <ul class="nav">
     <li>set the font-size for your elements</li>
     <li>do float based and position based layout</li>
     <li>add background images to your design</li>
