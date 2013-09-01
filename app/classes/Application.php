@@ -26,7 +26,8 @@ class Application
     * @param: (string) current application state
     * @return: (string) next application state
     */
-   public function consumeApplicationState($application_state = null) {
+   public function consumeApplicationState($application_state = null, $user_id = null) {
+      $this->logger->log("Application::consumeApplicationState() START", Zend_Log::INFO);
       $authNamespace = new Zend_Session_Namespace('Zend_Auth');
 
       // get current application state
@@ -42,6 +43,11 @@ class Application
          case SECONDARY_STATE :
             $authNamespace->APPLICATION_STATE = TERTIARY_STATE;
          break;
+      }
+
+      if (is_numeric($user_id)) {
+         $this->logger->log("Application::consumeApplicationState() FIELDS: app_state: $application_state; user_id: $user_id", Zend_Log::INFO);
+         $this->db->update('progress', array('application_state' => $application_state + 1), "user_id = $user_id");
       }
 
       return $authNamespace->APPLICATION_STATE;
@@ -82,10 +88,15 @@ class Application
     *
     * @return: null
     */
-   public function saveApplicationState() {
-      $authNamespace = new Zend_Session_Namespace('Zend_Auth');
-      $application_state = $authNamespace->APPLICATION_STATE;
-      $user_id           = $authNamespace->storage['user_id'];
+   public function saveApplicationState($app_state = null) {
+
+      if (is_null($app_state)) {
+         $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+         $application_state = $authNamespace->APPLICATION_STATE;
+         $user_id           = $authNamespace->storage['user_id'];
+      } else {
+         $application_state = $app_state;
+      }
 
       $data = array('application_state' => $application_state);
 

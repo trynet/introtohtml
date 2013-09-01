@@ -204,7 +204,7 @@ $DEBUG = array('user_id'            => $authNamespace->storage['user_id'],
                'APPLICATION_STATE'  => $authNamespace->APPLICATION_STATE);
 
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php') {
-   if (!$_SERVER['SCRIPT_NAME'] == '/app/controllers/paypal.php') {
+   if (!($_SERVER['SCRIPT_NAME'] == '/app/controllers/paypal.php')) {
       header('Location: ' . JOC_DOMAIN . '/sign-in');
    }
 }

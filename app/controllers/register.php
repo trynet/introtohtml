@@ -30,10 +30,6 @@ if (is_null($_POST['submit'])) {
    $data = array('lastname'  => $lastname,
                  'found'     => $found,
                  'tos'       => $tos);
-/*
-echo '<pre>';
-print_r($_POST);
-print_r($data); */
 
    $result = $registrationObj->registerUser($data, USER_ID);
 
@@ -53,6 +49,11 @@ print_r($data); */
       header('Location: /app/controllers/progress.php');
       exit();
    }
+
+   // save application state
+   $applicationObj = new Application();
+   $applicationObj->saveApplicationState();
+
 
    // by now, only standard and discount users should be here,
    // all others have been filtered out by index.php and this

@@ -4,7 +4,7 @@ successful payment made (controller)
 
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 22, 2013
-Modified: August 27, 2013
+Modified: August 31, 2013
 ------------------------------------------------------------*/
 require_once '../config/config.php';
 
@@ -117,9 +117,11 @@ if (is_numeric($vars['user_id'])) {
       $workspaceObj->resetNumFilesUploaded();
       
       // consume current app state and determine next
-      $applicationObj->consumeApplicationState();
+      $applicationObj->consumeApplicationState(SECONDARY_STATE, $vars['user_id']);
    }
 } else {
+   $messageObj     = new Message();
+
    if ($usertype == USER_STANDARD) {
       $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_REVIEW_NO_PAYPAL_UG1);
    } else if ($usertype == USER_DISCOUNT) {
@@ -135,6 +137,8 @@ if (is_numeric($vars['user_id'])) {
    exit(); // fixme or todo
 }
 
+// after all the necessary changes, don't think these are necessary
+// anymore (this script is only being called in the bg by PayPal
 // header('Location: /app/controllers/progress.php');
 header('Location: /index.php'); // Paypal users return to this page, but
                                 // now, processing has already been done,

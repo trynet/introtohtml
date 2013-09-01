@@ -290,8 +290,6 @@ class Workspace {
       for ($i = 1; $i < count($files); $i++) {
          $urls[] = APPLICATION_DOMAIN . "/workspace/$clean_email/" . $files[$i];
       }
-echo 'bp1';
-echo '<pre>'; print_r($urls); die;
 
       return $urls;
    }

@@ -83,11 +83,8 @@ class AutoResponse
          $workspaceObj = new Workspace();
          $urls = print_r($workspaceObj->getFileUrls($user_id), true);
 
-         $location  = ''; // todo: Location API
-
-         $fields = print_r($data, true);
-         $urls_fields = print_r($urls);
-         $this->logger->log("AutoResponse::generateMessage() FIELDS $fields $url_fields", Zend_Log::INFO);
+         /* ----  todo: Location API ---- */
+         $location  = '';
 
          // get message from db, filesystem, define $message in $file and require
          $query  = "SELECT `filename` FROM autoresponse WHERE `autoresponse_id` = ?";

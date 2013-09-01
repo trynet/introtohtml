@@ -152,8 +152,16 @@ class User
          $n = $this->db->update(TBL_USER, array('logged_in' => 0), "user_id = $user_id");
 
          // save application state
+         $query = "SELECT application_state FROM progress WHERE user_id = ?";
+         $db_app_state = $this->db->fetchOne($query, $user_id);
+
+         $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+         $session_app_state = $authNamespace->APPLICATION_STATE;
+
+         $app_state = max($db_app_state, $session_app_state);
+
          $applicationObj = new Application();
-         $applicationObj->saveApplicationState();
+         $applicationObj->saveApplicationState($app_state);
 
          return true;
       } catch (Exception $e) {
