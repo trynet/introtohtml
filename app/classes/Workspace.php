@@ -287,9 +287,11 @@ class Workspace {
       $files = $this->getFileNames($user_id);
       $clean_email = $this->getCleanEmail($user_id);
 
-      for ($i = 1; $i <= count($files) - 2; $i++) {
+      for ($i = 1; $i < count($files); $i++) {
          $urls[] = APPLICATION_DOMAIN . "/workspace/$clean_email/" . $files[$i];
       }
+echo 'bp1';
+echo '<pre>'; print_r($urls); die;
 
       return $urls;
    }

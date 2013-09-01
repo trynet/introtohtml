@@ -56,7 +56,7 @@ if (strlen($email) > 3) {
          // auto-response depending on promotional code
          $autoResponseObj = new AutoResponse();
 
-         switch ($promocode) {
+         switch ($promocode['promocode']) {
             case PROMO_EFA :
                $message_id = REGISTER_PROMO_EFA;
                $authNamespace->homepage_message = $messageObj->getMessage(FIRST_LOGIN_UG2);

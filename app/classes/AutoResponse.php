@@ -70,11 +70,24 @@ class AutoResponse
          $css       = ($css == 1)       ? 'CSS'  : '';
          $wordpress = ($wordpress == 1) ? 'WP'   : '';
 
+         $data = array('firstname' => $firstname,
+                       'lastname'  => $lastname,
+                       'email'     => $email,
+                       'promo'     => $promo,
+                       'found'     => $found,
+                       'html'      => $html,
+                       'css'       => $css,
+                       'wordpress' => $wordpress);
+
          // urls
          $workspaceObj = new Workspace();
          $urls = print_r($workspaceObj->getFileUrls($user_id), true);
 
          $location  = ''; // todo: Location API
+
+         $fields = print_r($data, true);
+         $urls_fields = print_r($urls);
+         $this->logger->log("AutoResponse::generateMessage() FIELDS $fields $url_fields", Zend_Log::INFO);
 
          // get message from db, filesystem, define $message in $file and require
          $query  = "SELECT `filename` FROM autoresponse WHERE `autoresponse_id` = ?";

@@ -4,7 +4,7 @@ register controller
 
 Author: Gbenga Ojo <service@lucidmediaconcepts.com?
 Origin Date: July 21, 2013
-Modified: August 29, 2013
+Modified: August 31, 2013
 ------------------------------------------------------------*/
 
 if (is_null($_POST['submit'])) {
@@ -21,19 +21,19 @@ if (is_null($_POST['submit'])) {
    $registrationObj = new Registration();
 
    $firstname = htmlspecialchars($_POST['firstname']);
-   $lastname  = htmlspecialchars($_POST['lastname']);
+   $lastname  = htmlspecialchars($_POST['lastName']);
    $email     = htmlspecialchars($_POST['email']);
    $found     = htmlspecialchars($_POST['found']);
- //$subscribe = htmlspecialchars($_POST['subscribe']);
- //$promo     = htmlspecialchars($_POST['promo']);
    $tos       = htmlspecialchars($_POST['tos']);
    $submit    = htmlspecialchars($_POST['submit']);
 
    $data = array('lastname'  => $lastname,
                  'found'     => $found,
-               //'subscribe' => $subscribe,
-               //'promo'     => $promo,
                  'tos'       => $tos);
+/*
+echo '<pre>';
+print_r($_POST);
+print_r($data); */
 
    $result = $registrationObj->registerUser($data, USER_ID);
 
