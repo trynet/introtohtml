@@ -120,7 +120,7 @@ echo '<pre>'; print_r($DEBUG); echo '</pre>';
                     <div class="form-inline">
 <p>Do you accept the <a href="frontoffice/tos.html" target="_blank">Terms Of Service</a>?</p>
   <label class="checkbox">Yes
-    <input type="checkbox" name="SubscribeBlog" value="HTML" checked> 
+    <input type="checkbox" name="tos" value="yes" checked> 
 </label>  
 
 </div>

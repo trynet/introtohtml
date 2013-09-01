@@ -31,6 +31,11 @@ if (is_null($_POST['submit'])) {
                  'found'     => $found,
                  'tos'       => $tos);
 
+   if ($lastname == '' || $found == '' || $tos == '') {
+      header('Location: /register.php');
+      exit();
+   }
+
    $result = $registrationObj->registerUser($data, USER_ID);
 
    if ($result) {
