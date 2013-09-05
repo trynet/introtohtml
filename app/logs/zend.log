@@ -31076,3 +31076,5 @@ ProgressController() PROGRESSION = 1
 2013-09-05 01:16:44 INFO (6): Workspace::getWorkspaceData() READING FILES
 2013-09-05 01:16:44 INFO (6): Workspace::getWorkspaceData() FILES READ
 2013-09-05 01:16:44 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-09-05 01:28:22 INFO (6): Progress::setProgress() USER_ID = 350
+2013-09-05 01:28:22 INFO (6): Progress::setProgress() UPDATED = 1

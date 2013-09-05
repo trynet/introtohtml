@@ -120,6 +120,15 @@ switch ($APPLICATION_STATE) {
       $authNamespace->message_id            = $message_id;
       $authNamespace->instructor_message_id = $instructor_message_id;
 
+      // if paying, but waiting for review, send to homepage (altered requirements)
+      if ((USERTYPE == USER_STANDARD || USERTYPE == USER_DISCOUNT) && $proceed == PROCEED_WAIT) {
+         $data = array('proceed' => $proceed);
+         $progressObj->setProgress(USER_ID, $data);
+
+         header('Location: /index.php');
+         exit();
+      }
+
       // if any of the following (non-immediately-paying) usertypes are using
       // the app, send the auto-response, now.
       // or if a paying user deciedes to wait for Bud's review. Requirements
