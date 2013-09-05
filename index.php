@@ -1,6 +1,14 @@
 <?php
 require_once 'app/config/config.php';
 require_once 'controllers/schedule.php';
+
+if (!(file_exists(APPLICATION_PATH . '/' . $authNamespace->homepage_message))) {
+   $messageObj = new Message();
+   $message = $messageObj->getMessage(DEFAULT_MESSAGE);
+} else {
+   $message = $authNamespace->homepage_message;
+}
+
 echo '<pre>';
 print_r($DEBUG);
 echo '</pre>';
@@ -10,7 +18,12 @@ echo '</pre>';
 <html>
 <head>
    <title>Joy Of Code: Intro To HTML -  Home Room</title>
+
+
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
    <link rel="stylesheet" href="styles/styles.css" />
+
    
    <link rel="icon" href="images/favicon.ico" type="image/ico"/>
    <link rel="icon" href="images/favicon.gif" type="image/gif"/>
@@ -93,7 +106,7 @@ echo '</pre>';
 <div id="messages" class="thumbnail">
 <h2>Messages</h2>
 
-<?php include $authNamespace->homepage_message ?>
+<?php include $message ?>
 
 <!--<p><?php echo $firstname ?>, right now, you don't have any. But stay alert and check here for updates. </p>
 

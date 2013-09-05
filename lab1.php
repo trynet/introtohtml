@@ -11,11 +11,16 @@
 <title>Lab 1 - Hello World - Directions</title>
 
 
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+   <link rel="stylesheet" href="styles/styles.css" />
+
+
    <link rel="icon" href="images/favicon.ico" type="image/ico"/>
    <link rel="icon" href="images/favicon.gif" type="image/gif"/>
    <link rel="icon" href="images/favicon.png" type="image/png"/>
 
-<link rel="stylesheet" href="styles/styles.css" />
+
 
 
 

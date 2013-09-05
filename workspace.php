@@ -121,11 +121,11 @@ echo '</pre>';
                   <div class="control-group">
     <label class="control-label" for="findFile">Find Your File</label>
     <div class="controls">
-       <div class="input-prepend">
+
 <span class="add-on"><i class="icon-eye-open"></i></span>
 <!--    <input type="text" id="findFile" name="firstName" placeholder="First Name" class="input-medium">-->
       <input type="file" id="findFile" name="fileupload" />
-    </div>
+
     </div>
     </div>
                

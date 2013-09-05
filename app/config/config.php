@@ -204,10 +204,12 @@ $DEBUG = array('user_id'            => $authNamespace->storage['user_id'],
                'APPLICATION_STATE'  => $authNamespace->APPLICATION_STATE);
 
 // if no message file, use default
+/*
 if (!(file_exists($authNamespace->homepage_message))) {
    $messageObj = new Message();
    $authNamespace->homepage_message = $messageObj->getMessage(DEFAULT_MESSAGE);
 }
+*/
 
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php') {
    if (!($_SERVER['SCRIPT_NAME'] == '/app/controllers/paypal.php')) {

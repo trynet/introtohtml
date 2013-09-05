@@ -381,3 +381,53 @@ Stack trace:
 [31-Aug-2013 21:05:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php:62) in /home1/joyofcod/public_html/_dev_intro/app/controllers/paypal.php on line 143
 [31-Aug-2013 21:09:27] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/auto_response/.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/AutoResponse.php on line 94
 [31-Aug-2013 21:09:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php:62) in /home1/joyofcod/public_html/_dev_intro/app/controllers/paypal.php on line 143
+[01-Sep-2013 05:18:33] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[01-Sep-2013 05:19:11] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[01-Sep-2013 05:22:50] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 06:45:56] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 07:11:52] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 07:34:11] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 07:53:41] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 08:10:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/auto_response/.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/AutoResponse.php on line 94
+[02-Sep-2013 08:10:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php:62) in /home1/joyofcod/public_html/_dev_intro/app/controllers/paypal.php on line 143
+[02-Sep-2013 08:33:10] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 08:41:39] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 08:52:28] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/auto_response/.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear:/home1/joyofcod:/home1/joyofcod/public_html/_dev_intro/app') in /home1/joyofcod/public_html/_dev_intro/app/classes/AutoResponse.php on line 94
+[02-Sep-2013 08:52:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joyofcod/public_html/_dev_intro/app/classes/Paypal.php:62) in /home1/joyofcod/public_html/_dev_intro/app/controllers/paypal.php on line 143
+[02-Sep-2013 09:36:30] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 09:41:39] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[02-Sep-2013 09:41:57] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 09:41:57] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[02-Sep-2013 09:42:16] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 09:42:16] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[02-Sep-2013 09:43:02] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 09:43:02] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[02-Sep-2013 09:44:35] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 09:44:35] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[02-Sep-2013 09:44:52] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 09:44:52] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[02-Sep-2013 09:45:54] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[02-Sep-2013 09:50:44] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 09:50:44] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[02-Sep-2013 11:06:47] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[02-Sep-2013 15:41:37] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 23:26:31] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[02-Sep-2013 23:26:31] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[02-Sep-2013 23:44:34] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[03-Sep-2013 04:52:42] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[03-Sep-2013 05:12:46] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[03-Sep-2013 05:20:45] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[03-Sep-2013 05:27:28] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[03-Sep-2013 08:57:41] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[03-Sep-2013 08:57:41] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[03-Sep-2013 08:57:44] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[03-Sep-2013 08:57:44] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[03-Sep-2013 08:57:45] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[03-Sep-2013 08:57:45] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[03-Sep-2013 15:37:54] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[03-Sep-2013 15:37:54] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[03-Sep-2013 15:38:11] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[03-Sep-2013 15:38:11] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[03-Sep-2013 15:57:40] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home1/joyofcod/public_html/_dev_intro/app/classes/Workspace.php on line 148
+[03-Sep-2013 15:57:40] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
+[03-Sep-2013 15:58:35] PHP Parse error:  syntax error, unexpected $end in /home1/joyofcod/public_html/_dev_intro/app/includes/auto_response/REGISTER_CLASSROOM_INSTRUCTOR.php on line 12
