@@ -3,7 +3,7 @@
 Application - mainly to consume and adjust application state
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: August 17, 2013
-Modifed: August 18, 2013
+Modifed: Septempter 7, 2013
 
 construct
 ------------------------------------------------------------*/
@@ -84,7 +84,7 @@ class Application
    }
 
    /**
-    * save application state
+    * save application state (single application state variable in progress tables)
     *
     * @return: null
     */
@@ -105,6 +105,55 @@ class Application
       } catch (Exception $e) {
          $dbLoggerObj = new DbLogger($e);
          $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
+      }
+   }
+
+   /**
+    * save all relevant application state variables in newly created state table
+    *
+    * @param: (array)
+    */
+   public function saveState($data) {
+      if (!is_numeric($data['user_id']))
+         return;
+
+      $this->logger->log("Application::saveState() SAVING...", Zend_Log::INFO);
+      try {
+         $query = "SELECT `user_id` FROM `app_state` WHERE user_id = ?";
+         $user_id = $this->db->fetchOne($query, $data['user_id']);
+
+         $var = print_r($data, true);
+         if (is_numeric($user_id)) {
+            $n = $this->db->update('app_state', $data, "user_id = $user_id");
+            $this->logger->log("Application::saveState() SAVING...UPDATING $var", Zend_Log::INFO);
+         } else {
+            $this->db->insert('app_state', $data);
+            $this->logger->log("Application::saveState() SAVING...INSERTING $var", Zend_Log::INFO);
+         }
+      } catch (Exception $e) {
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
+      }
+   }
+
+   /**
+    * get arbitrary field
+    *
+    * @param: (int) user_id,
+    * @param: (string) field name
+    * @return: (mixed) field value
+    */
+   public function getField($field, $user_id) {
+      try {
+         $query = "SELECT `$field` FROM app_state WHERE user_id = ?";
+         $result = $this->db->fetchOne($query, $user_id);
+
+         return $result;
+      } catch (Exception $e) {
+         $dbLoggerObj = new DbLogger($e);
+         $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
+
+         return false;
       }
    }
 }

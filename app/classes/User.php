@@ -121,6 +121,7 @@ class User
       $auth        = Zend_Auth::getInstance();
       $result      = $auth->authenticate($authAdapter);
       $identity    = $auth->getIdentity();
+      $user_id = $identity['user_id'];
 
       if ($result->isValid() || $sso == true) {
          // presist to session
@@ -128,8 +129,8 @@ class User
          $authNamespace->logged_in = true;
 
          // application state
+         $applicationObj = new Application();
          if (is_null($authNamespace->APPLICATION_STATE)) {
-            $applicationObj = new Application();
             $application_state = $applicationObj->getApplicationState($identity['user_id']);
             $authNamespace->APPLICATION_STATE = $application_state;
          } 
@@ -138,6 +139,29 @@ class User
          $progressObj             = new Progress();
          $progress                = $progressObj->getProgress($identity['user_id']);
          $authNamespace->progress = $progress;
+
+         /*------------------------------------------------------------------------
+         "Fail-safe" to obtain application state values, several of which have
+         fluctuated in requirements over the course of development. Refactoring is
+         quite necessary -- see config/config.php for notes
+         -------------------------------------------------------------------------*/
+         if (empty($authNamespace->storage['usertype']))
+            $authNamespace->storage['usertype']     = $applicationObj->getField('usertype', $user_id);
+         if (empty($authNamespace->storage['promo']))
+            $authNamespace->storage['promo']        = $applicationObj->getField('promotional_code', $user_id); 
+         if (empty($authNamespace->progress['progression']))
+            $authNamespace->progress['progression'] = $applicationObj->getField('progression', $user_id);
+         if (empty($authNamespace->progress['proceed']))
+            $authNamespace->progress['proceed']     = $applicationObj->getField('proceed', $user_id);
+         if (empty($authNamespace->num_files_uploaded))
+            $authNamespace->num_files_uploaded      = $applicationObj->getField('num_files_uploaded', $user_id);
+         if (empty($authNamespace->homepage_message))
+            $authNamespace->homepage_message        = $applicationObj->getField('message', $user_id);
+         if (empty($authNamespace->APPLICATION_STATE))
+            $authNamespace->APPLICATION_STATE       = $applicationObj->getField('application_state', $user_id);
+
+         // log message
+         $this->logger->log('User::authenticateUser() - REDUNDANT APPLICATION STATE CHECK OK', Zend_Log::INFO);
       }
    }
 

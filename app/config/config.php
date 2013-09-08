@@ -190,8 +190,7 @@ define('USER_ID', $user_id);
 define('USERTYPE', $authNamespace->storage['usertype']);
 $firstname = $authNamespace->storage['firstname'];
 $email     = $authNamespace->storage['email'];
-
-// set application state
+$authNamespace->homepage_message = 'includes/messages/DEFAULT_MESSAGE.php';
 
 /* debug */
 $DEBUG = array('user_id'            => $authNamespace->storage['user_id'],
@@ -203,14 +202,20 @@ $DEBUG = array('user_id'            => $authNamespace->storage['user_id'],
                'message'            => $authNamespace->homepage_message,
                'APPLICATION_STATE'  => $authNamespace->APPLICATION_STATE);
 
-// if no message file, use default
-/*
-if (!(file_exists($authNamespace->homepage_message))) {
-   $messageObj = new Message();
-   $authNamespace->homepage_message = $messageObj->getMessage(DEFAULT_MESSAGE);
-}
-*/
+/*------------------------------------------------------------------------
+Persist application state to database during each
+HTTP transaction. The application's scope has grown incredibly
+since the original design, and I've found this step to be quite
+necessary. Upon logging in, all session variables will be initialized
+using these values.
+-------------------------------------------------------------------------*/
+$data = $DEBUG;               /*-----------------------------------------*/
+                              /*-----------------------------------------*/
+$appObj = new Application();  /*-----------------------------------------*/ 
+$appObj->saveState($data);    /*-----------------------------------------*/
+/*----------------------------/*----------- end persist to db -----------*/
 
+// redirect if not logged in or coming from PayPal IPN
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php') {
    if (!($_SERVER['SCRIPT_NAME'] == '/app/controllers/paypal.php')) {
       header('Location: ' . JOC_DOMAIN . '/sign-in');

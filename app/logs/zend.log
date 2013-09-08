@@ -32078,3 +32078,860 @@ EMAIL: bud@joyofcode.com
 2013-09-08 01:39:05 INFO (6): AuthAdapter::authenticate() SSO CONDITION
 2013-09-08 01:39:05 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
 2013-09-08 01:39:05 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-09-08 02:33:18 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:33:18 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'num_files_uploaded' in 'field list'
+Array
+(
+    [0] => INSERT INTO `state` (`user_id`, `usertype`, `promotional_code`, `progression`, `proceed`, `num_files_uploaded`, `message`, `APPLICATION_STATE`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 356
+            [1] => 2
+            [2] => 
+            [3] => 1
+            [4] => 1
+            [5] => 
+            [6] => includes/messages/FIRST_LOGIN_UG1.php
+            [7] => 
+        )
+
+)
+
+2013-09-08 02:33:18 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 02:33:18 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 02:34:20 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:34:20 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'num_files_uploaded' in 'field list'
+Array
+(
+    [0] => INSERT INTO `state` (`user_id`, `usertype`, `promotional_code`, `progression`, `proceed`, `num_files_uploaded`, `message`, `APPLICATION_STATE`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 356
+            [1] => 2
+            [2] => 
+            [3] => 1
+            [4] => 1
+            [5] => 
+            [6] => includes/messages/FIRST_LOGIN_UG1.php
+            [7] => 
+        )
+
+)
+
+2013-09-08 02:37:48 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:37:49 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'num_files_uploaded' in 'field list'
+Array
+(
+    [0] => INSERT INTO `state` (`user_id`, `usertype`, `promotional_code`, `progression`, `proceed`, `num_files_uploaded`, `message`, `APPLICATION_STATE`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 356
+            [1] => 2
+            [2] => 
+            [3] => 1
+            [4] => 1
+            [5] => 
+            [6] => includes/messages/FIRST_LOGIN_UG1.php
+            [7] => 
+        )
+
+)
+
+2013-09-08 02:37:49 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 02:37:49 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 02:38:35 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:38:35 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'num_files_uploaded' in 'field list'
+Array
+(
+    [0] => INSERT INTO `state` (`user_id`, `usertype`, `promotional_code`, `progression`, `proceed`, `num_files_uploaded`, `message`, `APPLICATION_STATE`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 356
+            [1] => 2
+            [2] => 
+            [3] => 1
+            [4] => 1
+            [5] => 
+            [6] => includes/messages/FIRST_LOGIN_UG1.php
+            [7] => 
+        )
+
+)
+
+2013-09-08 02:38:35 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 02:38:35 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 02:39:12 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:39:12 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'num_files_uploaded' in 'field list'
+Array
+(
+    [0] => INSERT INTO `state` (`user_id`, `usertype`, `promotional_code`, `progression`, `proceed`, `num_files_uploaded`, `message`, `APPLICATION_STATE`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 356
+            [1] => 2
+            [2] => 
+            [3] => 1
+            [4] => 1
+            [5] => 
+            [6] => includes/messages/FIRST_LOGIN_UG1.php
+            [7] => 
+        )
+
+)
+
+2013-09-08 02:39:12 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 02:39:12 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 02:39:39 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:39:39 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'num_files_uploaded' in 'field list'
+Array
+(
+    [0] => INSERT INTO `state` (`user_id`, `usertype`, `promotional_code`, `progression`, `proceed`, `num_files_uploaded`, `message`, `APPLICATION_STATE`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 356
+            [1] => 2
+            [2] => 
+            [3] => 1
+            [4] => 1
+            [5] => 
+            [6] => includes/messages/FIRST_LOGIN_UG1.php
+            [7] => 
+        )
+
+)
+
+2013-09-08 02:39:39 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 02:39:39 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 02:39:55 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:39:55 ERR (3): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'num_files_uploaded' in 'field list'
+Array
+(
+    [0] => INSERT INTO `state` (`user_id`, `usertype`, `promotional_code`, `progression`, `proceed`, `num_files_uploaded`, `message`, `APPLICATION_STATE`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 356
+            [1] => 2
+            [2] => 
+            [3] => 1
+            [4] => 1
+            [5] => 
+            [6] => includes/messages/FIRST_LOGIN_UG1.php
+            [7] => 
+        )
+
+)
+
+2013-09-08 02:39:55 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 02:39:55 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 02:45:13 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:45:13 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 02:45:13 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 02:46:06 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:46:06 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '356' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `state` (`user_id`, `usertype`, `promotional_code`, `progression`, `proceed`, `num_files_uploaded`, `message`, `APPLICATION_STATE`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 356
+            [1] => 2
+            [2] => 
+            [3] => 1
+            [4] => 1
+            [5] => 
+            [6] => includes/messages/FIRST_LOGIN_UG1.php
+            [7] => 
+        )
+
+)
+
+2013-09-08 02:46:06 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-09-08 02:46:07 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:46:07 ERR (3): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '356' for key 'PRIMARY'
+Array
+(
+    [0] => INSERT INTO `state` (`user_id`, `usertype`, `promotional_code`, `progression`, `proceed`, `num_files_uploaded`, `message`, `APPLICATION_STATE`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    [1] => Array
+        (
+            [0] => 356
+            [1] => 2
+            [2] => 
+            [3] => 1
+            [4] => 1
+            [5] => 1
+            [6] => includes/messages/FIRST_LOGIN_UG1.php
+            [7] => 
+        )
+
+)
+
+2013-09-08 02:46:07 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 02:46:07 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 02:46:07 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-09-08 02:47:24 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:47:24 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 02:47:24 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 02:47:24 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-09-08 02:48:24 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:48:24 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-09-08 02:48:25 INFO (6): Application::saveState() SAVING...
+2013-09-08 02:48:25 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 02:48:25 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 02:48:25 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-09-08 03:06:57 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:06:57 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-09-08 03:07:51 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:07:51 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-09-08 03:07:51 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:07:51 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 03:07:51 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 03:07:51 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-09-08 03:08:34 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:08:34 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 03:08:34 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 03:08:34 INFO (6): Workspace::minFilesUploaded() TRUE
+2013-09-08 03:09:10 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:09:10 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-09-08 03:09:10 INFO (6): User::email() to: gbenga@noemail.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+Cc: introtohtml@lucidmediaconcepts.com
+X-Mailer: PHP/5.2.17
+2013-09-08 03:09:10 INFO (6): User::email() MESSAGE SENT
+2013-09-08 03:09:10 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Gbenga.
+
+So how did that first page go? Hopefully, not that bad but I see that you want me to have a look.
+
+Give me 48 hours to take a look and I'll let you know my thoughts. Lots of times I get back to students real quick.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: I see you uploaded your first .html file
+EMAIL: gbenga@noemail.com
+2013-09-08 03:09:10 INFO (6): AutoResponse::generateMessage() SEND
+2013-09-08 03:09:10 INFO (6): Progress::setProgress() USER_ID = 356
+2013-09-08 03:09:10 INFO (6): Progress::setProgress() UPDATED = 1
+2013-09-08 03:09:32 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:09:32 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-09-08 03:09:32 INFO (6): User::email() to: gbenga@noemail.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+Cc: introtohtml@lucidmediaconcepts.com
+X-Mailer: PHP/5.2.17
+2013-09-08 03:09:33 INFO (6): User::email() MESSAGE SENT
+2013-09-08 03:09:33 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi again, Gbenga.
+
+So how did that first page go? Hopefully, not that bad but I see that you want me to have a look.
+
+Give me 48 hours to take a look and I'll let you know my thoughts. Lots of times I get back to students real quick.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: I see you uploaded your first .html file
+EMAIL: gbenga@noemail.com
+2013-09-08 03:09:33 INFO (6): AutoResponse::generateMessage() SEND
+2013-09-08 03:09:33 INFO (6): Progress::setProgress() USER_ID = 356
+2013-09-08 03:09:33 INFO (6): Progress::setProgress() UPDATED = 0
+2013-09-08 03:09:33 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:11:48 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:11:48 INFO (6): Application::saveState() SAVING...UPDATING
+2013-09-08 03:12:23 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:12:23 INFO (6): Application::saveState() SAVING...UPDATING
+2013-09-08 03:12:25 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:12:25 INFO (6): Application::saveState() SAVING...UPDATING
+2013-09-08 03:12:26 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:12:26 INFO (6): Application::saveState() SAVING...UPDATING
+2013-09-08 03:12:51 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:12:51 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 356
+    [usertype] => 2
+    [promotional_code] => 
+    [progression] => 1
+    [proceed] => 0
+    [num_files_uploaded] => 4
+    [message] => includes/messages/POST_P1_REVIEW_UG1.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:15:43 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:15:43 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 356
+    [usertype] => 2
+    [promotional_code] => 
+    [progression] => 1
+    [proceed] => 0
+    [num_files_uploaded] => 4
+    [message] => includes/messages/POST_P1_REVIEW_UG1.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:15:49 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:15:49 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 356
+    [usertype] => 2
+    [promotional_code] => 
+    [progression] => 1
+    [proceed] => 0
+    [num_files_uploaded] => 4
+    [message] => includes/messages/POST_P1_REVIEW_UG1.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:16:53 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:16:53 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 356
+    [usertype] => 2
+    [promotional_code] => 
+    [progression] => 1
+    [proceed] => 0
+    [num_files_uploaded] => 4
+    [message] => includes/messages/POST_P1_REVIEW_UG1.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:18:48 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:18:48 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 356
+    [usertype] => 2
+    [promotional_code] => 
+    [progression] => 1
+    [proceed] => 0
+    [num_files_uploaded] => 4
+    [message] => includes/messages/POST_P1_REVIEW_UG1.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:18:52 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:18:52 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 356
+    [usertype] => 2
+    [promotional_code] => 
+    [progression] => 1
+    [proceed] => 0
+    [num_files_uploaded] => 4
+    [message] => includes/messages/POST_P1_REVIEW_UG1.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:19:09 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:19:09 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 356
+    [usertype] => 2
+    [promotional_code] => 
+    [progression] => 1
+    [proceed] => 0
+    [num_files_uploaded] => 4
+    [message] => includes/messages/POST_P1_REVIEW_UG1.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:19:27 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-09-08 03:19:27 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-09-08 03:19:27 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-09-08 03:19:27 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-09-08 03:19:27 INFO (6): User::email() to: gbenga@anemail.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+Cc: introtohtml@lucidmediaconcepts.com
+X-Mailer: PHP/5.2.17
+2013-09-08 03:19:27 INFO (6): User::email() MESSAGE SENT
+2013-09-08 03:19:27 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Gbenga.
+
+Thanks for choosing Intro To HTML.
+
+I'm really excited to see that you're going to be learning HTML with me!!
+
+You probably saw that the first 2 Lessons and Labs are complete freebies. I will help you out if you need it but there's a pretty good chance that you won't need much of my help to get started. The first Lesson is an ice breaker. It will give you a chance to make your first simple web page and upload it to your Work Space. If you want you can just move on to the next Lesson or you can wait for my review of your page.
+
+So just get started. It's a lot of fun. You'll see that HTML is no mysterious thing. It's got just a few rules to learn and once you do you'll be flying!
+
+Oh yeah, click around in my Front Office section. You'll get lots of information about how to do the class and more.
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Now for some really good news!! 
+
+Because you are taking the class as a member of the Editorial Freelancers Association you are going to be enrolling at a reduced fee!! Bud of course, you don't pay for anything until you're ready for Lesson 3.
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: Getting Started With Learning HTML
+EMAIL: gbenga@anemail.com
+2013-09-08 03:19:27 INFO (6): AutoResponse::generateMessage() SEND
+2013-09-08 03:19:27 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-09-08 03:19:27 INFO (6): User::email() to: bud@joyofcode.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+Cc: introtohtml@lucidmediaconcepts.com
+X-Mailer: PHP/5.2.17
+2013-09-08 03:19:27 INFO (6): User::email() MESSAGE SENT
+2013-09-08 03:19:27 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Gbenga
+
+Email Address: gbenga@anemail.com
+
+Promo Code: gag
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: bud@joyofcode.com
+2013-09-08 03:19:27 INFO (6): AutoResponse::generateMessage() SEND
+2013-09-08 03:19:28 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:19:28 INFO (6): Application::saveState() SAVING...INSERTING Array
+(
+    [user_id] => 357
+    [usertype] => 
+    [promotional_code] => gag
+    [progression] => 
+    [proceed] => 
+    [num_files_uploaded] => 
+    [message] => includes/messages/FIRST_LOGIN_UG2.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:19:28 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-09-08 03:19:28 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-09-08 03:19:28 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-09-08 03:19:28 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:19:28 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 357
+    [usertype] => 3
+    [promotional_code] => gag
+    [progression] => 1
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => includes/messages/FIRST_LOGIN_UG2.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:19:54 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:19:54 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 357
+    [usertype] => 3
+    [promotional_code] => gag
+    [progression] => 1
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => includes/messages/FIRST_LOGIN_UG2.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:20:10 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-09-08 03:20:10 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-09-08 03:20:10 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-09-08 03:20:11 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:20:11 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 357
+    [usertype] => 3
+    [promotional_code] => gag
+    [progression] => 1
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => 
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:20:48 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:20:48 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 357
+    [usertype] => 3
+    [promotional_code] => gag
+    [progression] => 1
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => 
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:20:48 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `progress` SET `application_state` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+2013-09-08 03:21:19 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-09-08 03:21:19 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-09-08 03:21:19 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-09-08 03:21:19 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-09-08 03:21:19 INFO (6): User::email() to: cheese@its.com, from: Bud Kraus <bud@joyofcode.com>
+headers:
+From: Bud Kraus <bud@joyofcode.com>
+Cc: introtohtml@lucidmediaconcepts.com
+X-Mailer: PHP/5.2.17
+2013-09-08 03:21:20 INFO (6): User::email() MESSAGE SENT
+2013-09-08 03:21:20 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+Hi Cheese.
+
+Thanks for continuing on with Intro To HTML which I also call the Joy Of Code Extension.
+
+I'm really excited to see that you're going on with learning more HTML with me!
+
+And since you've already paid you'll see that Lesson and Lab 7 is ready for you to complete so just get started. You'll see that this works a lot like the FIT class. 
+
+When you need to log back into the class just go to http://www.joyofcode.com/sign-in/. Your user id is your email address and I hope you remembered your password.
+
+Oh yeah, is it ok if I add your name to the subscribers of my Joy Of Code blog where I write about - what else? - HTML, CSS and WordPress. 
+
+Let me know if I can help you in any way. I am here to make this an enJoyable learning experience for you like I have for lots of people.
+
+Bud Kraus
+New York City Web Design Instructor
+Joy Of Code
+www.joyofcode.com
+973 479 2914
+
+Learn HTML, CSS and WordPress Online With Me
+
+SUBJECT: Continuing On With Lesson 7 From The FIT Class
+EMAIL: cheese@its.com
+2013-09-08 03:21:20 INFO (6): AutoResponse::generateMessage() SEND
+2013-09-08 03:21:20 INFO (6): AutoResponse::generateMessage() BEGIN TRY BLOCK
+2013-09-08 03:21:20 INFO (6): User::email() to: bud@joyofcode.com, from: webmaster@joyofcode.com
+headers:
+From: webmaster@joyofcode.com
+Cc: introtohtml@lucidmediaconcepts.com
+X-Mailer: PHP/5.2.17
+2013-09-08 03:21:20 INFO (6): User::email() MESSAGE SENT
+2013-09-08 03:21:20 INFO (6): AutoResponse::sendMessage() MESSAGE
+
+First Name: Cheese
+
+Email Address: cheese@its.com
+
+Promo Code: fit
+
+Location: 
+
+SUBJECT: New Registration
+EMAIL: bud@joyofcode.com
+2013-09-08 03:21:20 INFO (6): AutoResponse::generateMessage() SEND
+2013-09-08 03:21:20 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:21:20 INFO (6): Application::saveState() SAVING...INSERTING Array
+(
+    [user_id] => 358
+    [usertype] => 
+    [promotional_code] => fit
+    [progression] => 
+    [proceed] => 
+    [num_files_uploaded] => 
+    [message] => includes/messages/FIRST_LOGIN_UG4.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:21:20 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-09-08 03:21:20 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-09-08 03:21:20 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-09-08 03:21:20 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:21:20 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => includes/messages/FIRST_LOGIN_UG4.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:21:47 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:21:47 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => includes/messages/FIRST_LOGIN_UG4.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:21:47 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 03:21:47 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 03:22:04 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:22:04 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => includes/messages/FIRST_LOGIN_UG4.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:22:04 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-09-08 03:22:04 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:22:04 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 1
+    [message] => includes/messages/FIRST_LOGIN_UG4.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:22:04 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 03:22:04 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 03:22:11 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:22:11 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 1
+    [message] => includes/messages/FIRST_LOGIN_UG4.php
+    [APPLICATION_STATE] => 
+)
+
+2013-09-08 03:22:24 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-09-08 03:22:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-09-08 03:22:24 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-09-08 03:22:24 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:22:24 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => 
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:42:39 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:42:39 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => 
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:43:58 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:43:58 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => includes/messages/DEFAULT_MESSAGE.php
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:44:06 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:44:06 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => includes/messages/DEFAULT_MESSAGE.php
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:44:06 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `progress` SET `application_state` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+2013-09-08 03:44:15 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-09-08 03:44:15 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-09-08 03:44:15 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-09-08 03:45:07 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:45:07 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => includes/messages/DEFAULT_MESSAGE.php
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:45:07 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-09-08 03:45:07 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-09-08 03:45:07 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-09-08 03:45:07 INFO (6): User::authenticateUser() - REDUNDANT APPLICATION STATE CHECK OK
+2013-09-08 03:45:08 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:45:08 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => includes/messages/DEFAULT_MESSAGE.php
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:45:17 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:45:17 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => includes/messages/DEFAULT_MESSAGE.php
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:45:17 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 03:45:17 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 03:45:30 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:45:30 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 
+    [message] => includes/messages/DEFAULT_MESSAGE.php
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:45:30 INFO (6): Workspace::uploadFile() FILE UPLOADED
+2013-09-08 03:45:31 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:45:31 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 1
+    [message] => includes/messages/DEFAULT_MESSAGE.php
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:45:31 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 03:45:31 INFO (6): Workspace::getWorkspaceData() FILES READ
+2013-09-08 03:45:37 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:45:37 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 1
+    [message] => includes/messages/DEFAULT_MESSAGE.php
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:45:37 ERR (3): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Array
+(
+    [0] => UPDATE `progress` SET `application_state` = ? WHERE (user_id = )
+    [1] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+2013-09-08 03:45:47 INFO (6): AuthAdapter::authenticate() SSO CONDITION
+2013-09-08 03:45:47 INFO (6): AuthAdapter::authenticate() AUTHENTICATING
+2013-09-08 03:45:47 INFO (6): AuthAdapter::authenticate() AUTHENTICATED
+2013-09-08 03:45:47 INFO (6): User::authenticateUser() - REDUNDANT APPLICATION STATE CHECK OK
+2013-09-08 03:45:48 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:45:48 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 1
+    [message] => includes/messages/DEFAULT_MESSAGE.php
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:45:53 INFO (6): Application::saveState() SAVING...
+2013-09-08 03:45:53 INFO (6): Application::saveState() SAVING...UPDATING Array
+(
+    [user_id] => 358
+    [usertype] => 5
+    [promotional_code] => fit
+    [progression] => 7
+    [proceed] => 1
+    [num_files_uploaded] => 1
+    [message] => includes/messages/DEFAULT_MESSAGE.php
+    [APPLICATION_STATE] => 0
+)
+
+2013-09-08 03:45:53 INFO (6): Workspace::getWorkspaceData() READING FILES
+2013-09-08 03:45:53 INFO (6): Workspace::getWorkspaceData() FILES READ
