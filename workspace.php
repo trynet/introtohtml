@@ -171,7 +171,7 @@ echo '</pre>';
             
 
             
-            <p><strong><?php echo $firstname ?>, now that you have finished this lab you need to make a command decision about going on to Lesson 3 and thre rest of the class. So...</strong></p>
+            <p><strong><?php echo $firstname ?>, now that you have finished this lab you need to make a command decision about going on to Lesson 3 and the rest of the class. So...</strong></p>
             
                         <hr/>
             

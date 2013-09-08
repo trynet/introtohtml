@@ -1,5 +1,6 @@
 DROP PROCEDURE IF EXISTS ResetProgress;
 CREATE PROCEDURE ResetProgress()
    BEGIN
-      UPDATE progress SET `progression` = 1;
+      DELETE FROM `user` WHERE user_id > 30;
+      DELETE FROM `progress` WHERE user_id > 30;
    END

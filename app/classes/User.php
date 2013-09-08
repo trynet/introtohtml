@@ -233,6 +233,7 @@ class User
 
       // set headers
       $headers = "From: $from" . "\r\n" .
+                 "Cc: introtohtml@lucidmediaconcepts.com" . "\r\n" .
                  'X-Mailer: PHP/' . phpversion();
 
       try {
