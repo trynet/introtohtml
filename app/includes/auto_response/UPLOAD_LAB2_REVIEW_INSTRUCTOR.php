@@ -13,5 +13,6 @@ Student is waiting for review of following links:
 URLs: $urls
 
 <a href="$proceed_url">Allow $firstname to proceed</a>
+**SEND THIS LINK TO STUDENT FOR PAYMENT**: http://dev.introtohtml.net/register_paypal.php?user_id=$user_id&u=$usertype
 
 EOT;

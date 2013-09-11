@@ -41,6 +41,9 @@ class AutoResponse
          $proceed_url = APPLICATION_DOMAIN ."/app/controllers/instructor.php?" .
                            "user_id=$user_id&instructor_proceed=true";
 
+         if ($authNamespace->progress['progression'] == 2) // TODO: TODO: TODO: TODO: TODO: Sun sept 8, 2013
+            $proceed_url = APPLICATION_DOMAIN ."/app/controllers/instructor_paypal.php?user_id=$user_id";
+
          $message   = '';                               // defined in $file
          $subject   = '';                               // defined in $file
          $signature = "Bud Kraus\n" .               // used in $file
@@ -56,11 +59,18 @@ class AutoResponse
 
          // get user data
          $userObj   = new User();
+         $usertype  = USERTYPE;
          $firstname = $userObj->getField($user_id, 'firstname');
          $lastname  = $userObj->getField($user_id, 'lastname');
          $email     = $userObj->getField($user_id, 'email');
          $promo     = $userObj->getField($user_id, 'promo');
          $found     = $userObj->getField($user_id, 'found');
+
+         if ($params['lastname'] != '') {
+            $lastname = $params['lastname'];
+            $found    = $params['found'];
+            $promo    = $params['promo'];
+         }         
 
          // subscriptions
          $html      = $userObj->getField($user_id, 'html');

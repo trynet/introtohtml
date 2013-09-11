@@ -41,6 +41,11 @@ $autoResponseObj = new AutoResponse();
 $params = array('instructor' => true);
 $autoResponseObj->generateMessage($instructor_message_id, $user_id, $params);
 
+// if progression = 2, redirect to homepage (don't progress)
+if ($authNamespace->progress['progression'] == 2) {
+   header("Location: /index.php");
+   exit;
+}
 
 // redirect
 header("Location: /app/controllers/progress.php?proceed=$proceed");

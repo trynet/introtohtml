@@ -185,12 +185,39 @@ Zend_Registry::set('logger', $logger);
 
 // authentication / authorization
 $authNamespace = new Zend_Session_Namespace('Zend_Auth');
-$user_id = $authNamespace->storage['user_id'];
-define('USER_ID', $user_id);
-define('USERTYPE', $authNamespace->storage['usertype']);
+$user_id   = $authNamespace->storage['user_id'];
 $firstname = $authNamespace->storage['firstname'];
 $email     = $authNamespace->storage['email'];
-$authNamespace->homepage_message = 'includes/messages/DEFAULT_MESSAGE.php';
+define('USER_ID', $user_id);
+define('USERTYPE', $authNamespace->storage['usertype']);
+
+/*
+if ($authNamespace->homepage_message == null || ($authNamespace->progress['progression'] >= 3 && $authNamespace->progress['progression'] < 8))
+   $authNamespace->homepage_message = 'includes/messages/DEFAULT_MESSAGE.php';
+*/
+
+if (!is_numeric($user_id)) {
+   $user_id = htmlspecialchars($_GET['user_id']);
+}
+
+// state                                                                                                 
+$app = new Application();                                                                                
+$state = $app->getState(USER_ID);                                                                        
+
+// $userObj = new User();
+// $_paid = $userObj->getField(USER_ID, 'paid');
+                                                                                                         
+// if user_id exists, but authdata doesn't or progression = 3
+if (is_numeric($user_id) && (!is_numeric($authNamespace->progress['progression']))) {
+// if (is_numeric($user_id) && (!is_numeric($authNamespace->progress['progression']) || $state['progression'] == 3)) {                       
+   $authNamespace->storage['usertype']       = $state['usertype'];                                       
+   $authNamespace->storage['promo']          = $state['promotional_code'];                               
+   $authNamespace->progress['progression']   = $state['progression'];                                    
+   $authNamespace->progress['proceed']       = $state['proceed'];                                        
+   $authNamespace->num_files_uploaded        = $state['num_files_uploaded'];                             
+   $authNamespace->homepage_message          = $state['message'];                                        
+   $authNamespace->APPLICATION_STATE         = $state['application_state'];                              
+}  
 
 /* debug */
 $DEBUG = array('user_id'            => $authNamespace->storage['user_id'],
@@ -214,6 +241,12 @@ $data = $DEBUG;               /*-----------------------------------------*/
 $appObj = new Application();  /*-----------------------------------------*/ 
 $appObj->saveState($data);    /*-----------------------------------------*/
 /*----------------------------/*----------- end persist to db -----------*/
+
+if ($_SERVER['SCRIPT_NAME'] == '/paypal.php' && ($_SESSION['paypal_sentinel'] != 'yes')) {
+   $authNamespace->logged_in = TRUE;
+   header('Location: ' . $_SERVER['REQUEST_URI']);
+   exit;
+}
 
 // redirect if not logged in or coming from PayPal IPN
 if (!$authNamespace->logged_in && $_SERVER['SCRIPT_NAME'] != '/login.process.php') {

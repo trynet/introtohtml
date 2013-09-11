@@ -4,7 +4,7 @@ Workspace - Uses DB auth instead of HTTP and flat files
 
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 21, 2013
-Modifed: August 28, 2013
+Modifed: September 9, 2013
 ------------------------------------------------------------*/
 
 require_once 'config/config.php';
@@ -194,6 +194,9 @@ class Workspace {
 
    /**
     * get workspace data
+    *
+    * @param: (int)
+    * @return: (array)
     */
    public function getWorkspaceData($user_id) {
       try {
@@ -271,11 +274,6 @@ class Workspace {
       $dir = $this->getDirectory($user_id);
 
       $files = scandir($dir);
-
-      // crude and inefficient, but effective way to remove
-      // '.' and '..' from the array
-      array_shift($files);
-      array_shift($files);
 
       return $files;
    }

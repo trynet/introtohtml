@@ -4,7 +4,7 @@ successful payment made (controller)
 
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 22, 2013
-Modified: August 31, 2013
+Modified: September 9, 2013
 ------------------------------------------------------------*/
 require_once '../config/config.php';
 
@@ -23,11 +23,6 @@ if (is_numeric($vars['user_id'])) {
                  "; hmid: " . $vars['homepage_message_id'];
    $logger->log("PaypalController - $logmessage", Zend_Log::INFO);
 
-   // todo: 20130827 - what the heck is going on here?
-   //       20130830 - paypal sent an email earlier, check it
-   //                  I believe this script needs to send an HTTP 200 response
-   if ($vars['user_id'] == 203)
-      exit;
 
    // create required objects
    $userObj        = new User();
@@ -43,6 +38,9 @@ if (is_numeric($vars['user_id'])) {
    $usertype    = $userObj->getField($vars['user_id'], 'usertype');
    $progression = $progressObj->getField($vars['user_id'], 'progression');
    $proceed     = $progressObj->getField($vars['user_id'], 'proceed');
+   $lastname    = $userObj->getField($vars['user_id'], 'lastname');
+   $promo       = $userObj->getField($vars['user_id'], 'promo');
+   $found       = $userObj->getField($vars['user_id'], 'found');
 
    // create AutoResponse instance and get saved message_id
    // from paypal response; These are the users who had to be redirected
@@ -82,10 +80,12 @@ if (is_numeric($vars['user_id'])) {
    }
 
    // increment values (progess only if not waiting for Bud)
+   // *req change* - progress regardless if waiting for Bud
    // 20130827:01:50 - a loop seems to be executing somewhere. Paypa
    //    calling this script repeatedly? fixme
    //    adding a conditional on progression so it doesn't increment
    //    during these repititions
+   // 20130901: - fixed, but leaving in place for now until post launch
    if ($progression < 3) {
 
       // send autoresponse to user
@@ -93,7 +93,10 @@ if (is_numeric($vars['user_id'])) {
       $autoResponseObj->generateMessage($message_id, $vars['user_id']);
 
       // send autoresponse to instructor
-      $params = array('instructor' => true);
+      $params = array('instructor' => true,
+                      'lastname' => $lastname,
+                      'promo'    => $promo,
+                      'found'    => $found);
       $autoResponseObj->generateMessage($instructor_message_id, $vars['user_id'], $params);
 
       // update progress
@@ -104,11 +107,12 @@ if (is_numeric($vars['user_id'])) {
       $logmessage .= "\nPaypalController - PROGRESSION = $progression";
       $logger->log($logmessage, Zend_Log::INFO);
 
-      if ($proceed)
-         $progression = $progression += 1;
+      /* user will always be proceeding now, due to requirements changes
+      if ($proceed) */
+      $progression = $progression += 1;
 
       $data = array('progression' => $progression,
-                    'proceed'     => $proceed);
+                    'proceed'     => 1);
 
       // progression
       $progressObj->setProgress($vars['user_id'], $data);
@@ -118,6 +122,16 @@ if (is_numeric($vars['user_id'])) {
       
       // consume current app state and determine next
       $applicationObj->consumeApplicationState(SECONDARY_STATE, $vars['user_id']);
+
+      // save state
+      $data = array('progression'      => $progression,
+                    'proceed'          => 1,
+                    'message'          => $authNamespace->homepage_message,
+                    'student_email'    => $message_id,
+                    'instructor_email' => $instructor_message_id,
+                    'user_id'          => $vars['user_id']);
+      $applicationObj->saveState($data);
+
    }
 } else {
    $messageObj     = new Message();

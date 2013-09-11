@@ -1,15 +1,42 @@
 <?php
-require_once 'app/config/config.php';
-// echo '<pre>'; print_r($DEBUG); echo '</pre>';
 
-$authNamespace = new Zend_Session_Namespace('Zend_Auth');
-$message_id            = $authNamespace->message_id;
-$instructor_message_id = $authNamespace->instructor_message_id;
-$homepage_message_id   = $authNamespace->homepage_message_id;
-$custom_value          = "&message_id=$message_id&instructor_message_id=$instructor_message_id&user_id=$user_id&homepage_message_id=$homepage_message_id";
+// usertypes
+define('USER_STANDARD',  2);
+define('USER_DISCOUNT',  3);
+define('USER_FREE',      4);
+define('USER_FIT',       5);
+define('USER_CLASSROOM', 6);
+
+
+// get this from db now
+mysql_connect('localhost', 'joyofcod', 'Bk050553@');
+mysql_select_db('joyofcod_introtohtml');
+
+$user_id = htmlspecialchars($_REQUEST['user_id']);
+$usertype = htmlspecialchars($_REQUEST['u']);
+
+$query = "SELECT * FROM app_state WHERE user_id = $user_id";
+$result = mysql_query($query);
+
+$row = mysql_fetch_array($result);
+
+$message_id            = $row['student_email'];
+$instructor_message_id = $row['instructor_email'];
+$homepage_message_id   = $row['message'];
+
+
+$query = "SELECT * FROM user WHERE user_id = $user_id";
+$result = mysql_query($query);
+
+$row = mysql_fetch_array($result);
+
+$firstname = $row['firstname'];
+// end get this from dbnow
+
+$custom_value = "&message_id=$message_id&instructor_message_id=$instructor_message_id&user_id=$user_id&homepage_message_id=$homepage_message_id";
 
 // todo: place following logic in appropriate area outside of view
-$usertype = $_GET['u'];
+$usertype = $_REQUEST['u'];
 
 if ($usertype == USER_FIT) {
    $prompt = "Your promotional code qualifies you as a member of the FIT " .

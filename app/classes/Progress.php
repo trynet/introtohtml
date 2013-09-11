@@ -88,6 +88,8 @@ class Progress {
 
       try {
          $n = $this->db->update(TBL_PROGRESS, $data, "user_id = $user_id");
+         $datastr = print_r($data, true);
+         $this->logger->log("Progress::setProgress() DATA = $datastr", Zend_Log::INFO);
 
          // update session namespace
          $authNamespace = new Zend_Session_Namespace('Zend_Auth');

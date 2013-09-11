@@ -25,7 +25,7 @@ switch ($APPLICATION_STATE) {
       switch ($proceed) {
          case PROCEED_WAIT :
             $message_id = UPLOAD_LAB1_REVIEW;
-            //$instructor_message_id = UPLOAD_LAB1_REVIEW_INSTRUCTOR;
+            $instructor_message_id = UPLOAD_LAB1_REVIEW_INSTRUCTOR;
 
             // homepage message
             if (USERTYPE == USER_STANDARD) {
@@ -43,7 +43,7 @@ switch ($APPLICATION_STATE) {
          case PROCEED_CONTINUE :
          default :                               // should really only ever be 0 or 1
             $message_id = UPLOAD_LAB1_NO_REVIEW; // if not, someone prolly did something naughty
-            //$instructor_message_id = UPLOAD_LAB1_NO_REVIEW_INSTRUCTOR;
+            $instructor_message_id = UPLOAD_LAB1_NO_REVIEW_INSTRUCTOR;
 
             // homepage message
             if (USERTYPE == USER_STANDARD) {
@@ -64,8 +64,8 @@ switch ($APPLICATION_STATE) {
       // to instructor
       // had to move to [*controllers/subscription.php*] in order to have subscription
       // data present in message.
-      /*$params = array('instructor' => true);
-      $autoResponseObj->generateMessage($instructor_message_id, $user_id, $params);*/
+      $params = array('instructor' => true);
+      $autoResponseObj->generateMessage($instructor_message_id, $user_id, $params);
 
       // save wait or proceed choice first
       $data = array('proceed' => $proceed);
@@ -73,7 +73,6 @@ switch ($APPLICATION_STATE) {
 
       header("Location: /subscription.php?proceed=$proceed");
       exit();
-   break;
 
    case SECONDARY_STATE :
       // user subscribed and finished lab two. next, they'll
@@ -84,8 +83,13 @@ switch ($APPLICATION_STATE) {
       // redirected to Paypal before sending our auto-response
       switch ($proceed) {
          case PROCEED_WAIT :
-            $message_id            = UPLOAD_LAB2_REVIEW;
+            if (USERTYPE == USER_STANDARD || USERTYPE == USER_DISCOUNT) {
+               $message_id            = UPLOAD_LAB2_PAYPAL_REVIEW;
+            } else {
+               $message_id            = UPLOAD_LAB2_NO_PAYPAL_REVIEW;
+            }
             $instructor_message_id = UPLOAD_LAB2_REVIEW_INSTRUCTOR;
+
 
             if (USERTYPE == USER_STANDARD) {
                $authNamespace->homepage_message = $messageObj->getMessage(POST_P2_REVIEW_NO_PAYPAL_UG1);
@@ -100,7 +104,11 @@ switch ($APPLICATION_STATE) {
 
          case PROCEED_CONTINUE :
          default :
-            $message_id            = UPLOAD_LAB2_NO_REVIEW;
+            if (USERTYPE == USER_STANDARD || USERTYPE == USER_DISCOUNT) {
+               $message_id            = UPLOAD_LAB2_PAYPAL_NO_REVIEW;
+            } else {
+               $message_id            = UPLOAD_LAB2_NO_PAYPAL_NO_REVIEW;
+            }
             $instructor_message_id = UPLOAD_LAB2_NO_REVIEW_INSTRUCTOR;
 
             // homepage message
@@ -117,8 +125,38 @@ switch ($APPLICATION_STATE) {
       }
 
       // session variable todo: delete these
+      // saving to app_state in database now
       $authNamespace->message_id            = $message_id;
       $authNamespace->instructor_message_id = $instructor_message_id;
+
+      $data = array('student_email' => $message_id,
+                    'instructor_email' => $instructor_message_id,
+                    'user_id' => USER_ID);
+
+      $app = new Application();
+      $app->saveState($data);
+
+
+
+      //** tried to implement properly, but change after change after change...now,
+      // simply trying to get u(1&2) to work properly to lesson 3; these messages
+      // will have to be duplicated for now. todo: remove duplciation ... ugh!
+      
+      // to user  (((this message says "Thanks for paying" - student hasn't paid yet")))
+      $autoResponseObj = new AutoResponse();
+      // $autoResponseObj->generateMessage($message_id, $user_id);
+
+      // to instructor
+      $params = array('instructor' => true);
+      $autoResponseObj->generateMessage($instructor_message_id, $user_id, $params);
+
+      /**------------------------------------------------------------------------**/
+      /**------------------------------------------------------------------------**/
+      /**------------------------------------------------------------------------**/
+
+
+
+
 
       // if paying, but waiting for review, send to homepage (altered requirements)
       if ((USERTYPE == USER_STANDARD || USERTYPE == USER_DISCOUNT) && $proceed == PROCEED_WAIT) {
@@ -183,16 +221,6 @@ switch ($APPLICATION_STATE) {
       header("Location: /app/controllers/progress.php?proceed=$proceed");
    break;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

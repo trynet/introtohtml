@@ -7,10 +7,20 @@ Origin Date: July 21, 2013
 Modified: August 31, 2013
 ------------------------------------------------------------*/
 
+
 if (is_null($_POST['submit'])) {
    require_once 'app/config/config.php';
 
    $userObj = new User();
+
+   // if payment is processing...
+/*
+   $lastname = $userObj->getField(USER_ID, 'lastname');
+   if ($lastname != '') {
+      header("Location: /payment_processing.html");
+      exit;
+   }
+*/
 
    $firstname = $userObj->getField(USER_ID, 'firstname');
    $email     = $userObj->getField(USER_ID, 'email');
@@ -72,6 +82,6 @@ if (is_null($_POST['submit'])) {
    // page and have their auto-response sent like the STANDARD and
    // DISCOUNT users. The appropriate message will the in the session
    // variables (message_id and instructor_message_id)
-   $params = "u=" . $usertype;
+   $params = "u=$usertype&user_id=$user_id";
    header('Location: /paypal.php?' . $params);
 }

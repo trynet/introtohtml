@@ -2,7 +2,7 @@
 require_once 'app/config/config.php';
 require_once 'controllers/schedule.php';
 
-if (!(file_exists(APPLICATION_PATH . '/' . $authNamespace->homepage_message))) {
+if (!(substr($authNamespace->homepage_message, -3) == 'php')) {
    $messageObj = new Message();
    $message = $messageObj->getMessage(DEFAULT_MESSAGE);
 } else {
@@ -12,6 +12,7 @@ if (!(file_exists(APPLICATION_PATH . '/' . $authNamespace->homepage_message))) {
 echo '<pre>';
 print_r($DEBUG);
 echo '</pre>';
+
 ?>
 
 <!DOCTYPE html>

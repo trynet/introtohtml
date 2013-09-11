@@ -3,7 +3,7 @@
 Schedule
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modified: August 23, 2013
+Modified: September 8, 2013
 
 Executes at the beginning of each lesson to determine which
 ones area are active.
@@ -22,5 +22,3 @@ $appendices = $appendixObj->getAppendices();
 $progressObj             = new Progress();
 $progress                = $progressObj->getProgress(USER_ID);
 $authNamespace->progress = $progress;
-
-// $progress = $authNamespace->progress;

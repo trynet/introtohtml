@@ -29,6 +29,8 @@ class Application
    public function consumeApplicationState($application_state = null, $user_id = null) {
       $this->logger->log("Application::consumeApplicationState() START", Zend_Log::INFO);
       $authNamespace = new Zend_Session_Namespace('Zend_Auth');
+      $progressionObj = new Progress();
+      $progression = $progressionObj->getField($user_id, 'progression');
 
       // get current application state
       if (is_null($application_state))
@@ -134,6 +136,13 @@ class Application
          $dbLoggerObj = new DbLogger($e);
          $this->logger->log($dbLoggerObj->message, Zend_Log::ERR);
       }
+   }
+
+   public function getState($user_id) {
+      $query = "SELECT * FROM app_state WHERE user_id = ?";
+      $result = $this->db->fetchRow($query, $user_id);
+
+      return $result;
    }
 
    /**

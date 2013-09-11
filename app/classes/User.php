@@ -3,7 +3,7 @@
 User class
 Author: Gbenga Ojo <service@lucidmediaconcepts.com>
 Origin Date: July 3, 2013
-Modifed: August 24, 2013
+Modifed: September 9, 2013
 
 int addUser(array)
 void authenticateUser(string, string)

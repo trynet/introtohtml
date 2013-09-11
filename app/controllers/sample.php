@@ -25,6 +25,7 @@ if (strlen($email) > 3) {
       $row = mysql_fetch_array($result);
       $password = $row['password'];
 
+      // save user data to user table
       $data = array('firstname' => $row['firstname'],
                     'email'     => $row['email'],
                     'password'  => $row['password'],
@@ -49,7 +50,7 @@ if (strlen($email) > 3) {
          $promocodeObj    = new PromoCode();
          $registrationObj = new Registration();
 
-         // user type
+         // user type (setusertype)
          $promocode = $promocodeObj->getPromoCode($row['promo']);
          $registrationObj->updateUserType($promocode['usertype_id'], $user_id);   
 
@@ -93,6 +94,16 @@ if (strlen($email) > 3) {
                $authNamespace->homepage_message = $messageObj->getMessage(FIRST_LOGIN_UG1);
             break;
          }
+
+         $app = new Application();
+         $data = array('message'          => $authNamespace->homepage_message,
+                       'usertype'         => $row['usertype_id'],
+                       'user_id'          => $user_id,
+                       'promotional_code' => $row['promo'],
+                       'student_email'    => $message_id,
+                       'instructor_email' => REGISTER_INSTRUCTOR);
+         $app->saveState($data);
+
 
          // auto-response to user
          $autoResponseObj->generateMessage($message_id, $user_id);

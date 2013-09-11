@@ -18,6 +18,9 @@ $applicationObj = new Application();
 // Workspace obj
 $workspaceObj = new Workspace();
 
+// user
+$userObj = new User();
+
 // get session data and HTTP GET params
 $progression = $authNamespace->progress['progression'];
 $proceed     = htmlspecialchars($_GET['proceed']);
@@ -32,8 +35,9 @@ $log_message .= "\nProgressController() PROGRESSION = $progression";
 $logger->log($log_message, Zend_Log::INFO);
 
 // increment values (progess only if not waiting for Bud)
-if ($proceed)
+if ($proceed) {
    $progression = $progression + PROGRESSION_INCREMENT;
+}
 
 $data = array('progression' => $progression,
               'proceed'     => $proceed);
